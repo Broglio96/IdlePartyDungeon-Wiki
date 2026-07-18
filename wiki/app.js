@@ -47,7 +47,9 @@
     town: ["Town & economy", "Tavern, Workshop, Shops, Inventory, Mailbox, currencies, upgrades, and premium systems."],
     interactions: ["Interactions & menus", "What every major screen, button group, formation, collection, and account action does."],
     probability: ["Probability lab", "Interactive drop, encounter, pity, title, pet, and raid-odds calculators."],
-    reference: ["Exact reference", "Coverage, implementation notes, source hierarchy, constants, and known catalog/runtime differences."]
+    reference: ["Exact reference", "Coverage, implementation notes, source hierarchy, constants, and known catalog/runtime differences."],
+    "patch-notes": ["Patch notes", "A source-grounded, pointed release history for every game version from 1.0 through 1.05."],
+    privacy: ["Privacy policy", "How Idle Party Dungeon handles local progress, platform services, advertising, purchases, retention, and deletion."]
   };
 
   function esc(value) {
@@ -57,6 +59,17 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function policyInline(value) {
+    const tokenPattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\((?:https:\/\/|mailto:)[^)]+\))/g;
+    return String(value ?? "").split(tokenPattern).map(token => {
+      if (token.startsWith("**") && token.endsWith("**")) return `<strong>${esc(token.slice(2, -2))}</strong>`;
+      const link = token.match(/^\[([^\]]+)\]\(((?:https:\/\/|mailto:)[^)]+)\)$/);
+      if (!link) return esc(token);
+      const external = link[2].startsWith("https://") ? ' target="_blank" rel="noopener noreferrer"' : "";
+      return `<a href="${esc(link[2])}"${external}>${esc(link[1])}</a>`;
+    }).join("");
   }
 
   function slug(value) {
@@ -274,6 +287,8 @@
     C.statuses.forEach(status => entries.push({ type: "Status", name: status.name, subtitle: status.kind, route: "effects", id: status.id, icon: `res://resources/ui/statuses/${statusIconId(status.id)}.png`, keywords: `${status.text} ${status.stacking}` }));
     C.runes.forEach(rune => entries.push({ type: "Rune", name: rune.name, subtitle: rune.stat, route: "progression", id: rune.id, icon: rune.icon, keywords: rune.text }));
     C.ascension.forEach(path => entries.push({ type: "Ascension", name: path.name, subtitle: path.role, route: "progression", id: path.id, icon: path.icon, keywords: `${path.text} ${path.skills.map(s => `${s.name} ${s.text}`).join(" ")}` }));
+    C.patchNotes.forEach(release => entries.push({ type: "Release", name: `Version ${release.version} — ${release.title}`, subtitle: `${release.date} · ${release.status}`, route: "patch-notes", id: slug(release.version), icon: "", keywords: `${release.source} ${release.notes.join(" ")}` }));
+    C.privacyPolicy.sections.forEach(section => entries.push({ type: "Privacy", name: section.title, subtitle: `Effective ${C.privacyPolicy.effectiveDate}`, route: "privacy", id: section.id, icon: "", keywords: section.paragraphs.join(" ") }));
     Object.entries(routeMeta).forEach(([route, [name, subtitle]]) => entries.push({ type: "Guide", name, subtitle, route, id: "", icon: "", keywords: subtitle }));
     state.searchIndex = entries.map(entry => ({ ...entry, haystack: norm(`${entry.name} ${entry.subtitle} ${entry.type} ${entry.keywords || ""}`) }));
   }
@@ -949,6 +964,74 @@
     </div>`;
   }
 
+  function renderPatchNotes() {
+    const releases = C.patchNotes;
+    const latest = releases[0];
+    return `<div class="page">${pageHeader("patch-notes", `${badge(`${releases.length} versions`, "gold")}${badge(`Latest ${latest.version}`, "green")}`)}
+      <section class="section-block" style="margin-top:0">
+        <div class="callout callout--green"><strong>Complete release ledger</strong><p>These notes cover every committed game version. Versions 1.01–1.05 follow the canonical patch notes and release records; the 1.0 baseline is reconstructed from its release snapshot because no original note was committed. This project has no Git tags or GitHub Releases.</p></div>
+        <nav class="release-jump" aria-label="Jump to a game version">
+          <span>Jump to</span>
+          ${releases.map(release => `<a href="#patch-notes/${slug(release.version)}">${esc(release.version)}</a>`).join("")}
+        </nav>
+      </section>
+      <section class="section-block">
+        ${sectionHeading("Release history", "Every version, newest first", "Dates and build identifiers come from committed export metadata. Status labels avoid claiming a store rollout where the repository does not prove one.")}
+        <div class="release-list">
+          ${releases.map((release, index) => `<article class="release-card" id="release-${slug(release.version)}" tabindex="-1">
+            <div class="release-card__rail">
+              <span class="release-card__marker" aria-hidden="true"></span>
+              <span class="release-card__label">Version</span>
+              <strong>${esc(release.version)}</strong>
+              ${index === 0 ? `<span class="release-card__latest">Latest</span>` : ""}
+            </div>
+            <div class="release-card__body">
+              <header class="release-card__header">
+                <div><span class="release-card__date">${esc(release.date)}</span><h2>${esc(release.title)}</h2></div>
+                ${badge(release.status, index === 0 ? "green" : "")}
+              </header>
+              <dl class="release-card__meta">
+                <div><dt>Android</dt><dd>${esc(release.version)} · code ${release.androidCode}</dd></div>
+                <div><dt>Windows</dt><dd>${esc(release.windows)}</dd></div>
+                <div><dt>Release record</dt><dd><code>${esc(release.commit)}</code></dd></div>
+              </dl>
+              <ul class="release-card__notes">${release.notes.map(note => `<li>${esc(note)}</li>`).join("")}</ul>
+              <p class="release-card__source"><strong>Source note:</strong> ${esc(release.source)}</p>
+            </div>
+          </article>`).join("")}
+        </div>
+      </section>
+    </div>`;
+  }
+
+  function renderPrivacy() {
+    const policy = C.privacyPolicy;
+    return `<div class="page">${pageHeader("privacy", `${badge(`Effective ${policy.effectiveDate}`, "green")}`)}
+      <section class="section-block legal-layout" style="margin-top:0">
+        <nav class="legal-toc" aria-label="Privacy policy contents">
+          <span>On this page</span>
+          ${policy.sections.map(section => `<a href="#privacy/${section.id}">${esc(section.title)}</a>`).join("")}
+          <a href="../PRIVACY_POLICY.md" target="_blank" rel="noopener noreferrer">Plain-text copy</a>
+        </nav>
+        <article class="legal-document">
+          <header class="legal-document__header">
+            <span>BroglioGames · Idle Party Dungeon</span>
+            <h2>${esc(policy.title)}</h2>
+            <p class="legal-document__effective">Effective date: ${esc(policy.effectiveDate)}</p>
+            <p>${esc(policy.intro)}</p>
+          </header>
+          ${policy.sections.map(section => `<section class="legal-section" id="privacy-${slug(section.id)}" tabindex="-1">
+            <h2>${esc(section.title)}</h2>
+            ${section.paragraphs.map(paragraph => `<p>${policyInline(paragraph)}</p>`).join("")}
+          </section>`).join("")}
+        </article>
+      </section>
+      <section class="section-block">
+        <div class="callout"><strong>Two public locations remain available</strong><p>This Codex is the game's current policy destination. The <a href="https://broglio96.github.io/idle-party-dungeon-privacy/" target="_blank" rel="noopener noreferrer">legacy standalone policy page</a> remains active for existing store links and bookmarks, and carries the same policy text.</p></div>
+      </section>
+    </div>`;
+  }
+
   function emptyState(message) {
     return `<div class="empty-state"><div><strong>Nothing found</strong><p>${esc(message)}</p></div></div>`;
   }
@@ -965,7 +1048,8 @@
       home: renderHome, quickstart: renderQuickstart, mechanics: renderMechanics, combat: renderCombat,
       heroes: renderHeroes, effects: renderEffects, dungeons: renderDungeons, monsters: renderMonsters,
       raids: renderRaids, items: renderItems, pets: renderPets, progression: renderProgression,
-      town: renderTown, interactions: renderInteractions, probability: renderProbability, reference: renderReference
+      town: renderTown, interactions: renderInteractions, probability: renderProbability, reference: renderReference,
+      "patch-notes": renderPatchNotes, privacy: renderPrivacy
     };
     document.title = route === "home" ? "Idle Party Dungeon — The Adventurer's Codex" : `${routeMeta[route][0]} — Idle Party Dungeon Codex`;
     outlet.innerHTML = renderers[route]();
@@ -1004,6 +1088,14 @@
       const all = [...document.querySelectorAll(".status-card code")];
       const match = all.find(code => slug(code.textContent) === slug(entitySlug));
       (match?.closest(".status-card") || target?.closest(".status-card"))?.scrollIntoView({ block: "center" });
+    }
+    if (route === "patch-notes" || route === "privacy") {
+      const prefix = route === "patch-notes" ? "release" : "privacy";
+      const target = document.getElementById(`${prefix}-${slug(entitySlug)}`);
+      if (target) {
+        target.scrollIntoView({ block: "start" });
+        target.focus({ preventScroll: true });
+      }
     }
   }
 

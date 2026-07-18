@@ -12,6 +12,207 @@ window.WIKI_CONTENT = Object.freeze({
     commit: "6d7b014"
   },
 
+  patchNotes: [
+    {
+      version: "1.05",
+      title: "Companions & Ascension",
+      date: "18 July 2026",
+      status: "Repository release record",
+      androidCode: 6,
+      windows: "1.0.5.0",
+      commit: "1e1d3ab",
+      source: "Canonical patch notes; tester communications finalized at 6f4affb.",
+      notes: [
+        "Added expedition companions. Collect eggs from six pet families, hatch Common, Rare, or Epic pets with 2, 3, or 4 party bonuses, assign one companion to an expedition, and raise it to level 20 through Bond XP.",
+        "Linked dungeon and raid bosses can drop pet eggs. Every family egg is also available from the Shop for 150 Gems.",
+        "Reworked Divinity as Ascension. Elite level-50 heroes can choose one of four paths and build within a 15-point budget, with Awakened upgrades at 5 spent points, capstones at 10, free resets, and full refunds when changing paths.",
+        "Revamped hero active skills, passive skills, and class roles across the promotion tree.",
+        "Reworked all four raid mechanics with clearer action windows and improved enemy skills. Matching a crafted raid weapon with its unique accessory now activates a two-piece set bonus.",
+        "Improved dungeon combat progression, equipment milestones, boss-material rewards, authored loot rates, and Rune costs. Innate title bonuses now grant 10%.",
+        "Added six Google Play Games achievements for promotions, Ascension, raid crafting, raid sets, and pet hatching, bringing the game to 22 achievements worth 130 points.",
+        "Improved mobile layouts, equipment details, raid views, touch and mouse scrolling, combat feedback, popup navigation, and item presentation.",
+        "The first-launch guide now explains how to sell spare items for gold and recruit more heroes at the Tavern.",
+        "The Gem button remains accessible on every platform, and the Welcome Premium Pack can still be claimed for free.",
+        "Strengthened startup Play update checks, Billing recovery, cloud deletion, consent handling, and required privacy choices.",
+        "Play Games saves are now bound to the verified player account, preventing one account from silently adopting another account's progress.",
+        "Reduced the Android release bundle size and expanded automated release validation."
+      ]
+    },
+    {
+      version: "1.04",
+      title: "Progression & Interface Update",
+      date: "17 July 2026",
+      status: "Closed-test release",
+      androidCode: 5,
+      windows: "1.0.4.0",
+      commit: "1897987",
+      source: "Canonical patch notes and closed-test announcement.",
+      notes: [
+        "The game interface received a major visual and readability pass, with new page backgrounds, typography, navigation art, currency icons, item presentation, and clearer mobile layouts.",
+        "Dungeon progression was rebalanced across all 12 tiers. Encounters now run at a more consistent pace, while XP, drop rates, enemy strength, party-size limits, and crafting times follow a smoother long-term curve.",
+        "Added progression accessories for new equipment milestones, including the experience-focused Rootbound Almanac, Astral Wayfinder, and Lastlight Chronicle.",
+        "Raid cards now show availability, quest progress, unlock pathways, party size, and daily-entry status more clearly. Raid mechanic descriptions now explain their exact effects.",
+        "Combat statuses now have clearer names, values, and tooltips. Immunity, cleansing, dispelling, evasion, regeneration, and effects that depend on harmful statuses behave more consistently.",
+        "Tavern offers now include a healer whenever an unlocked healer class is available, making it easier to build a sustainable party.",
+        "Mail gained redesigned letter cards and unread alerts, while dungeon reports, inventories, hero details, class trees, promotion choices, team slots, and bestiary entries became easier to read and use.",
+        "Save handling now respects local saves deleted outside the game and uses backup saves only to recover an existing but unreadable primary save. Cloud restores safely resume normal saving.",
+        "Fixed layout and overflow issues in promotion choices, raid formations, bestiary details, gem controls, item icons, and other mobile popups."
+      ]
+    },
+    {
+      version: "1.03",
+      title: "Welcome & Battle Clarity",
+      date: "16 July 2026",
+      status: "Release candidate",
+      androidCode: 4,
+      windows: "1.0.3.0",
+      commit: "e802579",
+      source: "Canonical patch notes and the 1.03 release-candidate audit.",
+      notes: [
+        "New players now receive a compact first-launch welcome guide, while existing saves upgrade without replaying it.",
+        "Recruited heroes receive distinct fantasy names, with safe migration from legacy class-number names.",
+        "Saved squad presets and improved team workflows make recurring dungeon and raid formations easier to restore while reporting unavailable heroes.",
+        "Combat gained clearer ally and enemy targeting cues, active-skill feedback, raid mechanic transitions, richer animations, and a redesigned entity inspector.",
+        "Wave rewards are consolidated into a readable reward turn before the next encounter begins.",
+        "Hero skill profiles were rebalanced and the passive skill icon set was completed across the class tree.",
+        "The Last Road gained staged runway trials, preparation rewards, clearer retry behavior, and expanded balance coverage.",
+        "Fixed raid accessory behavior, enabled the native Windows audio driver, and hardened save migration, popup cleanup, hero selection, and class skill behavior.",
+        "Expanded release smoke tests and full-run progression simulation. The Windows candidate passed; the production-signed Android bundle still depended on external signing and store gates recorded in the release audit."
+      ]
+    },
+    {
+      version: "1.02",
+      title: "Cloud Saves & Rune Progression",
+      date: "16 July 2026",
+      status: "Closed Alpha release",
+      androidCode: 3,
+      windows: "1.0.2.0",
+      commit: "ec9377a",
+      source: "Canonical patch notes and committed release metadata.",
+      notes: [
+        "Settings' Play Games section now includes a confirmed Delete Data option that permanently removes local progress, recovery copies, preferences, and the player's private Google Play Games cloud save.",
+        "Google Play Games cloud saves now keep progress available across Android devices, with encrypted recovery copies and an explicit choice when two save histories conflict.",
+        "Added tiered monster-material progression and six permanent Rune tracks with guaranteed upgrades for long-term hero building.",
+        "The shop now supports three Gem packs and the one-time Welcome Premium Pack, including pending-purchase handling and restored entitlements.",
+        "Added the daily rewarded-Gem flow, advertising consent controls, and resilient recovery when an ad, Billing connection, or purchase finalization is interrupted.",
+        "Introduced innate hero titles, base-class roster sorting, promotion ability cards, and clearer hero advancement tools.",
+        "Mapped Play Games achievements to every dungeon and raid and configured production platform service identifiers.",
+        "Improved touch navigation, team and equipment selection, battle and reward reporting, settings, and feature-reference help.",
+        "Android downloads became smaller through ARM64-only stripped release builds and optimized textures.",
+        "Expanded release validation across progression, raids, Runes, Play Games, cloud saves, purchases, premium entitlements, offline behavior, and supported upgrades."
+      ]
+    },
+    {
+      version: "1.01",
+      title: "Raids & Platform Services",
+      date: "15 July 2026",
+      status: "Closed-test update",
+      androidCode: 2,
+      windows: "1.0.1.0",
+      commit: "40b1d95",
+      source: "Canonical patch notes and committed release metadata.",
+      notes: [
+        "Raids gained larger arenas, clearer combat cards, five-column formations, and separate Battle and Info tabs.",
+        "All four raids were rebalanced, including bounded Rootbound healing and clearer boss encounter behavior.",
+        "Promotion-ready heroes became easier to identify in the roster and hero interfaces.",
+        "New notifications cover completed crafts, incoming mail, shop refreshes, daily raid refreshes, and raid results.",
+        "Settings, popups, inventory, crafting, scrolling, and selection controls became easier to use on touchscreens.",
+        "Google Play Games added Android player profiles, achievements, and leaderboards.",
+        "Dungeon and raid drop presentation received dedicated artwork and clearer reward reporting."
+      ]
+    },
+    {
+      version: "1.0",
+      title: "First Closed-Test Build",
+      date: "15 July 2026",
+      status: "Closed-test baseline",
+      androidCode: 1,
+      windows: "1.0.0.0",
+      commit: "d486ec8",
+      source: "Repository-derived baseline; export metadata was prepared at 0d79b6f.",
+      notes: [
+        "Released the first closed-test baseline for Android and Windows, with portrait-first mobile presentation and desktop support.",
+        "Introduced automatic, turn-based party combat with Dexterity turn order, weighted Threat targeting, active and passive skills, status effects, hit feedback, and a death XP penalty.",
+        "Added 11 recruitable base classes and their full two-branch promotion trees: 55 class stages spanning base, specialized, and elite heroes.",
+        "Added hero attributes, advanced combat stats, equipment restrictions, class trees, promotion choices, titles, and detailed hero inspection.",
+        "Launched the 12-tier dungeon campaign with concurrent expedition parties, objectives, unlock progression, story mail, materials, bosses, and up to 12 hours of offline combat catch-up.",
+        "Added four large-party raids with dedicated formations, encounter chains, bosses, daily progression, and raid rewards.",
+        "Added the Tavern, Inventory, Workshop, item discovery, equipment management, town upgrades, and the first 16 crafting recipes.",
+        "Added the original Divinity progression system and long-term accessory milestones for advanced heroes.",
+        "Added medieval interface styling, touch-drag scrolling, grid views, coin denominations, combat effects, original music, and expanded catalog and help screens.",
+        "Added encrypted local progress plus the original optional Google Drive app-data cloud-save flow with explicit conflict selection."
+      ]
+    }
+  ],
+
+  privacyPolicy: {
+    title: "Idle Party Dungeon Privacy Policy",
+    effectiveDate: "16 July 2026",
+    intro: "Idle Party Dungeon is developed and published by BroglioGames. This policy explains how the game handles information.",
+    sections: [
+      {
+        id: "information-handled",
+        title: "Information handled by the game",
+        paragraphs: [
+          "The game stores gameplay progress, settings, and any custom names you give your heroes locally on your device. Gameplay progress and custom hero names are kept in an encrypted save file; some preferences, such as audio settings, are kept in a separate local settings file. Gameplay data includes features such as heroes and their titles, inventory, crafting, raids, mail, shop state, notification state, premium entitlements, and one-way hashes used to prevent duplicate purchase fulfillment. A randomly generated save profile identifier and a shortened one-way hash derived from the device identifier are included in save metadata to identify save versions and prevent save conflicts. They are not used for advertising or tracking and are not sent to BroglioGames.",
+          "On Android, Google Play Games Services may handle your Play Games player identifier, profile and display name, achievement progress, leaderboard scores, and a private Saved Games snapshot containing the gameplay data described above. The game temporarily displays your Play Games display name while it is running but does not add it to the save. Google handles platform authentication and cloud storage; Idle Party Dungeon does not receive or store your Google password. Divergent device and cloud histories are not merged automatically: the game keeps encrypted recovery copies and asks you which history to continue.",
+          "The Android version uses Google AdMob to provide optional rewarded advertisements. Google and its advertising partners may process device information, advertising identifiers where available, IP address, ad interactions, diagnostics, and consent choices to deliver, measure, prevent fraud in, and where permitted personalize advertisements. The game requests applicable advertising consent before requesting ads.",
+          "Premium Pack purchases are processed by Google Play Billing. Google processes payment details, purchase history, tax, fraud-prevention data, and receipts. Idle Party Dungeon receives the product identifier, purchase status, and purchase token needed to unlock and restore the purchase; it does not receive your full card or bank details."
+        ]
+      },
+      {
+        id: "use",
+        title: "How information is used",
+        paragraphs: [
+          "Information is used to operate the game, save and restore progress locally and through Play Games Saved Games, provide achievements and leaderboards, show optional rewarded ads, prevent advertising and payment fraud, and fulfill or restore purchases. BroglioGames does not sell personal information.",
+          "Google processes Play Games, AdMob, consent, and Google Play Billing information under [Google's Privacy Policy](https://policies.google.com/privacy). Advertising partners participating in an AdMob request may also process information according to the consent choices and Google's publisher controls."
+        ]
+      },
+      {
+        id: "community",
+        title: "Community and external links",
+        paragraphs: [
+          "The Settings screen includes an optional link to the Idle Party Dungeon community on Discord. Selecting it opens Discord or your web browser. The game does not send your save data or Play Games profile to Discord, but Discord and your browser may independently process information such as your IP address, device or browser information, Discord account information, and activity on Discord. Discord's handling of that information is described in the [Discord Privacy Policy](https://discord.com/privacy). Information you choose to post in the community is shared with Discord and the people who can access that community."
+        ]
+      },
+      {
+        id: "retention-deletion",
+        title: "Storage, retention, and deletion",
+        paragraphs: [
+          "Local game data remains on your device until you use **Settings > Play Games > Delete Data**, clear the app's data, or uninstall it, subject to your platform's backup behaviour. After explicit confirmation, **Delete Data** removes the local save, backup and recovery copies, local audio settings, cloud-sync metadata, and the game's private Play Games Saved Games snapshot. It does not delete the Google Account, Play Games profile, achievements, leaderboard entries, advertising consent records, or Google Play purchase records; those are retained under Google's policies and managed through Google's account and privacy controls. A non-consumable purchase can be restored from the Google Play account that bought it. Content posted on Discord is retained and can be managed under Discord's policies and account controls."
+        ]
+      },
+      {
+        id: "children",
+        title: "Children",
+        paragraphs: [
+          "Idle Party Dungeon is a general-audience fantasy game and does not knowingly collect personal information from children. Google services are controlled by the user's Google Account and Google's age and supervision rules. The advertising integration is marked as not directed to children or users under the age of consent; the Play Console target-audience declaration must match the audience actually selected by the publisher."
+        ]
+      },
+      {
+        id: "security",
+        title: "Security",
+        paragraphs: [
+          "Reasonable technical measures are used to protect locally stored game data. Play Games, advertising, consent, and payment communications are handled by Google's SDKs. No storage or transmission method can be guaranteed to be completely secure."
+        ]
+      },
+      {
+        id: "changes",
+        title: "Changes",
+        paragraphs: [
+          "This policy may be updated when the game's features or legal obligations change. The effective date above will be updated when material changes are made."
+        ]
+      },
+      {
+        id: "contact",
+        title: "Contact",
+        paragraphs: [
+          "For privacy questions or deletion assistance, contact BroglioGames at [broglio096@gmail.com](mailto:broglio096@gmail.com)."
+        ]
+      }
+    ]
+  },
+
   quickstart: [
     {
       step: "01",
