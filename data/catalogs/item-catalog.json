@@ -1,0 +1,111 @@
+{
+  "items": {
+	"Ember gel": {
+	  "description": "Warm elemental gel gathered from fire slimes. It holds heat long after the creature is defeated.",
+	  "sell_value": 5,
+	  "bonuses": {},
+	  "icon": "res://resources/items/ember-gel.png"
+	},
+	"Frost gel": {
+	  "description": "Cold elemental gel gathered from ice slimes. A thin layer of frost constantly forms around it.",
+	  "sell_value": 5,
+	  "bonuses": {},
+	  "icon": "res://resources/items/frost-gel.png"
+	},
+	"Toxic gel": {
+	  "description": "Volatile elemental gel gathered from poison slimes. It must be handled with care.",
+	  "sell_value": 5,
+	  "bonuses": {},
+	  "icon": "res://resources/items/toxic-gel.png"
+	},
+	"Moss gel": {
+	  "description": "Dense elemental gel gathered from earth slimes. Moss continues to grow across its surface.",
+	  "sell_value": 5,
+	  "bonuses": {},
+	  "icon": "res://resources/items/moss-gel.png"
+	},
+	"Stabilized Slime Core": {"description": "Ember and moss gel stabilized into the rigid half of tier 1 equipment.", "sell_value": 45, "bonuses": {}, "tier_crafting_material": true, "crafting_tier": 1, "crafting_material_index": 0, "icon": "res://resources/items/stabilized-slime-core.png"},
+	"Gelweave Spool": {"description": "Frost and toxic gel drawn into flexible strands for tier 1 equipment.", "sell_value": 45, "bonuses": {}, "tier_crafting_material": true, "crafting_tier": 1, "crafting_material_index": 1, "icon": "res://resources/items/gelweave-spool.png"},
+	"Slime Charm": {
+	  "description": "A compact charm made by carefully balancing the four elemental gels.",
+	  "sell_value": 50,
+	  "equipment": {
+		"slot": "Accessory"
+	  },
+	  "unique_equip_item": true,
+	  "bonuses": {
+		"Constitution": 2,
+		"Threat": 1
+	  },
+	  "icon": "res://resources/items/slime-charm.png"
+	},
+	"Slime Crown": {
+	  "description": "A royal slime crown crystallized around the Slime King's prismatic jewel. It rewards its bearer with greater experience from every victory.",
+	  "sell_value": 1500,
+	  "equipment": {
+		"slot": "Accessory"
+	  },
+	  "accessory_tier": 2,
+	  "role_theme": "Experience",
+	  "unique_equip_item": true,
+	  "bonuses": {
+		"EXP Rate": 5
+	  },
+	  "icon": "res://resources/items/slime-crown.png"
+	},
+	"Beast Hide": {"description": "Raw hide stripped from Forest Edge predators.", "sell_value": 8, "bonuses": {}, "icon": "res://resources/items/beast-hide.png"},
+	"Sylvan Fiber": {"description": "Tough strands gathered from living forest creatures.", "sell_value": 8, "bonuses": {}, "icon": "res://resources/items/sylvan-fiber.png"},
+	"Ironbark Chunk": {"description": "A dense fragment of iron-hard heartwood.", "sell_value": 10, "bonuses": {}, "icon": "res://resources/items/ironbark-chunk.png"},
+	"Bog Iron Ore": {"description": "Rust-dark ore pulled from the forest bog.", "sell_value": 10, "bonuses": {}, "icon": "res://resources/items/bog-iron-ore.png"},
+	"Ironbark Frame": {"description": "Hide and ironbark shaped into the rigid half of tier 3 equipment.", "sell_value": 110, "bonuses": {}, "tier_crafting_material": true, "crafting_tier": 3, "crafting_material_index": 0, "icon": "res://resources/items/ironbark-frame.png"},
+	"Sylvan Iron Binding": {"description": "Sylvan fiber braided around bog iron for flexible tier 3 bindings.", "sell_value": 110, "bonuses": {}, "tier_crafting_material": true, "crafting_tier": 3, "crafting_material_index": 1, "icon": "res://resources/items/sylvan-iron-binding.png"},
+	"Ironbark Blade": {"description": "A balanced melee weapon with a bog-iron edge and an ironbark grip.", "sell_value": 280, "equipment": {"slot": "Weapon", "type": "Melee"}, "bonuses": {"Strength": 5, "Attack": 4}, "icon": "res://resources/items/ironbark-blade.png"},
+	"Thornwood Bow": {"description": "A flexible longbow strung with enchanted sylvan thread.", "sell_value": 280, "equipment": {"slot": "Weapon", "type": "Ranged"}, "bonuses": {"Dexterity": 5, "Attack": 4}, "icon": "res://resources/items/thornwood-bow.png"},
+	"Groveheart Staff": {"description": "A living staff that focuses the magic stored in its resin core.", "sell_value": 280, "equipment": {"slot": "Weapon", "type": "Magic"}, "bonuses": {"Intelligence": 5, "Attack": 4}, "icon": "res://resources/items/groveheart-staff.png"},
+	"Ranger Leather": {"description": "Light cured leather that leaves its wearer quick and silent.", "sell_value": 260, "equipment": {"slot": "Armor", "type": "Light"}, "bonuses": {"Evade": 5, "Dexterity": 3}, "icon": "res://resources/items/ranger-leather.png"},
+	"Ironbark Brigandine": {"description": "Layered leather and ironbark plates for adaptable protection.", "sell_value": 280, "equipment": {"slot": "Armor", "type": "Medium"}, "bonuses": {"Defense": 6, "Strength": 2, "Dexterity": 2}, "icon": "res://resources/items/ironbark-brigandine.png"},
+	"Rootforged Plate": {"description": "Heavy bog iron plate bound with living thorn resin.", "sell_value": 310, "equipment": {"slot": "Armor", "type": "Heavy"}, "bonuses": {"Defense": 9, "Max HP": 25}, "icon": "res://resources/items/rootforged-plate.png"},
+	"Slimy Sword": {"description": "A flexible blade forged around a hardened elemental slime core.", "sell_value": 190, "equipment": {"slot": "Weapon", "type": "Melee"}, "bonuses": {"Strength": 5}, "icon": "res://resources/items/slimy-sword.png"},
+	"Slimy Bow": {"description": "A springy slime-strung bow that rewards precise shots.", "sell_value": 190, "equipment": {"slot": "Weapon", "type": "Ranged"}, "bonuses": {"Dexterity": 5}, "icon": "res://resources/items/slimy-bow.png"},
+	"Slimy Staff": {"description": "A living gel focus that amplifies its wielder's magical insight.", "sell_value": 190, "equipment": {"slot": "Weapon", "type": "Magic"}, "bonuses": {"Intelligence": 5}, "icon": "res://resources/items/slimy-staff.png"}
+  },
+  "recipes": [
+	{
+	  "result": "Slime Charm",
+	  "quantity": 1,
+	  "craft_time_seconds": 30,
+	  "required_tier": 1,
+	  "ingredients": {
+		"Ember gel": 3,
+		"Frost gel": 3,
+		"Toxic gel": 3,
+		"Moss gel": 3
+	  }
+	},
+	{
+	  "result": "Slime Crown",
+	  "quantity": 1,
+	  "craft_time_seconds": 240,
+	  "required_tier": 2,
+	  "coin_cost": 9000,
+	  "ingredients": {
+		"Prismsteel Blank": 2,
+		"Mistweave Coil": 1,
+		"Prismatic Crown Jewel": 2
+	  }
+	},
+	{"result": "Stabilized Slime Core", "quantity": 1, "craft_time_seconds": 15, "required_tier": 1, "ingredients": {"Ember gel": 2, "Moss gel": 2}},
+	{"result": "Gelweave Spool", "quantity": 1, "craft_time_seconds": 15, "required_tier": 1, "ingredients": {"Frost gel": 2, "Toxic gel": 2}},
+	{"result": "Ironbark Frame", "quantity": 1, "craft_time_seconds": 25, "required_tier": 3, "ingredients": {"Beast Hide": 2, "Ironbark Chunk": 2}},
+	{"result": "Sylvan Iron Binding", "quantity": 1, "craft_time_seconds": 25, "required_tier": 3, "ingredients": {"Sylvan Fiber": 2, "Bog Iron Ore": 2}},
+	{"result": "Ironbark Blade", "quantity": 1, "craft_time_seconds": 145, "required_tier": 3, "ingredients": {"Ironbark Frame": 4, "Sylvan Iron Binding": 2}},
+	{"result": "Thornwood Bow", "quantity": 1, "craft_time_seconds": 145, "required_tier": 3, "ingredients": {"Ironbark Frame": 3, "Sylvan Iron Binding": 2}},
+	{"result": "Groveheart Staff", "quantity": 1, "craft_time_seconds": 145, "required_tier": 3, "ingredients": {"Ironbark Frame": 2, "Sylvan Iron Binding": 4}},
+	{"result": "Ranger Leather", "quantity": 1, "craft_time_seconds": 145, "required_tier": 3, "ingredients": {"Ironbark Frame": 2, "Sylvan Iron Binding": 3}},
+	{"result": "Ironbark Brigandine", "quantity": 1, "craft_time_seconds": 155, "required_tier": 3, "ingredients": {"Ironbark Frame": 3, "Sylvan Iron Binding": 2}},
+	{"result": "Rootforged Plate", "quantity": 1, "craft_time_seconds": 165, "required_tier": 3, "ingredients": {"Ironbark Frame": 4, "Sylvan Iron Binding": 3}},
+	{"result": "Slimy Sword", "quantity": 1, "craft_time_seconds": 90, "required_tier": 1, "ingredients": {"Stabilized Slime Core": 4, "Gelweave Spool": 2}},
+	{"result": "Slimy Bow", "quantity": 1, "craft_time_seconds": 90, "required_tier": 1, "ingredients": {"Stabilized Slime Core": 3, "Gelweave Spool": 2}},
+	{"result": "Slimy Staff", "quantity": 1, "craft_time_seconds": 90, "required_tier": 1, "ingredients": {"Stabilized Slime Core": 2, "Gelweave Spool": 4}}
+  ]
+}

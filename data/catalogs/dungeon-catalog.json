@@ -1,0 +1,109 @@
+{
+  "dungeons": [
+	{
+	  "tier": 1, "name": "Slime Forest", "description": "A shifting woodland overrun by elemental slimes.",
+	  "icon": "res://resources/dungeons/slime_forest_icon.png", "combat_background": "res://resources/dungeons/slime_forest_background.png", "accent_color": "#2e613d",
+	  "max_team_size": 4, "turn_interval": 0.65, "difficulty_index": 1.0, "target_xp_per_hour": 248, "progression_xp_multiplier":1.00, "progression_drop_chance_multiplier":1.00,
+	  "next_dungeon": "Elemental Depths", "completion_target_type": "kills", "completion_target_amount": 425, "story_mail_id": "unlock_elemental_depths", "material_family": "Slimebound",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams": [
+		{"monsters":["Fire Slime"],"weight":35},{"monsters":["Ice Slime"],"weight":35},{"monsters":["Poison Slime"],"weight":35},{"monsters":["Earth Slime"],"weight":35},
+		{"monsters":["Fire Slime","Ice Slime"],"weight":20},{"monsters":["Poison Slime","Earth Slime"],"weight":20},{"monsters":["Fire Slime","Poison Slime"],"weight":15},{"monsters":["Ice Slime","Earth Slime"],"weight":15}
+	  ]
+	},
+	{
+	  "tier": 2, "name": "Elemental Depths", "description": "Dense elemental chambers where mist shields dangerous mixed groups.",
+	  "icon": "res://resources/dungeons/elemental_depths_icon.png", "combat_background": "res://resources/dungeons/elemental_depths_background.png", "accent_color": "#572e61",
+	  "max_team_size": 3, "turn_interval": 0.65, "difficulty_index": 1.35, "target_xp_per_hour": 370, "progression_xp_multiplier":0.98, "progression_drop_chance_multiplier":0.99,
+	  "next_dungeon": "Forest Edge", "completion_target_type": "encounters", "completion_target_amount": 120, "completion_boss": "Slime King", "story_mail_id": "unlock_forest_edge", "material_family": "Prismcore",
+	  "mist":10,"mist_change_interval":10,"mist_min":10,"mist_max":40,"mist_enemy_evade_per_percent":1.0,"enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams": [
+		{"monsters":["Prism Slime","Mist Slime"],"weight":32},{"monsters":["Prism Slime","Ember Prism"],"weight":28},{"monsters":["Mist Slime","Venom Mist"],"weight":24},{"monsters":["Prism Slime","Loam Mist"],"weight":18},
+		{"monsters":["Slime King"],"weight":0,"is_boss":true}
+	  ]
+	},
+	{
+	  "tier": 3, "name": "Forest Edge", "description": "A thorn-choked borderland of ironwood beasts and evasive spirits.",
+	  "icon": "res://resources/dungeons/forest_edge_icon.png", "combat_background": "res://resources/dungeons/forest_edge_background.png", "accent_color": "#5d4a25",
+	  "max_team_size": 3, "turn_interval": 0.65, "difficulty_index": 1.75, "target_xp_per_hour": 738, "progression_xp_multiplier":0.96, "progression_drop_chance_multiplier":0.98,
+	  "next_dungeon": "Ironroot Warrens", "completion_target_type": "encounters", "completion_target_amount": 135, "completion_boss": "Ironbark Warden", "story_mail_id": "after_tier_3", "material_family": "Ironbark",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams": [
+		{"monsters":["Thornback Boar","Mossfang Wolf"],"weight":30},{"monsters":["Mossfang Wolf","Grove Wisp"],"weight":28},{"monsters":["Bog Iron Beetle","Thornback Boar"],"weight":24},{"monsters":["Ironbark Treant","Mossfang Wolf"],"weight":18},{"monsters":["Ironbark Treant","Bog Iron Beetle","Grove Wisp"],"weight":10},
+		{"monsters":["Ironbark Warden"],"weight":0,"is_boss":true}
+	  ]
+	},
+	{
+	  "tier": 4, "name": "Ironroot Warrens", "description": "Tight root tunnels filled with plated guardians, spores, and relentless renewal.",
+	  "icon":"res://resources/dungeons/ironroot_warrens_icon.png","combat_background":"res://resources/dungeons/ironroot_warrens_background.png","accent_color":"#665338",
+	  "max_team_size":4,"turn_interval":0.65,"difficulty_index":2.2,"target_xp_per_hour":1791,"progression_xp_multiplier":0.94,"progression_drop_chance_multiplier":0.97,
+	  "next_dungeon":"Sunken Causeway","completion_target_type":"kills","completion_target_amount":475,"completion_boss":"Ferrum Rootmind","story_mail_id":"after_tier_4","material_family":"Rootsteel",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Rootcoil Knight","Sporebound Shaman"],"weight":34},{"monsters":["Rootcoil Knight","Rootcoil Knight"],"weight":24},{"monsters":["Sporebound Shaman","Rootcoil Knight","Sporebound Shaman"],"weight":12},{"monsters":["Ferrum Rootmind"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":5,"name":"Sunken Causeway","description":"A drowned stone road where brine, decay, and attrition wear down careless parties.",
+	  "icon":"res://resources/dungeons/sunken_causeway_icon.png","combat_background":"res://resources/dungeons/sunken_causeway_background.png","accent_color":"#31576b",
+	  "max_team_size":4,"turn_interval":0.65,"difficulty_index":2.8,"target_xp_per_hour":2000,"progression_xp_multiplier":0.92,"progression_drop_chance_multiplier":0.96,
+	  "next_dungeon":"Lantern Vault","completion_target_type":"encounters","completion_target_amount":145,"completion_boss":"Drowned Tollkeeper","story_mail_id":"after_tier_5","material_family":"Tideglass",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Brinebound Marauder","Drowned Sentry"],"weight":32},{"monsters":["Drowned Sentry","Tide Wisp"],"weight":28},{"monsters":["Brinebound Marauder","Tide Wisp","Drowned Sentry"],"weight":14},{"monsters":["Drowned Tollkeeper"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":6,"name":"Lantern Vault","description":"A sealed station built for a self-sufficient pair, lit by a hungry and unstable flame.",
+	  "icon":"res://resources/dungeons/lantern_vault_icon.png","combat_background":"res://resources/dungeons/lantern_vault_background.png","accent_color":"#8a6428",
+	  "max_team_size":2,"turn_interval":0.65,"difficulty_index":3.4,"target_xp_per_hour":3000,"progression_xp_multiplier":0.90,"progression_drop_chance_multiplier":0.95,
+	  "next_dungeon":"Ashen Monastery","completion_target_type":"encounters","completion_target_amount":155,"completion_boss":"Lantern-Eater","story_mail_id":"after_tier_6","material_family":"Lanternforged",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Vault Sentinel","Wick Wraith"],"weight":34},{"monsters":["Vault Sentinel","Sootbound Keeper"],"weight":30},{"monsters":["Wick Wraith","Sootbound Keeper"],"weight":26},{"monsters":["Lantern-Eater"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":7,"name":"Ashen Monastery","description":"A silent cloister of cinder vows, punishing counters, and sudden burst attacks.",
+	  "icon":"res://resources/dungeons/ashen_monastery_icon.png","combat_background":"res://resources/dungeons/ashen_monastery_background.png","accent_color":"#703b2d",
+	  "max_team_size":3,"turn_interval":0.65,"difficulty_index":4.2,"target_xp_per_hour":5000,"progression_xp_multiplier":0.89,"progression_drop_chance_multiplier":0.94,
+	  "next_dungeon":"Shattered Observatory","completion_target_type":"kills","completion_target_amount":525,"completion_boss":"Ash Abbot","story_mail_id":"after_tier_7","material_family":"Cindervow",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Ashen Disciple","Cinder Monk"],"weight":34},{"monsters":["Cinder Monk","Cinder Monk"],"weight":22},{"monsters":["Ashen Disciple","Ashen Disciple"],"weight":14},{"monsters":["Ash Abbot"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":8,"name":"Shattered Observatory","description":"Broken star chambers ruled by glass wings, high evasion, and focused magic.",
+	  "icon":"res://resources/dungeons/shattered_observatory_icon.png","combat_background":"res://resources/dungeons/shattered_observatory_background.png","accent_color":"#3d4f83",
+	  "max_team_size":4,"turn_interval":0.65,"difficulty_index":5.2,"target_xp_per_hour":9000,"progression_xp_multiplier":0.88,"progression_drop_chance_multiplier":0.93,
+	  "next_dungeon":"Umbral Menagerie","completion_target_type":"encounters","completion_target_amount":165,"completion_boss":"Glasswing Astromancer","story_mail_id":"after_tier_8","material_family":"Starglass",
+	  "mist":15,"mist_change_interval":12,"mist_min":10,"mist_max":35,"mist_enemy_evade_per_percent":0.6,"enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Glasswing Scout","Orbit Sentinel"],"weight":32},{"monsters":["Glasswing Scout","Glasswing Scout","Orbit Sentinel"],"weight":20},{"monsters":["Orbit Sentinel","Orbit Sentinel"],"weight":16},{"monsters":["Glasswing Astromancer"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":9,"name":"Umbral Menagerie","description":"A living collection of hybrid attacks, high evasion, and mixed defenses.",
+	  "icon":"res://resources/dungeons/umbral_menagerie_icon.png","combat_background":"res://resources/dungeons/umbral_menagerie_background.png","accent_color":"#57385f",
+	  "max_team_size":3,"turn_interval":0.65,"difficulty_index":6.4,"target_xp_per_hour":18000,"progression_xp_multiplier":0.87,"progression_drop_chance_multiplier":0.92,
+	  "next_dungeon":"Crownless Citadel","completion_target_type":"kills","completion_target_amount":575,"completion_boss":"Chimera Matron","story_mail_id":"after_tier_9","material_family":"Chimeric",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Umbral Stalker","Patchwork Horror"],"weight":34},{"monsters":["Umbral Stalker","Umbral Stalker"],"weight":20},{"monsters":["Patchwork Horror","Patchwork Horror"],"weight":12},{"monsters":["Chimera Matron"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":10,"name":"Crownless Citadel","description":"A fortified ruin whose lieutenants demand control, cleansing, and focused priority damage.",
+	  "icon":"res://resources/dungeons/crownless_citadel_icon.png","combat_background":"res://resources/dungeons/crownless_citadel_background.png","accent_color":"#514a54",
+	  "max_team_size":4,"turn_interval":0.65,"difficulty_index":7.8,"target_xp_per_hour":35000,"progression_xp_multiplier":0.86,"progression_drop_chance_multiplier":0.91,
+	  "next_dungeon":"Worldroot Heart","completion_target_type":"targets","completion_target_amount":6,"completion_targets":["Black Banner Marshal","Hollow Castellan","Sealbreaker"],"completion_boss":"Crownless Regent","story_mail_id":"after_tier_10","material_family":"Crownless",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Citadel Vanguard","Black Banner Marshal"],"weight":28},{"monsters":["Citadel Vanguard","Hollow Castellan"],"weight":28},{"monsters":["Citadel Vanguard","Sealbreaker"],"weight":28},{"monsters":["Black Banner Marshal","Hollow Castellan","Sealbreaker"],"weight":8},{"monsters":["Crownless Regent"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":11,"name":"Worldroot Heart","description":"A living chamber of heavy renewal and escalating decay that tests optimized sustain.",
+	  "icon":"res://resources/dungeons/worldroot_heart_icon.png","combat_background":"res://resources/dungeons/worldroot_heart_background.png","accent_color":"#6a2945",
+	  "max_team_size":3,"turn_interval":0.65,"difficulty_index":9.4,"target_xp_per_hour":60000,"progression_xp_multiplier":0.84,"progression_drop_chance_multiplier":0.90,
+	  "next_dungeon":"Eclipse Throne","completion_target_type":"encounters","completion_target_amount":180,"completion_boss":"Heart's Custodian","story_mail_id":"after_tier_11","material_family":"Worldroot",
+	  "enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Veinroot Beast","Sapblood Oracle"],"weight":34},{"monsters":["Veinroot Beast","Veinroot Beast"],"weight":18},{"monsters":["Sapblood Oracle","Sapblood Oracle"],"weight":12},{"monsters":["Heart's Custodian"],"weight":0,"is_boss":true}]
+	},
+	{
+	  "tier":12,"name":"Eclipse Throne","description":"A final mixed farm of four elemental seals, layered defenses, burst, and endurance.",
+	  "icon":"res://resources/dungeons/eclipse_throne_icon.png","combat_background":"res://resources/dungeons/eclipse_throne_background.png","accent_color":"#392f58",
+	  "max_team_size":4,"turn_interval":0.65,"difficulty_index":11.5,"target_xp_per_hour":67668,"progression_xp_multiplier":0.82,"progression_drop_chance_multiplier":0.88,
+	  "completion_target_type":"targets","completion_target_amount":8,"completion_targets":["Ember Seal","Tide Seal","Ash Seal","Root Seal"],"completion_boss":"Hollow Star","story_mail_id":"after_tier_12","material_family":"Lastlight",
+	  "mist":20,"mist_change_interval":10,"mist_min":10,"mist_max":45,"mist_enemy_evade_per_percent":0.4,"enemy_hp_multiplier":1.00,"enemy_damage_multiplier":1.00,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
+	  "monster_teams":[{"monsters":["Eclipse Herald","Ember Seal"],"weight":22},{"monsters":["Eclipse Herald","Tide Seal"],"weight":22},{"monsters":["Eclipse Herald","Ash Seal"],"weight":22},{"monsters":["Eclipse Herald","Root Seal"],"weight":22},{"monsters":["Ember Seal","Tide Seal","Root Seal"],"weight":6},{"monsters":["Hollow Star"],"weight":0,"is_boss":true}]
+	}
+  ]
+}

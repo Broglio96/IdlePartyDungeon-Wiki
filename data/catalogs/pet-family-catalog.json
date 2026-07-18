@@ -1,0 +1,113 @@
+{
+  "rarity_weights": {"common": 75, "rare": 20, "epic": 5},
+  "families": {
+    "tideglass": {
+      "name": "Tideglass",
+      "egg_name": "Tideglass Egg",
+      "source_type": "dungeon",
+      "source_id": "Sunken Causeway",
+      "source_boss": "Drowned Tollkeeper",
+      "tier": 5,
+      "egg_drop_chance": 15.0,
+      "accent_color": "#4c9db7",
+      "egg_icon": "res://resources/pets/eggs/tideglass-egg.png",
+      "names": ["Ripple", "Brine", "Tollie", "Maris", "Shellby", "Current"],
+      "sprites": {
+        "common": {"name": "Brineback Crab", "texture": "res://resources/pets/tideglass/brineback-crab.png"},
+        "rare": {"name": "Tollfin Otter", "texture": "res://resources/pets/tideglass/tollfin-otter.png"},
+        "epic": {"name": "Bellkeeper Turtle", "texture": "res://resources/pets/tideglass/bellkeeper-turtle.png"}
+      },
+      "effect_pool": ["healing", "magic_defense", "regeneration", "immunity", "mist_reduction", "max_hp"]
+    },
+    "chimeric": {
+      "name": "Chimeric",
+      "egg_name": "Chimeric Egg",
+      "source_type": "dungeon",
+      "source_id": "Umbral Menagerie",
+      "source_boss": "Chimera Matron",
+      "tier": 9,
+      "egg_drop_chance": 15.0,
+      "accent_color": "#9a63ad",
+      "egg_icon": "res://resources/pets/eggs/chimeric-egg.png",
+      "names": ["Patch", "Morrow", "Mosaic", "Shade", "Stitch", "Nyx"],
+      "sprites": {
+        "common": {"name": "Umbral Kit", "texture": "res://resources/pets/chimeric/umbral-kit.png"},
+        "rare": {"name": "Patchwork Drake", "texture": "res://resources/pets/chimeric/patchwork-drake.png"},
+        "epic": {"name": "Matron Whelp", "texture": "res://resources/pets/chimeric/matron-whelp.png"}
+      },
+      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "lifesteal", "max_hp"]
+    },
+    "rootbound": {
+      "name": "Rootbound",
+      "egg_name": "Rootbound Egg",
+      "source_type": "raid",
+      "source_id": "march_rootbound",
+      "source_boss": "Orrun, the Walking Grove",
+      "tier": 3,
+      "egg_drop_chance": 15.0,
+      "accent_color": "#6f984b",
+      "egg_icon": "res://resources/pets/eggs/rootbound-egg.png",
+      "names": ["Twig", "Acorn", "Briar", "Moss", "Orris", "Canopy"],
+      "sprites": {
+        "common": {"name": "Burrow Sprout", "texture": "res://resources/pets/rootbound/burrow-sprout.png"},
+        "rare": {"name": "Canopy Staglet", "texture": "res://resources/pets/rootbound/canopy-staglet.png"},
+        "epic": {"name": "Grove Colossus Calf", "texture": "res://resources/pets/rootbound/grove-colossus-calf.png"}
+      },
+      "effect_pool": ["max_hp", "defense", "threat", "regeneration", "counter_chance", "counter_damage"]
+    },
+    "lightless": {
+      "name": "Lightless",
+      "egg_name": "Lightless Egg",
+      "source_type": "raid",
+      "source_id": "lightless_armada",
+      "source_boss": "Nhalassa, Bell Beneath the Tide",
+      "tier": 6,
+      "egg_drop_chance": 15.0,
+      "accent_color": "#327e99",
+      "egg_icon": "res://resources/pets/eggs/lightless-egg.png",
+      "names": ["Glim", "Bell", "Abyss", "Nahla", "Echo", "Drift"],
+      "sprites": {
+        "common": {"name": "Gloom Minnow", "texture": "res://resources/pets/lightless/gloom-minnow.png"},
+        "rare": {"name": "Tidebell Ray", "texture": "res://resources/pets/lightless/tidebell-ray.png"},
+        "epic": {"name": "Abyssal Lanternling", "texture": "res://resources/pets/lightless/abyssal-lanternling.png"}
+      },
+      "effect_pool": ["magic_defense", "healing", "immunity", "mana_gain", "mist_reduction", "regeneration"]
+    },
+    "starglass": {
+      "name": "Starglass",
+      "egg_name": "Starglass Egg",
+      "source_type": "raid",
+      "source_id": "broken_sky_hunt",
+      "source_boss": "Veyra, the Star-Eating Chimera",
+      "tier": 9,
+      "egg_drop_chance": 15.0,
+      "accent_color": "#8070c5",
+      "egg_icon": "res://resources/pets/eggs/starglass-egg.png",
+      "names": ["Comet", "Vey", "Orbit", "Nova", "Glint", "Astra"],
+      "sprites": {
+        "common": {"name": "Comet Moth", "texture": "res://resources/pets/starglass/comet-moth.png"},
+        "rare": {"name": "Starglass Raptor", "texture": "res://resources/pets/starglass/starglass-raptor.png"},
+        "epic": {"name": "Star-Eater Cub", "texture": "res://resources/pets/starglass/star-eater-cub.png"}
+      },
+      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "mana_gain", "immunity"]
+    },
+    "eclipse": {
+      "name": "Eclipse",
+      "egg_name": "Eclipse Egg",
+      "source_type": "raid",
+      "source_id": "last_road",
+      "source_boss": "Aster Null, Eclipse Incarnate",
+      "tier": 12,
+      "egg_drop_chance": 15.0,
+      "accent_color": "#c3944d",
+      "egg_icon": "res://resources/pets/eggs/eclipse-egg.png",
+      "names": ["Dawn", "Dusk", "Aster", "Halo", "Ember", "Eventide"],
+      "sprites": {
+        "common": {"name": "Dawn Hare", "texture": "res://resources/pets/eclipse/dawn-hare.png"},
+        "rare": {"name": "Duskwing", "texture": "res://resources/pets/eclipse/duskwing.png"},
+        "epic": {"name": "Eclipse Seraph", "texture": "res://resources/pets/eclipse/eclipse-seraph.png"}
+      },
+      "effect_pool": ["attack", "healing", "defense", "magic_defense", "max_hp", "immunity"]
+    }
+  }
+}

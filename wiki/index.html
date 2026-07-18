@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" data-theme="night">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111a18">
+  <meta name="description" content="The source-verified complete guide to Idle Party Dungeon: heroes, combat, dungeons, raids, monsters, loot odds, crafting, pets, runes, Ascension, and every major interaction.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Idle Party Dungeon — The Adventurer's Codex">
+  <meta property="og:description" content="A complete, searchable, source-verified game guide with exact probabilities and every class, monster, dungeon, raid, item, recipe, status, and system.">
+  <title>Idle Party Dungeon — The Adventurer's Codex</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#wiki-main">Skip to guide</a>
+
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__glow ambient__glow--one"></div>
+    <div class="ambient__glow ambient__glow--two"></div>
+    <div class="ambient__grain"></div>
+  </div>
+
+  <header class="topbar">
+    <button class="icon-button topbar__menu" id="menu-button" type="button" aria-label="Open guide navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="brand" href="#home" aria-label="Idle Party Dungeon Codex home">
+      <span class="brand__mark" aria-hidden="true">IPD</span>
+      <span class="brand__copy">
+        <strong>The Adventurer's Codex</strong>
+        <small>Idle Party Dungeon · Guide v1.05</small>
+      </span>
+    </a>
+    <button class="command-search" id="search-button" type="button" aria-label="Search the entire guide">
+      <span class="command-search__icon" aria-hidden="true"></span>
+      <span>Search classes, monsters, loot…</span>
+      <kbd>/</kbd>
+    </button>
+    <div class="topbar__actions">
+      <button class="icon-button" id="theme-button" type="button" aria-label="Switch color theme" title="Switch color theme">
+        <span class="theme-icon" aria-hidden="true">☼</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Guide sections">
+      <div class="sidebar__inner">
+        <div class="source-stamp">
+          <span class="source-stamp__pulse" aria-hidden="true"></span>
+          <div><strong>Source-verified</strong><small>Runtime code + catalogs</small></div>
+        </div>
+
+        <nav class="nav-list" id="primary-nav">
+          <p class="nav-list__label">Start here</p>
+          <a href="#home" data-route="home"><span aria-hidden="true">⌂</span>Overview</a>
+          <a href="#quickstart" data-route="quickstart"><span aria-hidden="true">↗</span>New player path</a>
+          <a href="#mechanics" data-route="mechanics"><span aria-hidden="true">⚙</span>Core mechanics</a>
+          <a href="#combat" data-route="combat"><span aria-hidden="true">⚔</span>Combat & formulas</a>
+
+          <p class="nav-list__label">Compendium</p>
+          <a href="#heroes" data-route="heroes"><span aria-hidden="true">♜</span>Hero classes <b id="nav-hero-count">55</b></a>
+          <a href="#effects" data-route="effects"><span aria-hidden="true">✦</span>Effects & statuses</a>
+          <a href="#dungeons" data-route="dungeons"><span aria-hidden="true">▰</span>Dungeons <b id="nav-dungeon-count">12</b></a>
+          <a href="#monsters" data-route="monsters"><span aria-hidden="true">♞</span>Monsters <b id="nav-monster-count">76</b></a>
+          <a href="#raids" data-route="raids"><span aria-hidden="true">◆</span>Raids <b id="nav-raid-count">4</b></a>
+          <a href="#items" data-route="items"><span aria-hidden="true">◇</span>Items & crafting</a>
+          <a href="#pets" data-route="pets"><span aria-hidden="true">♣</span>Pets</a>
+
+          <p class="nav-list__label">Mastery</p>
+          <a href="#progression" data-route="progression"><span aria-hidden="true">⌁</span>Progression systems</a>
+          <a href="#town" data-route="town"><span aria-hidden="true">♙</span>Town & economy</a>
+          <a href="#interactions" data-route="interactions"><span aria-hidden="true">☝</span>Interactions & menus</a>
+          <a href="#probability" data-route="probability"><span aria-hidden="true">%</span>Probability lab</a>
+          <a href="#reference" data-route="reference"><span aria-hidden="true">≡</span>Exact reference</a>
+        </nav>
+
+        <div class="sidebar__footer">
+          <span>Game 1.05 · Save schema 20</span>
+          <span>Verified 18 Jul 2026</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="sidebar-scrim" id="sidebar-scrim" aria-hidden="true"></div>
+
+    <main id="wiki-main" class="main" tabindex="-1">
+      <div id="route-outlet" aria-live="polite"></div>
+      <noscript>
+        <section class="error-state">
+          <h1>JavaScript is required</h1>
+          <p>This guide loads the game's source catalogs in your browser so its tables and probabilities remain exact.</p>
+        </section>
+      </noscript>
+      <footer class="footer">
+        <div>
+          <strong>Idle Party Dungeon: The Adventurer's Codex</strong>
+          <p>Built from the 1.05 game catalogs and runtime implementation. Probabilities are base values unless a multiplier is explicitly selected. © 2026 BroglioGames — All rights reserved.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#reference">Methodology</a>
+          <a href="../PRIVACY_POLICY.md" id="privacy-link">Privacy</a>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <dialog class="entity-dialog" id="entity-dialog" aria-labelledby="dialog-title">
+    <div class="entity-dialog__chrome">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Close details">×</button>
+      <div id="dialog-content"></div>
+    </div>
+  </dialog>
+
+  <dialog class="search-dialog" id="search-dialog" aria-labelledby="search-title">
+    <div class="search-dialog__surface">
+      <div class="search-dialog__input-row">
+        <span aria-hidden="true"></span>
+        <label class="sr-only" id="search-title" for="global-search">Search the complete guide</label>
+        <input id="global-search" type="search" autocomplete="off" spellcheck="false" placeholder="Search every class, monster, dungeon, raid, item, recipe, effect…">
+        <kbd>Esc</kbd>
+      </div>
+      <div class="search-dialog__meta" id="search-meta">Type at least two characters</div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-dialog__hint"><span><kbd>↑</kbd><kbd>↓</kbd> navigate</span><span><kbd>Enter</kbd> open</span></div>
+    </div>
+  </dialog>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
