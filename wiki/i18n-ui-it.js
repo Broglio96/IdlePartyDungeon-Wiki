@@ -67,6 +67,8 @@ window.WIKI_UI_IT = Object.freeze({
   "Every companion family, species, egg source, rarity roll, effect pool, and bond curve.": "Ogni famiglia di famigli, specie, fonte dell'uovo, probabilità di rarità, insieme di effetti e curva del Legame.",
   "Endgame challenges": "Sfide di fine gioco",
   "The Tower of Ascension, Floor 100 Apex, Echo Descent, daily laws, checkpoint rewards, and platform milestones.": "La Torre dell'Ascensione, l'Apex del piano 100, la Discesa dell'Eco, le leggi giornaliere, le ricompense dei checkpoint e i traguardi di piattaforma.",
+  "All 100 floors, checkpoint rewards, Floor 100 Apex mechanics, Resonance targets, and platform milestones.": "Tutti i 100 piani, le ricompense dei checkpoint, le meccaniche dell'Apex del piano 100, gli obiettivi di Risonanza e i traguardi di piattaforma.",
+  "Unlock requirements, Anchors, Guardians, daily laws, Resonance rewards, scaling, and formation rules.": "Requisiti di sblocco, Ancore, Guardiani, leggi giornaliere, ricompense di Risonanza, progressione della difficoltà e regole della formazione.",
   "Progression mastery": "Maestria della progressione",
   "Promotions, XP, Ascension, Runes, titles, and long-term hero building.": "Promozioni, ESP, Ascensione, Rune, titoli e sviluppo degli eroi a lungo termine.",
   "Town & economy": "Città ed economia",

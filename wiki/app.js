@@ -171,6 +171,8 @@
     items: ["Items & crafting", "Every material, weapon, armor piece, accessory, quest item, raid item, and recipe."],
     pets: ["Pet families", "Every companion family, species, egg source, rarity roll, effect pool, and bond curve."],
     endgame: ["Endgame challenges", "The Tower of Ascension, Floor 100 Apex, Echo Descent, daily laws, checkpoint rewards, and platform milestones."],
+    tower: ["Tower of Ascension", "All 100 floors, checkpoint rewards, Floor 100 Apex mechanics, Resonance targets, and platform milestones."],
+    echo: ["Echo Descent", "Unlock requirements, Anchors, Guardians, daily laws, Resonance rewards, scaling, and formation rules."],
     progression: ["Progression mastery", "Promotions, XP, Ascension, Runes, titles, and long-term hero building."],
     town: ["Town & economy", "Tavern, Workshop, Shops, Inventory, Mailbox, currencies, upgrades, and premium systems."],
     interactions: ["Interactions & menus", "What every major screen, button group, formation, collection, and account action does."],
@@ -508,9 +510,9 @@
     C.statuses.forEach(status => entries.push({ type: "Status", name: status.name, subtitle: status.kind, route: "effects", id: status.id, icon: `res://resources/ui/statuses/${statusIconId(status.id)}.png`, keywords: `${status.text} ${status.stacking}` }));
     C.runes.forEach(rune => entries.push({ type: "Rune", name: rune.name, subtitle: rune.stat, route: "progression", id: rune.id, icon: rune.icon, keywords: rune.text }));
     C.ascension.forEach(path => entries.push({ type: "Ascension", name: path.name, subtitle: path.role, route: "progression", id: path.id, icon: path.icon, keywords: `${path.text} ${path.skills.map(s => `${s.name} ${s.text}`).join(" ")}` }));
-    entries.push({ type: "Endgame", name: d.tower.name, subtitle: `${d.tower.max_floor} persistent floors`, route: "endgame", id: "tower", icon: "", keywords: `${d.tower.description} ${(d.tower.wings || []).map(wing => wing.name).join(" ")} Floor 100 Apex checkpoint rewards`, translateFragments: true });
-    entries.push({ type: "Endgame", name: d.echoDescent.system?.name || "Echo Descent", subtitle: "Five-hero endless descent", route: "endgame", id: "echo-descent", icon: "", keywords: `${d.echoDescent.system?.description || ""} daily laws mutations Guardians anchors`, translateFragments: true });
-    (d.echoDescent.mutations || []).forEach(mutation => entries.push({ type: "Echo law", name: mutation.name, subtitle: humanKey(mutation.category), route: "endgame", id: "echo-descent", icon: "", keywords: `${mutation.description} ${Object.keys(mutation.effects || {}).join(" ")}` }));
+    entries.push({ type: "Endgame", name: d.tower.name, subtitle: `${d.tower.max_floor} persistent floors`, route: "tower", id: "", icon: "", keywords: `${d.tower.description} ${(d.tower.wings || []).map(wing => wing.name).join(" ")} Floor 100 Apex checkpoint rewards`, translateFragments: true });
+    entries.push({ type: "Endgame", name: d.echoDescent.system?.name || "Echo Descent", subtitle: "Five-hero endless descent", route: "echo", id: "", icon: "", keywords: `${d.echoDescent.system?.description || ""} daily laws mutations Guardians anchors`, translateFragments: true });
+    (d.echoDescent.mutations || []).forEach(mutation => entries.push({ type: "Echo law", name: mutation.name, subtitle: humanKey(mutation.category), route: "echo", id: "", icon: "", keywords: `${mutation.description} ${Object.keys(mutation.effects || {}).join(" ")}` }));
     C.patchNotes.forEach(release => entries.push({ type: "Release", name: `${translate("Version")} ${release.version} — ${release.title}`, subtitle: `${release.date} · ${release.status}`, route: "patch-notes", id: slug(release.version), icon: "", keywords: release.notes.join(" ") }));
     C.privacyPolicy.sections.forEach(section => entries.push({ type: "Privacy", name: section.title, subtitle: `Effective ${C.privacyPolicy.effectiveDate}`, route: "privacy", id: section.id, icon: "", keywords: section.paragraphs.join(" ") }));
     Object.entries(routeMeta).forEach(([route, [name, subtitle]]) => entries.push({ type: "Guide", name, subtitle, route, id: "", icon: "", keywords: subtitle }));
@@ -1033,16 +1035,21 @@
     }).filter(Boolean).join(" · ");
   }
 
-  function renderEndgame() {
+  function renderEndgame(route = "endgame") {
     const tower = state.data.tower;
     const echo = state.data.echoDescent;
     const echoSystem = echo.system || {};
     const apex = tower.apex || {};
     const mutations = echo.mutations || [];
     const echoUnlockFloor = Number(echoSystem.unlock_tower_floor || tower.max_floor);
-    return `<div class="page">${pageHeader("endgame", `${badge(`${tower.max_floor} Tower floors`, "gold")}${badge("Unlimited attempts", "green")}`)}
+    const towerHidden = route === "echo" ? " hidden" : "";
+    const echoHidden = route === "tower" ? " hidden" : "";
+    const headerBadges = route === "echo"
+      ? `${badge(`${mutations.length} daily laws`, "gold")}${badge(`${echoSystem.hero_count} heroes`, "green")}`
+      : `${badge(`${tower.max_floor} Tower floors`, "gold")}${badge("Unlimited attempts", "green")}`;
+    return `<div class="page">${pageHeader(route, headerBadges)}
       <div class="callout callout--green"><strong>Challenge path:</strong><p>The Tower is always available from the Raids screen. Clear Floor ${esc(echoUnlockFloor)} to unlock Echo Descent; its separate action then appears while the Tower rail remains available for the climb and Apex replays.</p></div>
-      <section class="section-block" id="endgame-tower" tabindex="-1">
+      <section class="section-block" id="endgame-tower" tabindex="-1"${towerHidden}>
         ${sectionHeading("Permanent ascent", tower.name || "Tower of Ascension", tower.description || "A permanent one-floor-at-a-time climb through all twelve equipment tiers.")}
         <div class="info-grid">
           <article class="info-card"><span class="info-card__eyebrow">Formation</span><h3>Up to ${esc(tower.hero_count)} heroes · 2 companions</h3><p>Each attempt uses the ${esc(tower.formation_rows)}×${esc(tower.formation_columns)} formation. Heroes and companions assigned elsewhere cannot be selected.</p></article>
@@ -1052,7 +1059,7 @@
         </div>
         <div class="callout" style="margin-top:18px"><strong>Encounter scaling:</strong><p>Normal floors draw campaign teams near the target tier and scale them to match the floor's difficulty. Every tenth floor uses a tier-appropriate boss with adds. Enemy HP and damage rise across the full climb, with extra checkpoint multipliers.</p></div>
       </section>
-      <section class="section-block">
+      <section class="section-block"${towerHidden}>
         ${sectionHeading("Ten wings", "Checkpoint rewards and Play Games milestones", "Only Floors 10, 20, …, 100 pay Tower Coins. Each first clear grants three times the normal Coin price of one standard accessory craft at that checkpoint's target tier.")}
         <article class="table-panel"><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Wing</th><th>Floors</th><th>Gear band</th><th>Checkpoint</th><th class="numeric">First-clear Coins</th><th>Achievement</th></tr></thead><tbody>
           ${(tower.wings || []).map(wing => {
@@ -1064,14 +1071,14 @@
         <div class="callout callout--green" style="margin-top:18px"><strong>Google Play Games:</strong><p>Every tenth-floor first clear unlocks its matching achievement. Sign-in and cloud restore backfill all checkpoints at or below the saved highest floor. The largest cleared floor is also submitted to the ${esc(C.towerPlayGames.leaderboard.name)} leaderboard.</p></div>
         <div class="callout" style="margin-top:18px"><strong>Upper-Tower Resonance targets:</strong><p>Rank 2 on Floors 71–80, Rank 4 on Floors 81–90, Rank 6 on Floors 91–99, and Rank 8 on Floor 100. These are build-readiness targets, not entry requirements.</p></div>
       </section>
-      <section class="section-block">
+      <section class="section-block"${towerHidden}>
         ${sectionHeading("Floor 100", "The Crown That Waits", "The Zenith is a permanent build check whose two mechanics measure raid-set coverage and companion strength.")}
         <div class="info-grid">
           <article class="info-card"><span class="info-card__eyebrow">Twelve Seals</span><h3>One active raid set breaks one seal</h3><p>The boss starts at ${formatNumber(apex.boss_hp)} HP and ${formatNumber(apex.boss_attack)} Attack. Each unbroken seal adds ${esc(apex.seal_hp_percent)}% HP and ${esc(apex.seal_damage_percent)}% Attack; ${esc(apex.recommended_active_sets)}–12 active weapon-and-accessory sets are recommended.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Twin Bond</span><h3>Zenith Pulse every ${esc(apex.pulse_interval_enemy_actions)} enemy actions</h3><p>The pulse begins at ${esc(apex.pulse_base_percent)}% maximum HP. Companion level and rarity reduce it by ${esc(apex.pulse_reduction_per_bond)} points per weighted Bond, to a ${esc(apex.pulse_min_percent)}% floor. Two level ${esc(apex.recommended_pet_level)}–20 Rare, Epic, or Legendary companions are recommended.</p></article>
         </div>
       </section>
-      <section class="section-block" id="endgame-echo-descent" tabindex="-1">
+      <section class="section-block" id="endgame-echo-descent" tabindex="-1"${echoHidden}>
         ${sectionHeading(`Beyond Floor ${echoUnlockFloor}`, echoSystem.name || "Echo Descent", echoSystem.description || "An endless five-hero descent beyond the Tower.")}
         <div class="info-grid">
           <article class="info-card"><span class="info-card__eyebrow">Exact formation</span><h3>${esc(echoSystem.hero_count)} heroes · up to ${esc(echoSystem.companion_count)} companions</h3><p>Unlike the Tower, Echo requires all five hero slots to be filled before a run can begin.</p></article>
@@ -1081,7 +1088,7 @@
         </div>
         <div class="callout" style="margin-top:18px"><strong>Depth scaling:</strong><p>At Depth d, base enemy HP is ×${esc(echo.difficulty?.base_hp_multiplier)} × (1 + ${formatPercent(Number(echo.difficulty?.hp_growth_per_depth || 0) * 100)} × (d−1)); damage is ×${esc(echo.difficulty?.base_damage_multiplier)} × (1 + ${formatPercent(Number(echo.difficulty?.damage_growth_per_depth || 0) * 100)} × (d−1)). Every fifth-depth Guardian adds ×${esc(echo.difficulty?.guardian_hp_multiplier)} HP and ×${esc(echo.difficulty?.guardian_damage_multiplier)} damage. Daily laws add combat mechanics instead of more stat multipliers.</p></div>
       </section>
-      <section class="section-block">
+      <section class="section-block"${echoHidden}>
         ${sectionHeading("Daily laws", "Nine mechanics across three roles", "Every rotation combines one survival pressure, one enemy adaptation, and one counterplay opportunity. Build the five-hero party around all three.")}
         <div class="info-grid">${mutations.map(mutation => `<article class="info-card"><span class="info-card__eyebrow">${esc(humanKey(mutation.category))}</span><h3>${esc(mutation.name)}</h3><p>${esc(mutation.description)}</p><div class="entity-card__footer">${esc(echoEffectText(mutation.effects))}</div></article>`).join("")}</div>
       </section>
@@ -1433,7 +1440,8 @@
     const renderers = {
       home: renderHome, quickstart: renderQuickstart, mechanics: renderMechanics, combat: renderCombat,
       heroes: renderHeroes, effects: renderEffects, dungeons: renderDungeons, monsters: renderMonsters,
-      raids: renderRaids, items: renderItems, pets: renderPets, endgame: renderEndgame, progression: renderProgression,
+      raids: renderRaids, items: renderItems, pets: renderPets, endgame: renderEndgame,
+      tower: () => renderEndgame("tower"), echo: () => renderEndgame("echo"), progression: renderProgression,
       town: renderTown, interactions: renderInteractions, probability: renderProbability, reference: renderReference,
       "patch-notes": renderPatchNotes, privacy: renderPrivacy
     };
