@@ -1,13 +1,25 @@
-## Version 1.05 — Companions & Ascension
+## Version 1.07 — Controls & Navigation Fix
 
-- Added expedition companions. Collect eggs from six pet families, hatch Common, Rare, or Epic pets with 2, 3, or 4 party bonuses, assign one companion to an expedition, and raise it to level 20 through Bond XP.
+- Fixed an issue in version 1.06 that could leave buttons and menus unresponsive after installing the update.
+- Touch controls and scrolling now work normally on Android, and mouse controls now work normally on Windows.
+- Added extra release checks to help prevent this issue from returning. Your saved progress is unaffected.
+
+## Version 1.06 — Companions, Ascension & Endgame
+
+- Added expedition companions. Collect eggs from six pet families, hatch Common, Rare, Epic, or 0.5%-chance Legendary pets with 2, 3, 4, or 5 party bonuses, assign one companion to an expedition, and raise it to level 20 through Bond XP.
 - Linked dungeon and raid bosses can drop pet eggs. Every family egg is also available from the Shop for 150 Gems.
-- Reworked Divinity as Ascension. Elite level-50 heroes can choose one of four paths and build within a 15-point budget, with Awakened upgrades at 5 spent points, capstones at 10, free resets, and full refunds when changing paths.
+- Undeployed pets can now be sold for Coins; their value scales with family tier and rarity, not Bond level.
+- Reworked Ascension. Elite level-50 heroes can choose one of four paths and build within a 15-point budget, with every upgrade tier available immediately, free resets, and full refunds when changing paths.
 - Revamped hero active skills, passive skills, and class roles across the promotion tree.
 - Reworked all four raid mechanics with clearer action windows and improved enemy skills. Matching a crafted raid weapon with its unique accessory now activates a two-piece set bonus.
+- Rebuilt the Tower of Ascension as ten themed wings with 100 Tower-exclusive enemies, fixed retry encounters, two companion slots, named checkpoint bosses, and The Crown That Waits as the final Floor 100 battle.
+- Echo Descent now unlocks after Tower Floor 70 and coexists with the remaining Tower climb. Its separate Raids-tab icon keeps both activities available while preventing simultaneous runs.
+- The first reward-eligible Echo Guardian clear each UTC day now secures the next Anchor and grants +2 permanent Echo Resonance to exactly five heroes, up to Rank 10. Later same-day Guardian clears are practice runs that grant Bond XP and return to the existing Anchor. Each rank adds 2% max HP and Attack plus 0.5 Defense and Magic Defense.
+- Replaced Echo's stat-only mutations with nine mechanics-driven daily laws: one survival pressure, one enemy adaptation, and one counterplay opportunity per day. Rotations can suppress Mana, tax active skills, reduce healing, grant genuine Magic or physical damage immunity, force alternating damage types, or reward mixed parties, critical hits, and harmful effects with Echo Exposure.
+- Rebalanced Tower Floors 71-100 around four daily Resonance claims, with expected targets of Rank 2 / 4 / 6 / 8 across Floors 71-80 / 81-90 / 91-99 / 100. Checkpoint Coin rewards rise from two accessory-craft equivalents early to five at Floor 100, and every tenth-floor first clear adds +1 permanent hero roster slot (+10 total).
 - Improved dungeon combat progression, equipment milestones, boss-material rewards, authored loot rates, and Rune costs. Innate title bonuses now grant 10%.
-- Added six Google Play Games achievements for promotions, Ascension, raid crafting, raid sets, and pet hatching, bringing the game to 22 achievements worth 130 points.
-- Improved mobile layouts, equipment details, raid views, touch and mouse scrolling, combat feedback, popup navigation, and item presentation.
+- Added 23 Google Play Games achievements for promotions, Ascension, raid crafting, raid sets, pet hatching, maxed Tavern and Workshop upgrades, long-term lifetime goals, and every tenth-floor Tower boss, bringing the game to 39 achievements worth 320 points. Tower achievement descriptions now name their bosses and identify Floor 70 as the Echo unlock.
+- Improved mobile layouts, equipment details, hero Resonance display, raid views, touch and mouse scrolling, combat feedback, popup navigation, and item presentation.
 - The first-launch guide now explains how to sell spare items for gold and recruit more heroes at the Tavern.
 - The Gem button remains accessible on every platform, and the Welcome Premium Pack can still be claimed for free.
 - Strengthened startup Play update checks, Billing recovery, cloud deletion, consent handling, and required privacy choices.
@@ -62,6 +74,6 @@
 - Launched the 12-tier dungeon campaign with concurrent expedition parties, objectives, unlock progression, story mail, materials, bosses, and up to 12 hours of offline combat catch-up.
 - Added four large-party raids with dedicated formations, encounter chains, bosses, daily progression, and raid rewards.
 - Added the Tavern, Inventory, Workshop, item discovery, equipment management, town upgrades, and the first 16 crafting recipes.
-- Added the original Divinity progression system and long-term accessory milestones for advanced heroes.
+- Added the original Ascension progression system and long-term accessory milestones for advanced heroes.
 - Added medieval interface styling, touch-drag scrolling, grid views, coin denominations, combat effects, original music, and expanded catalog/help screens.
 - Added encrypted local progress plus the original optional Google Drive app-data cloud-save flow with explicit conflict selection.

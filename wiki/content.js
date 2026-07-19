@@ -1,35 +1,42 @@
 /*
- * Normalized, GDScript-only guide data for Idle Party Dungeon 1.05.
- * Catalog-backed entities are loaded directly from data/catalogs at runtime.
- * Last source audit: 2026-07-18, local source commit 6d7b014, save schema 20.
+ * Player-facing guide content for Idle Party Dungeon 1.07.
+ * Update history is kept in the Patch Notes chapter.
+ * Updated 19 July 2026.
  */
 window.WIKI_CONTENT = Object.freeze({
   version: {
-    game: "1.05",
-    windows: "1.0.5.0",
-    saveSchema: 20,
-    verified: "18 July 2026",
-    commit: "6d7b014"
+    game: "1.07",
+    updated: "19 July 2026"
   },
 
   patchNotes: [
     {
-      version: "1.05",
+      version: "1.07",
+      title: "Controls & Navigation Fix",
+      date: "19 July 2026",
+      status: "Current closed-test release",
+      notes: [
+        "Fixed an issue in version 1.06 that could leave buttons and menus unresponsive after installing the update.",
+        "Touch controls and scrolling now work normally on Android, and mouse controls now work normally on Windows.",
+        "Added extra release checks to help prevent this issue from returning. Saved progress is unaffected."
+      ]
+    },
+    {
+      version: "1.06",
       title: "Companions & Ascension",
       date: "18 July 2026",
-      status: "Repository release record",
-      androidCode: 6,
-      windows: "1.0.5.0",
-      commit: "1e1d3ab",
-      source: "Canonical patch notes; tester communications finalized at 6f4affb.",
+      status: "Closed-test release",
       notes: [
-        "Added expedition companions. Collect eggs from six pet families, hatch Common, Rare, or Epic pets with 2, 3, or 4 party bonuses, assign one companion to an expedition, and raise it to level 20 through Bond XP.",
+        "Added expedition companions. Collect eggs from six pet families, hatch Common, Rare, Epic, or 0.5%-chance Legendary pets with 2, 3, 4, or 5 party bonuses, assign one companion to an expedition, and raise it to level 20 through Bond XP.",
         "Linked dungeon and raid bosses can drop pet eggs. Every family egg is also available from the Shop for 150 Gems.",
-        "Reworked Divinity as Ascension. Elite level-50 heroes can choose one of four paths and build within a 15-point budget, with Awakened upgrades at 5 spent points, capstones at 10, free resets, and full refunds when changing paths.",
+        "Undeployed pets can now be sold for Coins; their value scales with family tier and rarity, not Bond level.",
+        "Reworked Ascension. Elite level-50 heroes can choose one of four paths and build within a 15-point budget. Every upgrade is available immediately, while free resets and path changes refund every point.",
         "Revamped hero active skills, passive skills, and class roles across the promotion tree.",
         "Reworked all four raid mechanics with clearer action windows and improved enemy skills. Matching a crafted raid weapon with its unique accessory now activates a two-piece set bonus.",
-        "Improved dungeon combat progression, equipment milestones, boss-material rewards, authored loot rates, and Rune costs. Innate title bonuses now grant 10%.",
-        "Added six Google Play Games achievements for promotions, Ascension, raid crafting, raid sets, and pet hatching, bringing the game to 22 achievements worth 130 points.",
+        "Expanded the Tower of Ascension into 100 persistent floors with fixed retry encounters, first-clear checkpoint rewards, two companion slots, and a dedicated Floor 100 apex challenge.",
+        "Added Echo Descent after Tower Floor 70: unlimited five-hero pushes through five-depth strata with two companions, secured anchors, and Bond XP instead of ordinary loot. The first eligible Guardian each UTC day grants +2 Resonance, while nine daily laws combine survival pressure, enemy adaptation, and counterplay opportunities.",
+        "Improved dungeon combat progression, equipment milestones, boss-material rewards, loot rates, and Rune costs. Innate title bonuses now grant 10%.",
+        "Added 23 Google Play Games achievements for promotions, Ascension, raid crafting, raid sets, pet hatching, maxed Tavern and Workshop upgrades, long-term lifetime goals, and every tenth-floor Tower boss, bringing the game to 39 achievements worth 320 points.",
         "Improved mobile layouts, equipment details, raid views, touch and mouse scrolling, combat feedback, popup navigation, and item presentation.",
         "The first-launch guide now explains how to sell spare items for gold and recruit more heroes at the Tavern.",
         "The Gem button remains accessible on every platform, and the Welcome Premium Pack can still be claimed for free.",
@@ -43,10 +50,6 @@ window.WIKI_CONTENT = Object.freeze({
       title: "Progression & Interface Update",
       date: "17 July 2026",
       status: "Closed-test release",
-      androidCode: 5,
-      windows: "1.0.4.0",
-      commit: "1897987",
-      source: "Canonical patch notes and closed-test announcement.",
       notes: [
         "The game interface received a major visual and readability pass, with new page backgrounds, typography, navigation art, currency icons, item presentation, and clearer mobile layouts.",
         "Dungeon progression was rebalanced across all 12 tiers. Encounters now run at a more consistent pace, while XP, drop rates, enemy strength, party-size limits, and crafting times follow a smoother long-term curve.",
@@ -63,11 +66,7 @@ window.WIKI_CONTENT = Object.freeze({
       version: "1.03",
       title: "Welcome & Battle Clarity",
       date: "16 July 2026",
-      status: "Release candidate",
-      androidCode: 4,
-      windows: "1.0.3.0",
-      commit: "e802579",
-      source: "Canonical patch notes and the 1.03 release-candidate audit.",
+      status: "Closed-test release",
       notes: [
         "New players now receive a compact first-launch welcome guide, while existing saves upgrade without replaying it.",
         "Recruited heroes receive distinct fantasy names, with safe migration from legacy class-number names.",
@@ -76,8 +75,7 @@ window.WIKI_CONTENT = Object.freeze({
         "Wave rewards are consolidated into a readable reward turn before the next encounter begins.",
         "Hero skill profiles were rebalanced and the passive skill icon set was completed across the class tree.",
         "The Last Road gained staged runway trials, preparation rewards, clearer retry behavior, and expanded balance coverage.",
-        "Fixed raid accessory behavior, enabled the native Windows audio driver, and hardened save migration, popup cleanup, hero selection, and class skill behavior.",
-        "Expanded release smoke tests and full-run progression simulation. The Windows candidate passed; the production-signed Android bundle still depended on external signing and store gates recorded in the release audit."
+        "Fixed raid accessory behavior, enabled the native Windows audio driver, and improved save upgrades, popup cleanup, hero selection, and class skill behavior."
       ]
     },
     {
@@ -85,10 +83,6 @@ window.WIKI_CONTENT = Object.freeze({
       title: "Cloud Saves & Rune Progression",
       date: "16 July 2026",
       status: "Closed Alpha release",
-      androidCode: 3,
-      windows: "1.0.2.0",
-      commit: "ec9377a",
-      source: "Canonical patch notes and committed release metadata.",
       notes: [
         "Settings' Play Games section now includes a confirmed Delete Data option that permanently removes local progress, recovery copies, preferences, and the player's private Google Play Games cloud save.",
         "Google Play Games cloud saves now keep progress available across Android devices, with encrypted recovery copies and an explicit choice when two save histories conflict.",
@@ -107,10 +101,6 @@ window.WIKI_CONTENT = Object.freeze({
       title: "Raids & Platform Services",
       date: "15 July 2026",
       status: "Closed-test update",
-      androidCode: 2,
-      windows: "1.0.1.0",
-      commit: "40b1d95",
-      source: "Canonical patch notes and committed release metadata.",
       notes: [
         "Raids gained larger arenas, clearer combat cards, five-column formations, and separate Battle and Info tabs.",
         "All four raids were rebalanced, including bounded Rootbound healing and clearer boss encounter behavior.",
@@ -126,10 +116,6 @@ window.WIKI_CONTENT = Object.freeze({
       title: "First Closed-Test Build",
       date: "15 July 2026",
       status: "Closed-test baseline",
-      androidCode: 1,
-      windows: "1.0.0.0",
-      commit: "d486ec8",
-      source: "Repository-derived baseline; export metadata was prepared at 0d79b6f.",
       notes: [
         "Released the first closed-test baseline for Android and Windows, with portrait-first mobile presentation and desktop support.",
         "Introduced automatic, turn-based party combat with Dexterity turn order, weighted Threat targeting, active and passive skills, status effects, hit feedback, and a death XP penalty.",
@@ -138,7 +124,7 @@ window.WIKI_CONTENT = Object.freeze({
         "Launched the 12-tier dungeon campaign with concurrent expedition parties, objectives, unlock progression, story mail, materials, bosses, and up to 12 hours of offline combat catch-up.",
         "Added four large-party raids with dedicated formations, encounter chains, bosses, daily progression, and raid rewards.",
         "Added the Tavern, Inventory, Workshop, item discovery, equipment management, town upgrades, and the first 16 crafting recipes.",
-        "Added the original Divinity progression system and long-term accessory milestones for advanced heroes.",
+        "Added the original Ascension progression system and long-term accessory milestones for advanced heroes.",
         "Added medieval interface styling, touch-drag scrolling, grid views, coin denominations, combat effects, original music, and expanded catalog and help screens.",
         "Added encrypted local progress plus the original optional Google Drive app-data cloud-save flow with explicit conflict selection."
       ]
@@ -308,13 +294,13 @@ window.WIKI_CONTENT = Object.freeze({
     {
       id: "mist",
       eyebrow: "Environment",
-      title: "Mist amplifies attackers, not a flat hazard tick",
+      title: "Mist amplifies attacks instead of dealing automatic damage",
       summary: "Effective Mist is the dungeon's current Mist percentage reduced by the target's Mist Reduction. An attacker's Mist Damage then scales its damage from that effective value.",
       bullets: [
         "Effective Mist = Mist × (1 − target Mist Reduction ÷ 100).",
         "Mist multiplier = 1 + (effective Mist ÷ 100) × (attacker Mist Damage ÷ 100).",
-        "Mist Reduction is clamped to a maximum practical reduction of 100% in the formula.",
-        "Later dungeons can begin with Mist and change it periodically; each dungeon detail page lists its authored settings.",
+        "Mist Reduction cannot reduce effective Mist below 0%.",
+        "Later dungeons can begin with Mist and change it periodically; each dungeon detail page lists its current settings.",
         "Mage-aligned builds and certain enemies carry native Mist Damage; equipment, pets, and effects can add Mist Reduction."
       ]
     },
@@ -322,12 +308,12 @@ window.WIKI_CONTENT = Object.freeze({
       id: "discovery",
       eyebrow: "Information",
       title: "Discovery is part of progression",
-      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.05 ruleset as an end-to-end strategy reference.",
+      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.07 ruleset as an end-to-end strategy reference.",
       bullets: [
         "A monster enters the Bestiary when its wave is first seen.",
         "An item is discovered through drops, collection, crafting, purchase, equipment restoration, or explicit rewards.",
         "Story mail communicates dungeon unlocks, raid quests, first Rune Pieces, first clears, and unique accessory finds.",
-        "The exact-reference pages distinguish authored catalog text, tuning metadata, and behavior actually dispatched by runtime code.",
+        "The reference pages bring current game rules, exact values, and practical guidance together in one place.",
         "All percentage tables in this site show base chances unless an adjusted multiplier is displayed beside them."
       ]
     }
@@ -352,7 +338,7 @@ window.WIKI_CONTENT = Object.freeze({
     {
       name: "Basic damage",
       formula: "rolled damage × outgoing multipliers × critical multiplier × Mist multiplier × (1 − defense reduction ÷ 100)",
-      details: "Hero damage has a global ×2.5 combat scalar. Healer-class damage uses 35% of that scalar. Monster damage uses ×2.5. Final successful hits deal at least 1."
+      details: "Hero attacks use ×2.5 rolled damage before other modifiers. Healer-class attacks use 35% of that amount. Monster attacks also use ×2.5. Final successful hits deal at least 1."
     },
     {
       name: "Defense",
@@ -377,22 +363,22 @@ window.WIKI_CONTENT = Object.freeze({
     {
       name: "Mana per basic action",
       formula: "8 + round(2 × √Intelligence), then path/passive modifiers",
-      details: "Heroes use a 100-point skill meter. A full meter is spent when the active skill is attempted; silence prevents use. Monsters with implemented active skills use the same square-root gain with a 30-point per-action cap."
+      details: "Heroes use a 100-point skill meter. A full meter is spent when the active skill is attempted; silence prevents use. Monsters that use active skills follow the same square-root gain with a 30-point per-action cap."
     },
     {
       name: "Healing",
-      formula: "base heal × source Healing rate × raid phase modifiers × target anti-heal",
-      details: "Healing Reduction caps at 95%. Lightless Pressure ≥70 applies ×0.80 and Total Eclipse applies ×0.65 only to sourced action/passive healing. Regeneration, lifesteal, HoTs, and direct self-heals bypass those two raid gates. Overhealing becomes a barrier only when a passive explicitly says so."
+      formula: "base heal × healer's Healing stat × raid phase modifiers × target anti-heal",
+      details: "Healing Reduction caps at 95%. Lightless Pressure ≥70 applies ×0.80 and Total Eclipse applies ×0.65 only to healing from active and passive skills. Regeneration, lifesteal, HoTs, and direct self-heals bypass those two raid gates. Overhealing becomes a barrier only when a passive explicitly says so."
     },
     {
       name: "Standard drop chance",
       formula: "min(100%, base drop % × dungeon progression multiplier × global premium multiplier)",
-      details: "Authored 100% drops stay 100%. The Welcome entitlement raises the global multiplier to 1.10. Exclusive story-boss drops use only the global premium multiplier."
+      details: "Drops with a 100% base chance stay at 100%. The Welcome bonus raises the global multiplier to 1.10. Exclusive story-boss drops use only the global premium multiplier."
     },
     {
       name: "Encounter composition",
       formula: "team probability = team weight ÷ sum of non-boss team weights",
-      details: "Rows marked is_boss are excluded from weighted random selection and forced separately; current catalogs also assign them weight 0. Raid bosses always follow 15 cleared normal encounters."
+      details: "Boss groups are excluded from the random encounter pool and appear only when their objective or raid sequence calls for them. Raid bosses always follow 15 cleared normal encounters."
     }
   ],
 
@@ -466,7 +452,7 @@ window.WIKI_CONTENT = Object.freeze({
 
   ascension: [
     {
-      id:"ember_crown", name:"The Ember Crown", role:"DPS", color:"#e36b32", icon:"res://resources/ui/divinity_ember_crown.png",
+      id:"ember_crown", name:"The Ember Crown", role:"DPS", color:"#e36b32", icon:"res://resources/ui/ascension_ember_crown.png",
       text:"Decisive blows, critical strikes, and merciless finishes.",
       skills:[
         {name:"Ashen Might", tier:0, ranks:5, cost:1, text:"Deal +2% damage per rank."},
@@ -477,7 +463,7 @@ window.WIKI_CONTENT = Object.freeze({
       ]
     },
     {
-      id:"stone_aegis", name:"The Stone Aegis", role:"Tank", color:"#b68b4b", icon:"res://resources/ui/divinity_stone_aegis.png",
+      id:"stone_aegis", name:"The Stone Aegis", role:"Tank", color:"#b68b4b", icon:"res://resources/ui/ascension_stone_aegis.png",
       text:"Endurance, control resistance, and a final wall against lethal damage.",
       skills:[
         {name:"Adamant Blood", tier:0, ranks:5, cost:1, text:"Gain +2% maximum HP per rank."},
@@ -488,7 +474,7 @@ window.WIKI_CONTENT = Object.freeze({
       ]
     },
     {
-      id:"wellspring_grace", name:"Wellspring Grace", role:"Healer", color:"#6bc6a0", icon:"res://resources/ui/divinity_wellspring_grace.png",
+      id:"wellspring_grace", name:"Wellspring Grace", role:"Healer", color:"#6bc6a0", icon:"res://resources/ui/ascension_wellspring_grace.png",
       text:"Healing throughput, regeneration, protective overflow, and mana cadence.",
       skills:[
         {name:"Living Waters", tier:0, ranks:5, cost:1, text:"Increase healing done by +3% per rank."},
@@ -499,7 +485,7 @@ window.WIKI_CONTENT = Object.freeze({
       ]
     },
     {
-      id:"tempest_chorus", name:"The Tempest Chorus", role:"AoE & Effects", color:"#6daee8", icon:"res://resources/ui/divinity_tempest_chorus.png",
+      id:"tempest_chorus", name:"The Tempest Chorus", role:"AoE & Effects", color:"#6daee8", icon:"res://resources/ui/ascension_tempest_chorus.png",
       text:"Area damage, stronger effects, vulnerability procs, and skill echoes.",
       skills:[
         {name:"Tempest Reach", tier:0, ranks:5, cost:1, text:"Skills that hit all enemies deal +3% damage per rank."},
@@ -534,12 +520,12 @@ window.WIKI_CONTENT = Object.freeze({
     march_rootbound: {
       label:"Root Network", color:"#6f984b",
       rules:[
-        "Each encounter is seeded with 2 nodes in Wing I, 3 in Wing II, 4 in Wing III, and 4 for the boss; missing nodes are added even when the authored team lists fewer.",
+        "Each encounter begins with 2 nodes in Wing I, 3 in Wing II, 4 in Wing III, and 4 for the boss; missing nodes are added when needed.",
         "Every living Root Node gives linked non-node enemies +4 Defense and +1% outgoing damage.",
         "When a linked enemy acts, it heals 3% maximum HP per living node, capped at 9%.",
         "Root Nodes take +25% damage from Magic attackers or attackers with Decay, and −20% from other sources.",
         "At 70% HP, Orrun absorbs living nodes: +5% to its Attack stat and +0.1% max-HP regeneration per absorbed node. Current basic and skill damage ranges are not rebuilt from that Attack-stat change. At 40%, two new nodes appear.",
-        "The two nodes summoned at 40% immediately restore 3% max HP each on Orrun's actions. Current runtime does not refresh their network counter on summon, so their Defense/damage links remain at 0 until one dies and the surviving-node count refreshes.",
+        "The two nodes summoned at 40% immediately restore 3% max HP each on Orrun's actions. Their Defense and damage links remain inactive until one of them dies.",
         "Orrun is forced to refill mana every fifth boss action."
       ]
     },
@@ -551,7 +537,7 @@ window.WIKI_CONTENT = Object.freeze({
         "A Pressure Wisp kill removes 20; an Abyssal Lamplighter kill removes 12.",
         "The first Ranged critical in an action removes 3 Pressure; the first Magic critical removes 1.",
         "At Pressure 40 or higher, living heroes lose 10 percentage points of effective Evade.",
-        "At Pressure 70 or higher, sourced action/passive healing is multiplied by 0.80; regeneration, lifesteal, HoTs, and direct self-heals bypass it. Enemies entering a wave scale Attack and damage by ×(1 + Pressure ÷ 500).",
+        "At Pressure 70 or higher, healing from active and passive skills is multiplied by 0.80; regeneration, lifesteal, HoTs, and direct self-heals bypass it. Enemies entering a wave scale Attack and damage by ×(1 + Pressure ÷ 500).",
         "Every normal clear first deals 4% maximum-HP Magic damage and adds 10 Pressure. After clears 5, 10, and 15, Pressure resets to 20; only clears 5 and 10 also restore 10% HP and Mana. The boss spawn then sets Pressure to 30.",
         "Below 30 Pressure, Nhalassa gains 20% Vulnerability for 2 turns. Adds appear at 75%, 50%, and 25% boss HP; Nhalassa refills mana every fourth boss action."
       ]
@@ -572,9 +558,9 @@ window.WIKI_CONTENT = Object.freeze({
     last_road: {
       label:"Eclipse Clock", color:"#c3944d",
       rules:[
-        "Dawn lasts 12 hero actions: Magic deals +20% and Melee deals −20% for both sides. Each positive sourced action/passive heal adds min(3, actual HP restored ÷ target max HP × 10) Lastlight.",
+        "Dawn lasts 12 hero actions: Magic deals +20% and Melee deals −20% for both sides. Each positive heal from an active or passive skill adds min(3, actual HP restored ÷ target max HP × 10) Lastlight.",
         "Dusk lasts 12 hero actions: Melee deals +20% and Magic deals −20% for both sides. Each successful hero critical adds 5 Lastlight.",
-        "Total Eclipse lasts 6 hero actions, multiplies sourced action/passive healing by 0.65, begins with 10% maximum-HP Magic damage to the party, then returns to Dawn. Regeneration, lifesteal, HoTs, and direct self-heals bypass the phase healing multiplier.",
+        "Total Eclipse lasts 6 hero actions, multiplies healing from active and passive skills by 0.65, begins with 10% maximum-HP Magic damage to the party, then returns to Dawn. Regeneration, lifesteal, HoTs, and direct self-heals bypass the phase healing multiplier.",
         "Ranged damage is neutral in Dawn and Dusk. Phase duration counts hero actions, not whole rounds or seconds.",
         "At 80% boss HP a Dawnless Knight appears; at 40%, two Eclipse Engines appear. Turn the Clock advances the current phase counter by 4; a Lastlight Seraph's Light Theft removes 15 Lastlight.",
         "At 15% HP, 100 Lastlight consumes to give Aster Null 35% Attack Down for 8 turns; otherwise Aster gains +55% damage for 8 turns."
@@ -586,36 +572,52 @@ window.WIKI_CONTENT = Object.freeze({
     {id:"cluster", name:"Gem Cluster per dungeon monster", value:"0.1%", detail:"Base roll on every defeated dungeon monster, multiplied by the global drop multiplier. Each collected cluster opens automatically."},
     {id:"gems", name:"Gems inside one cluster", value:"1–5", detail:"1: 80% · 2: 12% · 3: 5% · 4: 2% · 5: 1%. Expected value: 1.32 Gems."},
     {id:"title", name:"Tavern offer has a title", value:"25%", detail:"If successful, one of six titles is chosen uniformly: 4.1667% absolute chance for a specific title per offer. Health and Attack are ×1.10; Defense, Magic Defense, Evade, and Critical Chance gain 10 points."},
-    {id:"egg", name:"Eligible boss drops its pet egg", value:"15%", detail:"Applies to each configured dungeon or raid boss kill. Buying a family egg costs 150 Gems."},
-    {id:"rarity", name:"Pet hatch rarity", value:"75 / 20 / 5", detail:"Common 75%, Rare 20%, Epic 5%. They receive 2, 3, or 4 distinct effects respectively from that family's shuffled pool."},
+    {id:"egg", name:"Eligible boss drops its pet egg", value:"15%", detail:"Applies to each eligible dungeon or raid boss kill. Buying a family egg costs 150 Gems."},
+    {id:"rarity", name:"Pet hatch rarity", value:"74.5 / 20 / 5 / 0.5", detail:"Common 74.5%, Rare 20%, Epic 5%, Legendary 0.5%. They receive 2, 3, 4, or 5 distinct effects respectively from that family's shuffled pool."},
     {id:"runeEarly", name:"Raid Rune Piece — early enemy", value:"1.5%", detail:"Rolled on every eligible non-node raid monster before the raid has completed 10 encounters."},
     {id:"runeLate", name:"Raid Rune Piece — late enemy", value:"3%", detail:"Rolled after 10 normal clears: encounters 11–15 and eligible non-node boss adds. Root Nodes never roll bespoke raid rewards."},
     {id:"runeBoss", name:"Raid Rune Piece — boss", value:"10%", detail:"Separate from the guaranteed boss material roll."},
     {id:"bossMat", name:"Boss drops two materials", value:"25%", detail:"Every raid boss drops at least one boss material; 25% of kills produce a second."},
     {id:"accessory", name:"Raid accessory repeat copy", value:"5%", detail:"Until a copy is discovered or already pending, the roll escalates 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, then guarantees clear 10. It returns to 5% afterward."},
     {id:"daily", name:"Raid entry reset", value:"00:00 UTC", detail:"Each of the four raids tracks its own daily entry. Starting consumes it. A manual refresh costs 50 Gems."},
-    {id:"reward", name:"Daily Gem reward", value:"35 Gems", detail:"One claim per UTC day. With the free Welcome entitlement it is granted instantly; otherwise the reward path requires successful rewarded-ad completion when available."}
+    {id:"reward", name:"Daily Gem reward", value:"35 Gems", detail:"One claim per UTC day. With the free Welcome bonus it is granted instantly; otherwise the reward path requires successful rewarded-ad completion when available."}
   ],
+
+  towerPlayGames: {
+    leaderboard: {key:"highest_tower_floor", name:"Highest Tower Floor", minimum:1, maximum:100},
+    achievements: [
+      {floor:10, key:"tower_floor_10", name:"Foundations Shaken"},
+      {floor:20, key:"tower_floor_20", name:"Above the Flood"},
+      {floor:30, key:"tower_floor_30", name:"Iron Boughs Broken"},
+      {floor:40, key:"tower_floor_40", name:"Lanterns Within Reach"},
+      {floor:50, key:"tower_floor_50", name:"Ashen Vault Opened"},
+      {floor:60, key:"tower_floor_60", name:"Stars Underfoot"},
+      {floor:70, key:"tower_floor_70", name:"Past the Chimera"},
+      {floor:80, key:"tower_floor_80", name:"A Spire Uncrowned"},
+      {floor:90, key:"tower_floor_90", name:"Worldroot Crowned"},
+      {floor:100, key:"tower_floor_100", name:"At the Zenith"}
+    ]
+  },
 
   townSystems: [
     {name:"Tavern", icon:"res://resources/ui/icon_tavern.png", lead:"Recruitment, roster capacity, offer count, and refresh speed.", facts:["5 starting offers; at least one healer when a healer class is available", "3-hour base refresh", "8 base hero slots", "200 + 100 × current roster size recruitment cost", "+10% refresh speed per speed-upgrade level", "25% title chance per generated offer"]},
     {name:"Workshop", icon:"res://resources/ui/icon_craft.png", lead:"Recipes, batch jobs, queue capacity, and offline completion.", facts:["3 starting queue slots", "+10% crafting speed per speed-upgrade level", "A batch occupies one job", "Cancelling an unfinished job refunds reserved items and Coins", "Crafting catches up across the full elapsed offline interval"]},
     {name:"Regular Shop", icon:"res://resources/ui/icon_shop.png", lead:"Campaign-appropriate materials sold for Coins.", facts:["4 offers", "3-hour refresh", "Each offer can be bought once per refresh", "Offer tier follows the highest unlocked dungeon tier", "Purchases discover the item immediately"]},
     {name:"Weekly Shop", icon:"res://resources/ui/gem.svg", lead:"Permanent capacity expansions bought with Gems.", facts:["7-day refresh", "Tavern Expansion: +1 hero slot", "Workshop Expansion: +1 queue slot", "500 Gems per upgrade", "Maximum 3 levels of each upgrade"]},
-    {name:"Inventory", icon:"res://resources/ui/icon_inventory.png", lead:"Collected materials, equipment, selling, and discovery.", facts:["Ordinary items may be sold for their authored Coin value", "Quest keys, Rune Pieces, unique raid accessories, and protected items cannot be sold", "Equipment must satisfy slot and proficiency rules", "One hero cannot equip two copies of the same unique-equipped item"]},
+    {name:"Inventory", icon:"res://resources/ui/icon_inventory.png", lead:"Collected materials, equipment, selling, and discovery.", facts:["Ordinary items may be sold for their listed Coin value", "Quest keys, Rune Pieces, unique raid accessories, and protected items cannot be sold", "Equipment must satisfy slot and proficiency rules", "One hero cannot equip two copies of the same unique-equipped item"]},
     {name:"Mailbox", icon:"res://resources/ui/icon_mail_letter.png", lead:"Story beats, unlock guidance, and rare-discovery notices.", facts:["Prologue and campaign unlock mail", "Raid quest and first-clear mail", "First Rune Piece tutorial", "Unique raid accessory discoveries", "Read state persists in the save"]},
-    {name:"Pets", icon:"res://resources/ui/icon_pets.png", lead:"Boss eggs hatch into expedition companions with persistent bond levels.", facts:["60-pet stable capacity", "Only one pet per activity", "A deployed pet cannot serve elsewhere", "1 XP per raid encounter; 10 XP per configured boss kill", "Level cap 20; effect values reach ×3 base at level 20"]},
-    {name:"Premium & daily", icon:"res://resources/ui/icon_rewarded_ad.png", lead:"Optional Gems and a one-time current Welcome entitlement.", facts:["Current UI exposes the Welcome Pack as a FREE one-time claim", "Level-25 Trickster with Ironbark Blade and Ranger Leather", "Permanent +10% XP and standard drop multiplier", "Daily 35-Gem claim; entitlement makes it instant", "Gem pack fulfillment is platform-confirmed before credit"]}
+    {name:"Pets", icon:"res://resources/ui/icon_pets.png", lead:"Boss eggs hatch into expedition companions with persistent bond levels.", facts:["60-pet stable capacity", "One pet per dungeon or permanent raid; up to two in Tower and Echo Descent", "A deployed pet cannot serve elsewhere", "1 Bond XP per ordinary encounter and 10 per eligible boss kill; Tower and Echo depths grant 25 or 250", "Undeployed pets can be sold for Coins", "Level cap 20; effect values reach ×3 base at level 20, while sale value is level-independent"]},
+    {name:"Premium & daily", icon:"res://resources/ui/icon_rewarded_ad.png", lead:"Optional Gems and a one-time Welcome bonus.", facts:["The Welcome Pack is a FREE one-time claim", "Level-25 Trickster with Ironbark Blade and Ranger Leather", "Permanent +10% XP and standard drop multiplier", "The daily 35-Gem claim becomes instant", "Gem packs are credited only after platform confirmation"]}
   ],
 
   interactions: [
-    {area:"Main navigation", actions:["City opens Tavern, Shop, Workshop, Inventory, Pets, Mail, and town references.", "Heroes opens the roster; select a portrait/card for stats, equipment, skills, promotion, Runes, Ascension, title, rename, or removal.", "Dungeons and Raids open their activity lists; selecting an entry opens formation, status, report, rewards, and combat.", "Settings contains audio, help/reference catalogs, privacy, Discord, Play Games/cloud, and data deletion."]},
-    {area:"Formation", actions:["Select an empty slot, then choose an available hero. Selecting an occupied slot lets you replace or remove it.", "A saved preset stores every formation position, including gaps. Loading skips heroes who were removed or are deployed elsewhere and reports the omissions.", "Choose an available pet separately. A pet preset is scoped to the activity.", "Start is enabled with at least one valid hero and no selected hero/pet already deployed elsewhere."]},
-    {area:"Running combat", actions:["Combat advances automatically at the activity's authored interval; no manual attack input is required.", "Select or inspect a combatant to view live HP, Mana, barriers, stats, skills, equipment, and active statuses.", "Battle cues show attacks, heals, skills, evades, criticals, counters, barriers, and harmful-effect resistance.", "Stop a dungeon without losing its pending drops. Abandoning a raid ends the run and keeps its entry consumed."]},
+    {area:"Main navigation", actions:["City opens Tavern, Shop, Workshop, Inventory, Pets, Mail, and town references.", "Heroes opens the roster; select a portrait/card for stats, equipment, skills, promotion, Runes, Ascension, title, rename, or removal.", "Dungeons and Raids open their activity lists; the Raids screen also contains the Tower rail and, after Floor 70, Echo Descent.", "Selecting an activity opens formation, status, report, rewards, and combat.", "Settings contains audio, help/reference catalogs, privacy, Discord, Play Games/cloud, and data deletion."]},
+    {area:"Formation", actions:["Select an empty slot, then choose an available hero. Selecting an occupied slot lets you replace or remove it.", "A saved preset stores every formation position, including gaps. Loading skips heroes who were removed or are deployed elsewhere and reports the omissions.", "Ordinary activities accept one pet; Tower and Echo accept up to two distinct pets. A pet preset is scoped to the activity.", "Most activities start with at least one valid hero; Echo Descent requires exactly five. No selected hero or pet may already be deployed elsewhere."]},
+    {area:"Running combat", actions:["Combat advances automatically at the activity's listed action interval; no manual attack input is required.", "Select or inspect a combatant to view live HP, Mana, barriers, stats, skills, equipment, and active statuses.", "Battle cues show attacks, heals, skills, evades, criticals, counters, barriers, and harmful-effect resistance.", "Stop a dungeon without losing its pending drops. Abandoning a permanent raid keeps its daily entry consumed; Tower and Echo attempts are unlimited and retain their last secured progress."]},
     {area:"Rewards & reports", actions:["Collect on an activity transfers pending items to Inventory; Gem Clusters open automatically and pet-egg tokens become hatchable eggs.", "Collect All processes every dungeon with pending rewards and reports combined items, Gems, and dungeon count.", "Reports preserve the just-collected session summary and show live per-hour estimates before collection.", "Drops shown inside a running activity are pending, not yet usable in crafting or equipment."]},
     {area:"Hero detail", actions:["Equipment slots filter compatible items: Melee/Ranged/Magic weapons, Light/Medium/Heavy armor, and accessories.", "Promotion at level 25 presents two specialization cards; promotion at level 50 presents the linked elite class.", "Each Rune upgrade is guaranteed when its matching piece is available. Rune ranks are not random.", "At elite level 50, choose one Ascendant Path, spend up to 15 points, and reset freely; changing paths refunds all points."]},
     {area:"Crafting & items", actions:["Open a recipe to review result, quantity, Coin cost, craft time, tier, raid requirement, and every ingredient.", "Starting a batch reserves all ingredients and Coins immediately.", "Use queue cards to inspect completion time or cancel an unfinished job for a full reserved-cost refund.", "Selling is disabled for protected items; equipping removes the item from ordinary inventory until unequipped."]},
-    {area:"Pets", actions:["Boss-dropped eggs appear after activity rewards are collected. Family eggs can also be bought for 150 Gems.", "Hatch to roll rarity and a shuffled set of distinct family effects; the creature sprite follows rarity.", "Rename a pet, assign it to a formation, save it in that activity's preset, or release it while not deployed.", "Pet effect strength increases nonlinearly with level; level 20 is exactly three times the level-1 base value."]},
+    {area:"Pets", actions:["Boss-dropped eggs appear after activity rewards are collected. Family eggs can also be bought for 150 Gems.", "Hatch to roll rarity and a shuffled set of distinct family effects; the creature sprite follows rarity.", "Rename a pet, assign it to a formation, save it in that activity's preset, or sell it for Coins while not deployed.", "Pet sell value scales with family tier and rarity; Bond level does not affect it.", "Pet effect strength increases nonlinearly with level; level 20 is exactly three times the level-1 base value."]},
     {area:"Cloud & deletion", actions:["Sync Now requests Google Play Games cloud reconciliation on supported authenticated Android builds.", "If histories diverge, compare timestamps and progression summaries before choosing this device or cloud; the valid unselected side is archived as recovery data.", "Play Games identity/achievements and gameplay cloud progress are separate services.", "Delete Data is destructive: after confirmation it removes local progress, preferences, encrypted recovery copies, and the private cloud snapshot."]}
   ],
 
@@ -638,13 +640,12 @@ window.WIKI_CONTENT = Object.freeze({
   },
 
   accuracyNotes: [
-    {title:"Runtime beats legacy guide art", text:"The Discord guide panels were authored for game 1.02. This Codex uses the 1.05 catalogs and runtime implementation when they conflict."},
-    {title:"Title bonuses are 10, not 5", text:"A generated offer has a 25% title chance. Health and Attack use ×1.10; Defense, Magic Defense, Evade, and Critical Chance add 10 percentage points."},
-    {title:"First accessory has pity", text:"Until the first copy is discovered or already pending, a raid accessory rises by 5 percentage points each clear and is guaranteed on clear 10. Later copies are 5%."},
+    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.07. Update history is limited to Patch Notes."},
+    {title:"Title bonuses grant 10", text:"A generated offer has a 25% title chance. Health and Attack use ×1.10; Defense, Magic Defense, Evade, and Critical Chance add 10 percentage points."},
+    {title:"First accessory has a progressive guarantee", text:"Until the first copy is discovered or already pending, a raid accessory rises by 5 percentage points each clear and is guaranteed on clear 10. Later copies are 5%."},
     {title:"Raid clocks count hero actions", text:"Constellation uses 10 hero actions and needs three successful matching hits; the same hero may contribute on later actions. Eclipse phases last 12 Dawn, 12 Dusk, and 6 Total Eclipse hero actions."},
-    {title:"Authored monster damage ranges are not live", text:"Runtime derives monster Attack from the matching primary attribute and rebuilds damage as ±30%. Catalog damage_min/damage_max fields are display/tuning remnants."},
-    {title:"Some starter skill labels are descriptive only", text:"The four Slime Forest elemental active-skill names are not dispatched by the current monster active-skill switch, so those slimes basic-attack even at full Mana."},
-    {title:"Recommended raid readiness is advisory", text:"Recommended career level and gear tier are displayed guidance. The permanent raid start check accepts any non-empty available team within capacity after the unlock quest."},
-    {title:"Difficulty and XP/hour are tuning metadata", text:"Dungeon difficulty_index and target_xp_per_hour support balance reports but do not directly change runtime combat or rewards."}
+    {title:"Monster damage follows Attack", text:"A monster's primary attribute determines its Attack, and each basic hit rolls within a ±30% range."},
+    {title:"Some starter skill labels are descriptive", text:"The four elemental slimes in Slime Forest use basic attacks even when their Mana is full."},
+    {title:"Recommended raid readiness is advisory", text:"Recommended career level and gear tier are guidance. After completing the unlock quest, you may start a permanent raid with any available team that fits its capacity."}
   ]
 });

@@ -1,0 +1,145 @@
+{
+  "system": {
+    "id": "echo_descent",
+    "name": "Echo Descent",
+    "description": "Beyond Floor 70, five heroes cross unstable strata shaped by three daily laws and return with permanent Resonance.",
+    "mechanic_summary": "Three daily laws reshape damage, recovery, and combat openings.",
+    "icon": "res://resources/ui/icon_echo_descent.png",
+    "hero_count": 5,
+    "formation_rows": 1,
+    "formation_columns": 5,
+    "companion_count": 2,
+    "depths_per_anchor": 5,
+    "normal_depths_per_anchor": 4,
+    "unlock_tower_floor": 70,
+    "resonance_rank_per_day": 2,
+    "resonance_max_rank": 10,
+    "turn_interval": 0.65,
+    "rewards_enabled": false,
+    "companion_xp_normal": 25,
+    "companion_xp_guardian": 250,
+    "mutation_categories": [
+      "environment",
+      "adaptation",
+      "opportunity"
+    ]
+  },
+  "encounters": {
+    "template_strata": [
+      {
+        "normal_start_floor": 71,
+        "normal_end_floor": 79,
+        "guardian_floor": 80
+      },
+      {
+        "normal_start_floor": 81,
+        "normal_end_floor": 89,
+        "guardian_floor": 90
+      },
+      {
+        "normal_start_floor": 91,
+        "normal_end_floor": 99,
+        "guardian_floor": 99
+      }
+    ],
+    "seed_salt": 73129
+  },
+  "difficulty": {
+    "base_hp_multiplier": 0.90,
+    "hp_growth_per_depth": 0.025,
+    "base_damage_multiplier": 0.90,
+    "damage_growth_per_depth": 0.012,
+    "guardian_hp_multiplier": 2.40,
+    "guardian_damage_multiplier": 1.08,
+    "defense_growth_per_stratum": 1,
+    "magic_defense_growth_per_stratum": 1,
+    "maximum_depth_defense_bonus": 24,
+    "defense_cap": 88,
+    "evade_cap": 75
+  },
+  "mutations": [
+    {
+      "id": "starved_current",
+      "category": "environment",
+      "name": "Starved Current",
+      "description": "Heroes gain 50% less Mana from their turns.",
+      "effects": {
+        "hero_mana_gain_multiplier": 0.5
+      }
+    },
+    {
+      "id": "sanguine_casting",
+      "category": "environment",
+      "name": "Sanguine Casting",
+      "description": "Each hero active skill costs 8% of that hero's maximum Health after it resolves.",
+      "effects": {
+        "hero_skill_health_cost_percent": 8
+      }
+    },
+    {
+      "id": "severed_grace",
+      "category": "environment",
+      "name": "Severed Grace",
+      "description": "All healing received by heroes is reduced by 40%.",
+      "effects": {
+        "hero_healing_multiplier": 0.6
+      }
+    },
+    {
+      "id": "null_ward",
+      "category": "adaptation",
+      "name": "Null Ward",
+      "description": "Enemies are immune to Magic damage. Bring Melee or Ranged attackers.",
+      "effects": {
+        "enemy_magic_immunity": true
+      }
+    },
+    {
+      "id": "adamant_ward",
+      "category": "adaptation",
+      "name": "Adamant Ward",
+      "description": "Enemies are immune to Melee and Ranged damage. Bring Magic attackers.",
+      "effects": {
+        "enemy_physical_immunity": true
+      }
+    },
+    {
+      "id": "prismatic_memory",
+      "category": "adaptation",
+      "name": "Prismatic Memory",
+      "description": "After an enemy takes a damage type, it is immune to that type until struck by a different one.",
+      "effects": {
+        "enemy_repeat_type_immunity": true
+      }
+    },
+    {
+      "id": "triune_fracture",
+      "category": "opportunity",
+      "name": "Triune Fracture",
+      "description": "Attack an enemy with Melee, Ranged, and Magic damage to expose it to 30% more damage for the encounter.",
+      "effects": {
+        "mixed_attack_vulnerability_percent": 30
+      }
+    },
+    {
+      "id": "keen_rupture",
+      "category": "opportunity",
+      "name": "Keen Rupture",
+      "description": "A damaging critical hit exposes its target to 18% more damage for 2 turns.",
+      "effects": {
+        "critical_vulnerability_percent": 18,
+        "critical_vulnerability_turns": 2
+      }
+    },
+    {
+      "id": "hexbreak",
+      "category": "opportunity",
+      "name": "Hexbreak",
+      "description": "Applying a harmful effect exposes that enemy to 20% more damage for 2 turns.",
+      "effects": {
+        "debuff_vulnerability_percent": 20,
+        "debuff_vulnerability_turns": 2
+      }
+    }
+  ]
+}

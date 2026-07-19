@@ -1,0 +1,1593 @@
+keys,en,it
+"YOU WIN!","YOU WIN!","HAI VINTO!"
+"FLOOR 100 · THE ZENITH","FLOOR 100 · THE ZENITH","PIANO 100 · LO ZENIT"
+"THE TOWER IS CONQUERED","THE TOWER IS CONQUERED","TORRE CONQUISTATA"
+"The Crown That Waits has fallen. Your company has conquered all 100 floors of the Tower of Ascension.","The Crown That Waits has fallen. Your company has conquered all 100 floors of the Tower of Ascension.","La Corona che attende è caduta. La tua compagnia ha conquistato tutti e 100 i piani della Torre dell'Ascensione."
+"FLOOR 100 CLEARED","FLOOR 100 CLEARED","PIANO 100 SUPERATO"
+"%s COINS AWARDED","%s COINS AWARDED","RICOMPENSA: %s MONETE"
+"A final letter from Eira is waiting in your Mailbox.","A final letter from Eira is waiting in your Mailbox.","L'ultima lettera di Eira ti aspetta nella Posta."
+"Read Letter","Read Letter","Leggi la lettera"
+"Continue","Continue","Continua"
+"%sd","%sd","%sg"
+"%sd %02dh","%sd %02dh","%sg %02dh"
+"Google Play Games could not confirm a stable player profile. Retry sign-in; cloud saves, achievements, and leaderboards remain disabled.","Google Play Games could not confirm a stable player profile. Retry sign-in; cloud saves, achievements, and leaderboards remain disabled.","Google Play Games non è riuscito a confermare un profilo giocatore stabile. Riprova ad accedere; i salvataggi cloud, gli obiettivi e le classifiche restano disattivati."
+"Google Play Games returned overlapping profile checks. Restart the game before reconnecting; cloud saves, achievements, and leaderboards remain disabled.","Google Play Games returned overlapping profile checks. Restart the game before reconnecting; cloud saves, achievements, and leaderboards remain disabled.","Google Play Games ha restituito verifiche del profilo sovrapposte. Riavvia il gioco prima di riconnetterti; i salvataggi cloud, gli obiettivi e le classifiche restano disattivati."
+"A Play Games profile check was interrupted. Restart the game before reconnecting so a delayed result cannot be mistaken for another account.","A Play Games profile check was interrupted. Restart the game before reconnecting so a delayed result cannot be mistaken for another account.","Una verifica del profilo Play Games è stata interrotta. Riavvia il gioco prima di riconnetterti, affinché un risultato in ritardo non venga scambiato per quello di un altro account."
+"This local save is linked to a different Google Play Games profile. Switch back to the original profile, or clear the app's data before starting with this account. Cloud saves, achievements, and leaderboards remain disabled, and no online data was changed.","This local save is linked to a different Google Play Games profile. Switch back to the original profile, or clear the app's data before starting with this account. Cloud saves, achievements, and leaderboards remain disabled, and no online data was changed.","Questo salvataggio locale è collegato a un altro profilo Google Play Games. Torna al profilo originale oppure cancella i dati dell'app prima di iniziare con questo account. I salvataggi cloud, gli obiettivi e le classifiche restano disattivati e nessun dato online è stato modificato."
+"Google Play Games could not confirm the player profile bound to this local save. Retry sign-in before using cloud saves, achievements, or leaderboards.","Google Play Games could not confirm the player profile bound to this local save. Retry sign-in before using cloud saves, achievements, or leaderboards.","Google Play Games non è riuscito a confermare il profilo giocatore collegato a questo salvataggio locale. Riprova ad accedere prima di usare i salvataggi cloud, gli obiettivi o le classifiche."
+"A Play Games profile changed while cloud work was active. Restart the game before reconnecting so an older cloud response cannot be applied to this save.","A Play Games profile changed while cloud work was active. Restart the game before reconnecting so an older cloud response cannot be applied to this save.","Un profilo Play Games è cambiato mentre era in corso un'operazione sul cloud. Riavvia il gioco prima di riconnetterti, affinché una risposta cloud precedente non venga applicata a questo salvataggio."
+"The local Play Games account binding could not be read safely. No online data was changed.","The local Play Games account binding could not be read safely. No online data was changed.","Non è stato possibile leggere in sicurezza il collegamento locale dell'account Play Games. Nessun dato online è stato modificato."
+"The stored Play Games account binding is invalid. No online data was changed.","The stored Play Games account binding is invalid. No online data was changed.","Il collegamento memorizzato dell'account Play Games non è valido. Nessun dato online è stato modificato."
+"The encrypted save contains an invalid Play Games account binding. No online data was changed.","The encrypted save contains an invalid Play Games account binding. No online data was changed.","Il salvataggio cifrato contiene un collegamento non valido all'account Play Games. Nessun dato online è stato modificato."
+"The encrypted save and cloud sync state disagree about the Play Games profile. No online data was changed.","The encrypted save and cloud sync state disagree about the Play Games profile. No online data was changed.","Il salvataggio cifrato e lo stato della sincronizzazione cloud non concordano sul profilo Play Games. Nessun dato online è stato modificato."
+"The encrypted local save could not be bound safely to this Play Games profile. No online data was changed.","The encrypted local save could not be bound safely to this Play Games profile. No online data was changed.","Non è stato possibile collegare in sicurezza il salvataggio locale cifrato a questo profilo Play Games. Nessun dato online è stato modificato."
+"The local Play Games binding could not be persisted safely. No online data was changed.","The local Play Games binding could not be persisted safely. No online data was changed.","Non è stato possibile salvare in sicurezza il collegamento locale a Play Games. Nessun dato online è stato modificato."
+"The Play Games profile changed before cloud deletion completed. No local data was deleted.","The Play Games profile changed before cloud deletion completed. No local data was deleted.","Il profilo Play Games è cambiato prima del completamento dell'eliminazione dal cloud. Nessun dato locale è stato eliminato."
+"Google Play cloud storage is unavailable, so no data was deleted.","Google Play cloud storage is unavailable, so no data was deleted.","Lo spazio di archiviazione cloud di Google Play non è disponibile, pertanto nessun dato è stato eliminato."
+"Google Play cloud storage became unavailable. No local data was deleted.","Google Play cloud storage became unavailable. No local data was deleted.","Lo spazio di archiviazione cloud di Google Play è diventato non disponibile. Nessun dato locale è stato eliminato."
+"Google Play Games could not confirm that the cloud save was erased. No local data was deleted.","Google Play Games could not confirm that the cloud save was erased. No local data was deleted.","Google Play Games non ha potuto confermare l'eliminazione del salvataggio cloud. Nessun dato locale è stato eliminato."
+"Google Play Games did not finish deleting cloud data in time. No local data was deleted.","Google Play Games did not finish deleting cloud data in time. No local data was deleted.","Google Play Games non ha completato in tempo l'eliminazione dei dati cloud. Nessun dato locale è stato eliminato."
+"Google Play Games did not return cloud deletion verification in time. No local data was deleted.","Google Play Games did not return cloud deletion verification in time. No local data was deleted.","Google Play Games non ha restituito in tempo la verifica dell'eliminazione dal cloud. Nessun dato locale è stato eliminato."
+"Sign in to Google Play Games is required. No local or cloud data was deleted.","Sign in to Google Play Games is required. No local or cloud data was deleted.","È necessario accedere a Google Play Games. Nessun dato locale o cloud è stato eliminato."
+"Google Play Games could not erase the cloud save. No local data was deleted.","Google Play Games could not erase the cloud save. No local data was deleted.","Google Play Games non è riuscito a eliminare il salvataggio cloud. Nessun dato locale è stato eliminato."
+"Checking Google Play...","Checking Google Play...","Controllo di Google Play in corso..."
+"Google Play is not connected.","Google Play is not connected.","Google Play non è connesso."
+"Another purchase is already in progress.","Another purchase is already in progress.","È già in corso un altro acquisto."
+"The Welcome Premium Pack is not available from Google Play yet.","The Welcome Premium Pack is not available from Google Play yet.","Il Pacchetto Premium di benvenuto non è ancora disponibile su Google Play."
+"Google Play could not start the purchase.","Google Play could not start the purchase.","Google Play non è riuscito ad avviare l'acquisto."
+"This gem bundle is not available from Google Play yet.","This gem bundle is not available from Google Play yet.","Questo pacchetto di gemme non è ancora disponibile su Google Play."
+"Google Play Billing was closed. Restart the game to reconnect.","Google Play Billing was closed. Restart the game to reconnect.","Google Play Billing è stato chiuso. Riavvia il gioco per riconnetterti."
+"Google Play could not reconnect. Check your connection, then refresh the store.","Google Play could not reconnect. Check your connection, then refresh the store.","Google Play non è riuscito a riconnettersi. Controlla la connessione, quindi aggiorna il negozio."
+"Google Play disconnected. Reopen the treasury to retry.","Google Play disconnected. Reopen the treasury to retry.","Google Play si è disconnesso. Riapri la tesoreria per riprovare."
+"Google Play disconnected. Refresh the store to retry.","Google Play disconnected. Refresh the store to retry.","Google Play si è disconnesso. Aggiorna il negozio per riprovare."
+"Google Play could not connect.","Google Play could not connect.","Google Play non è riuscito a connettersi."
+"Google Play could not load bundle details.","Google Play could not load bundle details.","Google Play non è riuscito a caricare i dettagli dei pacchetti."
+"One or more gem bundles are not active in Google Play.","One or more gem bundles are not active in Google Play.","Uno o più pacchetti di gemme non sono attivi su Google Play."
+"The Welcome Premium Pack is not active in Google Play.","The Welcome Premium Pack is not active in Google Play.","Il Pacchetto Premium di benvenuto non è attivo su Google Play."
+"Google Play could not restore purchases.","Google Play could not restore purchases.","Google Play non è riuscito a ripristinare gli acquisti."
+"Purchase canceled.","Purchase canceled.","Acquisto annullato."
+"Google Play could not complete the purchase.","Google Play could not complete the purchase.","Google Play non è riuscito a completare l'acquisto."
+"Google Play returned an incomplete purchase receipt.","Google Play returned an incomplete purchase receipt.","Google Play ha restituito una ricevuta d'acquisto incompleta."
+"The purchase is valid, but the game could not save its gems. Please retry.","The purchase is valid, but the game could not save its gems. Please retry.","L'acquisto è valido, ma il gioco non è riuscito a salvare le gemme. Riprova."
+"Gems were delivered, but Google Play is still finalizing the purchase.","Gems were delivered, but Google Play is still finalizing the purchase.","Le gemme sono state consegnate, ma Google Play sta ancora completando l'acquisto."
+"Your roster is full. Free a hero slot, then refresh Google Play to deliver the pack.","Your roster is full. Free a hero slot, then refresh Google Play to deliver the pack.","La formazione è piena. Libera una posizione eroe, poi aggiorna Google Play per ricevere il pacchetto."
+"The premium pack is valid, but the game could not save its entitlement. Please retry.","The premium pack is valid, but the game could not save its entitlement. Please retry.","Il pacchetto Premium è valido, ma il gioco non è riuscito a salvarne il diritto. Riprova."
+"The premium pack was delivered, but Google Play is still finalizing it.","The premium pack was delivered, but Google Play is still finalizing it.","Il pacchetto Premium è stato consegnato, ma Google Play sta ancora completando l'acquisto."
+"Google's privacy choices are unavailable right now. No consent change was made; use the privacy policy for details.","Google's privacy choices are unavailable right now. No consent change was made; use the privacy policy for details.","Le scelte sulla privacy di Google non sono disponibili al momento. Il consenso non è stato modificato; consulta l'informativa sulla privacy per maggiori dettagli."
+"Google advertising privacy choices are only available on Android.","Google advertising privacy choices are only available on Android.","Le scelte di Google sulla privacy pubblicitaria sono disponibili solo su Android."
+"Google does not require a privacy-options entry point for this device right now. No consent change was made.","Google does not require a privacy-options entry point for this device right now. No consent change was made.","Al momento Google non richiede un punto di accesso alle opzioni di privacy su questo dispositivo. Il consenso non è stato modificato."
+"Google's privacy choices are already open or cannot be opened right now. No consent change was made.","Google's privacy choices are already open or cannot be opened right now. No consent change was made.","Le scelte sulla privacy di Google sono già aperte oppure non possono essere aperte al momento. Il consenso non è stato modificato."
+"Google's privacy choices timed out after the Android activity changed. Try again before changing advertising consent.","Google's privacy choices timed out after the Android activity changed. Try again before changing advertising consent.","La richiesta delle scelte sulla privacy di Google è scaduta dopo il cambio dell'attività Android. Riprova prima di modificare il consenso pubblicitario."
+"Preparing a rewarded ad…","Preparing a rewarded ad…","Preparazione di una pubblicità con ricompensa…"
+"Rewarded ad playing…","Rewarded ad playing…","Pubblicità con ricompensa in riproduzione…"
+"Rewarded ad ready","Rewarded ad ready","Pubblicità con ricompensa pronta"
+"Rewarded ads are not available on this installation.","Rewarded ads are not available on this installation.","Le pubblicità con ricompensa non sono disponibili in questa installazione."
+"Advertising consent is not available on this installation.","Advertising consent is not available on this installation.","Il consenso pubblicitario non è disponibile in questa installazione."
+"Advertising consent is required, but the consent form is unavailable. Please try again later.","Advertising consent is required, but the consent form is unavailable. Please try again later.","È necessario il consenso pubblicitario, ma il modulo di consenso non è disponibile. Riprova più tardi."
+"Advertising consent could not be resolved. Please try again.","Advertising consent could not be resolved. Please try again.","Non è stato possibile determinare il consenso pubblicitario. Riprova."
+"Advertising consent could not be checked. Check your connection and try again.","Advertising consent could not be checked. Check your connection and try again.","Non è stato possibile verificare il consenso pubblicitario. Controlla la connessione e riprova."
+"Advertising consent could not be loaded. Check your connection and try again.","Advertising consent could not be loaded. Check your connection and try again.","Non è stato possibile caricare il consenso pubblicitario. Controlla la connessione e riprova."
+"Advertising consent could not be shown. Please try again.","Advertising consent could not be shown. Please try again.","Non è stato possibile mostrare il consenso pubblicitario. Riprova."
+"Advertising consent is required before an ad can be shown.","Advertising consent is required before an ad can be shown.","È necessario fornire il consenso pubblicitario prima di poter mostrare una pubblicità."
+"Ad closed before completion — no reward claimed.","Ad closed before completion — no reward claimed.","Pubblicità chiusa prima del completamento — nessuna ricompensa riscattata."
+"The ad could not start. Please try again.","The ad could not start. Please try again.","Non è stato possibile avviare la pubblicità. Riprova."
+"The ad network could not be reached. Check your connection and try again.","The ad network could not be reached. Check your connection and try again.","Non è stato possibile raggiungere la rete pubblicitaria. Controlla la connessione e riprova."
+"No rewarded ad is available right now. Please try again later.","No rewarded ad is available right now. Please try again later.","Al momento non è disponibile alcuna pubblicità con ricompensa. Riprova più tardi."
+"Rewarded ads are temporarily unavailable. Please try again.","Rewarded ads are temporarily unavailable. Please try again.","Le pubblicità con ricompensa sono temporaneamente non disponibili. Riprova."
+" Strength: %s%s."," Strength: %s%s."," Potenza: %s%s."
+" Persists for this encounter."," Persists for this encounter."," Persiste per questo scontro."
+" %s turn remaining."," %s turn remaining."," Resta %s turno."
+" %s turns remaining."," %s turns remaining."," Restano %s turni."
+" HP"," HP"," PV"
+" Threat"," Threat"," Minaccia"
+" damage"," damage"," danni"
+"+%d%% %s","+%d%% %s","+%d%% %s"
+"Collected %s item from %s dungeon","Collected %s item from %s dungeon","Raccolto %s oggetto da %s dungeon"
+"Collected %s items from %s dungeon","Collected %s items from %s dungeon","Raccolti %s oggetti da %s dungeon"
+"Collected %s item from %s dungeons","Collected %s item from %s dungeons","Raccolto %s oggetto da %s dungeon"
+"Collected %s items from %s dungeons","Collected %s items from %s dungeons","Raccolti %s oggetti da %s dungeon"
+" · +%s gems"," · +%s gems"," · +%s gemme"
+"In progress","In progress","In corso"
+"Trial ready","Trial ready","Prova pronta"
+"Available next reset","Available next reset","Al prossimo reset"
+"Boss encounter","Boss encounter","Incontro con il boss"
+"Encounters","Encounters","Incontri"
+"Stopped","Stopped","Fermato"
+"Running | %s/%s heroes","Running | %s/%s heroes","In corso | %s/%s eroi"
+" | Mist %s%%"," | Mist %s%%"," | Nebbia %s%%"
+"%s | %s pending items","%s | %s pending items","%s | %s oggetti in attesa"
+"Stopped · %s items ready","Stopped · %s items ready","Fermato · %s oggetti pronti"
+"Empty · Team limit %s","Empty · Team limit %s","Vuoto · Limite gruppo %s"
+"Story complete","Story complete","Storia completata"
+"Story complete | Boss revealed","Story complete | Boss revealed","Storia completata | Boss rivelato"
+"Story complete | %s [%s/%s]","Story complete | %s [%s/%s]","Storia completata | %s [%s/%s]"
+"Boss revealed","Boss revealed","Boss rivelato"
+"%s [%s/%s]","%s [%s/%s]","%s [%s/%s]"
+"%s pending items","%s pending items","%s oggetti in attesa"
+"Mist %s%% | %s pending items","Mist %s%% | %s pending items","Nebbia %s%% | %s oggetti in attesa"
+"Encounters %s/%s | Kills %s | Boss damage %s%% | Deaths %s | XP lost %s | Runes %s | Materials %s | Rare %s","Encounters %s/%s | Kills %s | Boss damage %s%% | Deaths %s | XP lost %s | Runes %s | Materials %s | Rare %s","Incontri %s/%s | Uccisioni %s | Danni al boss %s%% | Morti %s | ESP persa %s | Rune %s | Materiali %s | Oggetti rari %s"
+"Living nodes: %s","Living nodes: %s","Nodi viventi: %s"
+"Pressure: %s/100","Pressure: %s/100","Pressione: %s/100"
+"%s sign | Alignment %s/%s | %s hero actions left | Star Hunger %s","%s sign | Alignment %s/%s | %s hero actions left | Star Hunger %s","Segno %s | Allineamento %s/%s | %s azioni eroe rimaste | Fame Stellare %s"
+"%s | %s hero actions left | Lastlight %s/100","%s | %s hero actions left | Lastlight %s/100","%s | %s azioni eroe rimaste | Ultimaluce %s/100"
+"One-time purchase · %s","One-time purchase · %s","Acquisto una tantum · %s"
+"Rewards ready","Rewards ready","Ricompense pronte"
+"Running","Running","In corso"
+"Inspect %s · %s","Inspect %s · %s","Ispeziona %s · %s"
+"TIER %s","TIER %s","GRADO %s"
+"%s/%s heroes","%s/%s heroes","%s/%s eroi"
+"Rewards waiting","Rewards waiting","Ricompense in attesa"
+"No party assigned","No party assigned","Nessun gruppo assegnato"
+"Dungeon reward running time: %s day, %s","Dungeon reward running time: %s day, %s","Tempo di accumulo delle ricompense del dungeon: %s giorno, %s"
+"Dungeon reward running time: %s days, %s","Dungeon reward running time: %s days, %s","Tempo di accumulo delle ricompense del dungeon: %s giorni, %s"
+"Dungeon reward running time: %s","Dungeon reward running time: %s","Tempo di accumulo delle ricompense del dungeon: %s"
+"Mist %s%%","Mist %s%%","Nebbia %s%%"
+"Inspect %s in the %s slot","Inspect %s in the %s slot","Ispeziona %s nello slot %s"
+"%s slot is empty","%s slot is empty","Lo slot %s è vuoto"
+"Manage %s","Manage %s","Gestisci %s"
+"NEW — %s","NEW — %s","NUOVA — %s"
+"Rune pieces can drop from any non-node enemy, with improved odds later in the raid. The boss always drops its material. The first unique accessory starts at %s%% and gains +5 percentage points after each successful clear without it, guaranteeing the first copy by clear 10. After discovery, duplicate rolls return to %s%%. Duplicate accessories may be equipped by different heroes, but one hero cannot equip two copies of the same unique accessory.","Rune pieces can drop from any non-node enemy, with improved odds later in the raid. The boss always drops its material. The first unique accessory starts at %s%% and gains +5 percentage points after each successful clear without it, guaranteeing the first copy by clear 10. After discovery, duplicate rolls return to %s%%. Duplicate accessories may be equipped by different heroes, but one hero cannot equip two copies of the same unique accessory.","I Frammenti runici possono essere ottenuti da qualsiasi nemico che non sia un nodo, con probabilità migliori nelle fasi avanzate del raid. Il boss lascia sempre il proprio materiale. Il primo accessorio unico parte dal %s%% e guadagna +5 punti percentuali dopo ogni vittoria in cui non viene ottenuto, garantendo la prima copia entro la decima vittoria. Dopo la scoperta, le probabilità dei duplicati tornano al %s%%. Gli accessori duplicati possono essere equipaggiati da eroi diversi, ma un singolo eroe non può equipaggiare due copie dello stesso accessorio unico."
+"CITY","CITY","CITTÀ"
+"HEROES","HEROES","EROI"
+"DUNGEONS","DUNGEONS","DUNGEON"
+"RAIDS","RAIDS","RAID"
+"SETTINGS","SETTINGS","IMPOSTAZIONI"
+"City","City","Città"
+"Heroes","Heroes","Eroi"
+"Dungeons","Dungeons","Dungeon"
+"Raids","Raids","Raid"
+"Settings","Settings","Opzioni"
+"Language","Language","Lingua"
+"Choose the game language","Choose the game language","Scegli la lingua del gioco"
+"Choose the language used throughout the game. Changes take effect immediately and are remembered on this device.","Choose the language used throughout the game. Changes take effect immediately and are remembered on this device.","Scegli la lingua usata in tutto il gioco. Le modifiche hanno effetto immediato e vengono memorizzate su questo dispositivo."
+"English","English","Inglese"
+"Italiano","Italiano","Italiano"
+"Platinum coins","Platinum coins","Monete di platino"
+"Gold coins","Gold coins","Monete d'oro"
+"Silver coins","Silver coins","Monete d'argento"
+"Copper coins","Copper coins","Monete di rame"
+"Open the Gem Treasury","Open the Gem Treasury","Apri la Tesoreria delle gemme"
+"GEMS   0","GEMS   0","GEMME   0"
+"Tavern","Tavern","Taverna"
+"Shop","Shop","Negozio"
+"Inventory","Inventory","Inventario"
+"Craft","Craft","Crea"
+"PETS","PETS","FAMIGLI"
+"Switch to hero grid view","Switch to hero grid view","Passa alla visualizzazione a griglia degli eroi"
+"Switch to hero list view","Switch to hero list view","Passa alla visualizzazione a elenco degli eroi"
+"Sort heroes by base class","Sort heroes by base class","Ordina gli eroi per classe base"
+"Manage hero order and roster","Manage hero order and roster","Gestisci l'ordine degli eroi e la formazione"
+"Remove hero","Remove hero","Rimuovi eroe"
+"Remove this hero from the roster?","Remove this hero from the roster?","Rimuovere questo eroe dalla formazione?"
+"Cancel","Cancel","Annulla"
+"Remove","Remove","Rimuovi"
+"Collect every unclaimed reward from all dungeons","Collect every unclaimed reward from all dungeons","Raccogli tutte le ricompense non riscosse da ogni dungeon"
+"Collect All","Collect All","Raccogli tutto"
+"RAID PATHWAYS  -  One independent entry per unlocked raid each UTC day","RAID PATHWAYS  -  One independent entry per unlocked raid each UTC day","PERCORSI DEI RAID  -  Un ingresso indipendente per ogni raid sbloccato ogni giorno UTC"
+"Sound","Sound","Audio"
+"Low Battery Mode","Low Battery Mode","Modalità risparmio batteria"
+"Low Battery","Low Battery","Batteria scarica"
+"Save power and extend battery life","Save power and extend battery life","Risparmia energia e prolunga la durata della batteria"
+"Caps the game at 30 FPS, reduces background UI refreshes, disables combat animations, and dims the screen. Gameplay progress and combat timing are unchanged.","Caps the game at 30 FPS, reduces background UI refreshes, disables combat animations, and dims the screen. Gameplay progress and combat timing are unchanged.","Limita il gioco a 30 FPS, riduce gli aggiornamenti dell'interfaccia in background, disattiva le animazioni di combattimento e oscura lo schermo. I progressi di gioco e i tempi di combattimento restano invariati."
+"Recommended when your device is running low on battery.","Recommended when your device is running low on battery.","Consigliata quando la batteria del dispositivo è quasi scarica."
+"Enable low battery mode","Enable low battery mode","Attiva la modalità risparmio batteria"
+"Use less power while keeping gameplay active","Use less power while keeping gameplay active","Riduci il consumo energetico mantenendo il gioco attivo"
+"Emberflow · endless tavern soundtrack","Emberflow · endless tavern soundtrack","Emberflow · colonna sonora infinita della taverna"
+"Emberflow · muted","Emberflow · muted","Emberflow · audio disattivato"
+"Master","Master","Generale"
+"Music","Music","Musica"
+"Mute all audio","Mute all audio","Disattiva tutto l'audio"
+"Mailbox","Mailbox","Posta"
+"Help","Help","Aiuto"
+"Bestiary","Bestiary","Bestiario"
+"Item Catalog","Item Catalog","Catalogo oggetti"
+"Class Catalog","Class Catalog","Catalogo classi"
+"Statuses","Statuses","Stati"
+"Play Games","Play Games","Play Games"
+"Google Play Games profile, achievements, and leaderboards","Google Play Games profile, achievements, and leaderboards","Profilo, obiettivi e classifiche di Google Play Games"
+"About Me","About Me","Chi sono"
+"A note from the developer","A note from the developer","Una nota dello sviluppatore"
+"Join Discord","Join Discord","Unisciti a Discord"
+"Join the Idle Party Dungeon community on Discord","Join the Idle Party Dungeon community on Discord","Unisciti alla comunità di Idle Party Dungeon su Discord"
+"Wiki","Wiki","Wiki"
+"Open the Idle Party Dungeon wiki","Open the Idle Party Dungeon wiki","Apri la wiki di Idle Party Dungeon"
+"Privacy","Privacy","Privacy"
+"Privacy policy and advertising consent choices","Privacy policy and advertising consent choices","Informativa sulla privacy e scelte sul consenso pubblicitario"
+"Dungeon","Dungeon","Dungeon"
+"Empty","Empty","Vuoto"
+"Close","Close","Chiudi"
+"Choose a hero","Choose a hero","Scegli un eroe"
+"Team slot 1","Team slot 1","Slot squadra 1"
+"Clear slot","Clear slot","Svuota slot"
+"Back","Back","Indietro"
+"Feature","Feature","Funzione"
+"About this feature","About this feature","Informazioni su questa funzione"
+"Promote","Promote","Promuovi"
+"Recipes","Recipes","Ricette"
+"Feature Help","Feature Help","Aiuto sulla funzione"
+"Feature guidance","Feature guidance","Guida alla funzione"
+"Dungeon Catalog","Dungeon Catalog","Catalogo dei dungeon"
+"Encounter enemies and collect their drops to reveal this catalog.","Encounter enemies and collect their drops to reveal this catalog.","Affronta i nemici e raccogli il loro bottino per svelare questo catalogo."
+"Back to Bestiary","Back to Bestiary","Torna al Bestiario"
+"A Letter","A Letter","Una lettera"
+"From: Unknown Sender","From: Unknown Sender","Da: Mittente sconosciuto"
+"Letter body","Letter body","Corpo della lettera"
+"Next objective","Next objective","Prossimo obiettivo"
+"Back to Mailbox","Back to Mailbox","Torna alla posta"
+"Save Team","Save Team","Salva squadra"
+"Load Team","Load Team","Carica squadra"
+"Begin Daily Raid","Begin Daily Raid","Avvia raid giornaliero"
+"Raid position - Row 1, Column 1","Raid position - Row 1, Column 1","Posizione raid - Riga 1, Colonna 1"
+"Crafting Recipes","Crafting Recipes","Ricette di creazione"
+"Rename hero","Rename hero","Rinomina eroe"
+"Hero name","Hero name","Nome dell'eroe"
+"Name cannot be empty.","Name cannot be empty.","Il nome non può essere vuoto."
+"Confirm","Confirm","Conferma"
+"Craft item","Craft item","Crea oggetto"
+"Choose the number of crafts to add as one batch.","Choose the number of crafts to add as one batch.","Scegli quante creazioni aggiungere come lotto unico."
+"Batch time: 00:01:00","Batch time: 00:01:00","Durata lotto: 00:01:00"
+"Cancel crafting batch?","Cancel crafting batch?","Annullare il lotto di creazione?"
+"Delete this batch from the crafting queue?
+
+All reserved materials will be refunded.","Delete this batch from the crafting queue?
+
+All reserved materials will be refunded.","Eliminare questo lotto dalla coda di creazione?
+
+Tutti i materiali riservati saranno rimborsati."
+"Keep Craft","Keep Craft","Mantieni lotto"
+"Delete & Refund","Delete & Refund","Elimina e rimborsa"
+"Refresh raid entry?","Refresh raid entry?","Rinnovare l'ingresso al raid?"
+"Buy another entry for this Raid?","Buy another entry for this Raid?","Acquistare un altro ingresso per questo raid?"
+"Buy Entry","Buy Entry","Acquista ingresso"
+"Watch an ad?","Watch an ad?","Guardare una pubblicità?"
+"Watch a short ad to receive 35 gems?
+
+The reward can be claimed once per day.","Watch a short ad to receive 35 gems?
+
+The reward can be claimed once per day.","Guardare una breve pubblicità per ricevere 35 gemme?
+
+La ricompensa può essere riscossa una volta al giorno."
+"Not Now","Not Now","Non ora"
+"Watch Ad · +35 Gems","Watch Ad · +35 Gems","Guarda pubblicità · +35 gemme"
+"Seal this formation?","Seal this formation?","Sigillare questa formazione?"
+"Save this exact formation, including empty positions?","Save this exact formation, including empty positions?","Salvare questa formazione esatta, incluse le posizioni vuote?"
+"Keep Current Save","Keep Current Save","Mantieni il salvataggio attuale"
+"Seal Formation","Seal Formation","Sigilla formazione"
+"Formation Partially Restored","Formation Partially Restored","Formazione ripristinata in parte"
+"Unavailable heroes","Unavailable heroes","Eroi non disponibili"
+"Review Formation","Review Formation","Rivedi formazione"
+"Delete all user data?","Delete all user data?","Eliminare tutti i dati utente?"
+"This permanently deletes all progress and settings stored on this device, all encrypted recovery copies, and the private Google Play Games cloud save.
+
+This cannot be undone.","This permanently deletes all progress and settings stored on this device, all encrypted recovery copies, and the private Google Play Games cloud save.
+
+This cannot be undone.","Elimina definitivamente progressi, impostazioni, copie di recupero cifrate e il salvataggio cloud privato di Google Play Games.
+
+Operazione irreversibile."
+"Delete Everything","Delete Everything","Elimina tutto"
+"Welcome, Adventurer!","Welcome, Adventurer!","Benvenuto, avventuriero!"
+"Build a party, brave the dungeons, and grow stronger even while you are away. Your first expedition is only a few steps away.","Build a party, brave the dungeons, and grow stronger even while you are away. Your first expedition is only a few steps away.","Forma un gruppo, affronta i dungeon e diventa più forte anche quando non giochi. La tua prima spedizione è a pochi passi."
+"Your First Steps","Your First Steps","I tuoi primi passi"
+"1. CITY  •  Open the Tavern and recruit your first hero.","1. CITY  •  Open the Tavern and recruit your first hero.","1. CITTÀ  •  Apri la Taverna e recluta il tuo primo eroe."
+"2. DUNGEONS  •  Choose an unlocked dungeon, add your hero to the party, and begin the run.","2. DUNGEONS  •  Choose an unlocked dungeon, add your hero to the party, and begin the run.","2. DUNGEON  •  Scegli un dungeon sbloccato, aggiungi il tuo eroe al gruppo e avvia la spedizione."
+"3. REWARDS  •  Return to collect completed runs, then open Heroes to equip your new loot.","3. REWARDS  •  Return to collect completed runs, then open Heroes to equip your new loot.","3. RICOMPENSE  •  Torna a riscuotere le spedizioni completate, poi apri Eroi per equipaggiare il nuovo bottino."
+"4. GOLD & HEROES  •  Open Inventory, select spare items, and sell them for gold. Spend that gold at the Tavern to recruit more heroes.","4. GOLD & HEROES  •  Open Inventory, select spare items, and sell them for gold. Spend that gold at the Tavern to recruit more heroes.","4. ORO ED EROI  •  Apri l'Inventario, seleziona gli oggetti in più e vendili per ottenere oro. Spendilo alla Taverna per reclutare altri eroi."
+"5. GROW  •  Recruit a balanced party, craft upgrades in the City, and unlock deeper challenges.","5. GROW  •  Recruit a balanced party, craft upgrades in the City, and unlock deeper challenges.","5. CRESCI  •  Recluta un gruppo equilibrato, crea potenziamenti in Città e sblocca sfide più profonde."
+"Tip: Combat and crafting continue while the game is closed.","Tip: Combat and crafting continue while the game is closed.","Suggerimento: il combattimento e la creazione continuano mentre il gioco è chiuso."
+"Begin Your Adventure","Begin Your Adventure","Inizia la tua avventura"
+"Pet name","Pet name","Nome del famiglio"
+"Rare Species
+Family","Rare Species
+Family","Specie rara
+Famiglia"
+"Level 1 / 20","Level 1 / 20","Livello 1 / 20"
+"Available for an expedition","Available for an expedition","Disponibile per una spedizione"
+"ACTION","ACTION","AZIONE"
+"Weapon","Weapon","Arma"
+"WPN","WPN","ARMA"
+"EQUIPMENT_SLOT_WEAPON_SHORT","WPN","AR"
+"EQUIPMENT_SLOT_ARMOR_SHORT","ARM","CO"
+"EQUIPMENT_SLOT_ACCESSORY_1_SHORT","A1","A1"
+"EQUIPMENT_SLOT_ACCESSORY_2_SHORT","A2","A2"
+"Manage","Manage","Gestisci"
+"Notification message","Notification message","Messaggio di notifica"
+"Open dungeon report","Open dungeon report","Apri il rapporto del dungeon"
+"Dungeon reward running time","Dungeon reward running time","Tempo attivo delle ricompense del dungeon"
+"Lv.1","Lv.1","Liv.1"
+"Common","Common","Comune"
+"Rare","Rare","Raro"
+"Epic","Epic","Epico"
+"Legendary","Legendary","Leggendario"
+"RARE","RARE","RARO"
+"Species
+2 bonuses","Species
+2 bonuses","Specie
+2 bonus"
+"AVAILABLE","AVAILABLE","DISPONIBILE"
+"Crafted Item x1","Crafted Item x1","Oggetto creato x1"
+"Waiting · 00:01:00","Waiting · 00:01:00","In attesa · 00:01:00"
+"Cancel craft and refund materials","Cancel craft and refund materials","Annulla la creazione e rimborsa i materiali"
+"Raid","Raid","Raid"
+"Entry ready","Entry ready","Ingresso pronto"
+"Raid unlocked","Raid unlocked","Raid sbloccato"
+"8 heroes - 15 encounters","8 heroes - 15 encounters","8 eroi - 15 scontri"
+"Dungeon Report","Dungeon Report","Rapporto del dungeon"
+"Collect loot","Collect loot","Raccogli bottino"
+"Stop","Stop","Ferma"
+"Class","Class","Classe"
+"Entity name","Entity name","Nome entità"
+"Base class","Base class","Classe base"
+"Equip","Equip","Equipaggia"
+"Base","Base","Base"
+"Advanced","Advanced","Avanzate"
+"Skills","Skills","Abilità"
+"Runes","Runes","Rune"
+"Inspect","Inspect","Esamina"
+"Select the class, an item, a stat, or a skill to read its description.","Select the class, an item, a stat, or a skill to read its description.","Seleziona la classe, un oggetto, una statistica o un'abilità per leggerne la descrizione."
+"Mist 10%: enemies gain +10% Evade.","Mist 10%: enemies gain +10% Evade.","Nebbia 10%: i nemici ottengono +10% Schivata."
+"Mist 0%","Mist 0%","Nebbia 0%"
+"ANY
+WPN","ANY
+WPN","QUALSIASI
+ARMA"
+"Raid set","Raid set","Set da raid"
+"2-PIECE","2-PIECE","2 PEZZI"
+"Unique accessory + ANY crafted raid weapon","Unique accessory + ANY crafted raid weapon","Accessorio unico + QUALSIASI arma da raid creata"
+"Complete the two-piece raid set to activate its additional effect.","Complete the two-piece raid set to activate its additional effect.","Completa il set da raid di due pezzi per attivare l'effetto aggiuntivo."
+"Class Name","Class Name","Nome classe"
+"SPECIALIZED CLASS","SPECIALIZED CLASS","CLASSE SPECIALIZZATA"
+"Class description","Class description","Descrizione della classe"
+"Choose","Choose","Scegli"
+"ACTIVE SKILL","ACTIVE SKILL","ABILITÀ ATTIVA"
+"PASSIVE SKILL","PASSIVE SKILL","ABILITÀ PASSIVA"
+"Skill Name","Skill Name","Nome abilità"
+"Skill description","Skill description","Descrizione dell'abilità"
+"Stat Name","Stat Name","Nome statistica"
+"RAW","RAW","GREZ"
+"Item name","Item name","Nome oggetto"
+"Rune","Rune","Runa"
+"Rank 0/4","Rank 0/4","Grado 0/4"
+"Effect +0%","Effect +0%","Effetto +0%"
+"UPGRADE
+GUARANTEED","UPGRADE
+GUARANTEED","POTENZIA
+GARANTITO"
+"TAB","TAB","SCHEDA"
+"Section title","Section title","Titolo sezione"
+"Basic","Basic","Base"
+"Eggs","Eggs","Uova"
+"Premium","Premium","Premium"
+"Hero Choices","Hero Choices","Scelte eroe"
+"Upgrades","Upgrades","Potenziamenti"
+"Queue","Queue","Coda"
+"Battle","Battle","Battaglia"
+"Info","Info","Informazioni"
+"Collection","Collection","Collezione"
+"All","All","Tutti"
+"%s x%s crafted","%s x%s crafted","Creato %s x%s"
+"New mail: %s","New mail: %s","Nuova posta: %s"
+"A new UTC day has begun — raid entries and Echo laws/rewards refreshed","A new UTC day has begun — raid entries and Echo laws/rewards refreshed","È iniziato un nuovo giorno UTC — ingressi ai raid, leggi e ricompense dell'Eco aggiornati"
+"Raid %s: %s","Raid %s: %s","Raid %s: %s"
+"New material stock is available in the Shop","New material stock is available in the Shop","Nel Negozio sono disponibili nuove scorte di materiali"
+"Weekly Gem Specials have refreshed","Weekly Gem Specials have refreshed","Le offerte settimanali in gemme sono state aggiornate"
+"Choose Your Save","Choose Your Save","Scegli il salvataggio"
+"Keep This Device","Keep This Device","Usa questo dispositivo"
+"Decide Later","Decide Later","Decidi più tardi"
+"Use Google Cloud","Use Google Cloud","Usa Google Cloud"
+"These saves have different histories and cannot be merged safely. Both remain available as encrypted recovery copies.
+
+THIS DEVICE
+%s
+
+GOOGLE CLOUD
+%s","These saves have different histories and cannot be merged safely. Both remain available as encrypted recovery copies.
+
+THIS DEVICE
+%s
+
+GOOGLE CLOUD
+%s","Questi salvataggi hanno cronologie diverse e non possono essere uniti in sicurezza. Entrambi restano disponibili come copie di recupero cifrate.
+
+QUESTO DISPOSITIVO
+%s
+
+GOOGLE CLOUD
+%s"
+"Unknown time","Unknown time","Ora sconosciuta"
+"Saved: %s
+Revision: %d | Heroes: %d | Coins: %d | Gems: %d","Saved: %s
+Revision: %d | Heroes: %d | Coins: %d | Gems: %d","Salvato: %s
+Revisione: %d | Eroi: %d | Monete: %d | Gemme: %d"
+"Deleting local and Google Play Games cloud save data…","Deleting local and Google Play Games cloud save data…","Eliminazione dei dati locali e del salvataggio cloud di Google Play Games…"
+"Some local user-data files could not be removed.","Some local user-data files could not be removed.","Non è stato possibile rimuovere alcuni file di dati utente locali."
+"Discord invite URL has not been configured.","Discord invite URL has not been configured.","L'indirizzo di invito a Discord non è stato configurato."
+"Could not open the Discord invite (error %s).","Could not open the Discord invite (error %s).","Impossibile aprire l'invito a Discord (errore %s)."
+"I've loved playing games for as long as I can remember, and now I'm a first-time game developer creating Idle Party Dungeon, my very first game. If you'd like to help make it even better, come join us on Discord to share your feedback, report a bug, or simply say hello. I'd be happy to hear from you!","I've loved playing games for as long as I can remember, and now I'm a first-time game developer creating Idle Party Dungeon, my very first game. If you'd like to help make it even better, come join us on Discord to share your feedback, report a bug, or simply say hello. I'd be happy to hear from you!","Amo i videogiochi da sempre e ora, come sviluppatore alle prime armi, sto creando Idle Party Dungeon, il mio primo gioco. Se vuoi aiutarmi a migliorarlo, unisciti a noi su Discord per condividere le tue opinioni, segnalare un problema o semplicemente salutare. Mi farà piacere sentirti!"
+"Special thanks to aimf0x, dennys96, antares, lerrywise, and all the closed beta testers for all their help during development!","Special thanks to aimf0x, dennys96, antares, lerrywise, and all the closed beta testers for all their help during development!","Un ringraziamento speciale ad aimf0x, dennys96, antares, lerrywise e a tutti i tester della beta chiusa per tutto l'aiuto durante lo sviluppo!"
+"Hop onto Discord","Hop onto Discord","Vieni su Discord"
+"Privacy & Consent","Privacy & Consent","Privacy e consenso"
+"Review the public privacy policy. Google's advertising privacy choices appear here only when UMP reports that this device requires an entry point.","Review the public privacy policy. Google's advertising privacy choices appear here only when UMP reports that this device requires an entry point.","Consulta l'informativa pubblica sulla privacy. Le scelte sulla privacy pubblicitaria di Google compaiono qui solo quando UMP segnala che questo dispositivo richiede un punto di accesso."
+"Review privacy choices","Review privacy choices","Rivedi le scelte sulla privacy"
+"Open privacy policy","Open privacy policy","Apri l'informativa sulla privacy"
+"Could not open the privacy policy (error %s).","Could not open the privacy policy (error %s).","Impossibile aprire l'informativa sulla privacy (errore %s)."
+"Privacy choices reviewed","Privacy choices reviewed","Scelte sulla privacy aggiornate"
+"Privacy choices are unavailable right now. No consent change was made.","Privacy choices are unavailable right now. No consent change was made.","Le scelte sulla privacy non sono disponibili al momento. Il consenso non è stato modificato."
+"Set the overall volume, balance the music beneath other audio, or mute the game completely. Changes take effect immediately and are remembered on this device.","Set the overall volume, balance the music beneath other audio, or mute the game completely. Changes take effect immediately and are remembered on this device.","Regola il volume generale, bilancia la musica rispetto agli altri suoni o disattiva completamente l'audio. Le modifiche hanno effetto immediato e vengono memorizzate su questo dispositivo."
+"Google Play Games","Google Play Games","Google Play Games"
+"Use your Google Play Games profile for achievements, leaderboards, and private cloud progress. Android handles platform sign-in automatically; the button below retries only when account setup or consent is required.","Use your Google Play Games profile for achievements, leaderboards, and private cloud progress. Android handles platform sign-in automatically; the button below retries only when account setup or consent is required.","Usa il profilo Google Play Games per obiettivi, classifiche e progressi privati nel cloud. Android gestisce automaticamente l'accesso alla piattaforma; il pulsante seguente riprova solo quando è necessario configurare l'account o fornire il consenso."
+"Sign in to Play Games","Sign in to Play Games","Accedi a Play Games"
+"Achievements","Achievements","Obiettivi"
+"Leaderboards","Leaderboards","Classifiche"
+"Sync now","Sync now","Sincronizza ora"
+"Cloud saves","Cloud saves","Salvataggi cloud"
+"Delete Data","Delete Data","Elimina dati"
+"Permanently delete local and Google Play Games cloud save data","Permanently delete local and Google Play Games cloud save data","Elimina definitivamente i dati locali e il salvataggio cloud di Google Play Games"
+"Google Play Games is available in Android builds.","Google Play Games is available in Android builds.","Google Play Games è disponibile nelle versioni Android."
+"Checking your Play Games profile...","Checking your Play Games profile...","Controllo del profilo Play Games..."
+"Waiting for Google Play Games sign-in...","Waiting for Google Play Games sign-in...","In attesa dell'accesso a Google Play Games..."
+"Confirming the signed-in Play Games profile...","Confirming the signed-in Play Games profile...","Verifica del profilo Play Games connesso..."
+"Play Games needs an account or profile confirmation.","Play Games needs an account or profile confirmation.","Play Games richiede la conferma dell'account o del profilo."
+"Play Games could not safely confirm this profile.","Play Games could not safely confirm this profile.","Play Games non ha potuto confermare questo profilo in sicurezza."
+"This local save belongs to another Play Games profile.","This local save belongs to another Play Games profile.","Questo salvataggio locale appartiene a un altro profilo Play Games."
+"Connected to Google Play Games","Connected to Google Play Games","Connesso a Google Play Games"
+"Play Games status: %s","Play Games status: %s","Stato Play Games: %s"
+"Player: %s","Player: %s","Giocatore: %s"
+"Retry / switch Play Games profile","Retry / switch Play Games profile","Riprova / cambia profilo Play Games"
+"Cloud saves are available in Android builds.","Cloud saves are available in Android builds.","I salvataggi cloud sono disponibili nelle versioni Android."
+"Checking Google Play cloud progress...","Checking Google Play cloud progress...","Controllo dei progressi su Google Play cloud..."
+"Cloud progress is up to date.","Cloud progress is up to date.","I progressi nel cloud sono aggiornati."
+"This device's progress was uploaded.","This device's progress was uploaded.","I progressi di questo dispositivo sono stati caricati."
+"Google cloud progress was restored.","Google cloud progress was restored.","I progressi di Google cloud sono stati ripristinati."
+"Cloud sync is waiting for Play Games sign-in.","Cloud sync is waiting for Play Games sign-in.","La sincronizzazione cloud attende l'accesso a Play Games."
+"Choose which save history to keep.","Choose which save history to keep.","Scegli quale cronologia di salvataggio mantenere."
+"Cloud upload failed; local progress is safe and will retry.","Cloud upload failed; local progress is safe and will retry.","Il caricamento cloud non è riuscito; i progressi locali sono al sicuro e verrà effettuato un nuovo tentativo."
+"Cloud data was rejected; local progress is safe.","Cloud data was rejected; local progress is safe.","I dati cloud sono stati rifiutati; i progressi locali sono al sicuro."
+"Cloud status: %s","Cloud status: %s","Stato cloud: %s"
+"New adventurer? Start with the quick guide below, then use each section as a reference while you build your party.","New adventurer? Start with the quick guide below, then use each section as a reference while you build your party.","Nuovo avventuriero? Inizia con la guida rapida qui sotto, poi consulta ogni sezione mentre costruisci il tuo gruppo."
+"Quick start","Quick start","Guida rapida"
+"Main navigation","Main navigation","Navigazione principale"
+"Heroes, classes, and specialization","Heroes, classes, and specialization","Eroi, classi e specializzazioni"
+"Roster management","Roster management","Gestione della formazione"
+"Innate titles","Innate titles","Titoli innati"
+"Combat, health, mana, and skills","Combat, health, mana, and skills","Combattimento, salute, mana e abilità"
+"Stats and survival","Stats and survival","Statistiche e sopravvivenza"
+"Equipment and inventory","Equipment and inventory","Equipaggiamento e inventario"
+"Runes and Ascension","Runes and Ascension","Rune e Ascensione"
+"Crafting and the workshop","Crafting and the workshop","Creazione e laboratorio"
+"Dungeons, raids, and loot","Dungeons, raids, and loot","Dungeon, raid e bottino"
+"Tavern, coins, and catalogs","Tavern, coins, and catalogs","Taverna, monete e cataloghi"
+"Gems, rewards, and purchases","Gems, rewards, and purchases","Gemme, ricompense e acquisti"
+"Saving, offline progress, and services","Saving, offline progress, and services","Salvataggio, progressi offline e servizi"
+"Recruit heroes in the Tavern, equip them from the Heroes page, then choose an unlocked dungeon and fill its party slots. A running dungeon or raid continues while the game is closed, with combat progress credited for up to 12 hours away. Return to a dungeon's chest to review its report and collect stored loot; collecting does not stop the expedition. Crafting has no 12-hour catch-up cap.","Recruit heroes in the Tavern, equip them from the Heroes page, then choose an unlocked dungeon and fill its party slots. A running dungeon or raid continues while the game is closed, with combat progress credited for up to 12 hours away. Return to a dungeon's chest to review its report and collect stored loot; collecting does not stop the expedition. Crafting has no 12-hour catch-up cap.","Recluta eroi nella Taverna, equipaggiali dalla pagina Eroi, poi scegli un dungeon sbloccato e riempi gli spazi del gruppo. Dungeon e raid attivi continuano mentre il gioco è chiuso, con progressi di combattimento riconosciuti per un massimo di 12 ore. Torna al forziere del dungeon per consultare il rapporto e raccogliere il bottino accumulato; la raccolta non interrompe la spedizione. La creazione non ha il limite di recupero di 12 ore."
+"City contains the Tavern, Shop, Inventory, and Crafting. Heroes is where you manage the roster, equipment, levels, and promotions. Dungeons and Raids let you assemble teams and track battles. Settings contains audio, mail, Google Play Games, and the game reference catalogs.","City contains the Tavern, Shop, Inventory, and Crafting. Heroes is where you manage the roster, equipment, levels, and promotions. Dungeons and Raids let you assemble teams and track battles. Settings contains audio, mail, Google Play Games, and the game reference catalogs.","La Città contiene Taverna, Negozio, Inventario e Creazione. In Eroi gestisci formazione, equipaggiamento, livelli e promozioni. Dungeon e Raid consentono di comporre squadre e seguire le battaglie. In Impostazioni trovi audio, posta, Google Play Games e i cataloghi di riferimento del gioco."
+"A hero's class sets their attack type, preferred attribute, equipment proficiencies, stats, and skills. Defeated enemies split XP among heroes still alive; a hero who falls loses 10% of their current XP. XP pauses at a promotion point until you choose a specialization. Promotion resets the displayed level for the new class, multiplies scalable stats, adds a random bonus to that class's favored stat, and replaces both skills. Elite heroes then level to 50 with up to 10% extra stat growth and unlock Ascension at the cap. Open the Class Catalog to compare every specialization before choosing.","A hero's class sets their attack type, preferred attribute, equipment proficiencies, stats, and skills. Defeated enemies split XP among heroes still alive; a hero who falls loses 10% of their current XP. XP pauses at a promotion point until you choose a specialization. Promotion resets the displayed level for the new class, multiplies scalable stats, adds a random bonus to that class's favored stat, and replaces both skills. Elite heroes then level to 50 with up to 10% extra stat growth and unlock Ascension at the cap. Open the Class Catalog to compare every specialization before choosing.","La classe di un eroe determina tipo di attacco, attributo preferito, competenze negli equipaggiamenti, statistiche e abilità. I nemici sconfitti dividono i PE tra gli eroi ancora vivi; un eroe caduto perde il 10% dei PE attuali. I PE si fermano a un punto di promozione finché non scegli una specializzazione. La promozione azzera il livello mostrato per la nuova classe, moltiplica le statistiche scalabili, aggiunge un bonus casuale alla statistica favorita dalla classe e sostituisce entrambe le abilità. Gli eroi élite salgono poi fino al livello 50, con fino al 10% di crescita extra delle statistiche, e al limite sbloccano l'Ascensione. Apri il Catalogo classi per confrontare tutte le specializzazioni prima di scegliere."
+"The Heroes header switches between grid and list layouts. Open roster settings to reorder heroes, sort them by base class, or remove an undeployed hero. Open a hero's detail card to rename them. Removing a hero returns every equipped item and all Rune Pieces invested in that hero, but the removed hero and their level, promotion, title, and Ascension progress cannot be recovered.","The Heroes header switches between grid and list layouts. Open roster settings to reorder heroes, sort them by base class, or remove an undeployed hero. Open a hero's detail card to rename them. Removing a hero returns every equipped item and all Rune Pieces invested in that hero, but the removed hero and their level, promotion, title, and Ascension progress cannot be recovered.","L'intestazione Eroi alterna le viste a griglia e a elenco. Apri le impostazioni della formazione per riordinare gli eroi, ordinarli per classe base o rimuovere un eroe non schierato. Apri la scheda dettagli di un eroe per rinominarlo. La rimozione restituisce ogni oggetto equipaggiato e tutti i Frammenti runici investiti, ma l'eroe rimosso e i suoi livello, promozione, titolo e progressi di Ascensione non possono essere recuperati."
+"Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.","Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.","Ogni nuovo arrivo in Taverna ha il 25% di probabilità di possedere un titolo innato. Il titolo resta con quell'eroe anche dopo rinomina e promozione. Il Tenace conferisce +10% Difesa; Il Protetto +10% Difesa magica; L'Agile +10% Schivata; Occhio di falco +10% Probabilità di critico; Il Vigoroso +10% Salute; e Il Possente +10% Attacco."
+"Strength also increases Health. Melee heroes draw Attack from Strength, Ranged heroes from Dexterity, and Magic heroes from Intelligence. Intelligence also increases Mana Gain. Combatants act in Dexterity order. A basic attack grants the displayed Mana Gain even when the hit is evaded; at 100 mana, the hero spends the meter to attempt their active skill instead of a basic attack unless Silenced. If a skill has no valid action, the mana is kept and a basic attack is used. Passive skills trigger automatically from their stated conditions.","Strength also increases Health. Melee heroes draw Attack from Strength, Ranged heroes from Dexterity, and Magic heroes from Intelligence. Intelligence also increases Mana Gain. Combatants act in Dexterity order. A basic attack grants the displayed Mana Gain even when the hit is evaded; at 100 mana, the hero spends the meter to attempt their active skill instead of a basic attack unless Silenced. If a skill has no valid action, the mana is kept and a basic attack is used. Passive skills trigger automatically from their stated conditions.","Anche la Forza aumenta la Salute. Gli eroi da mischia ricavano l'Attacco dalla Forza, quelli a distanza dalla Destrezza e quelli magici dall'Intelligenza. L'Intelligenza aumenta anche il Guadagno mana. I combattenti agiscono in ordine di Destrezza. Un attacco base concede il Guadagno mana mostrato anche se viene schivato; a 100 mana l'eroe consuma la barra per tentare l'abilità attiva al posto dell'attacco base, salvo Silenzio. Se l'abilità non ha un'azione valida, il mana viene conservato e si usa un attacco base. Le abilità passive si attivano automaticamente alle condizioni indicate."
+"Defense reduces Melee and Ranged damage, while Magic Defense reduces Magic damage. Threat weights who direct attacks choose. Evade can avoid basic attacks and damaging skills; Immunity can resist a newly applied harmful status. Critical Chance controls critical frequency and Critical Damage its multiplier. Counter Chance can answer a surviving, Health-damaging Melee or Ranged basic hit; Magic Counter is the equivalent chance against Magic basic hits, and Counter Damage returns that percentage of Health damage taken. Lifesteal heals from Health damage dealt by basic attacks. Regeneration heals and Decay damages their owner after each basic attack. Healing scales healing performed and self-healing, while EXP Rate scales XP earned.","Defense reduces Melee and Ranged damage, while Magic Defense reduces Magic damage. Threat weights who direct attacks choose. Evade can avoid basic attacks and damaging skills; Immunity can resist a newly applied harmful status. Critical Chance controls critical frequency and Critical Damage its multiplier. Counter Chance can answer a surviving, Health-damaging Melee or Ranged basic hit; Magic Counter is the equivalent chance against Magic basic hits, and Counter Damage returns that percentage of Health damage taken. Lifesteal heals from Health damage dealt by basic attacks. Regeneration heals and Decay damages their owner after each basic attack. Healing scales healing performed and self-healing, while EXP Rate scales XP earned.","La Difesa riduce i danni da Mischia e a Distanza, mentre la Difesa magica riduce quelli Magici. La Minaccia pesa nella scelta dei bersagli degli attacchi diretti. La Schivata può evitare attacchi base e abilità dannose; l'Immunità può resistere a un nuovo stato negativo. Probabilità di critico determina la frequenza dei critici e Danno critico il moltiplicatore. Probabilità di contrattacco può rispondere a un colpo base da Mischia o a Distanza che infligge danni alla Salute senza uccidere; Contrattacco magico è l'equivalente contro i colpi base Magici, mentre Danno da contrattacco restituisce quella percentuale dei danni alla Salute subiti. Rubavita cura in base ai danni alla Salute inflitti dagli attacchi base. Rigenerazione cura e Decadimento danneggia il proprietario dopo ogni attacco base. Cura amplifica le cure effettuate e l'autocura, mentre Tasso PE moltiplica i PE ottenuti."
+"Open a hero to manage one Weapon, one Armor, and two Accessory slots. Weapons and armor must match the hero's exact class proficiency; accessories are broadly usable, but an item marked unique-equipped cannot occupy both accessory slots on the same hero. Stat changes update a deployed hero immediately, and some Raid gear adds triggered effects beyond its visible totals. Inventory contains owned materials and unequipped gear; item details show bonuses, recipe relationships, quantity, and sell value. Selling is permanent.","Open a hero to manage one Weapon, one Armor, and two Accessory slots. Weapons and armor must match the hero's exact class proficiency; accessories are broadly usable, but an item marked unique-equipped cannot occupy both accessory slots on the same hero. Stat changes update a deployed hero immediately, and some Raid gear adds triggered effects beyond its visible totals. Inventory contains owned materials and unequipped gear; item details show bonuses, recipe relationships, quantity, and sell value. Selling is permanent.","Apri un eroe per gestire un'Arma, un'Armatura e due spazi Accessorio. Armi e armature devono corrispondere esattamente alla competenza della classe; gli accessori sono in genere utilizzabili da tutti, ma un oggetto con equipaggiamento unico non può occupare entrambi gli spazi accessorio sullo stesso eroe. Le modifiche alle statistiche aggiornano subito un eroe schierato e alcuni equipaggiamenti da raid aggiungono effetti attivati oltre ai totali visibili. L'Inventario contiene materiali posseduti ed equipaggiamento non indossato; i dettagli degli oggetti mostrano bonus, relazioni con ricette, quantità e valore di vendita. La vendita è definitiva."
+"Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths and spend at most 15 points. Every upgrade is available immediately after choosing a path, subject only to its rank, cost, and the 15-point budget. Resetting the current path or choosing another is free.","Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths and spend at most 15 points. Every upgrade is available immediately after choosing a path, subject only to its rank, cost, and the 15-point budget. Resetting the current path or choosing another is free.","Ogni eroe ha sei percorsi runici permanenti nella scheda Rune. Ogni grado garantito costa 1 materiale da raid corrispondente, nell'ordine: Frammenti runici verdeggianti, mareali, astrali e dell'Eclissi per ciascun percorso. Rimuovere un eroe restituisce tutti i Frammenti runici investiti. Un eroe élite al livello 50 sblocca l'Ascensione: scegli uno dei quattro Percorsi Ascendenti e spendi al massimo 15 punti. Dopo aver scelto un percorso, ogni potenziamento è disponibile subito: valgono solo il costo e il grado massimo del nodo, oltre al budget di 15 punti. Azzerare il percorso attuale o sceglierne un altro è gratuito."
+"Choose Craft in the City and open Recipes. Discovering any ingredient reveals a recipe; crafting also requires its dungeon tier, any required Raid first clear, enough ingredients, and the coin cost. Queuing a batch deducts those resources immediately. The Workshop processes jobs in order, one at a time, and larger batches take proportionally longer. Capacity adds waiting queue slots; Speed shortens current and future jobs. Canceling any queued job refunds all of its ingredients and coins. Crafting continues while closed and catches up for the full elapsed time, unlike the 12-hour combat cap.","Choose Craft in the City and open Recipes. Discovering any ingredient reveals a recipe; crafting also requires its dungeon tier, any required Raid first clear, enough ingredients, and the coin cost. Queuing a batch deducts those resources immediately. The Workshop processes jobs in order, one at a time, and larger batches take proportionally longer. Capacity adds waiting queue slots; Speed shortens current and future jobs. Canceling any queued job refunds all of its ingredients and coins. Crafting continues while closed and catches up for the full elapsed time, unlike the 12-hour combat cap.","Scegli Creazione nella Città e apri Ricette. Scoprire un qualsiasi ingrediente rivela una ricetta; per creare servono anche il grado del dungeon, l'eventuale prima vittoria nel Raid, ingredienti sufficienti e il costo in monete. Mettere in coda un lotto sottrae subito tali risorse. Il Laboratorio elabora i lavori in ordine, uno alla volta, e i lotti più grandi richiedono proporzionalmente più tempo. Capacità aggiunge spazi alla coda d'attesa; Velocità accorcia i lavori attuali e futuri. Annullare un lavoro in coda rimborsa tutti gli ingredienti e le monete. La creazione continua mentre il gioco è chiuso e recupera tutto il tempo trascorso, a differenza del limite di 12 ore del combattimento."
+"Choose an unlocked activity, assign eligible heroes, and start the run. Save Team stores that activity's exact formation, including empty positions; Load Team restores free saved heroes and reports any who were removed or deployed elsewhere. Dungeon chests collect accumulated loot without stopping the expedition. Mist directly adds enemy Evade; Mist Reduction protects its owner from enemy bonuses that scale with mist but does not remove that Evade, while Mist Damage converts the mist affecting a target into extra basic-attack damage. A normal Raid consumes its daily entry when started, even if failed or abandoned, and resets at 00:00 UTC. Raid enemies can drop their Rune Piece during a run; killing the boss adds its exclusive material and a chance at the rare accessory.","Choose an unlocked activity, assign eligible heroes, and start the run. Save Team stores that activity's exact formation, including empty positions; Load Team restores free saved heroes and reports any who were removed or deployed elsewhere. Dungeon chests collect accumulated loot without stopping the expedition. Mist directly adds enemy Evade; Mist Reduction protects its owner from enemy bonuses that scale with mist but does not remove that Evade, while Mist Damage converts the mist affecting a target into extra basic-attack damage. A normal Raid consumes its daily entry when started, even if failed or abandoned, and resets at 00:00 UTC. Raid enemies can drop their Rune Piece during a run; killing the boss adds its exclusive material and a chance at the rare accessory.","Scegli un'attività sbloccata, assegna eroi idonei e avvia la spedizione. Salva squadra memorizza la formazione esatta dell'attività, comprese le posizioni vuote; Carica squadra ripristina gli eroi salvati disponibili e segnala quelli rimossi o schierati altrove. I forzieri dei dungeon raccolgono il bottino accumulato senza interrompere la spedizione. La Nebbia aggiunge direttamente Schivata ai nemici; Riduzione nebbia protegge il proprietario dai bonus nemici che scalano con la nebbia ma non elimina quella Schivata, mentre Danno da nebbia converte la nebbia sul bersaglio in danni extra degli attacchi base. Un Raid normale consuma l'ingresso giornaliero all'avvio, anche se fallito o abbandonato, e si azzera alle 00:00 UTC. I nemici del Raid possono lasciare il proprio Frammento runico durante la spedizione; uccidere il boss aggiunge il suo materiale esclusivo e una probabilità di ottenere l'accessorio raro."
+"The Tavern refreshes all remaining offers together every three hours before upgrades, always including a healer when one is available. Recruiting removes that offer, and the coin price rises with current roster size. Tavern upgrades add roster capacity, accelerate the current and future timer, or add choices; later ranks can require progression items. The Shop's four coin bundles refresh every three hours, while gem-funded Tavern and Workshop capacity each have one weekly stock and cap at rank 3. Copper, silver, gold, and platinum are denominations of the same coin wallet. Catalog names and loot reveal through encounters and drops.","The Tavern refreshes all remaining offers together every three hours before upgrades, always including a healer when one is available. Recruiting removes that offer, and the coin price rises with current roster size. Tavern upgrades add roster capacity, accelerate the current and future timer, or add choices; later ranks can require progression items. The Shop's four coin bundles refresh every three hours, while gem-funded Tavern and Workshop capacity each have one weekly stock and cap at rank 3. Copper, silver, gold, and platinum are denominations of the same coin wallet. Catalog names and loot reveal through encounters and drops.","La Taverna aggiorna insieme tutte le offerte rimaste ogni tre ore prima dei potenziamenti, includendo sempre un guaritore quando disponibile. Reclutare rimuove quell'offerta e il prezzo in monete cresce con la dimensione attuale della formazione. I potenziamenti della Taverna aumentano la capienza, accelerano il timer attuale e quelli futuri oppure aggiungono scelte; i gradi successivi possono richiedere oggetti di progressione. I quattro pacchetti in monete del Negozio si aggiornano ogni tre ore, mentre gli aumenti di capienza di Taverna e Laboratorio acquistati con gemme hanno ciascuno una disponibilità settimanale e arrivano al grado 3. Rame, argento, oro e platino sono tagli dello stesso portafoglio di monete. Nomi e bottini dei cataloghi si svelano tramite incontri e ritrovamenti."
+"After a daily Raid entry is used, 50 gems buys one replacement entry for that Raid. The Premium shop offers 35 gems once per UTC day after a rewarded ad; owning the Welcome Premium Pack makes that daily claim instant and ad-free. The one-time pack also grants the hero, equipment, permanent bonuses, and Collect All feature shown on its card, and needs an open roster slot for delivery. The gem counter opens optional Google Play bundles. Purchases may remain pending until Google Play approves payment; delivered entitlements are restored from the store. Advertising consent and the privacy policy are in Settings > Privacy.","After a daily Raid entry is used, 50 gems buys one replacement entry for that Raid. The Premium shop offers 35 gems once per UTC day after a rewarded ad; owning the Welcome Premium Pack makes that daily claim instant and ad-free. The one-time pack also grants the hero, equipment, permanent bonuses, and Collect All feature shown on its card, and needs an open roster slot for delivery. The gem counter opens optional Google Play bundles. Purchases may remain pending until Google Play approves payment; delivered entitlements are restored from the store. Advertising consent and the privacy policy are in Settings > Privacy.","Dopo aver usato l'ingresso giornaliero di un Raid, 50 gemme ne acquistano uno sostitutivo per quel Raid. Il Negozio Premium offre 35 gemme una volta al giorno UTC dopo una pubblicità con ricompensa; possedere il Pacchetto Premium di Benvenuto rende la riscossione giornaliera immediata e senza pubblicità. Il pacchetto, acquistabile una sola volta, concede anche l'eroe, l'equipaggiamento, i bonus permanenti e la funzione Raccogli tutto mostrati sulla scheda e richiede uno spazio libero nella formazione. Il contatore delle gemme apre i pacchetti opzionali di Google Play. Gli acquisti possono restare in sospeso finché Google Play non approva il pagamento; i contenuti consegnati vengono ripristinati dal negozio. Il consenso pubblicitario e l'informativa sulla privacy sono in Impostazioni > Privacy."
+"The game saves automatically and keeps a backup of the previous valid local save. Closed-game combat advances for at most 12 hours, while the sequential crafting queue advances for the full elapsed time. Google Play Games provides the profile, achievements, leaderboards, and private cloud progress shown in Settings when the Android service is available. If local and cloud histories diverge, the game asks which one to keep and saves recovery copies. Mail records story objectives and unlock guidance; reading a letter never claims a separate reward.","The game saves automatically and keeps a backup of the previous valid local save. Closed-game combat advances for at most 12 hours, while the sequential crafting queue advances for the full elapsed time. Google Play Games provides the profile, achievements, leaderboards, and private cloud progress shown in Settings when the Android service is available. If local and cloud histories diverge, the game asks which one to keep and saves recovery copies. Mail records story objectives and unlock guidance; reading a letter never claims a separate reward.","Il gioco salva automaticamente e conserva un backup dell'ultimo salvataggio locale valido. Il combattimento a gioco chiuso avanza per un massimo di 12 ore, mentre la coda di creazione sequenziale avanza per tutto il tempo trascorso. Google Play Games fornisce profilo, obiettivi, classifiche e progressi cloud privati mostrati in Impostazioni quando il servizio Android è disponibile. Se le cronologie locale e cloud divergono, il gioco chiede quale conservare e crea copie di recupero. La posta registra obiettivi narrativi e indicazioni sugli sblocchi; leggere una lettera non riscuote alcuna ricompensa separata."
+"Status icons appear below Health and mana bars during combat. Green icons are helpful buffs, red icons are harmful debuffs, and purple icons track special rules. Inspect an active icon to see its exact strength and remaining turns. Cleanses remove harmful statuses, dispels remove helpful statuses, and Immunity can prevent a harmful status when it is first applied. Skill Regeneration and Passive Regeneration use separate icons because their healing comes from different sources.","Status icons appear below Health and mana bars during combat. Green icons are helpful buffs, red icons are harmful debuffs, and purple icons track special rules. Inspect an active icon to see its exact strength and remaining turns. Cleanses remove harmful statuses, dispels remove helpful statuses, and Immunity can prevent a harmful status when it is first applied. Skill Regeneration and Passive Regeneration use separate icons because their healing comes from different sources.","Le icone di stato appaiono sotto le barre di Salute e mana durante il combattimento. Le icone verdi indicano potenziamenti utili, quelle rosse penalità dannose e quelle viola regole speciali. Esamina un'icona attiva per vedere intensità esatta e turni rimanenti. Le purificazioni rimuovono gli stati dannosi, le dissoluzioni quelli utili e l'Immunità può impedire uno stato dannoso alla prima applicazione. Rigenerazione da abilità e Rigenerazione passiva hanno icone separate perché le loro cure provengono da fonti diverse."
+"Choose a dungeon to review its enemies and loot. An enemy is revealed when it appears in combat, and a loot entry is revealed as soon as that item drops; it does not need to be collected first.","Choose a dungeon to review its enemies and loot. An enemy is revealed when it appears in combat, and a loot entry is revealed as soon as that item drops; it does not need to be collected first.","Scegli un dungeon per esaminarne nemici e bottino. Un nemico viene svelato quando appare in combattimento e una voce del bottino viene svelata appena l'oggetto viene lasciato, anche prima di raccoglierlo."
+"Open %s catalog","Open %s catalog","Apri il catalogo di %s"
+"Raid Catalog","Raid Catalog","Catalogo dei raid"
+"Choose a raid to review its mechanic, enemies, boss, and exclusive rewards. Enemies reveal when they appear in combat, and reward entries reveal as soon as their items drop, even before collection.","Choose a raid to review its mechanic, enemies, boss, and exclusive rewards. Enemies reveal when they appear in combat, and reward entries reveal as soon as their items drop, even before collection.","Scegli un raid per esaminarne meccanica, nemici, boss e ricompense esclusive. I nemici vengono svelati quando appaiono in combattimento e le ricompense appena vengono lasciate, anche prima di raccoglierle."
+"%s
+
+Recommended: Career Lv. %s · Tier %s gear
+
+Mechanic: %s","%s
+
+Recommended: Career Lv. %s · Tier %s gear
+
+Mechanic: %s","%s
+
+Consigliato: carriera liv. %s · equipaggiamento grado %s
+
+Meccanica: %s"
+"Boss - %s","Boss - %s","Boss - %s"
+"Unknown boss","Unknown boss","Boss sconosciuto"
+"Unknown enemy","Unknown enemy","Nemico sconosciuto"
+"Encounter this enemy to reveal it.","Encounter this enemy to reveal it.","Affronta questo nemico per svelarlo."
+"Loot","Loot","Bottino"
+"Raid-exclusive rewards","Raid-exclusive rewards","Ricompense esclusive del raid"
+"Boss: 100%","Boss: 100%","Boss: 100%"
+"First %s%%+
+Dupe %s%%","First %s%%+
+Dupe %s%%","Prima copia %s%%+
+Duplicati %s%%"
+"%s - %s drop chance","%s - %s drop chance","%s - probabilità di bottino %s"
+"Unknown raid reward","Unknown raid reward","Ricompensa raid sconosciuta"
+"? chance","? chance","Probabilità ?"
+"View %s","View %s","Visualizza %s"
+"Move %s up","Move %s up","Sposta %s in alto"
+"Move %s down","Move %s down","Sposta %s in basso"
+"Remove %s from the roster","Remove %s from the roster","Rimuovi %s dalla formazione"
+"Stop the active dungeon before removing %s","Stop the active dungeon before removing %s","Ferma il dungeon attivo prima di rimuovere %s"
+"Unassigned","Unassigned","Non assegnato"
+"Remove %s from the roster?
+Their equipped items and all invested Rune Pieces return to inventory. One tavern slot becomes available. This cannot be undone.","Remove %s from the roster?
+Their equipped items and all invested Rune Pieces return to inventory. One tavern slot becomes available. This cannot be undone.","Rimuovere %s dalla formazione?
+Gli oggetti equipaggiati e tutti i Frammenti runici investiti torneranno nell'inventario. Si libererà un posto nella taverna. L'operazione non può essere annullata."
+"Level %s","Level %s","Livello %s"
+"%s class","%s class","Classe %s"
+"No class is assigned.","No class is assigned.","Nessuna classe assegnata."
+"Choose Ascension","Choose Ascension","Scegli l'Ascensione"
+"Equipment","Equipment","Equipaggiamento"
+"Attributes","Attributes","Attributi"
+"Each hero has six permanent rune tracks. Every upgrade is guaranteed and costs 1 matching raid material: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Rune bonuses remain on this hero; removing the hero refunds every invested Rune Piece.","Each hero has six permanent rune tracks. Every upgrade is guaranteed and costs 1 matching raid material: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Rune bonuses remain on this hero; removing the hero refunds every invested Rune Piece.","Ogni eroe ha sei percorsi runici permanenti. Ogni potenziamento è garantito e costa 1 materiale da raid corrispondente: Frammenti runici Verdeggianti, Mareali, Astrali e infine dell'Eclissi per ciascun percorso. I bonus restano sull'eroe; rimuoverlo rimborsa ogni Frammento runico investito."
+"Level","Level","Livello"
+"MAX","MAX","MAX"
+"Experience","Experience","Esperienza"
+"Health","Health","Salute"
+"Mana Gain","Mana Gain","Guadagno mana"
+"Strength","Strength","Forza"
+"Dexterity","Dexterity","Destrezza"
+"Intelligence","Intelligence","Intelligenza"
+"Defense","Defense","Difesa"
+"Magic Defense","Magic Defense","Difesa magica"
+"Attack","Attack","Attacco"
+"Damage","Damage","Danno"
+"Attack Type","Attack Type","Tipo di attacco"
+"Threat","Threat","Minaccia"
+"Evade","Evade","Schivata"
+"Critical Chance","Critical Chance","Probabilità critica"
+"Critical Damage","Critical Damage","Danno critico"
+"Immunity","Immunity","Immunità"
+"Counter Chance","Counter Chance","Probabilità di contrattacco"
+"Counter Damage","Counter Damage","Danno da contrattacco"
+"Magic Counter","Magic Counter","Contrattacco magico"
+"Lifesteal","Lifesteal","Furto vitale"
+"Regeneration","Regeneration","Rigenerazione"
+"Mist Damage","Mist Damage","Danno da nebbia"
+"Mist Reduction","Mist Reduction","Riduzione nebbia"
+"Healing","Healing","Cure"
+"EXP Rate","EXP Rate","Tasso ESP"
+"Decay","Decay","Decadimento"
+"Active skills trigger automatically when the hero fills their mana meter. Passive skills are always in effect.","Active skills trigger automatically when the hero fills their mana meter. Passive skills are always in effect.","Le abilità attive si attivano automaticamente quando l'eroe riempie la barra del mana. Le abilità passive sono sempre attive."
+"No item is equipped in this slot.","No item is equipped in this slot.","Nessun oggetto equipaggiato in questo slot."
+"No description available.","No description available.","Nessuna descrizione disponibile."
+"ACTIVE 2/2","ACTIVE 2/2","ATTIVO 2/2"
+"INACTIVE 1/2","INACTIVE 1/2","INATTIVO 1/2"
+"ANY crafted weapon from %s","ANY crafted weapon from %s","QUALSIASI arma creata di %s"
+"RAID SET · %s
+%s
+%s
+%s","RAID SET · %s
+%s
+%s
+%s","SET RAID · %s
+%s
+%s
+%s"
+"Equipped","Equipped","Equipaggiato"
+"Nothing equipped.","Nothing equipped.","Nessun oggetto equipaggiato."
+"✓ EQUIPPED · %s","✓ EQUIPPED · %s","✓ EQUIPAGGIATO · %s"
+"Unequip %s","Unequip %s","Rimuovi %s"
+"Available","Available","Disponibile"
+"No compatible equipment in inventory.","No compatible equipment in inventory.","Nessun equipaggiamento compatibile nell'inventario."
+"Armor","Armor","Armatura"
+"Accessory 1","Accessory 1","Accessorio 1"
+"Accessory 2","Accessory 2","Accessorio 2"
+"Locked","Locked","Bloccato"
+"Complete the previous dungeon story objective","Complete the previous dungeon story objective","Completa l'obiettivo narrativo del dungeon precedente"
+"Not started","Not started","Non iniziato"
+"Lv %s · T%s gear · from %s","Lv %s · T%s gear · from %s","Liv. %s · equip. G%s · da %s"
+"Complete","Complete","Completato"
+"Lv %s · T%s gear · %s heroes","Lv %s · T%s gear · %s heroes","Liv. %s · equip. G%s · %s eroi"
+"Quest active","Quest active","Missione attiva"
+"Concordance ready","Concordance ready","Concordanza pronta"
+"Current trial","Current trial","Prova attuale"
+"Trial %s/%s - %s","Trial %s/%s - %s","Prova %s/%s - %s"
+"Craft key -> %s-hero raid","Craft key -> %s-hero raid","Crea chiave -> raid da %s eroi"
+"ready to unlock","ready to unlock","pronto da sbloccare"
+"%s/%s objectives","%s/%s objectives","%s/%s obiettivi"
+"gather key materials","gather key materials","raccogli i materiali della chiave"
+"%s | %s","%s | %s","%s | %s"
+"%s
+%s | Boss phase: %s","%s
+%s | Boss phase: %s","%s
+%s | Fase boss: %s"
+"Collect Raid Rewards","Collect Raid Rewards","Raccogli ricompense del raid"
+"Today's entry has been used. The next entry begins at 00:00 UTC.","Today's entry has been used. The next entry begins at 00:00 UTC.","L'ingresso di oggi è stato usato. Il prossimo sarà disponibile alle 00:00 UTC."
+"Refresh Entry","Refresh Entry","Rinnova ingresso"
+"Buy another entry for this raid today.","Buy another entry for this raid today.","Acquista un altro ingresso per questo raid oggi."
+"Buy another entry for this Raid?
+
+Refresh %s now?","Buy another entry for this Raid?
+
+Refresh %s now?","Acquistare un altro ingresso per questo raid?
+
+Rinnovare subito %s?"
+"%s
+
+Recommended: Career Lv. %s · Tier %s gear
+
+%s
+Formation capacity: up to %s heroes (%sx%s)
+Progress: %s
+Successful clears: %s","%s
+
+Recommended: Career Lv. %s · Tier %s gear
+
+%s
+Formation capacity: up to %s heroes (%sx%s)
+Progress: %s
+Successful clears: %s","%s
+
+Consigliato: carriera liv. %s · equipaggiamento grado %s
+
+%s
+Capacità formazione: fino a %s eroi (%sx%s)
+Progresso: %s
+Completamenti riusciti: %s"
+"%s
+
+Recommended: Career Lv. %s · Tier %s gear
+
+%s
+Formation: exactly 5 heroes and up to 2 companions
+Progress: %s
+Successful clears: %s","%s
+
+Recommended: Career Lv. %s · Tier %s gear
+
+%s
+Formation: exactly 5 heroes and up to 2 companions
+Progress: %s
+Successful clears: %s","%s
+
+Consigliato: carriera liv. %s · equipaggiamento grado %s
+
+%s
+Formazione: esattamente 5 eroi e fino a 2 famigli
+Progresso: %s
+Completamenti riusciti: %s"
+"Abandon Trial
+(Free retry)","Abandon Trial
+(Free retry)","Abbandona prova
+(Nuovo tentativo gratuito)"
+"Abandon Raid
+(Entry stays used)","Abandon Raid
+(Entry stays used)","Abbandona raid
+(L'ingresso resta usato)"
+"Free retry","Free retry","Nuovo tentativo gratuito"
+"The raid entry remains consumed","The raid entry remains consumed","L'ingresso al raid resta consumato"
+"Raid mechanics","Raid mechanics","Meccaniche del raid"
+"Complete %s to receive this raid's unlock quest.","Complete %s to receive this raid's unlock quest.","Completa %s per ricevere la missione di sblocco di questo raid."
+"Raid quest","Raid quest","Missione del raid"
+"Objectives","Objectives","Obiettivi"
+"Kill %s %s (%s/%s)","Kill %s %s (%s/%s)","Uccidi %s %s (%s/%s)"
+"Complete %s marked encounters in %s (%s/%s)","Complete %s marked encounters in %s (%s/%s)","Completa %s scontri contrassegnati in %s (%s/%s)"
+"Quest key","Quest key","Chiave della missione"
+"Craft 1 %s using the requirements below","Craft 1 %s using the requirements below","Crea 1 %s usando i requisiti seguenti"
+"Crafting requirements","Crafting requirements","Requisiti di creazione"
+"Use %s %s (owned %s/%s)","Use %s %s (owned %s/%s)","Usa %s %s (posseduti %s/%s)"
+"%s Pay","%s Pay","Paga %s"
+"[Done]","[Done]","[Completato]"
+"Craft Key and Open Raid","Craft Key and Open Raid","Crea la chiave e apri il raid"
+"Road to the Last Road - %s/%s trials complete","Road to the Last Road - %s/%s trials complete","Verso l'Ultima Via - %s/%s prove completate"
+"[Current]","[Current]","[Attuale]"
+"[Locked]","[Locked]","[Bloccato]"
+"%s %s - %s heroes, %s encounters","%s %s - %s heroes, %s encounters","%s %s - %s eroi, %s scontri"
+"Trial","Trial","Prova"
+"Selected","Selected","Selezionata"
+"Practice","Practice","Allenamento"
+"Select","Select","Seleziona"
+"Assemble the Concordance and Open The Last Road","Assemble the Concordance and Open The Last Road","Assembla la Concordanza e apri l'Ultima Via"
+"Practice replay","Practice replay","Ripetizione di allenamento"
+"Complete %s","Complete %s","Completa %s"
+"Defeat %s","Defeat %s","Sconfiggi %s"
+"One-time preparation","One-time preparation","Preparazione unica"
+"%s %s (owned %s/%s)","%s %s (owned %s/%s)","%s %s (posseduti %s/%s)"
+"Prepare Trial","Prepare Trial","Prepara prova"
+"Trial conditions","Trial conditions","Condizioni della prova"
+"Optional mastery: finish with no hero deaths","Optional mastery: finish with no hero deaths","Maestria facoltativa: termina senza perdite tra gli eroi"
+"Physical damage must contribute at least %s%%","Physical damage must contribute at least %s%%","Il danno fisico deve contribuire almeno per il %s%%"
+"Magic damage must contribute at least %s%%","Magic damage must contribute at least %s%%","Il danno magico deve contribuire almeno per il %s%%"
+"Bring heroes from at least %s base class families","Bring heroes from at least %s base class families","Porta eroi di almeno %s famiglie di classi base"
+"Finish with at least %s surviving heroes","Finish with at least %s surviving heroes","Termina con almeno %s eroi sopravvissuti"
+"Build Lastlight to at least %s during the trial","Build Lastlight to at least %s during the trial","Porta Ultimaluce almeno a %s durante la prova"
+"Defeat the required boss without any hero deaths","Defeat the required boss without any hero deaths","Sconfiggi il boss richiesto senza perdite tra gli eroi"
+"Defeat the required boss with heroes from 6 class families","Defeat the required boss with heroes from 6 class families","Sconfiggi il boss richiesto con eroi di 6 famiglie di classi"
+"Defeat the required boss with Melee, Ranged, and Magic each dealing at least 20% of the damage","Defeat the required boss with Melee, Ranged, and Magic each dealing at least 20% of the damage","Sconfiggi il boss richiesto facendo infliggere almeno il 20% dei danni a Mischia, Distanza e Magia ciascuno"
+"%s/%s formation slots filled","%s/%s formation slots filled","%s/%s posizioni della formazione occupate"
+"Arrange Raid Formation","Arrange Raid Formation","Organizza formazione del raid"
+"SELECTED COMPANION","SELECTED COMPANION","FAMIGLIO SELEZIONATO"
+"CHANGE","CHANGE","CAMBIA"
+"Choose a different companion","Choose a different companion","Scegli un altro famiglio"
+"CHOOSE A COMPANION","CHOOSE A COMPANION","SCEGLI UN FAMIGLIO"
+"Choose one available expedition companion","Choose one available expedition companion","Scegli un famiglio disponibile per la spedizione"
+"Choose a Companion","Choose a Companion","Scegli un famiglio"
+"No Companion","No Companion","Nessun famiglio"
+"SELECT","SELECT","SCEGLI"
+"Select %s","Select %s","Seleziona %s"
+"Begin Runway Trial","Begin Runway Trial","Avvia prova del percorso"
+"Row %s, column %s","Row %s, column %s","Riga %s, colonna %s"
+"Empty slot","Empty slot","Posizione vuota"
+"R%s - C%s","R%s - C%s","R%s - C%s"
+"Raid position - Row %s, Column %s","Raid position - Row %s, Column %s","Posizione raid - Riga %s, Colonna %s"
+"Leave this raid position empty","Leave this raid position empty","Lascia vuota questa posizione del raid"
+"Empty hero slot","Empty hero slot","Posizione eroe vuota"
+"Save this exact %s formation, including every empty position?
+
+This replaces the previously saved team for this activity.","Save this exact %s formation, including every empty position?
+
+This replaces the previously saved team for this activity.","Salvare questa formazione di %s esattamente com'è, incluse tutte le posizioni vuote?
+
+La squadra salvata in precedenza per questa attività verrà sostituita."
+"Formation saved for %s","Formation saved for %s","Formazione salvata per %s"
+"Formation could not be saved - please try again","Formation could not be saved - please try again","Impossibile salvare la formazione - riprova"
+"No saved formation for this activity","No saved formation for this activity","Nessuna formazione salvata per questa attività"
+"Unknown hero","Unknown hero","Eroe sconosciuto"
+"%s - no longer in the roster","%s - no longer in the roster","%s - non è più nella formazione"
+"%s - already fighting elsewhere","%s - already fighting elsewhere","%s - sta già combattendo altrove"
+"%s - duplicated in the saved formation","%s - duplicated in the saved formation","%s - duplicato nella formazione salvata"
+"Saved formation loaded for %s","Saved formation loaded for %s","Formazione salvata caricata per %s"
+"Every available saved hero was restored to their position.
+
+These heroes could not join:
+%s","Every available saved hero was restored to their position.
+
+These heroes could not join:
+%s","Ogni eroe disponibile del salvataggio è stato ripristinato nella propria posizione.
+
+Questi eroi non hanno potuto unirsi:
+%s"
+"Unclaimed raid rewards","Unclaimed raid rewards","Ricompense del raid non riscosse"
+"Select your team","Select your team","Scegli la tua squadra"
+"%s/%s selected","%s/%s selected","%s/%s selezionati"
+"Start dungeon","Start dungeon","Avvia dungeon"
+"Choose a hero for slot %s","Choose a hero for slot %s","Scegli un eroe per lo slot %s"
+"Team slot %s","Team slot %s","Slot squadra %s"
+"Tap to select - hold for hero details","Tap to select - hold for hero details","Tocca per selezionare - tieni premuto per i dettagli dell'eroe"
+"No heroes are currently available.","No heroes are currently available.","Al momento non ci sono eroi disponibili."
+"ACTIVE COMPANION","ACTIVE COMPANION","FAMIGLIO ATTIVO"
+"Battle report","Battle report","Rapporto di battaglia"
+"COMPANION","COMPANION","FAMIGLIO"
+"Back to Companion Picker","Back to Companion Picker","Torna alla scelta del famiglio"
+"Back to Activity","Back to Activity","Torna all'attività"
+"GEMS   %s","GEMS   %s","GEMME   %s"
+"Open the Gem Treasury · %s gems","Open the Gem Treasury · %s gems","Apri la Tesoreria delle gemme · %s gemme"
+"Open the Premium shop · paid gem packs require Google Play on Android · %s gems","Open the Premium shop · paid gem packs require Google Play on Android · %s gems","Apri il negozio Premium · i pacchetti di gemme a pagamento richiedono Google Play su Android · %s gemme"
+"Complete Tier %s","Complete Tier %s","Completa il grado %s"
+"Platinum","Platinum","Platino"
+"Gold","Gold","Oro"
+"Silver","Silver","Argento"
+"Copper","Copper","Rame"
+"%s coins","%s coins","%s monete"
+"Gem purchases are available through Google Play on Android.","Gem purchases are available through Google Play on Android.","Gli acquisti di gemme sono disponibili tramite Google Play su Android."
+"Gem Treasury","Gem Treasury","Tesoreria delle gemme"
+"Recharge Gems","Recharge Gems","Ricarica gemme"
+"Current balance · %s gems","Current balance · %s gems","Saldo attuale · %s gemme"
+"Choose a coffer. Larger bundles include more gems for every euro spent.","Choose a coffer. Larger bundles include more gems for every euro spent.","Scegli uno scrigno. I pacchetti più grandi offrono più gemme per ogni euro speso."
+"Secure checkout and localized prices are provided by Google Play.","Secure checkout and localized prices are provided by Google Play.","Il pagamento sicuro e i prezzi localizzati sono forniti da Google Play."
+"Refresh Google Play","Refresh Google Play","Aggiorna Google Play"
+"%s GEMS","%s GEMS","%s GEMME"
+"Price","Price","Prezzo"
+"BEST VALUE","BEST VALUE","MIGLIOR VALORE"
+"Opening secure Google Play checkout…","Opening secure Google Play checkout…","Apertura del pagamento sicuro di Google Play…"
+"Purchases are currently unavailable","Purchases are currently unavailable","Gli acquisti non sono disponibili al momento"
+"Gem purchase was not completed","Gem purchase was not completed","L'acquisto di gemme non è stato completato"
+"Treasury recharged · +%s gems","Treasury recharged · +%s gems","Tesoreria ricaricata · +%s gemme"
+"Purchase pending · gems arrive after Google Play approves payment","Purchase pending · gems arrive after Google Play approves payment","Acquisto in sospeso · le gemme arriveranno dopo l'approvazione del pagamento da parte di Google Play"
+"PROCESSING…","PROCESSING…","ELABORAZIONE…"
+"PENDING APPROVAL","PENDING APPROVAL","IN ATTESA DI APPROVAZIONE"
+"FINALIZING…","FINALIZING…","COMPLETAMENTO…"
+"Connecting to Google Play","Connecting to Google Play","Connessione a Google Play"
+"Purchase is in progress","Purchase is in progress","Acquisto in corso"
+"Payment is pending Google Play approval","Payment is pending Google Play approval","Il pagamento attende l'approvazione di Google Play"
+"Gems delivered; Google Play is finalizing the purchase","Gems delivered; Google Play is finalizing the purchase","Gemme consegnate; Google Play sta completando l'acquisto"
+"Purchase %s gems","Purchase %s gems","Acquista %s gemme"
+"Material Market","Material Market","Mercato dei materiali"
+"New stock in %s","New stock in %s","Nuove scorte tra %s"
+"One-craft bundles from your latest unlocked dungeons. Each stack costs 20% more than its sell value.","One-craft bundles from your latest unlocked dungeons. Each stack costs 20% more than its sell value.","Pacchetti per una creazione provenienti dagli ultimi dungeon sbloccati. Ogni scorta costa il 20% in più del suo valore di vendita."
+"Weekly Gem Specials","Weekly Gem Specials","Offerte settimanali in gemme"
+"Weekly reset in %s","Weekly reset in %s","Ripristino settimanale tra %s"
+"Guaranteed permanent capacity upgrades. Each has one in stock per week, and its icon-formatted price stays fixed up to rank 3.","Guaranteed permanent capacity upgrades. Each has one in stock per week, and its icon-formatted price stays fixed up to rank 3.","Potenziamenti permanenti garantiti della capacità. Ce n'è uno disponibile a settimana e il prezzo indicato dalle icone resta fisso fino al grado 3."
+"Pet Egg Market","Pet Egg Market","Mercato delle uova dei famigli"
+"Every egg costs 150 gems and goes directly to PETS > Eggs. Egg rarity is rolled when hatched.","Every egg costs 150 gems and goes directly to PETS > Eggs. Egg rarity is rolled when hatched.","Ogni uovo costa 150 gemme e va direttamente in FAMIGLI > Uova. La rarità viene determinata alla schiusa."
+"Pet Egg","Pet Egg","Uovo di famiglio"
+"Inspect or buy %s for %s gems - %s","Inspect or buy %s for %s gems - %s","Esamina o acquista %s per %s gemme - %s"
+"BUY","BUY","ACQUISTA"
+"Buy %s for %s gems","Buy %s for %s gems","Acquista %s per %s gemme"
+"Buy","Buy","Acquista"
+"Gem Packs","Gem Packs","Pacchetti di gemme"
+"ANDROID · GOOGLE PLAY","ANDROID · GOOGLE PLAY","ANDROID · GOOGLE PLAY"
+"Paid gem packs are available only through Google Play on Android. This desktop build keeps the gem button active so you can reach the free Welcome Premium reward below.","Paid gem packs are available only through Google Play on Android. This desktop build keeps the gem button active so you can reach the free Welcome Premium reward below.","I pacchetti di gemme a pagamento sono disponibili solo tramite Google Play su Android. Questa versione desktop mantiene attivo il pulsante delle gemme per consentirti di ottenere la ricompensa Premium di benvenuto gratuita qui sotto."
+"Daily Gem Reward","Daily Gem Reward","Ricompensa giornaliera in gemme"
+"Claim 35 gems instantly each day — no ad required.","Claim 35 gems instantly each day — no ad required.","Riscatta subito 35 gemme ogni giorno — senza pubblicità."
+"Watch one rewarded ad each day to support the game and receive 35 gems.","Watch one rewarded ad each day to support the game and receive 35 gems.","Guarda una pubblicità con ricompensa al giorno per sostenere il gioco e ricevere 35 gemme."
+"OWNED · Permanent bonuses active","OWNED · Permanent bonuses active","POSSEDUTO · Bonus permanenti attivi"
+"FREE WELCOME REWARD","FREE WELCOME REWARD","RICOMPENSA DI BENVENUTO GRATUITA"
+"Claim the complete welcome bundle for free, including its hero, equipment, and permanent bonuses.","Claim the complete welcome bundle for free, including its hero, equipment, and permanent bonuses.","Riscatta gratuitamente il pacchetto di benvenuto completo, inclusi eroe, equipaggiamento e bonus permanenti."
+"Welcome Premium Pack","Welcome Premium Pack","Pacchetto Premium di benvenuto"
+"LEVEL 25 TRICKSTER · TIER 3 WEAPON + ARMOR","LEVEL 25 TRICKSTER · TIER 3 WEAPON + ARMOR","IMBROGLIONE LIVELLO 25 · ARMA + ARMATURA GRADO 3"
+"+10% EXP · +10% DROP CHANCE · AD-FREE DAILY GEMS","+10% EXP · +10% DROP CHANCE · AD-FREE DAILY GEMS","+10% ESP · +10% PROBABILITÀ BOTTINO · GEMME GIORNALIERE SENZA PUBBLICITÀ"
+"COLLECT ALL DUNGEON REWARDS","COLLECT ALL DUNGEON REWARDS","RACCOGLI TUTTE LE RICOMPENSE DEI DUNGEON"
+"CLAIMED","CLAIMED","RISCATTATO"
+"FREE","FREE","GRATIS"
+"GET FOR FREE","GET FOR FREE","OTTIENI GRATIS"
+"Welcome Premium Pack already claimed","Welcome Premium Pack already claimed","Pacchetto Premium di benvenuto già riscattato"
+"Claim every Welcome Premium Pack reward for free","Claim every Welcome Premium Pack reward for free","Riscatta gratuitamente tutte le ricompense del Pacchetto Premium di benvenuto"
+"Welcome Premium Pack unlocked · Trickster joined your roster","Welcome Premium Pack unlocked · Trickster joined your roster","Pacchetto Premium di benvenuto sbloccato · l'Imbroglione si è unito alla formazione"
+"Permanent account entitlement","Permanent account entitlement","Diritto permanente dell'account"
+"SOLD","SOLD","VENDUTO"
+"Already purchased","Already purchased","Già acquistato"
+"Buy %s x%s","Buy %s x%s","Acquista %s x%s"
+"Claim 35 daily gems instantly.","Claim 35 daily gems instantly.","Riscatta subito 35 gemme giornaliere."
+"Watch a rewarded ad for 35 gems. Available once per day.","Watch a rewarded ad for 35 gems. Available once per day.","Guarda una pubblicità con ricompensa per 35 gemme. Disponibile una volta al giorno."
+"Instant Daily Gems","Instant Daily Gems","Gemme giornaliere immediate"
+"Watch & Earn","Watch & Earn","Guarda e guadagna"
+"+%s GEMS","+%s GEMS","+%s GEMME"
+"CLAIMED TODAY","CLAIMED TODAY","RISCATTATO OGGI"
+"Daily premium reward · +%s gems","Daily premium reward · +%s gems","Ricompensa Premium giornaliera · +%s gemme"
+"Available now","Available now","Disponibile ora"
+"Available again in %s","Available again in %s","Di nuovo disponibile tra %s"
+"Watch a short ad to receive %s gems?
+
+The reward is granted after the ad finishes and can be claimed once per day.","Watch a short ad to receive %s gems?
+
+The reward is granted after the ad finishes and can be claimed once per day.","Guardare una breve pubblicità per ricevere %s gemme?
+
+La ricompensa viene concessa al termine della pubblicità e può essere riscossa una volta al giorno."
+"Watch Ad · +%s Gems","Watch Ad · +%s Gems","Guarda pubblicità · +%s gemme"
+"Rewarded ads are currently unavailable","Rewarded ads are currently unavailable","Le pubblicità con ricompensa non sono disponibili al momento"
+"Ad unavailable or closed before completion — no reward claimed","Ad unavailable or closed before completion — no reward claimed","Pubblicità non disponibile o chiusa prima del termine — nessuna ricompensa riscossa"
+"Daily ad complete · +%s gems","Daily ad complete · +%s gems","Pubblicità giornaliera completata · +%s gemme"
+"Upgrade","Upgrade","Potenziamento"
+"Gem rank %s/%s","Gem rank %s/%s","Grado gemme %s/%s"
+"MAX RANK","MAX RANK","GRADO MASSIMO"
+"SOLD THIS WEEK","SOLD THIS WEEK","VENDUTO QUESTA SETTIMANA"
+"Purchased %s · ready to hatch in PETS","Purchased %s · ready to hatch in PETS","Acquistato %s · pronto per la schiusa in FAMIGLI"
+"Not enough gems for this egg","Not enough gems for this egg","Gemme insufficienti per questo uovo"
+"Tavern improvements","Tavern improvements","Migliorie della Taverna"
+"Permanent upgrades for capacity, arrival speed, and the number of heroes offered each cycle.","Permanent upgrades for capacity, arrival speed, and the number of heroes offered each cycle.","Potenziamenti permanenti per capacità, velocità degli arrivi e numero di eroi offerti a ogni ciclo."
+"Upgrade Tavern","Upgrade Tavern","Potenzia Taverna"
+"Requirements pending","Requirements pending","Requisiti mancanti"
+"Arrival Speed","Arrival Speed","Velocità degli arrivi"
+"Maximum reached","Maximum reached","Massimo raggiunto"
+"Improve Arrival Speed (+10%)","Improve Arrival Speed (+10%)","Migliora velocità degli arrivi (+10%)"
+"Add Hero Choice (+1)","Add Hero Choice (+1)","Aggiungi scelta eroe (+1)"
+"Fresh arrivals","Fresh arrivals","Nuovi arrivi"
+"Choose one recruit below. The full offer list refreshes together when the arrival timer expires.","Choose one recruit below. The full offer list refreshes together when the arrival timer expires.","Scegli una recluta qui sotto. L'intero elenco delle offerte si aggiorna quando scade il timer degli arrivi."
+"No heroes available","No heroes available","Nessun eroe disponibile"
+"Recruit a %s","Recruit a %s","Recluta: %s"
+"Recruit","Recruit","Recluta"
+"TAVERN","TAVERN","TAVERNA"
+"LEVEL %s","LEVEL %s","LIVELLO %s"
+"GEM RANK","GEM RANK","GRADO GEMME"
+"HERO ROSTER","HERO ROSTER","FORMAZIONE EROI"
+"Arrival speed +%s%%","Arrival speed +%s%%","Velocità degli arrivi +%s%%"
+"%s hero choices","%s hero choices","%s scelte eroe"
+"New arrivals in %s","New arrivals in %s","Nuovi arrivi tra %s"
+"%s unread mailbox message(s)","%s unread mailbox message(s)","%s messaggi non letti nella posta"
+"Letters arrive as the story advances and may explain a newly unlocked objective or activity. Open a letter by tapping its full card. NEW and an exclamation mark identify unread mail; a green check marks a read notice or a story objective whose completion letter has arrived. Reading mail does not claim a separate reward.","Letters arrive as the story advances and may explain a newly unlocked objective or activity. Open a letter by tapping its full card. NEW and an exclamation mark identify unread mail; a green check marks a read notice or a story objective whose completion letter has arrived. Reading mail does not claim a separate reward.","Le lettere arrivano con l'avanzare della storia e possono spiegare un obiettivo o un'attività appena sbloccati. Apri una lettera toccando l'intera scheda. NUOVO e un punto esclamativo indicano la posta non letta; una spunta verde indica un avviso letto o un obiettivo narrativo completato. Leggere la posta non riscuote una ricompensa separata."
+"No letters have arrived yet.","No letters have arrived yet.","Non è ancora arrivata alcuna lettera."
+"Open letter: %s","Open letter: %s","Apri lettera: %s"
+"UNREAD LETTER","UNREAD LETTER","LETTERA NON LETTA"
+"READ LETTER","READ LETTER","LETTERA LETTA"
+"NEW — ","NEW — ","NUOVO — "
+"From: %s","From: %s","Da: %s"
+"Unknown Sender","Unknown Sender","Mittente sconosciuto"
+"Tap to read the full letter.","Tap to read the full letter.","Tocca per leggere la lettera completa."
+"Unread letter","Unread letter","Lettera non letta"
+"Objective completed","Objective completed","Obiettivo completato"
+"Letter read","Letter read","Lettera letta"
+"Buffs","Buffs","Benefici"
+"Helpful effects that strengthen or protect their target.","Helpful effects that strengthen or protect their target.","Effetti utili che rafforzano o proteggono il bersaglio."
+"Debuffs","Debuffs","Malus"
+"Harmful effects that weaken a target or deal ongoing damage.","Harmful effects that weaken a target or deal ongoing damage.","Effetti dannosi che indeboliscono un bersaglio o infliggono danni nel tempo."
+"Special timers","Special timers","Timer speciali"
+"Rule-specific effects that track a temporary combat condition.","Rule-specific effects that track a temporary combat condition.","Effetti legati a regole specifiche che monitorano una condizione temporanea di combattimento."
+"No classes are available.","No classes are available.","Nessuna classe disponibile."
+"Choose an origin, then tap any class to inspect its level-one stats, proficiencies, and skills. Catalog previews exclude recruited hero levels, equipment, promotions, and Ascension bonuses.","Choose an origin, then tap any class to inspect its level-one stats, proficiencies, and skills. Catalog previews exclude recruited hero levels, equipment, promotions, and Ascension bonuses.","Scegli un'origine, poi tocca una classe per esaminarne statistiche di livello uno, competenze e abilità. Le anteprime del catalogo non includono livelli degli eroi reclutati, equipaggiamento, promozioni e bonus dell'Ascensione."
+"%s lineage","%s lineage","Stirpe %s"
+"< %s specialization tree","< %s specialization tree","< %s"
+"Base stat preview","Base stat preview","Anteprima statistiche base"
+"%s class · Level 1 baseline","%s class · Level 1 baseline","Classe %s · Valori base livello 1"
+"%s · %s drop chance","%s · %s drop chance","%s · probabilità di bottino %s"
+"Unknown drop","Unknown drop","Bottino sconosciuto"
+"%s chance","%s chance","Probabilità %s"
+"Browse every item, filter by type, then tap a card for its description, stats, equipment rules, and recipes. A recipe appears after you discover one of its materials.","Browse every item, filter by type, then tap a card for its description, stats, equipment rules, and recipes. A recipe appears after you discover one of its materials.","Esplora tutti gli oggetti, filtrali per tipo e tocca una scheda per vederne descrizione, statistiche, regole di equipaggiamento e ricette. Una ricetta appare dopo aver scoperto uno dei suoi materiali."
+"No catalog items match this filter.","No catalog items match this filter.","Nessun oggetto del catalogo corrisponde a questo filtro."
+"%s/%s pets · %s eggs","%s/%s pets · %s eggs","%s/%s famigli · %s uova"
+"%s %s%% (%s bonuses)","%s %s%% (%s bonuses)","%s %s%% (%s bonus)"
+"No pets hatched yet. Boss eggs can be opened from the Eggs tab.","No pets hatched yet. Boss eggs can be opened from the Eggs tab.","Nessun famiglio è ancora nato. Le uova dei boss possono essere aperte dalla scheda Uova."
+"Boss eggs drop at 15%%. Hatch odds (rarity / party bonuses): %s. No pity counter.","Boss eggs drop at 15%%. Hatch odds (rarity / party bonuses): %s. No pity counter.","Le uova dei boss hanno una probabilità del 15%%. Probabilità di schiusa (rarità / bonus al gruppo): %s. Nessun contatore di garanzia."
+"HATCH","HATCH","SCHIUDI"
+"Hatch %s","Hatch %s","Schiudi %s"
+"No egg available or stable is full","No egg available or stable is full","Nessun uovo disponibile o stalla piena"
+"Unable to hatch this egg","Unable to hatch this egg","Impossibile schiudere questo uovo"
+"Hatched %s %s · %s!","Hatched %s %s · %s!","È nato %s %s · %s!"
+"Back to Pets","Back to Pets","Torna ai famigli"
+"SELL PET","SELL PET","VENDI FAMIGLIO"
+"Back to Shop Eggs","Back to Shop Eggs","Torna alle uova del Negozio"
+"Back to Raid","Back to Raid","Torna al raid"
+"Back to Report","Back to Report","Torna al rapporto"
+"BUY · %s GEMS","BUY · %s GEMS","ACQUISTA · %s GEMME"
+"HATCH EGG","HATCH EGG","SCHIUDI UOVO"
+"Sell %s?","Sell %s?","Vendere %s?"
+"This permanently sells the %s %s and its bonuses for %s coins.","This permanently sells the %s %s and its bonuses for %s coins.","Questa operazione vende definitivamente %s %s e i suoi bonus per %s monete."
+"%s was sold for %s coins","%s was sold for %s coins","%s è stato venduto per %s monete"
+"Inventory empty","Inventory empty","Inventario vuoto"
+"No owned items match this filter.","No owned items match this filter.","Nessun oggetto posseduto corrisponde a questo filtro."
+"Item type","Item type","Tipo di oggetto"
+"Sort by","Sort by","Ordina per"
+"Craftable amount","Craftable amount","Quantità creabile"
+"Owned amount","Owned amount","Quantità posseduta"
+"Sell price","Sell price","Prezzo di vendita"
+"Tier: Low to High","Tier: Low to High","Grado: dal più basso al più alto"
+"Tier: High to Low","Tier: High to Low","Grado: dal più alto al più basso"
+"Alphabetical","Alphabetical","Alfabetico"
+"< Expedition Report","< Expedition Report","< Rapporto di spedizione"
+"< Shop","< Shop","< Negozio"
+"< Bestiary","< Bestiary","< Bestiario"
+"< Raid","< Raid","< Raid"
+"< Item Catalog","< Item Catalog","< Catalogo oggetti"
+"< Inventory","< Inventory","< Inventario"
+"Owned: %s","Owned: %s","Posseduti: %s"
+" | Tier %s"," | Tier %s"," | Grado %s"
+"Bonuses","Bonuses","Bonus"
+"Slot: %s%s","Slot: %s%s","Slot: %s%s"
+"You do not own this item.","You do not own this item.","Non possiedi questo oggetto."
+"Recipe","Recipe","Ricetta"
+"RECIPE","RECIPE","RICETTA"
+"USED IN","USED IN","USATO IN"
+"None","None","Nessuno"
+"Sell %s","Sell %s","Vendi %s"
+"This item is not used in any recipe.","This item is not used in any recipe.","Questo oggetto non viene usato in alcuna ricetta."
+"Discover one of a recipe's materials to reveal it.","Discover one of a recipe's materials to reveal it.","Scopri uno dei materiali di una ricetta per svelarla."
+"This item cannot currently be crafted.","This item cannot currently be crafted.","Al momento questo oggetto non può essere creato."
+"Discover one of this recipe's materials to reveal it.","Discover one of this recipe's materials to reveal it.","Scopri uno dei materiali di questa ricetta per svelarla."
+"Queued for crafting x%s","Queued for crafting x%s","In coda per la creazione x%s"
+"Unknown result","Unknown result","Risultato sconosciuto"
+"%s per craft","%s per craft","%s per creazione"
+"Crafting time: %s each","Crafting time: %s each","Tempo di creazione: %s ciascuno"
+"Materials only","Materials only","Solo materiali"
+"Cost:","Cost:","Costo:"
+"· Requires first raid clear","· Requires first raid clear","· Richiede il primo completamento del raid"
+"Inspect %s","Inspect %s","Esamina %s"
+"Unknown item","Unknown item","Oggetto sconosciuto"
+"FULL","FULL","PIENO"
+"QUEUE FULL","QUEUE FULL","CODA PIENA"
+"NEED","NEED","SERVE"
+"MISSING","MISSING","SERVE"
+"CRAFT","CRAFT","CREA"
+"Craft %s","Craft %s","Crea %s"
+"All crafting slots are occupied. Upgrade the workshop or wait for a batch to finish.","All crafting slots are occupied. Upgrade the workshop or wait for a batch to finish.","Tutti gli slot di creazione sono occupati. Potenzia il laboratorio o attendi che un lotto finisca."
+"There are not enough ingredients or gold for this recipe.","There are not enough ingredients or gold for this recipe.","Non ci sono abbastanza ingredienti o oro per questa ricetta."
+"Choose any number of crafts to add as one batch.","Choose any number of crafts to add as one batch.","Scegli quante creazioni aggiungere come lotto unico."
+"Batch time: %s · Speed +%s%%","Batch time: %s · Speed +%s%%","Durata lotto: %s · Velocità +%s%%"
+"No discovered crafting recipes match this filter.","No discovered crafting recipes match this filter.","Nessuna ricetta di creazione scoperta corrisponde a questo filtro."
+"QUEUE","QUEUE","CODA"
+"SPEED","SPEED","VELOCITÀ"
+"Workshop improvements","Workshop improvements","Migliorie del laboratorio"
+"Permanent upgrades for production capacity and crafting speed.","Permanent upgrades for production capacity and crafting speed.","Potenziamenti permanenti per capacità di produzione e velocità di creazione."
+"Queue Slots","Queue Slots","Slot della coda"
+"Add Slot","Add Slot","Aggiungi slot"
+"Next: %s slots","Next: %s slots","Prossimo: %s slot"
+"Crafting Speed","Crafting Speed","Velocità di creazione"
+"Speed +10%","Speed +10%","Velocità +10%"
+"Next: +%s%%","Next: +%s%%","Prossimo: +%s%%"
+"Production Queue","Production Queue","Coda di produzione"
+"Total queue time · %s","Total queue time · %s","Tempo totale della coda · %s"
+"Queue empty. Materials are reserved when crafting starts.","Queue empty. Materials are reserved when crafting starts.","Coda vuota. I materiali vengono riservati quando inizia la creazione."
+"Delete %s x%s from the crafting queue?
+
+All reserved materials will be refunded.","Delete %s x%s from the crafting queue?
+
+All reserved materials will be refunded.","Eliminare %s x%s dalla coda di creazione?
+
+Tutti i materiali riservati saranno rimborsati."
+"Ascension · %s","Ascension · %s","Ascensione · %s"
+"RESET POINTS","RESET POINTS","AZZERA PUNTI"
+"Refund every spent Ascension Point for free.","Refund every spent Ascension Point for free.","Rimborsa gratuitamente ogni Punto Ascensione speso."
+"CHANGE PATH","CHANGE PATH","CAMBIA PERCORSO"
+"Refund all points and return to the four Ascendant Paths.","Refund all points and return to the four Ascendant Paths.","Rimborsa tutti i punti e torna ai quattro Percorsi ascendenti."
+"Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths and invest up to %s points. A path contains 25 points of upgrades, so every completed build is a deliberate choice. Changing paths is free.","Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths and invest up to %s points. A path contains 25 points of upgrades, so every completed build is a deliberate choice. Changing paths is free.","Il livello élite 50 sblocca l'Ascensione. Scegli uno dei quattro Percorsi ascendenti e investi fino a %s punti. Un percorso contiene 25 punti di potenziamenti, quindi ogni configurazione completa richiede scelte precise. Cambiare percorso è gratuito."
+"CHOOSE AN ASCENDANT PATH","CHOOSE AN ASCENDANT PATH","SCEGLI UN PERCORSO ASCENDENTE"
+"%s PATH","%s PATH","PERCORSO %s"
+"ASCENDANT","ASCENDANT","ASCENDENTE"
+"CHOOSE PATH","CHOOSE PATH","SCEGLI PERCORSO"
+"This hero has no base class assigned.","This hero has no base class assigned.","Questo eroe non ha una classe base assegnata."
+"Promotion unlocks at level %s.","Promotion unlocks at level %s.","La promozione si sblocca al livello %s."
+"This hero has reached the elite class tier.","This hero has reached the elite class tier.","Questo eroe ha raggiunto il grado di classe élite."
+"Choose a new class.","Choose a new class.","Scegli una nuova classe."
+"Only one class is available: %s. Confirm the promotion below.","Only one class is available: %s. Confirm the promotion below.","È disponibile una sola classe: %s. Conferma la promozione qui sotto."
+"%s  |  %s class  |  Level %s
+%s Current stats are kept; class level restarts at %s.","%s  |  %s class  |  Level %s
+%s Current stats are kept; class level restarts at %s.","%s  |  Classe %s  |  Livello %s
+%s Le statistiche attuali vengono mantenute; il livello di classe riparte da %s."
+"%s  |  %s class  |  Level %s","%s  |  %s class  |  Level %s","%s  |  Classe %s  |  Livello %s"
+"Promote to %s","Promote to %s","Promuovi a %s"
+"Promote %s from %s to %s","Promote %s from %s to %s","Promuovi %s da %s a %s"
+"ACTIVE · %s
+%s
+
+PASSIVE · %s
+%s","ACTIVE · %s
+%s
+
+PASSIVE · %s
+%s","ATTIVA · %s
+%s
+
+PASSIVA · %s
+%s"
+"%s Help","%s Help","Aiuto: %s"
+"Dungeon requirement","Dungeon requirement","Requisito del dungeon"
+"[b]Recruit new heroes[/b]
+
+The Tavern presents base-class recruits with a possible innate title. The recruitment price rises with the number of heroes currently on your roster; recruiting removes only the chosen offer.
+
+[b]Innate titles[/b]
+Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.
+
+[b]Hero Choices[/b]
+The remaining offers refresh together when the Tavern timer reaches zero. Each fresh list includes a healer when one is available. Your roster must have room before a hero can join.
+
+[b]Upgrades[/b]
+Permanent Tavern upgrades add roster capacity, shorten the current and future arrival timers, or add another offer to each refresh. Some later ranks also consume progression materials.","[b]Recruit new heroes[/b]
+
+The Tavern presents base-class recruits with a possible innate title. The recruitment price rises with the number of heroes currently on your roster; recruiting removes only the chosen offer.
+
+[b]Innate titles[/b]
+Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.
+
+[b]Hero Choices[/b]
+The remaining offers refresh together when the Tavern timer reaches zero. Each fresh list includes a healer when one is available. Your roster must have room before a hero can join.
+
+[b]Upgrades[/b]
+Permanent Tavern upgrades add roster capacity, shorten the current and future arrival timers, or add another offer to each refresh. Some later ranks also consume progression materials.","[b]Recluta nuovi eroi[/b]
+
+La Taverna presenta reclute di classe base che possono avere un titolo innato. Il prezzo di reclutamento aumenta con il numero di eroi nella formazione; reclutare rimuove solo l'offerta scelta.
+
+[b]Titoli innati[/b]
+Ogni nuovo arrivo in Taverna ha il 25% di probabilità di possedere un titolo innato. Il titolo resta con quell'eroe anche dopo rinomina e promozione. Il Tenace conferisce +10% Difesa; Il Protetto +10% Difesa magica; L'Agile +10% Schivata; Occhio di falco +10% Probabilità di critico; Il Vigoroso +10% Salute; e Il Possente +10% Attacco.
+
+[b]Scelte eroe[/b]
+Le offerte rimanenti si aggiornano insieme quando il timer della Taverna raggiunge lo zero. Ogni nuovo elenco include un guaritore quando disponibile. Deve esserci spazio nella formazione prima che un eroe possa unirsi.
+
+[b]Potenziamenti[/b]
+I potenziamenti permanenti della Taverna aumentano la capacità della formazione, abbreviano il timer degli arrivi attuale e futuro oppure aggiungono un'altra offerta a ogni aggiornamento. Alcuni gradi successivi consumano anche materiali di progressione."
+"[b]Buy resources and upgrades[/b]
+
+The Material Market sells four one-craft material bundles for coins. Each offer can be bought once before the three-hour stock refresh. Weekly Gem Specials separately sell permanent Tavern and Workshop capacity, one rank of each per weekly stock cycle, up to rank 3.
+
+[b]Eggs[/b]
+Pet eggs are always available for 150 gems each. Purchased eggs go to PETS > Eggs for hatching.
+
+[b]Premium[/b]
+The Premium tab contains optional purchases and bonuses. Purchases never happen until you use their confirmation flow.
+
+Check each offer's icons and quantities before buying; unavailable offers explain what is missing.","[b]Buy resources and upgrades[/b]
+
+The Material Market sells four one-craft material bundles for coins. Each offer can be bought once before the three-hour stock refresh. Weekly Gem Specials separately sell permanent Tavern and Workshop capacity, one rank of each per weekly stock cycle, up to rank 3.
+
+[b]Eggs[/b]
+Pet eggs are always available for 150 gems each. Purchased eggs go to PETS > Eggs for hatching.
+
+[b]Premium[/b]
+The Premium tab contains optional purchases and bonuses. Purchases never happen until you use their confirmation flow.
+
+Check each offer's icons and quantities before buying; unavailable offers explain what is missing.","[b]Acquista risorse e potenziamenti[/b]
+
+Il Mercato dei materiali vende quattro pacchetti di materiali per una creazione in cambio di monete. Ogni offerta può essere acquistata una volta prima dell'aggiornamento delle scorte ogni tre ore. Le Offerte settimanali in gemme vendono separatamente capacità permanente per Taverna e Laboratorio, un grado per ciascun ciclo settimanale, fino al grado 3.
+
+[b]Uova[/b]
+Le uova dei famigli sono sempre disponibili al costo di 150 gemme ciascuna. Le uova acquistate vanno in FAMIGLI > Uova per la schiusa.
+
+[b]Premium[/b]
+La scheda Premium contiene acquisti e bonus facoltativi. Nessun acquisto avviene prima di usare la relativa procedura di conferma.
+
+Controlla le icone e le quantità di ogni offerta prima dell'acquisto; le offerte non disponibili indicano ciò che manca."
+"[b]Manage collected items[/b]
+
+Use the category filters and sorting controls to find equipment, direct monster drops under Raw Materials, exclusive dungeon-boss drops under Rare Materials, craftable intermediate components under Refined Materials, and raid-exclusive items. Tap an item tile to open its details.
+
+Item details show the item's amount, properties, recipe relationships, and where it is used. Eligible items can also be sold from their detail view.
+
+The separate Item Catalog lists every entry, but undiscovered enemies and drops remain hidden in catalog and recipe views until first encountered or dropped.","[b]Manage collected items[/b]
+
+Use the category filters and sorting controls to find equipment, direct monster drops under Raw Materials, exclusive dungeon-boss drops under Rare Materials, craftable intermediate components under Refined Materials, and raid-exclusive items. Tap an item tile to open its details.
+
+Item details show the item's amount, properties, recipe relationships, and where it is used. Eligible items can also be sold from their detail view.
+
+The separate Item Catalog lists every entry, but undiscovered enemies and drops remain hidden in catalog and recipe views until first encountered or dropped.","[b]Gestisci gli oggetti raccolti[/b]
+
+Usa i filtri di categoria e i controlli di ordinamento per trovare equipaggiamento, bottino diretto dei mostri tra i Materiali grezzi, bottino esclusivo dei boss dei dungeon tra i Materiali rari, componenti intermedi creabili tra i Materiali raffinati e oggetti esclusivi dei raid. Tocca la scheda di un oggetto per aprirne i dettagli.
+
+I dettagli mostrano quantità, proprietà, collegamenti alle ricette e impieghi dell'oggetto. Gli oggetti idonei possono anche essere venduti dalla loro vista dettagliata.
+
+Il Catalogo oggetti separato elenca ogni voce, ma nemici e bottini non ancora scoperti restano nascosti nel catalogo e nelle ricette fino al primo incontro o ritrovamento."
+"[b]Turn materials into useful items[/b]
+
+Select a revealed recipe, choose a batch size, and add one job to the queue. Its ingredients and coin cost are deducted immediately. A larger batch takes proportionally longer.
+
+[b]Queue and Upgrades tabs[/b]
+The Workshop processes queued jobs in order, one at a time. Use Queue for active production and Upgrades for permanent improvements. Capacity upgrades let more jobs wait in the queue; Speed upgrades shorten both current and future jobs.
+
+Cancelling any queued job refunds all of its ingredients and coin cost. Crafting continues while the game is closed and catches up for the full elapsed time. Use Recipes to browse paths revealed by discovering at least one ingredient.","[b]Turn materials into useful items[/b]
+
+Select a revealed recipe, choose a batch size, and add one job to the queue. Its ingredients and coin cost are deducted immediately. A larger batch takes proportionally longer.
+
+[b]Queue and Upgrades tabs[/b]
+The Workshop processes queued jobs in order, one at a time. Use Queue for active production and Upgrades for permanent improvements. Capacity upgrades let more jobs wait in the queue; Speed upgrades shorten both current and future jobs.
+
+Cancelling any queued job refunds all of its ingredients and coin cost. Crafting continues while the game is closed and catches up for the full elapsed time. Use Recipes to browse paths revealed by discovering at least one ingredient.","[b]Trasforma i materiali in oggetti utili[/b]
+
+Seleziona una ricetta svelata, scegli le dimensioni del lotto e aggiungi un lavoro alla coda. Gli ingredienti e il costo in monete vengono detratti subito. Un lotto più grande richiede un tempo proporzionalmente maggiore.
+
+[b]Schede Coda e Potenziamenti[/b]
+Il Laboratorio elabora i lavori in coda nell'ordine, uno alla volta. Usa Coda per la produzione attiva e Potenziamenti per le migliorie permanenti. I potenziamenti di capacità consentono di mettere più lavori in attesa; quelli di Velocità abbreviano i lavori attuali e futuri.
+
+Annullare un lavoro in coda rimborsa tutti gli ingredienti e il costo in monete. La creazione continua mentre il gioco è chiuso e recupera tutto il tempo trascorso. Usa Ricette per esplorare i percorsi svelati scoprendo almeno un ingrediente."
+"[b]Hatch and train expedition companions[/b]
+
+Drowned Tollkeeper, Chimera Matron, and the four permanent Raid bosses each have a fixed 15% chance to drop their family egg. Hatch odds and party bonuses are {PET_RARITY_SUMMARY}. Assign one available pet to a dungeon or Raid; it earns Bond XP from completed encounters and strengthens its effects through level 20. A pet selected during party setup is not active yet: its bonuses and deployment begin only when that dungeon or Raid starts.","[b]Hatch and train expedition companions[/b]
+
+Drowned Tollkeeper, Chimera Matron, and the four permanent Raid bosses each have a fixed 15% chance to drop their family egg. Hatch odds and party bonuses are {PET_RARITY_SUMMARY}. Assign one available pet to a dungeon or Raid; it earns Bond XP from completed encounters and strengthens its effects through level 20. A pet selected during party setup is not active yet: its bonuses and deployment begin only when that dungeon or Raid starts.","[b]Schiudi e addestra i famigli da spedizione[/b]
+
+Il Gabelliere annegato, la Matrona chimera e i quattro boss permanenti dei Raid hanno ciascuno una probabilità fissa del 15% di lasciare l'uovo della propria famiglia. Le probabilità di schiusa e i bonus al gruppo sono {PET_RARITY_SUMMARY}. Assegna un famiglio disponibile a un dungeon o Raid: ottiene ESP Legame dagli scontri completati e rafforza i suoi effetti fino al livello 20. Un famiglio selezionato durante la preparazione del gruppo non è ancora attivo: i suoi bonus e il suo impiego iniziano solo all'avvio del dungeon o Raid."
+"[b]Shape an elite hero's final build[/b]
+
+Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then invest up to 15 points across its illustrated upgrade nodes.
+
+Every Basic, Awakened, and capstone upgrade is available immediately after choosing a path. Each node shows its rank and per-rank cost. Resetting points or changing paths is free.","[b]Shape an elite hero's final build[/b]
+
+Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then invest up to 15 points across its illustrated upgrade nodes.
+
+Every Basic, Awakened, and capstone upgrade is available immediately after choosing a path. Each node shows its rank and per-rank cost. Resetting points or changing paths is free.","[b]Definisci la configurazione finale di un eroe élite[/b]
+
+L'Ascensione si sblocca al livello élite 50. Scegli uno dei quattro Percorsi ascendenti, poi investi fino a 15 punti nei nodi di potenziamento illustrati.
+
+Tutti i potenziamenti Base, Risvegliati e vertice sono disponibili subito dopo aver scelto un percorso. Ogni nodo mostra il proprio grado e il costo per grado. Azzerare i punti o cambiare percorso è gratuito."
+" - available"," - available"," - disponibile"
+" - deployed in %s"," - deployed in %s"," - schierato in %s"
+" - Owned x%s"," - Owned x%s"," - Posseduti x%s"
+" - owned x%s"," - owned x%s"," - posseduti x%s"
+" - Tier %s"," - Tier %s"," - Grado %s"
+"%s - %s","%s - %s","%s - %s"
+"%s - %s %s - Level %s - %s","%s - %s %s - Level %s - %s","%s - %s %s - Livello %s - %s"
+"%s - %s%% - %s - %s party bonuses","%s - %s%% - %s - %s party bonuses","%s - %s%% - %s - %s bonus al gruppo"
+"%s - report quantity x%s - tap for details","%s - report quantity x%s - tap for details","%s - quantità nel rapporto x%s - tocca per i dettagli"
+"%s - Tier %s%s - %s - %s%% boss drop","%s - Tier %s%s - %s - %s%% boss drop","%s - Grado %s%s - %s - probabilità boss %s%%"
+"%s %s
+%s family","%s %s
+%s family","%s %s
+Famiglia %s"
+"%s / %s SPENT","%s / %s SPENT","%s / %s SPESI"
+"%s + ANY crafted weapon from %s","%s + ANY crafted weapon from %s","%s + QUALSIASI arma creata di %s"
+"%s · %s","%s · %s","%s · %s"
+"%s BONUS%s","%s BONUS%s","%s BONUS%s"
+"%s PT / RANK","%s PT / RANK","%s PT / GRADO"
+"%s Report","%s Report","Rapporto: %s"
+"%s x%s required. Upgrade success: 100%%.","%s x%s required. Upgrade success: 100%%.","Richiesti %s x%s. Successo del potenziamento: 100%%."
+"%s
+
+Current rank: %s/%s
+Current bonus: %s
+All valid upgrades are guaranteed to succeed.","%s
+
+Current rank: %s/%s
+Current bonus: %s
+All valid upgrades are guaranteed to succeed.","%s
+
+Grado attuale: %s/%s
+Bonus attuale: %s
+Tutti i potenziamenti validi hanno successo garantito."
+"%s
+Press the mist icon to hide this explanation.","%s
+Press the mist icon to hide this explanation.","%s
+Premi l'icona della nebbia per nascondere questa spiegazione."
+"%s%% BOSS DROP","%s%% BOSS DROP","BOTTINO BOSS %s%%"
+"%s%% drop from %s","%s%% drop from %s","Probabilità %s%% da %s"
+"%s%% EGG","%s%% EGG","UOVO %s%%"
+"? DROP","? DROP","BOTTINO ?"
+"[center]%s  |  %s
+[b][color=%s]Health: %s / %s[/color][/b]
+[b][color=%s]Mana: %s / %s[/color][/b]
+[b][color=%s]Barrier: %s[/color][/b][/center]","[center]%s  |  %s
+[b][color=%s]Health: %s / %s[/color][/b]
+[b][color=%s]Mana: %s / %s[/color][/b]
+[b][color=%s]Barrier: %s[/color][/b][/center]","[center]%s  |  %s
+[b][color=%s]Salute: %s / %s[/color][/b]
+[b][color=%s]Mana: %s / %s[/color][/b]
+[b][color=%s]Barriera: %s[/color][/b][/center]"
+"[color=#bd9865]None[/color]","[color=#bd9865]None[/color]","[color=#bd9865]Nessuno[/color]"
+"[color=#f2cf82][b]ACTIVE EFFECTS[/b][/color]
+%s","[color=#f2cf82][b]ACTIVE EFFECTS[/b][/color]
+%s","[color=#f2cf82][b]EFFETTI ATTIVI[/b][/color]
+%s"
+"+%s more","+%s more","+ altri %s"
+"• %s: %s (%s turns) — %s","• %s: %s (%s turns) — %s","• %s: %s (%s turni) — %s"
+"Active skill","Active skill","Abilità attiva"
+"Add one rank to %s.","Add one rank to %s.","Aggiungi un grado a %s."
+"Any crafted weapon from %s","Any crafted weapon from %s","Qualsiasi arma creata di %s"
+"Ascendant Path","Ascendant Path","Sentiero ascendente"
+"ASCENSION PROGRESS","ASCENSION PROGRESS","PROGRESSO ASCENSIONE"
+"Attack %s    Damage %s-%s
+Defense %s%%    Magic Defense %s%%","Attack %s    Damage %s-%s
+Defense %s%%    Magic Defense %s%%","Attacco %s    Danno %s-%s
+Difesa %s%%    Difesa magica %s%%"
+"Barrier: %s","Barrier: %s","Barriera: %s"
+"Become %s (%s)","Become %s (%s)","Diventa %s (%s)"
+"Collected drops","Collected drops","Bottino raccolto"
+"Crafting · %s / %s","Crafting · %s / %s","Creazione · %s / %s"
+"Current drops","Current drops","Bottino attuale"
+"Death penalty: each fallen hero loses 10% of their current XP.","Death penalty: each fallen hero loses 10% of their current XP.","Penalità di morte: ogni eroe caduto perde il 10% dell'ESP attuale."
+"Deaths","Deaths","Morti"
+"Deployed in %s","Deployed in %s","Schierato in %s"
+"Effect","Effect","Effetto"
+"ES","ES"," TOTALI"
+"Gems gained","Gems gained","Gemme ottenute"
+"Hatch outcomes","Hatch outcomes","Esiti della schiusa"
+"Hero","Hero","Eroe"
+"IN %s","IN %s","IN %s"
+"other slot","other slot","altro slot"
+"INVEST · %s POINT","INVEST · %s POINT","INVESTI · %s PUNTO"
+"INVEST · %s POINTS","INVEST · %s POINTS","INVESTI · %s PUNTI"
+"Invest another rank.","Invest another rank.","Investi in un altro grado."
+"Items","Items","Oggetti"
+"Items / hour","Items / hour","Oggetti / ora"
+"Kills","Kills","Uccisioni"
+"Last collection","Last collection","Ultima raccolta"
+"Level %s / %s - Bond XP %s / %s","Level %s / %s - Bond XP %s / %s","Livello %s / %s - ESP Legame %s / %s"
+"Level %s / %s - MAX","Level %s / %s - MAX","Livello %s / %s - MAX"
+"Lv.%s","Lv.%s","Liv.%s"
+"MAXED","MAXED","COMPLETATO"
+"MAXIMUM RANK","MAXIMUM RANK","GRADO MASSIMO"
+"Maximum rank reached.","Maximum rank reached.","Grado massimo raggiunto."
+"Mist %s%%: enemies gain +%s%% Evade.","Mist %s%%: enemies gain +%s%% Evade.","Nebbia %s%%: i nemici ottengono +%s%% Schivata."
+"Monster","Monster","Mostro"
+"NEED %s ASCENSION POINT","NEED %s ASCENSION POINT","SERVE %s PUNTO ASCENSIONE"
+"NEED %s ASCENSION POINTS","NEED %s ASCENSION POINTS","SERVONO %s PUNTI ASCENSIONE"
+"No active skill.","No active skill.","Nessuna abilità attiva."
+"No expedition report is available yet.","No expedition report is available yet.","Non è ancora disponibile alcun rapporto di spedizione."
+"No passive skill.","No passive skill.","Nessuna abilità passiva."
+"NO POINTS","NO POINTS","NESSUN PUNTO"
+"Not enough Ascension Points remain.","Not enough Ascension Points remain.","Non restano abbastanza Punti Ascensione."
+"Not enough Ascension Points.","Not enough Ascension Points.","Punti Ascensione insufficienti."
+"Party bonuses","Party bonuses","Bonus al gruppo"
+"Passive skill","Passive skill","Abilità passiva"
+"POINTS
+LEFT","POINTS
+LEFT","PUNTI
+RIMASTI"
+"Possible bonuses","Possible bonuses","Bonus possibili"
+"Press to inspect this combatant","Press to inspect this combatant","Premi per esaminare questo combattente"
+"Rank %s/%s","Rank %s/%s","Grado %s/%s"
+"RANK %s/%s","RANK %s/%s","GRADO %s/%s"
+"RANK %s/%s · %s POINT PER RANK","RANK %s/%s · %s POINT PER RANK","GRADO %s/%s · %s PUNTO PER GRADO"
+"RANK %s/%s · %s POINTS PER RANK","RANK %s/%s · %s POINTS PER RANK","GRADO %s/%s · %s PUNTI PER GRADO"
+"READY","READY","PRONTO"
+"Ready to invest.","Ready to invest.","Pronto per l'investimento."
+"Since last collection","Since last collection","Dall'ultima raccolta"
+"T%s","T%s","G%s"
+"this upgrade","this upgrade","questo potenziamento"
+"This upgrade is complete.","This upgrade is complete.","Questo potenziamento è completo."
+"Tier %s egg
+%s family","Tier %s egg
+%s family","Uovo di grado %s
+Famiglia %s"
+"Time","Time","Tempo"
+"Uncollected report","Uncollected report","Rapporto non riscosso"
+"Unique raid accessory","Unique raid accessory","Accessorio da raid unico"
+"Unknown boss egg","Unknown boss egg","Uovo di boss sconosciuto"
+"Unknown egg","Unknown egg","Uovo sconosciuto"
+"Unknown item - discover it to reveal its details","Unknown item - discover it to reveal its details","Oggetto sconosciuto - scoprilo per svelarne i dettagli"
+"Unknown item type","Unknown item type","Tipo di oggetto sconosciuto"
+"Unknown pet","Unknown pet","Famiglio sconosciuto"
+"Unknown source","Unknown source","Fonte sconosciuta"
+"Unknown unique raid accessory","Unknown unique raid accessory","Accessorio da raid unico sconosciuto"
+"UPGRADE · %s/%s
+GUARANTEED","UPGRADE · %s/%s
+GUARANTEED","POTENZIA · %s/%s
+GARANTITO"
+"Waiting · %s","Waiting · %s","In attesa · %s"
+"x%s","x%s","x%s"
+"x?","x?","x?"
+"+%s%%","+%s%%","+%s%%"
+"+%s point","+%s point","+%s punto"
+"+%s points","+%s points","+%s punti"
+"ACC","ACC","ACC"
+"ACC1","ACC1","ACC1"
+"ACC2","ACC2","ACC2"
+"ARM","ARM","ARM"
+"BUILD","BUILD","COST"
+"RAID","RAID","RAID"
+"REF","REF","RAFF"
+"XP / hour","XP / hour","ESP / ora"
+"XP gained","XP gained","ESP ottenuta"
+"XP lost","XP lost","ESP persa"
+"%s %s","%s %s","%s %s"
+"%s + %s","%s + %s","%s + %s"
+"%s x%s","%s x%s","%s x%s"
+"%s completes the Unswallowed Pattern.","%s completes the Unswallowed Pattern.","%s completa la Trama non inghiottita."
+"%s evades %s","%s evades %s","%s schiva %s"
+"%s experience shared among living heroes","%s experience shared among living heroes","%s ESP distribuita tra gli eroi sopravvissuti"
+"%s gains %s mana","%s gains %s mana","%s ottiene %s mana"
+"%s hits %s with %s for %s damage","%s hits %s with %s for %s damage","%s colpisce %s con %s infliggendo %s danni"
+"%s holds fast and reduces the opening hit.","%s holds fast and reduces the opening hit.","%s resiste e riduce il danno del primo colpo."
+"%s is marked by %s's Gale Mark","%s is marked by %s's Gale Mark","%s viene marchiato dal Marchio della burrasca di %s"
+"%s is steadied by the Heart of the Marching Grove.","%s is steadied by the Heart of the Marching Grove.","%s ritrova stabilità grazie al Cuore del Bosco in Marcia."
+"%s reflects %s damage to %s","%s reflects %s damage to %s","%s riflette %s danni su %s"
+"%s refuses to fall through divine protection","%s refuses to fall through divine protection","%s rifiuta di cadere grazie alla protezione divina"
+"%s resists a harmful effect","%s resists a harmful effect","%s resiste a un effetto nocivo"
+"%s restores %s HP through %s","%s restores %s HP through %s","%s recupera %s PV grazie a %s"
+"%s restores %s HP to %s through %s","%s restores %s HP to %s through %s","%s restituisce %s PV a %s grazie a %s"
+"%s returns to battle with %s HP","%s returns to battle with %s HP","%s torna in battaglia con %s PV"
+"%s sacrifices %s HP","%s sacrifices %s HP","%s sacrifica %s PV"
+"%s suffers %s decay damage","%s suffers %s decay damage","%s subisce %s danni da decadimento"
+"%s suffers %s ongoing damage","%s suffers %s ongoing damage","%s subisce %s danni continuati"
+"%s's barrier absorbs %s damage","%s's barrier absorbs %s damage","La barriera di %s assorbe %s danni"
+"%s's Clear Note cleanses %s.","%s's Clear Note cleanses %s.","La Nota limpida di %s purifica %s."
+"[color=#55a8ff]%s uses %s[/color]","[color=#55a8ff]%s uses %s[/color]","[color=#55a8ff]%s usa %s[/color]"
+"[color=#b9d9ed]The mist shifts to %s%%. Enemy evasion changes with it.[/color]","[color=#b9d9ed]The mist shifts to %s%%. Enemy evasion changes with it.[/color]","[color=#b9d9ed]La nebbia passa al %s%%. L'evasione dei nemici cambia di conseguenza.[/color]"
+"[color=#d8b34b]%s unleashes %s![/color]","[color=#d8b34b]%s unleashes %s![/color]","[color=#d8b34b]%s scatena %s![/color]"
+"[color=#e7d45b]Wave rewards: %s.[/color]","[color=#e7d45b]Wave rewards: %s.[/color]","[color=#e7d45b]Ricompense dell'ondata: %s.[/color]"
+"[color=#f1c34f]%s answers the eclipse and remains at 1 HP.[/color]","[color=#f1c34f]%s answers the eclipse and remains at 1 HP.[/color]","[color=#f1c34f]%s risponde all'eclissi e rimane a 1 PV.[/color]"
+"[color=#f1c34f]%s invokes the Signet: no hero walks alone.[/color]","[color=#f1c34f]%s invokes the Signet: no hero walks alone.[/color]","[color=#f1c34f]%s invoca il Sigillo: nessun eroe cammina da solo.[/color]"
+"[color=#f1c34f]The Last Road Concordance rallies every living ally.[/color]","[color=#f1c34f]The Last Road Concordance rallies every living ally.[/color]","[color=#f1c34f]La Concordanza dell'Ultima Via raduna tutti gli alleati ancora in vita.[/color]"
+"[color=#ffcc66]%s falls and loses %s XP (10%% death penalty)[/color]","[color=#ffcc66]%s falls and loses %s XP (10%% death penalty)[/color]","[color=#ffcc66]%s cade e perde %s ESP (penalità di morte del 10%%)[/color]"
+"[color=%s]%s attacks %s, but the attack is evaded[/color]","[color=%s]%s attacks %s, but the attack is evaded[/color]","[color=%s]%s attacca %s, ma il colpo viene schivato[/color]"
+"[color=%s]%s lands a %s attack on %s for %s damage[/color]","[color=%s]%s lands a %s attack on %s for %s damage[/color]","[color=%s]%s mette a segno un attacco %s su %s infliggendo %s danni[/color]"
+"[color=%s]%s lands a critical %s attack on %s for %s damage[/color]","[color=%s]%s lands a critical %s attack on %s for %s damage[/color]","[color=%s]%s mette a segno un attacco %s critico su %s infliggendo %s danni[/color]"
+"All heroes defeated","All heroes defeated","Tutti gli eroi sono stati sconfitti"
+"drops: %s","drops: %s","bottino: %s"
+"Dungeon started","Dungeon started","Dungeon avviato"
+"Dungeon stopped","Dungeon stopped","Dungeon interrotto"
+"EVADE","EVADE","SCHIVATA"
+"First Light","First Light","Prima Luce"
+"Green Mercy","Green Mercy","Misericordia Verde"
+"Healer's Grace","Healer's Grace","Grazia del guaritore"
+"IMMUNE","IMMUNE","IMMUNE"
+"lifesteal","lifesteal","furto vitale"
+"no experience gained","no experience gained","nessuna ESP ottenuta"
+"no items dropped","no items dropped","nessun oggetto ottenuto"
+"No monster team configured","No monster team configured","Nessuna squadra di mostri configurata"
+"Offline progress applied: %s","Offline progress applied: %s","Progressi offline applicati: %s"
+"ongoing skill","ongoing skill","abilità persistente"
+"healer passive","healer passive","passiva del guaritore"
+"regeneration","regeneration","rigenerazione"
+"Shared Roots shelters the rest of %s's party.","Shared Roots shelters the rest of %s's party.","Radici Condivise protegge il resto del gruppo di %s."
+"SKILL","SKILL","ABILITÀ"
+"Wave cleared","Wave cleared","Ondata completata"
+"WING %s","WING %s","ALA %s"
+"%s
+
+%s
+%s","%s
+
+%s
+%s","%s
+
+%s
+%s"
+"%s
+%s","%s
+%s","%s
+%s"
+"[color=yellow]The boss encounter is over. A new dungeon run begins. %s %s[/color]","[color=yellow]The boss encounter is over. A new dungeon run begins. %s %s[/color]","[color=yellow]Lo scontro con il boss è terminato. Inizia una nuova spedizione nel dungeon. %s %s[/color]"
+"[color=yellow]The seal has broken. %s will appear in the next encounter. %s[/color]","[color=yellow]The seal has broken. %s will appear in the next encounter. %s[/color]","[color=yellow]Il sigillo si è spezzato. %s apparirà nel prossimo scontro. %s[/color]"
+"[color=yellow]Something is changing as the company presses onward. %s %s[/color]","[color=yellow]Something is changing as the company presses onward. %s %s[/color]","[color=yellow]Qualcosa sta cambiando mentre la compagnia continua ad avanzare. %s %s[/color]"
+"[color=yellow]Story complete. The road remains open for farming. %s[/color]","[color=yellow]Story complete. The road remains open for farming. %s[/color]","[color=yellow]Storia completata. Il percorso resta aperto per raccogliere risorse. %s[/color]"
+"[color=yellow]The story is complete, but the boss can be challenged again. %s %s[/color]","[color=yellow]The story is complete, but the boss can be challenged again. %s %s[/color]","[color=yellow]La storia è completa, ma il boss può essere affrontato di nuovo. %s %s[/color]"
+"[color=yellow]A raid quest sign answers the company. %s [%s/%s][/color]","[color=yellow]A raid quest sign answers the company. %s [%s/%s][/color]","[color=yellow]Un segno della missione del raid risponde alla compagnia. %s [%s/%s][/color]"
+"[color=#e7d45b]A rare %s was recovered.[/color]","[color=#e7d45b]A rare %s was recovered.[/color]","[color=#e7d45b]Oggetto raro recuperato: %s.[/color]"
+"[color=#e7d45b]%s dropped %s x%s.[/color]","[color=#e7d45b]%s dropped %s x%s.[/color]","[color=#e7d45b]%s ha lasciato cadere %s x%s.[/color]"
+"[color=#ffd84d]Unique accessory found: %s![/color]","[color=#ffd84d]Unique accessory found: %s![/color]","[color=#ffd84d]Accessorio unico trovato: %s![/color]"
+"[color=#9ee8ff]%s dropped a %s![/color]","[color=#9ee8ff]%s dropped a %s![/color]","[color=#9ee8ff]%s ha lasciato cadere %s![/color]"
+"[color=#9ee8ff]%s reached pet level %s![/color]","[color=#9ee8ff]%s reached pet level %s![/color]","[color=#9ee8ff]Il famiglio %s ha raggiunto il livello %s![/color]"
+"[color=#b8f0c0]%s completed. Its Concordance Fragment is secured.[/color]","[color=#b8f0c0]%s completed. Its Concordance Fragment is secured.[/color]","[color=#b8f0c0]%s: prova completata. Il Frammento della Concordanza è al sicuro.[/color]"
+"[color=yellow]The echo was defeated, but the trial conditions were not met. Preparation remains paid and retries are free.[/color]","[color=yellow]The echo was defeated, but the trial conditions were not met. Preparation remains paid and retries are free.[/color]","[color=yellow]L'eco è stata sconfitta, ma le condizioni della prova non sono state soddisfatte. La preparazione già pagata resta valida e i nuovi tentativi sono gratuiti.[/color]"
+"[color=#69e6ff]Opened %s Gem Cluster: +%s gem[/color]","[color=#69e6ff]Opened %s Gem Cluster: +%s gem[/color]","[color=#69e6ff]Aperto %s ammasso di gemme: +%s gemma[/color]"
+"[color=#69e6ff]Opened %s Gem Cluster: +%s gems[/color]","[color=#69e6ff]Opened %s Gem Cluster: +%s gems[/color]","[color=#69e6ff]Aperto %s ammasso di gemme: +%s gemme[/color]"
+"[color=#69e6ff]Opened %s Gem Clusters: +%s gem[/color]","[color=#69e6ff]Opened %s Gem Clusters: +%s gem[/color]","[color=#69e6ff]Aperti %s ammassi di gemme: +%s gemma[/color]"
+"[color=#69e6ff]Opened %s Gem Clusters: +%s gems[/color]","[color=#69e6ff]Opened %s Gem Clusters: +%s gems[/color]","[color=#69e6ff]Aperti %s ammassi di gemme: +%s gemme[/color]"
+"%s became a %s","%s became a %s","%s ha ottenuto la classe %s"
+"[color=yellow]The descent was abandoned. The secured anchor remains at depth %s.[/color]","[color=yellow]The descent was abandoned. The secured anchor remains at depth %s.[/color]","[color=yellow]La discesa è stata abbandonata. L'ancora consolidata resta alla profondità %s.[/color]"
+"Depth %s in progress","Depth %s in progress","Profondità %s in corso"
+"Depth %s ready","Depth %s ready","Profondità %s pronta"
+"Depth %s | Stratum %s/%s","Depth %s | Stratum %s/%s","Profondità %s | Strato %s/%s"
+"No active laws","No active laws","Nessuna legge attiva"
+"Anchor %s | Highest depth %s | Day %s | %s","Anchor %s | Highest depth %s | Day %s | %s","Ancora %s | Profondità massima %s | Giorno %s | %s"
+"Running | Depth %s | Anchor %s | %s/%s heroes | %s/%s companions","Running | Depth %s | Anchor %s | %s/%s heroes | %s/%s companions","In corso | Profondità %s | Ancora %s | %s/%s eroi | %s/%s famigli"
+"Depth %s ready | Anchor %s | Highest depth %s","Depth %s ready | Anchor %s | Highest depth %s","Profondità %s pronta | Ancora %s | Profondità massima %s"
+"Depth %s | Highest %s | Anchor %s | Kills %s | Deaths %s | XP %s | Day %s","Depth %s | Highest %s | Anchor %s | Kills %s | Deaths %s | XP %s | Day %s","Profondità %s | Massima %s | Ancora %s | Uccisioni %s | Morti %s | ESP %s | Giorno %s"
+"[color=yellow]Echo depth %s cleared.[/color]","[color=yellow]Echo depth %s cleared.[/color]","[color=yellow]Profondità dell'Eco %s superata.[/color]"
+"secured","secured","consolidata"
+"held","held","mantenuta"
+"Echo Depth %s: Anchor %s %s","Echo Depth %s: Anchor %s %s","Profondità dell'Eco %s: Ancora %s %s"
+"ECHO %s
+ANCHOR %s
+IN BATTLE","ECHO %s
+ANCHOR %s
+IN BATTLE","ECO %s
+ANCORA %s
+IN BATTAGLIA"
+"ECHO %s
+ANCHOR %s
+READY","ECHO %s
+ANCHOR %s
+READY","ECO %s
+ANCORA %s
+PRONTO"
+"Echo Descent - Depth %s, secured Anchor %s. Five heroes and two companions; attempts are unlimited.","Echo Descent - Depth %s, secured Anchor %s. Five heroes and two companions; attempts are unlimited.","Discesa dell'Eco - Profondità %s, Ancora consolidata %s. Cinque eroi e due famigli; i tentativi sono illimitati."
+"BEYOND THE CROWN","BEYOND THE CROWN","OLTRE LA CORONA"
+"Five heroes descend through four hostile depths and one Guardian. Clearing the Guardian secures the next Anchor.
+
+Deepest reached: %s
+Secured Anchor: %s
+Next push: Depth %s to Anchor %s
+Formation: exactly 5 heroes and up to 2 companions
+
+Failure or abandon returns the party to its secured Anchor. Attempts are unlimited.","Five heroes descend through four hostile depths and one Guardian. Clearing the Guardian secures the next Anchor.
+
+Deepest reached: %s
+Secured Anchor: %s
+Next push: Depth %s to Anchor %s
+Formation: exactly 5 heroes and up to 2 companions
+
+Failure or abandon returns the party to its secured Anchor. Attempts are unlimited.","Cinque eroi scendono attraverso quattro profondità ostili e un Guardiano. Sconfiggere il Guardiano consolida l'Ancora successiva.
+
+Profondità massima raggiunta: %s
+Ancora consolidata: %s
+Prossima avanzata: dalla profondità %s all'Ancora %s
+Formazione: esattamente 5 eroi e fino a 2 famigli
+
+In caso di sconfitta o abbandono, il gruppo torna all'Ancora consolidata. I tentativi sono illimitati."
+"DAILY SHIFTING LAWS","DAILY SHIFTING LAWS","LEGGI MUTEVOLI GIORNALIERE"
+"Laws rotate at 00:00 UTC. A started stratum keeps its starting laws. Next rotation in %s.","Laws rotate at 00:00 UTC. A started stratum keeps its starting laws. Next rotation in %s.","Le leggi cambiano alle 00:00 UTC. Uno strato già iniziato mantiene le leggi iniziali. Prossima rotazione tra %s."
+"%s: %s","%s: %s","%s: %s"
+"Unknown Law","Unknown Law","Legge sconosciuta"
+"PUSH ORDER
+The party advances until it secures Anchor %s or is defeated. Echo monsters grant no ordinary item drops.","PUSH ORDER
+The party advances until it secures Anchor %s or is defeated. Echo monsters grant no ordinary item drops.","ORDINE DI AVANZATA
+Il gruppo avanza finché non consolida l'Ancora %s o viene sconfitto. I mostri dell'Eco non rilasciano normali oggetti come bottino."
+"Replay Tower Floor 100","Replay Tower Floor 100","Rigioca il piano 100 della Torre"
+"Return to the completed Tower for an Apex build test","Return to the completed Tower for an Apex build test","Torna alla Torre completata per testare una configurazione Apex"
+"Enter Echo Descent","Enter Echo Descent","Entra nella Discesa dell'Eco"
+"Continue beyond the completed Tower with a five-hero formation","Continue beyond the completed Tower with a five-hero formation","Prosegui oltre la Torre completata con una formazione di cinque eroi"
+"Abandon Push
+(Return to Anchor)","Abandon Push
+(Return to Anchor)","Abbandona avanzata
+(Torna all'Ancora)"
+"The secured Echo Anchor remains unchanged","The secured Echo Anchor remains unchanged","L'Ancora consolidata dell'Eco resta invariata"
+"Arrange Echo Formation","Arrange Echo Formation","Organizza formazione dell'Eco"
+"ECHO","ECHO","ECO"
+"%s COMPANION %s","%s COMPANION %s","FAMIGLIO %s %s"
+"CHOOSE %s COMPANION %s","CHOOSE %s COMPANION %s","SCEGLI FAMIGLIO %s %s"
+"%s supports two distinct companions","%s supports two distinct companions","%s supporta due famigli distinti"
+"Choose %s Companion %s","Choose %s Companion %s","Scegli famiglio %s %s"
+"No Companion in Slot %s","No Companion in Slot %s","Nessun famiglio nello slot %s"
+"Push Echo Depth %s","Push Echo Depth %s","Affronta la profondità dell'Eco %s"
+"DAILY RESONANCE","DAILY RESONANCE","RISONANZA GIORNALIERA"
+"Echo Depth %s cleared for practice; Anchor %s held","Echo Depth %s cleared for practice; Anchor %s held","Profondità dell'Eco %s superata come prova; Ancora %s mantenuta"
+"Echo Depth %s cleared; Anchor %s secured","Echo Depth %s cleared; Anchor %s secured","Profondità dell'Eco %s superata; Ancora %s consolidata"
+"Echo Depth %s failed; Anchor %s held","Echo Depth %s failed; Anchor %s held","Profondità dell'Eco %s fallita; Ancora %s mantenuta"
+"Echo Depth %s is in battle. Finish or abandon that Echo push before attempting a Tower floor.","Echo Depth %s is in battle. Finish or abandon that Echo push before attempting a Tower floor.","La profondità dell'Eco %s è in battaglia. Completa o abbandona questa avanzata nell'Eco prima di tentare un piano della Torre."
+"Echo Descent - Depth %s is in battle; secured Anchor %s. Open the active Echo run.","Echo Descent - Depth %s is in battle; secured Anchor %s. Open the active Echo run.","Discesa dell'Eco - La profondità %s è in battaglia; Ancora consolidata %s. Apri l'avanzata attiva nell'Eco."
+"Echo Descent - Depth %s ready at secured Anchor %s. The first reward-eligible Guardian each UTC day secures the next Anchor and grants Resonance; later same-day clears are practice.","Echo Descent - Depth %s ready at secured Anchor %s. The first reward-eligible Guardian each UTC day secures the next Anchor and grants Resonance; later same-day clears are practice.","Discesa dell'Eco - Profondità %s pronta all'Ancora consolidata %s. Il primo Guardiano idoneo alla ricompensa di ogni giorno UTC consolida l'Ancora successiva e concede Risonanza; le vittorie successive nello stesso giorno sono prove."
+"Echo Descent - unlocks after Tower Floor %s","Echo Descent - unlocks after Tower Floor %s","Discesa dell'Eco - si sblocca dopo il Piano %s della Torre"
+"Echo Descent requires exactly five available heroes","Echo Descent requires exactly five available heroes","La Discesa dell'Eco richiede esattamente cinque eroi disponibili"
+"ECHO DESCENT UNLOCK
+Clear Floor %s to reveal the separate Echo access icon.","ECHO DESCENT UNLOCK
+Clear Floor %s to reveal the separate Echo access icon.","SBLOCCO DISCESA DELL'ECO
+Supera il Piano %s per rivelare l'icona di accesso separata all'Eco."
+"Echo Descent unlocks after clearing Tower Floor %s.","Echo Descent unlocks after clearing Tower Floor %s.","La Discesa dell'Eco si sblocca dopo aver superato il Piano %s della Torre."
+"Echo Descent unlocks after Tower Floor %s. Five heroes descend through four hostile depths and one Guardian. Only the first reward-eligible Guardian clear each UTC day secures the next Anchor and grants Resonance. Later same-day Guardian clears are practice: they grant Bond XP and return the party to its existing secured Anchor.
+
+Deepest reached: %s
+Secured Anchor: %s
+Next push: Depth %s to Anchor %s
+Formation: exactly 5 heroes and up to 2 companions
+
+Failure or abandon returns the party to its secured Anchor. Attempts are unlimited.","Echo Descent unlocks after Tower Floor %s. Five heroes descend through four hostile depths and one Guardian. Only the first reward-eligible Guardian clear each UTC day secures the next Anchor and grants Resonance. Later same-day Guardian clears are practice: they grant Bond XP and return the party to its existing secured Anchor.
+
+Deepest reached: %s
+Secured Anchor: %s
+Next push: Depth %s to Anchor %s
+Formation: exactly 5 heroes and up to 2 companions
+
+Failure or abandon returns the party to its secured Anchor. Attempts are unlimited.","La Discesa dell'Eco si sblocca dopo il Piano %s della Torre. Cinque eroi attraversano quattro profondità ostili e un Guardiano. Solo la prima vittoria idonea contro il Guardiano di ogni giorno UTC consolida l'Ancora successiva e concede Risonanza. Le altre vittorie contro il Guardiano nello stesso giorno sono prove: concedono PE Legame e riportano il gruppo all'Ancora già consolidata.
+
+Profondità massima raggiunta: %s
+Ancora consolidata: %s
+Prossima avanzata: profondità %s verso l'Ancora %s
+Formazione: esattamente 5 eroi e fino a 2 famigli
+
+Una sconfitta o un abbandono riporta il gruppo all'Ancora consolidata. I tentativi sono illimitati."
+"Echo Resonance  R%s / %s","Echo Resonance  R%s / %s","Risonanza dell'Eco  R%s / %s"
+"EXPECTED ECHO RESONANCE
+Rank %s / %s is the intended progression target for this floor.","EXPECTED ECHO RESONANCE
+Rank %s / %s is the intended progression target for this floor.","RISONANZA DELL'ECO PREVISTA
+Il grado %s / %s è l'obiettivo di progressione previsto per questo piano."
+"Finish or abandon the active Echo push first","Finish or abandon the active Echo push first","Completa o abbandona prima l'avanzata attiva nell'Eco"
+"Finish or abandon the active Tower attempt first","Finish or abandon the active Tower attempt first","Completa o abbandona prima il tentativo attivo nella Torre"
+"First-clear reward: %s coins - the standard coin price of %s Tier %s accessory craft equivalents.
+Accessory examples: %s
+
+This is the only floor in this ten-floor section that drops a Tower reward.","First-clear reward: %s coins - the standard coin price of %s Tier %s accessory craft equivalents.
+Accessory examples: %s
+
+This is the only floor in this ten-floor section that drops a Tower reward.","Ricompensa prima vittoria: %s monete - il prezzo standard in monete equivalente a %s creazioni di accessori di grado %s.
+Esempi di accessori: %s
+
+Questo è l'unico piano della sezione di dieci piani che assegna una ricompensa della Torre."
+"Next daily reward at 00:00 UTC in %s","Next daily reward at 00:00 UTC in %s","Prossima ricompensa giornaliera alle 00:00 UTC tra %s"
+"Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. The first reward-eligible Guardian clear each UTC day secures the next Anchor and grants +%s ranks to exactly five heroes.","Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. The first reward-eligible Guardian clear each UTC day secures the next Anchor and grants +%s ranks to exactly five heroes.","Potere permanente dell'Eco. Il grado %s concede +%s%% a PS massimi e Attacco, e +%.1f a Difesa e Difesa Magica. La prima vittoria idonea contro il Guardiano di ogni giorno UTC consolida l'Ancora successiva e concede +%s gradi a esattamente cinque eroi."
+"PRACTICE DAY
+Today's Anchor advance is already claimed. A Guardian clear grants Bond XP, then returns the party to secured Anchor %s. Echo monsters grant no ordinary item drops.","PRACTICE DAY
+Today's Anchor advance is already claimed. A Guardian clear grants Bond XP, then returns the party to secured Anchor %s. Echo monsters grant no ordinary item drops.","GIORNO DI PROVA
+L'avanzamento dell'Ancora di oggi è già stato riscosso. Una vittoria contro il Guardiano concede PE Legame, poi riporta il gruppo all'Ancora consolidata %s. I mostri dell'Eco non rilasciano normali oggetti come bottino."
+"Select at least one available hero","Select at least one available hero","Seleziona almeno un eroe disponibile"
+"The first reward-eligible Guardian cleared each UTC day secures the next Anchor and grants +%s Resonance to exactly the 5 heroes in that successful formation, once per day. Later same-day Guardian clears are practice: they grant Bond XP but do not advance the Anchor. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","The first reward-eligible Guardian cleared each UTC day secures the next Anchor and grants +%s Resonance to exactly the 5 heroes in that successful formation, once per day. Later same-day Guardian clears are practice: they grant Bond XP but do not advance the Anchor. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","Il primo Guardiano idoneo sconfitto ogni giorno UTC consolida l'Ancora successiva e concede +%s Risonanza esattamente ai 5 eroi della formazione vincente, una volta al giorno. Le altre vittorie contro il Guardiano nello stesso giorno sono prove: concedono PE Legame ma non fanno avanzare l'Ancora. La Risonanza ha un grado massimo di %s. Ogni grado concede +2%% a PS massimi e Attacco, oltre a +0,5 a Difesa e Difesa Magica, aiutando quegli eroi a salire ai piani più alti della Torre."
+"Today's Guardian reward and Anchor advance: %s","Today's Guardian reward and Anchor advance: %s","Ricompensa del Guardiano e avanzamento dell'Ancora di oggi: %s"
+"Tower Floor %s is in battle. Finish or abandon that Tower attempt before starting Echo Descent.","Tower Floor %s is in battle. Finish or abandon that Tower attempt before starting Echo Descent.","Il Piano %s della Torre è in battaglia. Completa o abbandona quel tentativo prima di avviare la Discesa dell'Eco."
+"Tower of Ascension is unavailable","Tower of Ascension is unavailable","La Torre dell'Ascensione non è disponibile"
+"DAILY ANCHOR PUSH
+The first reward-eligible Guardian clear secures Anchor %s and grants Resonance. Echo monsters grant no ordinary item drops.","DAILY ANCHOR PUSH
+The first reward-eligible Guardian clear secures Anchor %s and grants Resonance. Echo monsters grant no ordinary item drops.","AVANZATA GIORNALIERA DELL'ANCORA
+La prima vittoria idonea contro il Guardiano consolida l'Ancora %s e concede Risonanza. I mostri dell'Eco non rilasciano normali oggetti come bottino."
+"%s COINS + %s PERMANENT HERO SLOT","%s COINS + %s PERMANENT HERO SLOT","%s MONETE + %s POSTO EROE PERMANENTE"
+"Tower floor %s cleared - +%s permanent hero slot","Tower floor %s cleared - +%s permanent hero slot","Piano %s della Torre superato - +%s posto eroe permanente"
+"First-clear rewards: %s coins - the standard coin price of %s Tier %s accessory craft equivalents - and +%s permanent hero roster slot.
+Accessory examples: %s
+
+Every ten-floor checkpoint permanently expands recruit capacity by one; retries never repeat either reward.","First-clear rewards: %s coins - the standard coin price of %s Tier %s accessory craft equivalents - and +%s permanent hero roster slot.
+Accessory examples: %s
+
+Every ten-floor checkpoint permanently expands recruit capacity by one; retries never repeat either reward.","Ricompense prima vittoria: %s monete - il prezzo standard in monete equivalente a %s creazioni di accessori di grado %s - e +%s posto eroe permanente nel roster.
+Esempi di accessori: %s
+
+Ogni checkpoint di dieci piani aumenta permanentemente di uno la capienza per il reclutamento; i nuovi tentativi non ripetono nessuna delle due ricompense."
+"Tower checkpoint roster bonus: +%s / +%s hero slots","Tower checkpoint roster bonus: +%s / +%s hero slots","Bonus capienza dei checkpoint della Torre: +%s / +%s posti eroe"
+"These trials unlock through campaign progress, never by waiting for a day reset. Preparation is paid once; attempts and practice replays are unlimited and grant no normal raid loot.","These trials unlock through campaign progress, never by waiting for a day reset. Preparation is paid once; attempts and practice replays are unlimited and grant no normal raid loot.","Queste prove si sbloccano avanzando nella campagna, mai attendendo il ripristino giornaliero. La preparazione si paga una sola volta; i tentativi e le ripetizioni di pratica sono illimitati e non forniscono il normale bottino dei raid."
+"Description","Description","Descrizione"
+"Google Play is still resolving an earlier premium purchase. The free reward will unlock when that transaction finishes.","Google Play is still resolving an earlier premium purchase. The free reward will unlock when that transaction finishes.","Google Play sta ancora elaborando un precedente acquisto premium. La ricompensa gratuita si sbloccherà al termine della transazione."
+"Premium purchases are available through Google Play on Android.","Premium purchases are available through Google Play on Android.","Gli acquisti premium sono disponibili tramite Google Play su Android."
+"Welcome Premium Pack purchase was not completed","Welcome Premium Pack purchase was not completed","L'acquisto del Pacchetto Premium di benvenuto non è stato completato"
+"Premium purchase pending · delivery starts after Google Play approves payment","Premium purchase pending · delivery starts after Google Play approves payment","Acquisto premium in sospeso · la consegna inizierà dopo l'approvazione del pagamento da parte di Google Play"
+"Test rewarded ad playing…","Test rewarded ad playing…","Riproduzione dell'annuncio premio di prova…"
+"Cloud sync is paused until the Play Games profile is confirmed safely.","Cloud sync is paused until the Play Games profile is confirmed safely.","La sincronizzazione cloud è in pausa finché il profilo Play Games non viene confermato in sicurezza."
+"Cloud sync is blocked because this local save belongs to another profile.","Cloud sync is blocked because this local save belongs to another profile.","La sincronizzazione cloud è bloccata perché questo salvataggio locale appartiene a un altro profilo."
+"Google cloud progress belongs to a different profile and was not applied.","Google cloud progress belongs to a different profile and was not applied.","I progressi nel cloud di Google appartengono a un altro profilo e non sono stati applicati."
+"This device's save identity could not be verified; no cloud data was changed.","This device's save identity could not be verified; no cloud data was changed.","Non è stato possibile verificare l'identità del salvataggio su questo dispositivo; nessun dato cloud è stato modificato."
+"The save is too large for Google Play cloud storage.","The save is too large for Google Play cloud storage.","Il salvataggio è troppo grande per lo spazio di archiviazione cloud di Google Play."
+"Shows progress within the current class. Gaining levels increases Health and Attack. Reaching a class milestone pauses experience gain until the hero is promoted; elite heroes can continue to the elite cap and unlock Ascension there.","Shows progress within the current class. Gaining levels increases Health and Attack. Reaching a class milestone pauses experience gain until the hero is promoted; elite heroes can continue to the elite cap and unlock Ascension there.","Mostra l'avanzamento nella classe attuale. Salire di livello aumenta Salute e Attacco. Raggiungere un traguardo di classe sospende l'esperienza finché l'eroe non viene promosso; gli eroi élite possono continuare fino al limite élite e sbloccare lì l'Ascensione."
+"Earned during combat from defeated enemies and shared among the heroes still standing. EXP Rate changes each hero's share. The first number is current progress and the second is the amount needed for the next level. MAX means the elite level cap has been reached.","Earned during combat from defeated enemies and shared among the heroes still standing. EXP Rate changes each hero's share. The first number is current progress and the second is the amount needed for the next level. MAX means the elite level cap has been reached.","Ottenuta in combattimento dai nemici sconfitti e condivisa tra gli eroi ancora in piedi. Il Tasso ESP modifica la quota di ogni eroe. Il primo numero è l'avanzamento attuale e il secondo è la quantità necessaria per il livello successivo. MAX indica che è stato raggiunto il limite di livello élite."
+"The hero's maximum life in combat. Damage lowers current Health; reaching zero makes the hero fall for that encounter. Strength, levels, equipment, promotions, and some elite growth can increase it.","The hero's maximum life in combat. Damage lowers current Health; reaching zero makes the hero fall for that encounter. Strength, levels, equipment, promotions, and some elite growth can increase it.","La vita massima dell'eroe in combattimento. I danni riducono la Salute attuale; a zero l'eroe cade per quell'incontro. Forza, livelli, equipaggiamento, promozioni e alcuni progressi élite possono aumentarla."
+"The mana added after each basic attack. A full mana meter lets the hero attempt their active skill on the next turn. Intelligence increases this value, and some Ascension upgrades can improve it further.","The mana added after each basic attack. A full mana meter lets the hero attempt their active skill on the next turn. Intelligence increases this value, and some Ascension upgrades can improve it further.","Il Mana aggiunto dopo ogni attacco base. Una barra del Mana piena consente all'eroe di tentare la propria abilità attiva nel turno successivo. Intelligenza aumenta questo valore e alcuni potenziamenti dell'Ascensione possono migliorarlo ulteriormente."
+"Increases maximum Health for every hero and is the main offensive attribute for Melee heroes. Equipment bonuses to Strength or Constitution are included in this total.","Increases maximum Health for every hero and is the main offensive attribute for Melee heroes. Equipment bonuses to Strength or Constitution are included in this total.","Aumenta la Salute massima di ogni eroe ed è l'attributo offensivo principale degli eroi da Mischia. I bonus di equipaggiamento a Forza o Costituzione sono inclusi in questo totale."
+"The main offensive attribute for Ranged heroes. It increases their Attack and therefore the power of their basic attacks and class skills; it does not change turn order.","The main offensive attribute for Ranged heroes. It increases their Attack and therefore the power of their basic attacks and class skills; it does not change turn order.","L'attributo offensivo principale degli eroi a Distanza. Aumenta il loro Attacco e quindi la potenza degli attacchi base e delle abilità di classe; non modifica l'ordine dei turni."
+"The main offensive attribute for Magic heroes, including the power behind their damaging, healing, and support skills. It also increases Mana Gain for every hero.","The main offensive attribute for Magic heroes, including the power behind their damaging, healing, and support skills. It also increases Mana Gain for every hero.","L'attributo offensivo principale degli eroi Magici, inclusa la potenza delle abilità di danno, cura e supporto. Aumenta anche il Guadagno Mana di ogni eroe."
+"Reduces incoming Melee and Ranged damage before it reaches Health. Temporary effects and abilities that ignore defense can change the protection during combat.","Reduces incoming Melee and Ranged damage before it reaches Health. Temporary effects and abilities that ignore defense can change the protection during combat.","Riduce i danni da Mischia e a Distanza in arrivo prima che raggiungano la Salute. Effetti temporanei e abilità che ignorano la difesa possono modificare la protezione durante il combattimento."
+"Reduces incoming Magic damage before it reaches Health. Temporary effects and abilities that ignore defense can change the protection during combat.","Reduces incoming Magic damage before it reaches Health. Temporary effects and abilities that ignore defense can change the protection during combat.","Riduce i danni Magici in arrivo prima che raggiungano la Salute. Effetti temporanei e abilità che ignorano la difesa possono modificare la protezione durante il combattimento."
+"The hero's central power value. It comes from the attribute tied to Attack Type, plus level, equipment, promotion, and elite growth, and determines basic-attack damage and the base power of class skills.","The hero's central power value. It comes from the attribute tied to Attack Type, plus level, equipment, promotion, and elite growth, and determines basic-attack damage and the base power of class skills.","Il valore di potenza centrale dell'eroe. Deriva dall'attributo legato al Tipo di Attacco, oltre che da livello, equipaggiamento, promozione e crescita élite, e determina i danni degli attacchi base e la potenza di base delle abilità di classe."
+"The possible damage range of a normal basic attack before critical hits, combat bonuses, mist effects, and the target's defenses are applied. Each basic attack rolls a value within this range.","The possible damage range of a normal basic attack before critical hits, combat bonuses, mist effects, and the target's defenses are applied. Each basic attack rolls a value within this range.","L'intervallo di danno possibile di un normale attacco base prima di applicare colpi critici, bonus di combattimento, effetti della nebbia e difese del bersaglio. Ogni attacco base determina un valore all'interno di questo intervallo."
+"Melee uses Strength and is reduced by Defense. Ranged uses Dexterity and is also reduced by Defense. Magic uses Intelligence and is reduced by Magic Defense. Attack Type also decides which counters and some raid mechanics interact with the hero.","Melee uses Strength and is reduced by Defense. Ranged uses Dexterity and is also reduced by Defense. Magic uses Intelligence and is reduced by Magic Defense. Attack Type also decides which counters and some raid mechanics interact with the hero.","Mischia usa Forza ed è ridotta da Difesa. Distanza usa Destrezza ed è anch'essa ridotta da Difesa. Magico usa Intelligenza ed è ridotto da Difesa Magica. Il Tipo di Attacco determina anche quali contrattacchi e meccaniche dei raid interagiscono con l'eroe."
+"Determines how strongly this hero is weighted when an enemy chooses a target for a direct attack. More Threat means more attacks are likely to come their way. Intercept overrides normal target selection while active.","Determines how strongly this hero is weighted when an enemy chooses a target for a direct attack. More Threat means more attacks are likely to come their way. Intercept overrides normal target selection while active.","Determina quanto questo eroe pesa quando un nemico sceglie il bersaglio di un attacco diretto. Più Minaccia significa una maggiore probabilità di ricevere attacchi. Intercettazione sostituisce la normale selezione del bersaglio mentre è attiva."
+"The chance to avoid a direct basic attack completely. An evaded attack deals no damage and can trigger evade-related passives. Some effects and encounter mechanics can raise, lower, or bypass part of this chance.","The chance to avoid a direct basic attack completely. An evaded attack deals no damage and can trigger evade-related passives. Some effects and encounter mechanics can raise, lower, or bypass part of this chance.","La probabilità di evitare completamente un attacco base diretto. Un attacco schivato non infligge danni e può attivare passive legate alla schivata. Alcuni effetti e meccaniche degli incontri possono aumentare, ridurre o aggirare in parte questa probabilità."
+"The chance for an attack or damaging skill to become a critical hit. Critical hits use Critical Damage for their damage multiplier and can trigger critical-related skills and encounter mechanics.","The chance for an attack or damaging skill to become a critical hit. Critical hits use Critical Damage for their damage multiplier and can trigger critical-related skills and encounter mechanics.","La probabilità che un attacco o un'abilità dannosa diventi un colpo critico. I colpi critici usano Danno Critico come moltiplicatore e possono attivare abilità e meccaniche degli incontri legate ai critici."
+"The damage multiplier of a critical hit compared with a normal hit. This matters only when Critical Chance succeeds; equipment and other effects can increase it.","The damage multiplier of a critical hit compared with a normal hit. This matters only when Critical Chance succeeds; equipment and other effects can increase it.","Il moltiplicatore di danno di un colpo critico rispetto a un colpo normale. Conta solo quando Probabilità Critico ha successo; equipaggiamento e altri effetti possono aumentarlo."
+"The chance to resist a harmful status when it is applied. A successful resistance prevents the status entirely and may trigger class passives. It does not reduce direct damage.","The chance to resist a harmful status when it is applied. A successful resistance prevents the status entirely and may trigger class passives. It does not reduce direct damage.","La probabilità di resistere a uno stato nocivo quando viene applicato. Una resistenza riuscita impedisce completamente lo stato e può attivare passive di classe. Non riduce i danni diretti."
+"The chance to answer a damaging Melee or Ranged basic attack. A counter can occur only when the hero survives and takes Health damage from the hit.","The chance to answer a damaging Melee or Ranged basic attack. A counter can occur only when the hero survives and takes Health damage from the hit.","La probabilità di rispondere a un attacco base dannoso da Mischia o a Distanza. Un contrattacco può avvenire solo se l'eroe sopravvive e subisce danni alla Salute dal colpo."
+"Sets how much of the triggering hit's Health damage is returned to its attacker when either a normal Counter or Magic Counter succeeds.","Sets how much of the triggering hit's Health damage is returned to its attacker when either a normal Counter or Magic Counter succeeds.","Stabilisce quanta parte del danno alla Salute del colpo scatenante viene restituita all'attaccante quando riesce un Contrattacco normale o Magico."
+"The chance to answer a damaging Magic basic attack. It follows the same survival and Health-damage requirements as Counter Chance and uses Counter Damage for its strength.","The chance to answer a damaging Magic basic attack. It follows the same survival and Health-damage requirements as Counter Chance and uses Counter Damage for its strength.","La probabilità di rispondere a un attacco base Magico dannoso. Segue gli stessi requisiti di sopravvivenza e danno alla Salute di Probabilità Contrattacco e usa Danno Contrattacco per la propria forza."
+"Restores the attacker's Health from Health damage dealt by basic attacks. It does not heal from blocked damage, and class or equipment effects may separately grant healing from skills.","Restores the attacker's Health from Health damage dealt by basic attacks. It does not heal from blocked damage, and class or equipment effects may separately grant healing from skills.","Ripristina la Salute dell'attaccante in base ai danni alla Salute inflitti dagli attacchi base. Non cura dai danni bloccati; effetti di classe o equipaggiamento possono concedere separatamente cure dalle abilità."
+"Restores this many Health points after the hero completes a basic attack. It is a flat recovery amount and is separate from temporary Regeneration status effects that heal at the start of a turn.","Restores this many Health points after the hero completes a basic attack. It is a flat recovery amount and is separate from temporary Regeneration status effects that heal at the start of a turn.","Ripristina questo numero di punti Salute dopo che l'eroe completa un attacco base. È una quantità di recupero fissa ed è separata dagli effetti temporanei di Rigenerazione che curano all'inizio del turno."
+"Turns the remaining dungeon mist around the target into extra basic-attack damage. It has no effect where there is no mist, and a target's Mist Reduction weakens the mist available for this bonus.","Turns the remaining dungeon mist around the target into extra basic-attack damage. It has no effect where there is no mist, and a target's Mist Reduction weakens the mist available for this bonus.","Trasforma la nebbia del dungeon rimasta intorno al bersaglio in danni aggiuntivi degli attacchi base. Non ha effetto in assenza di nebbia; la Riduzione Nebbia del bersaglio diminuisce la nebbia disponibile per questo bonus."
+"Reduces the mist affecting this hero. This weakens enemy bonuses that depend on mist and also leaves less mist for an attacker to convert through Mist Damage.","Reduces the mist affecting this hero. This weakens enemy bonuses that depend on mist and also leaves less mist for an attacker to convert through Mist Damage.","Riduce la nebbia che influenza questo eroe. Indebolisce i bonus nemici che dipendono dalla nebbia e lascia anche meno nebbia da convertire tramite Danno da Nebbia."
+"Controls the strength of healing performed by this hero, including their healing skills and Lifesteal. It does not increase healing received from other heroes.","Controls the strength of healing performed by this hero, including their healing skills and Lifesteal. It does not increase healing received from other heroes.","Determina la potenza delle cure eseguite da questo eroe, incluse le abilità curative e il Rubavita. Non aumenta le cure ricevute dagli altri eroi."
+"Controls the experience credited to this hero from the share awarded to living party members when an enemy is defeated. It changes only this hero's reward and has no effect while experience is paused for promotion or at the elite cap.","Controls the experience credited to this hero from the share awarded to living party members when an enemy is defeated. It changes only this hero's reward and has no effect while experience is paused for promotion or at the elite cap.","Determina l'esperienza accreditata a questo eroe dalla quota assegnata ai membri del gruppo in vita quando un nemico viene sconfitto. Modifica solo la ricompensa di questo eroe e non ha effetto mentre l'esperienza è sospesa per la promozione o al limite élite."
+"Deals this much unavoidable damage to its owner after each basic attack. Decay can reduce Health to zero, is not prevented by Defense, and may enable effects that specifically interact with Decay.","Deals this much unavoidable damage to its owner after each basic attack. Decay can reduce Health to zero, is not prevented by Defense, and may enable effects that specifically interact with Decay.","Infligge al proprietario questa quantità di danni inevitabili dopo ogni attacco base. Decadimento può ridurre la Salute a zero, non viene impedito dalla Difesa e può attivare effetti che interagiscono specificamente con Decadimento."
+"this expedition","this expedition","questa spedizione"
+"ACTIVE COMPANION %s","ACTIVE COMPANION %s","COMPAGNO ATTIVO %s"
+"< Recipes","< Recipes","< Ricette"

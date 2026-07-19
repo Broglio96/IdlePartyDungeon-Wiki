@@ -1,5 +1,5 @@
 {
-  "rarity_weights": {"common": 75, "rare": 20, "epic": 5},
+  "rarity_weights": {"common": 74.5, "rare": 20, "epic": 5, "legendary": 0.5},
   "families": {
     "tideglass": {
       "name": "Tideglass",
@@ -15,7 +15,8 @@
       "sprites": {
         "common": {"name": "Brineback Crab", "texture": "res://resources/pets/tideglass/brineback-crab.png"},
         "rare": {"name": "Tollfin Otter", "texture": "res://resources/pets/tideglass/tollfin-otter.png"},
-        "epic": {"name": "Bellkeeper Turtle", "texture": "res://resources/pets/tideglass/bellkeeper-turtle.png"}
+        "epic": {"name": "Bellkeeper Turtle", "texture": "res://resources/pets/tideglass/bellkeeper-turtle.png"},
+        "legendary": {"name": "Sovereign Bellwyrm", "texture": "res://resources/pets/tideglass/sovereign-bellwyrm.png"}
       },
       "effect_pool": ["healing", "magic_defense", "regeneration", "immunity", "mist_reduction", "max_hp"]
     },
@@ -33,7 +34,8 @@
       "sprites": {
         "common": {"name": "Umbral Kit", "texture": "res://resources/pets/chimeric/umbral-kit.png"},
         "rare": {"name": "Patchwork Drake", "texture": "res://resources/pets/chimeric/patchwork-drake.png"},
-        "epic": {"name": "Matron Whelp", "texture": "res://resources/pets/chimeric/matron-whelp.png"}
+        "epic": {"name": "Matron Whelp", "texture": "res://resources/pets/chimeric/matron-whelp.png"},
+        "legendary": {"name": "Mosaic Crownbeast", "texture": "res://resources/pets/chimeric/mosaic-crownbeast.png"}
       },
       "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "lifesteal", "max_hp"]
     },
@@ -51,7 +53,8 @@
       "sprites": {
         "common": {"name": "Burrow Sprout", "texture": "res://resources/pets/rootbound/burrow-sprout.png"},
         "rare": {"name": "Canopy Staglet", "texture": "res://resources/pets/rootbound/canopy-staglet.png"},
-        "epic": {"name": "Grove Colossus Calf", "texture": "res://resources/pets/rootbound/grove-colossus-calf.png"}
+        "epic": {"name": "Grove Colossus Calf", "texture": "res://resources/pets/rootbound/grove-colossus-calf.png"},
+        "legendary": {"name": "Worldroot Kirin", "texture": "res://resources/pets/rootbound/worldroot-kirin.png"}
       },
       "effect_pool": ["max_hp", "defense", "threat", "regeneration", "counter_chance", "counter_damage"]
     },
@@ -69,7 +72,8 @@
       "sprites": {
         "common": {"name": "Gloom Minnow", "texture": "res://resources/pets/lightless/gloom-minnow.png"},
         "rare": {"name": "Tidebell Ray", "texture": "res://resources/pets/lightless/tidebell-ray.png"},
-        "epic": {"name": "Abyssal Lanternling", "texture": "res://resources/pets/lightless/abyssal-lanternling.png"}
+        "epic": {"name": "Abyssal Lanternling", "texture": "res://resources/pets/lightless/abyssal-lanternling.png"},
+        "legendary": {"name": "Dreadbell Whale", "texture": "res://resources/pets/lightless/dreadbell-whale.png"}
       },
       "effect_pool": ["magic_defense", "healing", "immunity", "mana_gain", "mist_reduction", "regeneration"]
     },
@@ -87,7 +91,8 @@
       "sprites": {
         "common": {"name": "Comet Moth", "texture": "res://resources/pets/starglass/comet-moth.png"},
         "rare": {"name": "Starglass Raptor", "texture": "res://resources/pets/starglass/starglass-raptor.png"},
-        "epic": {"name": "Star-Eater Cub", "texture": "res://resources/pets/starglass/star-eater-cub.png"}
+        "epic": {"name": "Star-Eater Cub", "texture": "res://resources/pets/starglass/star-eater-cub.png"},
+        "legendary": {"name": "Constellation Phoenix", "texture": "res://resources/pets/starglass/constellation-phoenix.png"}
       },
       "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "mana_gain", "immunity"]
     },
@@ -105,7 +110,8 @@
       "sprites": {
         "common": {"name": "Dawn Hare", "texture": "res://resources/pets/eclipse/dawn-hare.png"},
         "rare": {"name": "Duskwing", "texture": "res://resources/pets/eclipse/duskwing.png"},
-        "epic": {"name": "Eclipse Seraph", "texture": "res://resources/pets/eclipse/eclipse-seraph.png"}
+        "epic": {"name": "Eclipse Seraph", "texture": "res://resources/pets/eclipse/eclipse-seraph.png"},
+        "legendary": {"name": "Totality Dragon", "texture": "res://resources/pets/eclipse/totality-dragon.png"}
       },
       "effect_pool": ["attack", "healing", "defense", "magic_defense", "max_hp", "immunity"]
     }
