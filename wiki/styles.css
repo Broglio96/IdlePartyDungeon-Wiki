@@ -681,6 +681,54 @@ kbd {
 .feature-card p { margin: 0; color: var(--text-soft); font-size: 15px; }
 .feature-card__action { position: relative; z-index: 1; margin-top: auto; padding-top: 20px; color: var(--gold); font: 700 10px/1.2 var(--sans); }
 
+/* Step 44 — wiki main page: exactly three top-level index buttons. */
+.index-hub { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+.index-hub__button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 250px;
+  overflow: hidden;
+  padding: 28px 26px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: linear-gradient(155deg, var(--surface-2), var(--surface));
+  box-shadow: var(--shadow-sm);
+  transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease;
+}
+.index-hub__button:hover,
+.index-hub__button:focus-visible { transform: translateY(-3px); border-color: var(--gold); box-shadow: var(--shadow); }
+.index-hub__button::after {
+  content: attr(data-glyph);
+  position: absolute;
+  right: -6px;
+  bottom: -26px;
+  color: rgba(226,189,106,.05);
+  font: 600 150px/1 var(--display);
+  pointer-events: none;
+}
+.index-hub__glyph {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  background: rgba(226,189,106,.08);
+  color: var(--gold);
+  font: 600 26px/1 var(--display);
+}
+.index-hub__button strong { color: var(--cream); font: 600 25px/1.15 var(--display); }
+.index-hub__button small { color: var(--text-soft); font-size: 14.5px; line-height: 1.5; }
+.index-hub__meta { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: auto; padding-top: 18px; }
+.index-hub__count { color: var(--text-soft); font: 700 10px/1.2 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+.index-hub__action { color: var(--gold); font: 700 11px/1.2 var(--sans); }
+
+/* Step 44 — group index pages: links to the sibling wings. */
+.group-siblings { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.group-siblings__label { margin-right: 6px; color: var(--text-soft); font: 700 10px/1.2 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+
 .callout {
   position: relative;
   overflow: hidden;
@@ -1592,6 +1640,8 @@ dialog::backdrop { background: rgba(2, 5, 4, .78); backdrop-filter: blur(7px); }
   .metric:nth-child(-n+3) { border-bottom: 1px solid var(--line); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .detail-grid--three { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .index-hub { grid-template-columns: 1fr; gap: 14px; }
+  .index-hub__button { min-height: 0; }
 }
 
 @media (max-width: 860px) {
@@ -1647,6 +1697,8 @@ dialog::backdrop { background: rgba(2, 5, 4, .78); backdrop-filter: blur(7px); }
   .metric:nth-child(2n) { border-right: 0; }
   .metric:nth-last-child(-n+2) { border-bottom: 0; }
   .feature-grid, .info-grid, .formula-grid, .path-grid { grid-template-columns: 1fr; }
+  .index-hub__button { padding: 22px 20px; }
+  .index-hub__button strong { font-size: 22px; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
   .filter-bar { top: calc(var(--topbar-h) + 5px); }
   .filter-bar select { flex: 1 1 120px; min-width: 0; }

@@ -1,6 +1,6 @@
 {
   "id": "tower_of_ascension",
-  "name": "Tower of Ascension",
+  "name": "Tower of Resonance",
   "description": "The road did not end. It stood upright: one hundred endgame trials whose upper reaches are paced for growing Echo Resonance.",
   "max_floor": 100,
   "hero_count": 12,
@@ -30,13 +30,17 @@
     "hp_curve": [
       {"floor": 1, "multiplier": 0.85},
       {"floor": 70, "multiplier": 1.45},
-      {"floor": 99, "multiplier": 2.05},
+      {"floor": 80, "multiplier": 3.5089},
+      {"floor": 90, "multiplier": 5.7803},
+      {"floor": 99, "multiplier": 8.395},
       {"floor": 100, "multiplier": 2.05}
     ],
     "damage_curve": [
       {"floor": 1, "multiplier": 0.85},
       {"floor": 70, "multiplier": 1.15},
-      {"floor": 99, "multiplier": 1.35},
+      {"floor": 80, "multiplier": 2.5816},
+      {"floor": 90, "multiplier": 3.9942},
+      {"floor": 99, "multiplier": 5.5284},
       {"floor": 100, "multiplier": 1.35}
     ],
     "boss_hp_multiplier": 2.20,
@@ -58,11 +62,11 @@
     "accessory_crafts_by_floor": {
       "10": 2,
       "20": 2,
-      "30": 2,
-      "40": 2,
-      "50": 2,
-      "60": 3,
-      "70": 3,
+      "30": 3,
+      "40": 3,
+      "50": 4,
+      "60": 5,
+      "70": 6,
       "80": 4,
       "90": 4,
       "100": 5
@@ -80,10 +84,25 @@
     {"id":"worldroot_crown","name":"The Worldroot Crown","start_floor":81,"end_floor":90,"normal_monsters":["Vein-Crowned Behemoth","Sapthrone Oracle","Heartroot Knight","Bloomvein Beast","Crownwood Augur","Pulsebark Guardian","Royal Mycelium","Bloodsap Cantor","Worldroot Scion"],"boss_name":"Heartbloom Colossus"},
     {"id":"zenith","name":"The Zenith","start_floor":91,"end_floor":100,"normal_monsters":["Zenith Herald","Dawn-Ash Seal","Eventide Seal","Silent Meridian","Root of Noon","Lastlight Gaoler","Eclipse Witness","Crownshadow Seraph","Waiting Thronekeeper"],"boss_name":"The Crown That Waits"}
   ],
+  "mist_schedule": {
+    "bands": [
+      {"start_floor": 71, "end_floor": 80, "mist": 20, "mist_enemy_evade_per_percent": 0.5},
+      {"start_floor": 81, "end_floor": 90, "mist": 30, "mist_enemy_evade_per_percent": 0.55},
+      {"start_floor": 91, "end_floor": 99, "mist": 40, "mist_enemy_evade_per_percent": 0.6},
+      {"start_floor": 100, "end_floor": 100, "mist": 50, "mist_enemy_evade_per_percent": 0.65}
+    ]
+  },
+  "echo_pressure_schedule": {
+    "bands": [
+      {"start_floor": 81, "end_floor": 90, "enemy_hp_percent_per_missing_rank": 50.0, "enemy_attack_percent_per_missing_rank": 60.0},
+      {"start_floor": 91, "end_floor": 99, "enemy_hp_percent_per_missing_rank": 50.0, "enemy_attack_percent_per_missing_rank": 60.0},
+      {"start_floor": 100, "end_floor": 100, "enemy_hp_percent_per_missing_rank": 50.0, "enemy_attack_percent_per_missing_rank": 60.0}
+    ]
+  },
   "apex": {
     "boss_name": "The Crown That Waits",
-    "boss_hp": 300000,
-    "boss_attack": 780,
+    "boss_hp": 252958,
+    "boss_attack": 658,
     "boss_defense": 86,
     "boss_magic_defense": 88,
     "seal_count": 12,
@@ -99,6 +118,10 @@
     "pulse_interval_enemy_actions": 12,
     "pulse_base_percent": 18.0,
     "pulse_reduction_per_bond": 2.0,
-    "pulse_min_percent": 10.0
+    "pulse_min_percent": 10.0,
+    "enrage_start_enemy_actions": 60,
+    "enrage_stack_interval_enemy_actions": 12,
+    "enrage_attack_percent_per_stack": 25.0,
+    "enrage_max_stacks": 12
   }
 }

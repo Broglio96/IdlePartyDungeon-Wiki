@@ -22,10 +22,10 @@ keys,en,it
 "A false constellation hunts the company across a falling observatory.","A false constellation hunts the company across a falling observatory.","Una falsa costellazione bracca la compagnia attraverso un osservatorio in rovina."
 "A forest road carried on the back of a marching grove.","A forest road carried on the back of a marching grove.","Una strada nella foresta trasportata sul dorso di un bosco in marcia."
 "A road divided between dawn and eclipse above the restored Worldroot.","A road divided between dawn and eclipse above the restored Worldroot.","Una via divisa tra alba ed eclissi sopra la Radice del Mondo restaurata."
-"Dawn lasts 12 hero actions and favors Magic; Dusk lasts 12 and favors Melee. Effective Dawn healing and Dusk criticals build Lastlight before a 6-action Total Eclipse that deals 10% maximum-HP damage and reduces healing by 35%. At 15% boss HP, 100 Lastlight weakens the boss; otherwise it becomes empowered.","Dawn lasts 12 hero actions and favors Magic; Dusk lasts 12 and favors Melee. Effective Dawn healing and Dusk criticals build Lastlight before a 6-action Total Eclipse that deals 10% maximum-HP damage and reduces healing by 35%. At 15% boss HP, 100 Lastlight weakens the boss; otherwise it becomes empowered.","L'Alba dura 12 azioni degli eroi e favorisce la Magia; il Crepuscolo ne dura 12 e favorisce la Mischia. Le cure efficaci all'Alba e i colpi critici al Crepuscolo accumulano Ultimaluce prima di un'Eclissi Totale di 6 azioni, che infligge danni pari al 10% degli HP massimi e riduce le cure del 35%. Quando il boss è al 15% degli HP, 100 punti di Ultimaluce lo indeboliscono; altrimenti si potenzia."
-"Each living Root Node gives linked enemies +4 Defense, +1% damage, and restores 3% of their maximum HP when they act, capped at 9% healing. Destroy the nodes first; Orrun can absorb survivors for permanent power.","Each living Root Node gives linked enemies +4 Defense, +1% damage, and restores 3% of their maximum HP when they act, capped at 9% healing. Destroy the nodes first; Orrun can absorb survivors for permanent power.","Ogni Nodo Radice vivente conferisce ai nemici collegati +4 Difesa, +1% danni e ripristina il 3% dei loro HP massimi quando agiscono, fino a un massimo del 9% di cure. Distruggi prima i nodi; Orrun può assorbire quelli superstiti per ottenere potere permanente."
-"One hit from each matching Melee, Ranged, or Magic hero builds Alignment. Reach 3 within 10 hero actions to remove one Star Hunger and gain +12% damage and +10% healing for two turns. Each sign turn deals 4% maximum-HP damage; missing it also adds one Hunger, raising enemy damage by 4%.","One hit from each matching Melee, Ranged, or Magic hero builds Alignment. Reach 3 within 10 hero actions to remove one Star Hunger and gain +12% damage and +10% healing for two turns. Each sign turn deals 4% maximum-HP damage; missing it also adds one Hunger, raising enemy damage by 4%.","Un colpo di ciascun eroe corrispondente di Mischia, Distanza o Magia aumenta l'Allineamento. Raggiungi 3 entro 10 azioni degli eroi per rimuovere una Fame Stellare e ottenere +12% danni e +10% cure per due turni. Ogni turno del segno infligge danni pari al 4% degli HP massimi; fallirlo aggiunge anche una Fame, aumentando i danni nemici del 4%."
-"Pressure rises by 4 after each enemy turn; Lamplighters can surge it by 12. Wisp and Lamplighter kills lower it by 20 and 12, while Ranged or Magic criticals relieve 3 or 1. At 100 the party takes 10% maximum-HP Magic damage, and each cleared wave exacts a 4% undertow.","Pressure rises by 4 after each enemy turn; Lamplighters can surge it by 12. Wisp and Lamplighter kills lower it by 20 and 12, while Ranged or Magic criticals relieve 3 or 1. At 100 the party takes 10% maximum-HP Magic damage, and each cleared wave exacts a 4% undertow.","La Pressione aumenta di 4 dopo ogni turno nemico; i Lampionai Abissali possono farla salire di 12. Uccidere i Fuochi Fatui della Pressione e i Lampionai la riduce rispettivamente di 20 e 12, mentre i colpi critici a Distanza o di Magia la alleviano di 3 o 1. A 100, il gruppo subisce danni magici pari al 10% degli HP massimi e ogni ondata superata esige un risucchio del 4%."
+"Dawn lasts 12 hero actions and favors Magic; Dusk lasts 12 and favors Melee. Effective Dawn healing and Dusk criticals build Lastlight before a 6-action Total Eclipse that deals 10% maximum-HP damage and reduces healing by 35%. At 15% boss HP, 100 Lastlight weakens the boss; otherwise it becomes empowered.","Dawn lasts 12 hero actions and favors Magic; Dusk lasts 12 and favors Melee. Effective Dawn healing and Dusk criticals build Lastlight before a 6-action Total Eclipse that deals 10% maximum-HP damage and reduces healing by 35%. At 15% boss HP, 100 Lastlight weakens the boss; otherwise it becomes empowered.","L'Alba dura 12 azioni degli eroi e favorisce la Magia; il Crepuscolo ne dura 12 e favorisce la Mischia. Le cure efficaci all'Alba e i colpi critici al Crepuscolo accumulano Ultimaluce prima di un'Eclissi Totale di 6 azioni, che infligge danni pari al 10% dei PV massimi e riduce le cure del 35%. Quando il boss è al 15% dei PV, 100 punti di Ultimaluce lo indeboliscono; altrimenti si potenzia."
+"Each living Root Node gives linked enemies +4 Defense, +1% damage, and restores 3% of their maximum HP when they act, capped at 9% healing. Destroy the nodes first; Orrun can absorb survivors for permanent power.","Each living Root Node gives linked enemies +4 Defense, +1% damage, and restores 3% of their maximum HP when they act, capped at 9% healing. Destroy the nodes first; Orrun can absorb survivors for permanent power.","Ogni Nodo Radice vivente conferisce ai nemici collegati +4 Difesa, +1% danni e ripristina il 3% dei loro PV massimi quando agiscono, fino a un massimo del 9% di cure. Distruggi prima i nodi; Orrun può assorbire quelli superstiti per ottenere potere permanente."
+"One hit from each matching Melee, Ranged, or Magic hero builds Alignment. Reach 3 within 10 hero actions to remove one Star Hunger and gain +12% damage and +10% healing for two turns. Each sign turn deals 4% maximum-HP damage; missing it also adds one Hunger, raising enemy damage by 4%.","One hit from each matching Melee, Ranged, or Magic hero builds Alignment. Reach 3 within 10 hero actions to remove one Star Hunger and gain +12% damage and +10% healing for two turns. Each sign turn deals 4% maximum-HP damage; missing it also adds one Hunger, raising enemy damage by 4%.","Un colpo di ciascun eroe corrispondente di Mischia, Distanza o Magia aumenta l'Allineamento. Raggiungi 3 entro 10 azioni degli eroi per rimuovere una Fame Stellare e ottenere +12% danni e +10% cure per due turni. Ogni turno del segno infligge danni pari al 4% dei PV massimi; fallirlo aggiunge anche una Fame, aumentando i danni nemici del 4%."
+"Pressure rises by 4 after each enemy turn; Lamplighters can surge it by 12. Wisp and Lamplighter kills lower it by 20 and 12, while Ranged or Magic criticals relieve 3 or 1. At 100 the party takes 10% maximum-HP Magic damage, and each cleared wave exacts a 4% undertow.","Pressure rises by 4 after each enemy turn; Lamplighters can surge it by 12. Wisp and Lamplighter kills lower it by 20 and 12, while Ranged or Magic criticals relieve 3 or 1. At 100 the party takes 10% maximum-HP Magic damage, and each cleared wave exacts a 4% undertow.","La Pressione aumenta di 4 dopo ogni turno nemico; i Lampionai Abissali possono farla salire di 12. Uccidere i Fuochi Fatui della Pressione e i Lampionai la riduce rispettivamente di 20 e 12, mentre i colpi critici a Distanza o di Magia la alleviano di 3 o 1. A 100, il gruppo subisce danni magici pari al 10% dei PV massimi e ogni ondata superata esige un risucchio del 4%."
 "Approach","Approach","Avvicinamento"
 "Wing I","Wing I","Ala I"
 "Wing II","Wing II","Ala II"
@@ -57,10 +57,10 @@ keys,en,it
 "[color=yellow]The raid was abandoned. %s[/color]","[color=yellow]The raid was abandoned. %s[/color]","[color=yellow]Il raid è stato abbandonato. %s[/color]"
 "[color=yellow]Constellation Complete: +12% damage and +10% healing for two turns.[/color]","[color=yellow]Constellation Complete: +12% damage and +10% healing for two turns.[/color]","[color=yellow]Costellazione completata: +12% ai danni e +10% alle cure per due turni.[/color]"
 "Living Root Network","Living Root Network","Rete di Radici Viventi"
-"[color=yellow]Pressure reaches 100: the party suffers 10% maximum-HP damage.[/color]","[color=yellow]Pressure reaches 100: the party suffers 10% maximum-HP damage.[/color]","[color=yellow]La Pressione raggiunge 100: il gruppo subisce danni pari al 10% degli HP massimi.[/color]"
-"[color=yellow]The turning sign lashes the party for %s%% maximum HP.[/color]","[color=yellow]The turning sign lashes the party for %s%% maximum HP.[/color]","[color=yellow]Il segno rotante flagella il gruppo infliggendo danni pari al %s%% degli HP massimi.[/color]"
+"[color=yellow]Pressure reaches 100: the party suffers 10% maximum-HP damage.[/color]","[color=yellow]Pressure reaches 100: the party suffers 10% maximum-HP damage.[/color]","[color=yellow]La Pressione raggiunge 100: il gruppo subisce danni pari al 10% dei PV massimi.[/color]"
+"[color=yellow]The turning sign lashes the party for %s%% maximum HP.[/color]","[color=yellow]The turning sign lashes the party for %s%% maximum HP.[/color]","[color=yellow]Il segno rotante flagella il gruppo infliggendo danni pari al %s%% dei PV massimi.[/color]"
 "[color=yellow]The Constellation Dial turns to %s.[/color]","[color=yellow]The Constellation Dial turns to %s.[/color]","[color=yellow]Il Quadrante della Costellazione passa a %s.[/color]"
-"[color=yellow]Total Eclipse strikes the party for 10% maximum HP.[/color]","[color=yellow]Total Eclipse strikes the party for 10% maximum HP.[/color]","[color=yellow]L'Eclissi Totale colpisce il gruppo infliggendo danni pari al 10% degli HP massimi.[/color]"
+"[color=yellow]Total Eclipse strikes the party for 10% maximum HP.[/color]","[color=yellow]Total Eclipse strikes the party for 10% maximum HP.[/color]","[color=yellow]L'Eclissi Totale colpisce il gruppo infliggendo danni pari al 10% dei PV massimi.[/color]"
 "[color=yellow]The Eclipse Clock turns to %s.[/color]","[color=yellow]The Eclipse Clock turns to %s.[/color]","[color=yellow]L'Orologio dell'Eclissi passa a %s.[/color]"
 "[color=yellow]Orrun absorbs %s living Root Nodes and enters phase two.[/color]","[color=yellow]Orrun absorbs %s living Root Nodes and enters phase two.[/color]","[color=yellow]Orrun assorbe %s Nodi Radice viventi ed entra nella seconda fase.[/color]"
 "[color=yellow]Roadbreaker tears open the rear line: two Root Nodes emerge.[/color]","[color=yellow]Roadbreaker tears open the rear line: two Root Nodes emerge.[/color]","[color=yellow]Spezzavia squarcia la retroguardia: emergono due Nodi Radice.[/color]"
@@ -74,9 +74,9 @@ keys,en,it
 "The daily raid is complete.","The daily raid is complete.","Il raid giornaliero è completato."
 "[color=yellow]Raid boss defeated. %s[/color]","[color=yellow]Raid boss defeated. %s[/color]","[color=yellow]Boss del raid sconfitto. %s[/color]"
 "Raid encounter cleared","Raid encounter cleared","Scontro del raid superato"
-"[color=yellow]The crushing undertow exacts 4% maximum HP from the party.[/color]","[color=yellow]The crushing undertow exacts 4% maximum HP from the party.[/color]","[color=yellow]Il risucchio schiacciante infligge al gruppo danni pari al 4% degli HP massimi.[/color]"
+"[color=yellow]The crushing undertow exacts 4% maximum HP from the party.[/color]","[color=yellow]The crushing undertow exacts 4% maximum HP from the party.[/color]","[color=yellow]Il risucchio schiacciante infligge al gruppo danni pari al 4% dei PV massimi.[/color]"
 "[color=yellow]Raid progress [%s/%s]. %s[/color]","[color=yellow]Raid progress [%s/%s]. %s[/color]","[color=yellow]Progresso del raid [%s/%s]. %s[/color]"
-"[color=#b8f0c0]Wing cleared. Surviving heroes recover 10% HP and MP.[/color]","[color=#b8f0c0]Wing cleared. Surviving heroes recover 10% HP and MP.[/color]","[color=#b8f0c0]Ala superata. Gli eroi sopravvissuti recuperano il 10% di HP e MP.[/color]"
+"[color=#b8f0c0]Wing cleared. Surviving heroes recover 10% HP and MP.[/color]","[color=#b8f0c0]Wing cleared. Surviving heroes recover 10% HP and MP.[/color]","[color=#b8f0c0]Ala superata. Gli eroi sopravvissuti recuperano il 10% di PV e PM.[/color]"
 "[color=yellow]The raid party was defeated. %s[/color]","[color=yellow]The raid party was defeated. %s[/color]","[color=yellow]Il gruppo del raid è stato sconfitto. %s[/color]"
 "Abyssal Beacon Core","Abyssal Beacon Core","Nucleo del Faro Abissale"
 "Colossus Heartwood","Colossus Heartwood","Durame del Colosso"
@@ -262,7 +262,7 @@ keys,en,it
 "A final mixed farm of four elemental seals, layered defenses, burst, and endurance.","A final mixed farm of four elemental seals, layered defenses, burst, and endurance.","Un ultimo terreno di caccia misto con quattro sigilli elementali, difese stratificate, assalti esplosivi e resistenza."
 "A final prison guardian combining precision, decay, and balanced defenses.","A final prison guardian combining precision, decay, and balanced defenses.","Un guardiano carcerario finale che unisce precisione, Decadimento e difese equilibrate."
 "A final-road defender whose armor changes with the Eclipse Clock.","A final-road defender whose armor changes with the Eclipse Clock.","Un difensore dell'Ultima Via la cui armatura muta con l'Orologio dell'Eclissi."
-"A flowing prison seal that survives through evasion and steady renewal.","A flowing prison seal that survives through evasion and steady renewal.","Un fluido sigillo carcerario che sopravvive grazie all'elusione e a un rinnovamento costante."
+"A flowing prison seal that survives through evasion and steady renewal.","A flowing prison seal that survives through evasion and steady renewal.","Un fluido sigillo carcerario che sopravvive grazie alla schivata e a un rinnovamento costante."
 "A former vault keeper sealed inside smoke-dark glass armor.","A former vault keeper sealed inside smoke-dark glass armor.","Un antico custode della cripta, sigillato in un'armatura di vetro annerito dal fumo."
 "A fortified ruin whose lieutenants demand control, cleansing, and focused priority damage.","A fortified ruin whose lieutenants demand control, cleansing, and focused priority damage.","Una rovina fortificata i cui luogotenenti esigono controllo, purificazione e danni concentrati sulle priorità."
 "A fragile bubble spirit whose defeat releases trapped air.","A fragile bubble spirit whose defeat releases trapped air.","Un fragile spirito di bolle la cui sconfitta libera l'aria intrappolata."
@@ -271,7 +271,7 @@ keys,en,it
 "A lantern-alloy guardian assigned to the sealed vault corridors.","A lantern-alloy guardian assigned to the sealed vault corridors.","Un guardiano in lega della lanterna assegnato ai corridoi sigillati della cripta."
 "A living arena root that protects and regenerates linked enemies.","A living arena root that protects and regenerates linked enemies.","Una radice vivente dell'arena che protegge e rigenera i nemici collegati."
 "A living chamber of heavy renewal and escalating decay that tests optimized sustain.","A living chamber of heavy renewal and escalating decay that tests optimized sustain.","Una camera vivente di intenso rinnovamento e Decadimento crescente, che mette alla prova una tenuta ottimizzata."
-"A living collection of hybrid attacks, high evasion, and mixed defenses.","A living collection of hybrid attacks, high evasion, and mixed defenses.","Una collezione vivente di attacchi ibridi, elevata elusione e difese miste."
+"A living collection of hybrid attacks, high evasion, and mixed defenses.","A living collection of hybrid attacks, high evasion, and mixed defenses.","Una collezione vivente di attacchi ibridi, elevata schivata e difese miste."
 "A many-jointed hunter that shifts between physical and magical pressure.","A many-jointed hunter that shifts between physical and magical pressure.","Un cacciatore dalle molte articolazioni che alterna pressione fisica e magica."
 "A massive beetle carrying a rusted iron shell from the forest bogs.","A massive beetle carrying a rusted iron shell from the forest bogs.","Un enorme scarabeo dal guscio di ferro arrugginito proveniente dalle paludi della foresta."
 "A massive keeper that rings a corroded bell to measure every trespass.","A massive keeper that rings a corroded bell to measure every trespass.","Un enorme custode che suona una campana corrosa per misurare ogni intrusione."
@@ -318,7 +318,7 @@ keys,en,it
 "An arena construct that accelerates the Eclipse Clock.","An arena construct that accelerates the Eclipse Clock.","Un costrutto dell'arena che accelera l'Orologio dell'Eclissi."
 "An evasive celestial hunter pursuing the weakest defense.","An evasive celestial hunter pursuing the weakest defense.","Un elusivo cacciatore celestiale che insegue la difesa più debole."
 "An ironbark defender that intercepts attacks aimed at the root network.","An ironbark defender that intercepts attacks aimed at the root network.","Un difensore di cortecciaferrea che intercetta gli attacchi diretti alla rete radicale."
-"Broken star chambers ruled by glass wings, high evasion, and focused magic.","Broken star chambers ruled by glass wings, high evasion, and focused magic.","Camere stellari infrante dominate da ali di vetro, elevata elusione e magia concentrata."
+"Broken star chambers ruled by glass wings, high evasion, and focused magic.","Broken star chambers ruled by glass wings, high evasion, and focused magic.","Camere stellari infrante dominate da ali di vetro, elevata schivata e magia concentrata."
 "Dense elemental chambers where mist shields dangerous mixed groups.","Dense elemental chambers where mist shields dangerous mixed groups.","Dense camere elementali in cui la Nebbia protegge pericolosi gruppi misti."
 "Mineral-heavy mist rolling across the floor of the Depths.","Mineral-heavy mist rolling across the floor of the Depths.","Nebbia carica di minerali che scorre sul pavimento delle Profondità."
 "The crowned sovereign of the elemental depths. Its royal core commands every element trapped in the mist.","The crowned sovereign of the elemental depths. Its royal core commands every element trapped in the mist.","Il sovrano incoronato delle profondità elementali. Il suo nucleo regale comanda ogni elemento intrappolato nella nebbia."
@@ -352,13 +352,10 @@ keys,en,it
 "Heals an ally and leaves the target vulnerable to the grove.","Heals an ally and leaves the target vulnerable to the grove.","Cura un alleato e lascia il bersaglio vulnerabile al bosco."
 "Overgrows the battlefield with iron roots.","Overgrows the battlefield with iron roots.","Invade il campo di battaglia con radici di ferro."
 "Powerful regeneration that can be answered by decay and focus fire.","Powerful regeneration that can be answered by decay and focus fire.","Una potente rigenerazione contrastabile con Decadimento e fuoco concentrato."
-"Projects a wave of supernatural cold at its target.","Projects a wave of supernatural cold at its target.","Proietta sul bersaglio un'onda di freddo soprannaturale."
-"Releases the heat stored in its core in a sudden burst.","Releases the heat stored in its core in a sudden burst.","Libera in un'esplosione improvvisa il calore accumulato nel proprio nucleo."
 "Restores allies and copies an offensive blessing.","Restores allies and copies an offensive blessing.","Ripristina gli alleati e copia una benedizione offensiva."
 "Restores allies and leaves the opposing formation vulnerable.","Restores allies and leaves the opposing formation vulnerable.","Ripristina gli alleati e lascia vulnerabile la formazione avversaria."
-"Splashes corrosive toxins over its target.","Splashes corrosive toxins over its target.","Spruzza tossine corrosive sul bersaglio."
+"Strikes one hero, weighted by Threat, for 125% Attack damage.","Strikes one hero, weighted by Threat, for 125% Attack damage.","Colpisce un eroe, scelto in base alla Minaccia, infliggendo il 125% dell'Attacco come danni."
 "Strikes the whole formation with ironbound roots.","Strikes the whole formation with ironbound roots.","Colpisce l'intera formazione con radici legate al ferro."
-"Uses its dense body to deliver a crushing impact.","Uses its dense body to deliver a crushing impact.","Usa il proprio corpo massiccio per sferrare un impatto devastante."
 "A Forest Falls","A Forest Falls","Una Foresta Crolla"
 "Barkmend","Barkmend","Rammendo della Corteccia"
 "Bellstroke","Bellstroke","Rintocco"
@@ -404,7 +401,7 @@ keys,en,it
 "Dense armor favors counters and regeneration.","Dense armor favors counters and regeneration.","Un'armatura massiccia favorisce contrattacchi e rigenerazione."
 "Dense growth makes the seal difficult to finish.","Dense growth makes the seal difficult to finish.","Una crescita fitta rende difficile abbattere il sigillo."
 "Every careless strike risks a severe counter.","Every careless strike risks a severe counter.","Ogni colpo imprudente rischia di provocare un duro contrattacco."
-"Exceptional speed and evasion shape the fight.","Exceptional speed and evasion shape the fight.","Velocità ed elusione eccezionali determinano l'andamento dello scontro."
+"Exceptional speed and evasion shape the fight.","Exceptional speed and evasion shape the fight.","Velocità ed schivata eccezionali determinano l'andamento dello scontro."
 "Feeds on damage to sustain itself.","Feeds on damage to sustain itself.","Si nutre dei danni per sostenersi."
 "Flame splits through its crystalline body.","Flame splits through its crystalline body.","La fiamma si divide attraverso il suo corpo cristallino."
 "Focuses pressure on exposed heroes.","Focuses pressure on exposed heroes.","Concentra la pressione sugli eroi esposti."
@@ -514,7 +511,7 @@ keys,en,it
 "A damaging critical hit exposes its target to 18% more damage for 2 turns.","A damaging critical hit exposes its target to 18% more damage for 2 turns.","Un colpo critico che infligge danni espone il bersaglio al 18% di danni in più per 2 turni."
 "Hexbreak","Hexbreak","Spezza-Maleficio"
 "Applying a harmful effect exposes that enemy to 20% more damage for 2 turns.","Applying a harmful effect exposes that enemy to 20% more damage for 2 turns.","Applicare un effetto nocivo espone quel nemico al 20% di danni in più per 2 turni."
-"Tower of Ascension","Tower of Ascension","Torre dell'Ascensione"
+"Tower of Resonance","Tower of Resonance","Torre della Risonanza"
 "The road did not end. It stood upright: one hundred endgame trials whose upper reaches are paced for growing Echo Resonance.","The road did not end. It stood upright: one hundred endgame trials whose upper reaches are paced for growing Echo Resonance.","La strada non terminava: si ergeva verso l'alto in cento prove di fine gioco, con i piani superiori calibrati sulla crescita della Risonanza dell'Eco."
 "The Foundations","The Foundations","Le Fondamenta"
 "The Flooded Stair","The Flooded Stair","La Scala Allagata"
@@ -737,13 +734,15 @@ keys,en,it
 "%s | Seals remaining: %s | Zenith pulse: %s%%","%s | Seals remaining: %s | Zenith pulse: %s%%","%s | Sigilli rimanenti: %s | Impulso dello Zenit: %s%%"
 "Floor %s/%s | Kills %s | Deaths %s | XP %s | Two-pet limit","Floor %s/%s | Kills %s | Deaths %s | XP %s | Two-pet limit","Piano %s/%s | Uccisioni %s | Morti %s | PE %s | Limite di due famigli"
 "[color=yellow]The ascent was abandoned. Floor progress is unchanged.[/color]","[color=yellow]The ascent was abandoned. Floor progress is unchanged.[/color]","[color=yellow]L'ascesa è stata abbandonata. I progressi dei piani restano invariati.[/color]"
-"[color=yellow]Zenith Pulse: the Twin Bond limits the blast to %s%% maximum HP.[/color]","[color=yellow]Zenith Pulse: the Twin Bond limits the blast to %s%% maximum HP.[/color]","[color=yellow]Impulso dello Zenit: il Legame Gemello limita l'esplosione al %s%% dei PS massimi.[/color]"
+"[color=yellow]Zenith Pulse: the Twin Bond limits the blast to %s%% maximum HP.[/color]","[color=yellow]Zenith Pulse: the Twin Bond limits the blast to %s%% maximum HP.[/color]","[color=yellow]Impulso dello Zenit: il Legame Gemello limita l'esplosione al %s%% dei PV massimi.[/color]"
 "[color=yellow]Tower floor %s cleared.[/color]","[color=yellow]Tower floor %s cleared.[/color]","[color=yellow]Piano %s della Torre superato.[/color]"
 "[color=yellow]The party fell on floor %s. The step remains ready for another attempt.[/color]","[color=yellow]The party fell on floor %s. The step remains ready for another attempt.[/color]","[color=yellow]Il gruppo è caduto al piano %s. Il gradino resta pronto per un altro tentativo.[/color]"
+"[color=yellow]This floor is paced for Echo Resonance Rank %s / %s across the whole formation. Raise your heroes' Resonance and gear, then try again.[/color]","[color=yellow]This floor is paced for Echo Resonance Rank %s / %s across the whole formation. Raise your heroes' Resonance and gear, then try again.[/color]","[color=yellow]Questo piano è calibrato per il Grado di Risonanza dell'Eco %s / %s sull'intera formazione. Aumenta la Risonanza e l'equipaggiamento dei tuoi eroi, poi riprova.[/color]"
+"[color=yellow]This floor expects formation-average Echo Resonance Rank %s / %s. Echo Pressure strengthened the enemies because the selected formation averaged Rank %s. Raise Resonance, then try again.[/color]","[color=yellow]This floor expects formation-average Echo Resonance Rank %s / %s. Echo Pressure strengthened the enemies because the selected formation averaged Rank %s. Raise Resonance, then try again.[/color]","[color=yellow]Questo piano richiede un Grado medio di Risonanza dell'Eco della formazione pari a %s / %s. La Pressione dell'Eco ha rafforzato i nemici perché la formazione scelta aveva un grado medio di %s. Aumenta la Risonanza, poi riprova.[/color]"
 "cleared","cleared","superato"
 "failed","failed","fallito"
 "Tower floor %s %s","Tower floor %s %s","Piano %s della Torre: %s"
-"Tower of Ascension - Floor %s, Tier %s. Always available; attempts are unlimited.","Tower of Ascension - Floor %s, Tier %s. Always available; attempts are unlimited.","Torre dell'Ascensione - Piano %s, grado %s. Sempre disponibile; i tentativi sono illimitati."
+"Tower of Resonance - Floor %s, Tier %s. Always available; attempts are unlimited.","Tower of Resonance - Floor %s, Tier %s. Always available; attempts are unlimited.","Torre della Risonanza - Piano %s, grado %s. Sempre disponibile; i tentativi sono illimitati."
 "%s
 
 Highest cleared: %s / 100
@@ -771,6 +770,19 @@ Una sconfitta o un abbandono conserva i progressi: torna dopo aver migliorato il
 Built for 10-12 active raid sets and two level 18-20 Rare, Epic, or Legendary companions. Unbroken seals strengthen the boss; both companions reduce the Zenith Pulse.","THE CROWN THAT WAITS
 Built for 10-12 active raid sets and two level 18-20 Rare, Epic, or Legendary companions. Unbroken seals strengthen the boss; both companions reduce the Zenith Pulse.","LA CORONA CHE ATTENDE
 Pensata per 10-12 set da raid attivi e due famigli rari, epici o leggendari di livello 18-20. I sigilli intatti rafforzano il boss; entrambi i famigli riducono l'Impulso dello Zenit."
+"THE CROWN THAT WAITS
+Built for 10-12 active raid sets and two level 18-20 Rare, Epic, or Legendary companions. Unbroken seals strengthen the boss; both companions reduce the Zenith Pulse.
+
+WANING PATIENCE: after %s enemy actions the Crown grows enraged, gaining +%s%% attack every %s further enemy actions, up to %s stacks. End the fight quickly to avoid it.","THE CROWN THAT WAITS
+Built for 10-12 active raid sets and two level 18-20 Rare, Epic, or Legendary companions. Unbroken seals strengthen the boss; both companions reduce the Zenith Pulse.
+
+WANING PATIENCE: after %s enemy actions the Crown grows enraged, gaining +%s%% attack every %s further enemy actions, up to %s stacks. End the fight quickly to avoid it.","LA CORONA CHE ATTENDE
+Pensata per 10-12 set da raid attivi e due famigli rari, epici o leggendari di livello 18-20. I sigilli intatti rafforzano il boss; entrambi i famigli riducono l'Impulso dello Zenit.
+
+PAZIENZA CALANTE: dopo %s azioni nemiche la Corona si infuria, guadagnando +%s%% di attacco ogni %s azioni nemiche successive, fino a %s cariche. Concludi lo scontro in fretta per evitarla."
+"[color=orange]Waning Patience: the fight has dragged on too long -- the foe grows enraged.[/color]","[color=orange]Waning Patience: the fight has dragged on too long -- the foe grows enraged.[/color]","[color=orange]Pazienza Calante: lo scontro si è protratto troppo a lungo -- il nemico si infuria.[/color]"
+"%s | Waning Patience: %s stacks (+%s%% boss attack)","%s | Waning Patience: %s stacks (+%s%% boss attack)","%s | Pazienza Calante: %s cariche (+%s%% attacco del boss)"
+"%s | Echo Pressure: +%s%% enemy HP, +%s%% enemy Attack","%s | Echo Pressure: +%s%% enemy HP, +%s%% enemy Attack","%s | Pressione dell'Eco: +%s%% PV nemici, +%s%% Attacco nemico"
 "TOWER","TOWER","TORRE"
 "Tower","Tower","Torre"
 "UNAVAILABLE","UNAVAILABLE","NON DISPONIBILE"
@@ -813,3 +825,67 @@ ASCENSION","TOWER OF
 ASCENSION","TORRE DELL'
 ASCENSIONE"
 "IN BATTLE","IN BATTLE","IN BATTAGLIA"
+"TOWER MIST
+This floor's Mist sits at %s%%, adding +%s%% Evade to every enemy. Mist Reduction and Mist Damage heroes counter it the same way they do in dungeons.","TOWER MIST
+This floor's Mist sits at %s%%, adding +%s%% Evade to every enemy. Mist Reduction and Mist Damage heroes counter it the same way they do in dungeons.","NEBBIA DELLA TORRE
+La Nebbia di questo piano è al %s%%, che aggiunge +%s%% Schivata a ogni nemico. Gli eroi con Riduzione nebbia e Danno da nebbia la contrastano allo stesso modo dei dungeon."
+"AUTO-ADVANCE","AUTO-ADVANCE","AVANZAMENTO AUTOMATICO"
+"AUTO-ADVANCE · FLOORS %s-%s","AUTO-ADVANCE · FLOORS %s-%s","AVANZAMENTO AUTOMATICO · PIANI %s-%s"
+"The Tower stands fully conquered. Auto-Advance is no longer needed.","The Tower stands fully conquered. Auto-Advance is no longer needed.","La Torre è stata completamente conquistata. L'Avanzamento Automatico non è più necessario."
+"Fights automatically from the next uncleared floor through the next multiple-of-ten checkpoint. Every floor uses your saved team and companions and resolves through the normal fight, reward, and save rules -- defeat on any floor stops the batch.","Fights automatically from the next uncleared floor through the next multiple-of-ten checkpoint. Every floor uses your saved team and companions and resolves through the normal fight, reward, and save rules -- defeat on any floor stops the batch.","Combatte automaticamente dal prossimo piano non superato fino al successivo checkpoint multiplo di dieci. Ogni piano usa la squadra e i famigli salvati e si risolve secondo le normali regole di combattimento, ricompensa e salvataggio: la sconfitta in un piano qualsiasi interrompe il lotto."
+"Start Auto-Advance","Start Auto-Advance","Avvia Avanzamento Automatico"
+"Auto-Advance is unavailable right now","Auto-Advance is unavailable right now","L'Avanzamento Automatico non è disponibile al momento"
+"Attempt Floors %s-%s automatically","Attempt Floors %s-%s automatically","Affronta automaticamente i piani %s-%s"
+"No heroes selected","No heroes selected","Nessun eroe selezionato"
+"No companions selected","No companions selected","Nessun famiglio selezionato"
+"Attempt Floors %s-%s automatically, fighting each floor in sequence through the normal Tower rules.
+
+Team: %s
+Companions: %s
+
+Defeat on any floor stops the batch immediately; floors already cleared stay saved. Clears and rewards are never guaranteed or instant - each floor is fought exactly as a manual attempt would be.","Attempt Floors %s-%s automatically, fighting each floor in sequence through the normal Tower rules.
+
+Team: %s
+Companions: %s
+
+Defeat on any floor stops the batch immediately; floors already cleared stay saved. Clears and rewards are never guaranteed or instant - each floor is fought exactly as a manual attempt would be.","Affronta automaticamente i piani %s-%s, combattendo ogni piano in sequenza secondo le normali regole della Torre.
+
+Squadra: %s
+Famigli: %s
+
+La sconfitta in un piano qualsiasi interrompe subito il lotto; i piani già superati restano salvati. I successi e le ricompense non sono mai garantiti né istantanei: ogni piano viene combattuto esattamente come farebbe un tentativo manuale."
+"Start","Start","Avvia"
+"Abandon Batch
+(Ends Auto-Advance)","Abandon Batch
+(Ends Auto-Advance)","Abbandona il lotto
+(Termina l'Avanzamento Automatico)"
+"Stops the Auto-Advance batch immediately; the same floor remains available","Stops the Auto-Advance batch immediately; the same floor remains available","Interrompe subito il lotto di Avanzamento Automatico; lo stesso piano resta disponibile"
+"Floor %s · %s/%s","Floor %s · %s/%s","Piano %s · %s/%s"
+"Stop After This Floor","Stop After This Floor","Interrompi dopo questo piano"
+"Stopping After This Floor...","Stopping After This Floor...","Interruzione dopo questo piano..."
+"The batch will stop once the current floor finishes","The batch will stop once the current floor finishes","Il lotto si interromperà al termine del piano attuale"
+"Finish the current floor, then stop the Auto-Advance batch","Finish the current floor, then stop the Auto-Advance batch","Completa il piano attuale, poi interrompi il lotto di Avanzamento Automatico"
+"AUTO-ADVANCE STOPPED","AUTO-ADVANCE STOPPED","AVANZAMENTO AUTOMATICO INTERROTTO"
+"Attempted floors %s-%s","Attempted floors %s-%s","Piani tentati %s-%s"
+"Floors cleared: %s
+Final floor reached: %s","Floors cleared: %s
+Final floor reached: %s","Piani superati: %s
+Piano finale raggiunto: %s"
+"Floor %s was attempted but not cleared.","Floor %s was attempted but not cleared.","Il piano %s è stato tentato ma non superato."
+"BATCH REWARDS","BATCH REWARDS","RICOMPENSE DEL LOTTO"
+"No checkpoint floors were cleared this batch.","No checkpoint floors were cleared this batch.","Nessun piano di checkpoint è stato superato in questo lotto."
+"Coins earned: %s
+Permanent hero slots earned: %s
+Checkpoint materials collected: %s","Coins earned: %s
+Permanent hero slots earned: %s
+Checkpoint materials collected: %s","Monete guadagnate: %s
+Posti eroe permanenti guadagnati: %s
+Materiali di checkpoint raccolti: %s"
+"Your formation was defeated. Progress up to the last cleared floor is saved.","Your formation was defeated. Progress up to the last cleared floor is saved.","La tua formazione è stata sconfitta. I progressi fino all'ultimo piano superato sono salvati."
+"The batch was abandoned mid-floor. Progress up to the last cleared floor is saved.","The batch was abandoned mid-floor. Progress up to the last cleared floor is saved.","Il lotto è stato abbandonato a metà piano. I progressi fino all'ultimo piano superato sono salvati."
+"Stopped after the requested floor, as asked.","Stopped after the requested floor, as asked.","Interrotto dopo il piano richiesto, come richiesto."
+"Floor 100 reached - the Tower stands conquered.","Floor 100 reached - the Tower stands conquered.","Piano 100 raggiunto: la Torre è stata conquistata."
+"The checkpoint target was reached.","The checkpoint target was reached.","L'obiettivo del checkpoint è stato raggiunto."
+"The saved team or companions became unavailable between floors.","The saved team or companions became unavailable between floors.","La squadra o i famigli salvati sono diventati non disponibili tra un piano e l'altro."
+"The run could not resume after being interrupted. Progress up to the last cleared floor is saved.","The run could not resume after being interrupted. Progress up to the last cleared floor is saved.","La sessione non è potuta riprendere dopo l'interruzione. I progressi fino all'ultimo piano superato sono salvati."
+"The batch stopped. Progress up to the last cleared floor is saved.","The batch stopped. Progress up to the last cleared floor is saved.","Il lotto si è interrotto. I progressi fino all'ultimo piano superato sono salvati."

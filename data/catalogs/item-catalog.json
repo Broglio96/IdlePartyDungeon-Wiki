@@ -2,25 +2,25 @@
   "items": {
 	"Ember gel": {
 	  "description": "Warm elemental gel gathered from fire slimes. It holds heat long after the creature is defeated.",
-	  "sell_value": 5,
+	  "sell_value": 7,
 	  "bonuses": {},
 	  "icon": "res://resources/items/ember-gel.png"
 	},
 	"Frost gel": {
 	  "description": "Cold elemental gel gathered from ice slimes. A thin layer of frost constantly forms around it.",
-	  "sell_value": 5,
+	  "sell_value": 7,
 	  "bonuses": {},
 	  "icon": "res://resources/items/frost-gel.png"
 	},
 	"Toxic gel": {
 	  "description": "Volatile elemental gel gathered from poison slimes. It must be handled with care.",
-	  "sell_value": 5,
+	  "sell_value": 7,
 	  "bonuses": {},
 	  "icon": "res://resources/items/toxic-gel.png"
 	},
 	"Moss gel": {
 	  "description": "Dense elemental gel gathered from earth slimes. Moss continues to grow across its surface.",
-	  "sell_value": 5,
+	  "sell_value": 7,
 	  "bonuses": {},
 	  "icon": "res://resources/items/moss-gel.png"
 	},
@@ -64,7 +64,6 @@
 	"Groveheart Staff": {"description": "A living staff that focuses the magic stored in its resin core.", "sell_value": 280, "equipment": {"slot": "Weapon", "type": "Magic"}, "bonuses": {"Intelligence": 5, "Attack": 4}, "icon": "res://resources/items/groveheart-staff.png"},
 	"Ranger Leather": {"description": "Light cured leather that leaves its wearer quick and silent.", "sell_value": 260, "equipment": {"slot": "Armor", "type": "Light"}, "bonuses": {"Evade": 5, "Dexterity": 3}, "icon": "res://resources/items/ranger-leather.png"},
 	"Ironbark Brigandine": {"description": "Layered leather and ironbark plates for adaptable protection.", "sell_value": 280, "equipment": {"slot": "Armor", "type": "Medium"}, "bonuses": {"Defense": 6, "Strength": 2, "Dexterity": 2}, "icon": "res://resources/items/ironbark-brigandine.png"},
-	"Rootforged Plate": {"description": "Heavy bog iron plate bound with living thorn resin.", "sell_value": 310, "equipment": {"slot": "Armor", "type": "Heavy"}, "bonuses": {"Defense": 9, "Max HP": 25}, "icon": "res://resources/items/rootforged-plate.png"},
 	"Slimy Sword": {"description": "A flexible blade forged around a hardened elemental slime core.", "sell_value": 190, "equipment": {"slot": "Weapon", "type": "Melee"}, "bonuses": {"Strength": 5}, "icon": "res://resources/items/slimy-sword.png"},
 	"Slimy Bow": {"description": "A springy slime-strung bow that rewards precise shots.", "sell_value": 190, "equipment": {"slot": "Weapon", "type": "Ranged"}, "bonuses": {"Dexterity": 5}, "icon": "res://resources/items/slimy-bow.png"},
 	"Slimy Staff": {"description": "A living gel focus that amplifies its wielder's magical insight.", "sell_value": 190, "equipment": {"slot": "Weapon", "type": "Magic"}, "bonuses": {"Intelligence": 5}, "icon": "res://resources/items/slimy-staff.png"}

@@ -1,15 +1,85 @@
 /*
- * Player-facing guide content for Idle Party Dungeon 1.07.
+ * Player-facing guide content for Idle Party Dungeon 1.08.
  * Update history is kept in the Patch Notes chapter.
- * Updated 19 July 2026.
+ * Updated 23 July 2026.
  */
 window.WIKI_CONTENT = Object.freeze({
   version: {
-    game: "1.07",
-    updated: "19 July 2026"
+    game: "1.08",
+    updated: "23 July 2026",
+    status: "In development"
   },
 
   patchNotes: [
+    {
+      version: "1.08",
+      title: "Resonance & Progression Update",
+      date: "23 July 2026",
+      status: "In development",
+      notes: [
+        "Rebalanced hero classes for more consistent performance across every class, promotion path, and progression stage, from early dungeons through raids and the endgame.",
+        "Reworked raid set bonuses: each two-piece set now grants one of several bonus variants depending on class role and weapon type, while also reacting to the critical-hit or base-damage completion weapon. Mystic and Paladin raid wearers also gained better survivability.",
+        "Reworked Ascension into four choice rows — Foundation, Awakening, Mastery, and Capstone — with a meaningful pick at every stage of a 16-point build. Ranks can be freely reallocated, including switching a row’s pick within the current path; changing Ascendant Path now uses a rare raid-crafted item.",
+        "Rebalanced Mist across all three affected dungeons for more consistent difficulty by tier. Mist Reduction pet bonuses now genuinely reduce the extra enemy evasion granted by Mist.",
+        "Dungeon monster difficulty now scales smoothly by tier for a steadier climb from Slime Forest through Eclipse Throne. Tower of Resonance Floors 71–100 are also harder as the party approaches the Apex, matched to expected Echo Resonance investment.",
+        "Floor 80 is now the final Tower checkpoint a completely unresonated formation can realistically clear. From Floor 81, under-ranked formations face Echo Pressure: enemy Health and Attack rise with the party’s missing average Echo Resonance rank, while entry remains unrestricted.",
+        "Every tenth Tower of Resonance floor, from 10 through 100, now awards a Tower Keystone on its first clear alongside the existing Coin and permanent roster-slot rewards. These ten materials are reserved for a future use.",
+        "Added ceilings for Critical Damage, Lifesteal, Regeneration, Healing, and Counter Damage bonuses so extreme endgame gear stacking cannot reach degenerate values, with generous headroom above normal builds.",
+        "Added a welcome-back summary after any meaningful time away, showing kills, XP, items, and crafting completed by every running expedition and raid. Welcome Premium Pack owners can collect everything with one tap.",
+        "Fixed Android time tracking across device lock and resume so offline progress and crafting catch-up calculate correctly.",
+        "Added Android notifications for finished crafting jobs, hero promotions, offline rewards, daily refreshes, and newly unlocked dungeons or raids. Settings now includes global and individual controls for all seven alert types, plus clear device-permission status.",
+        "Every armor type now offers Attack-focused and Defense-focused variants; every weapon type offers Critical-hit and Base-damage variants; combat accessories are split into Tank, DPS, and Support or Healer variants.",
+        "Added 16 weapons across the Melee, Ranged, and Magic lines so every class can find at least one weapon of its type that supports its specialty.",
+        "Equipment pickers now show the exact stat change versus the currently equipped item for every candidate piece.",
+        "Long-press a hero during combat to manage equipment and Runes without pausing the fight.",
+        "Combat arenas now keep every hero and monster in a fixed position for the entire fight; defeated entities no longer make the remaining formation reshuffle.",
+        "Combat entities are now sized to match their Health bars, and the Mist and Stats arena buttons are larger and cleaner without boxed backgrounds.",
+        "Combat Stats, hero-selection, and pet-selection popups opened from an arena now match the exact size of the combat popup that opened them.",
+        "Fixed nested popups sometimes rendering behind their parent or failing to restore the exact previous view when closed.",
+        "Notifications now always render above every popup and menu.",
+        "Hero Details now shows each hero’s combat role, and hero cards across roster and team-selection screens show Echo Resonance rank.",
+        "The promotion Choose button now sits at the top of the specialization preview so it can be confirmed without scrolling.",
+        "Dungeon clear requirements now use one consistent progression system, with a new safeguard that prevents dungeon fights from stalling indefinitely.",
+        "Coin prices and rewards are now shown consistently with the wallet’s denomination icons throughout the game.",
+        "Dungeon and raid icons now show a tier badge matching the item-icon style.",
+        "Normalized icon sizing and padding across the interface, including matching Mist and Stats combat icons and correcting several undersized icons.",
+        "The Wiki link now opens a three-button main index page.",
+        "Redesigned the Gem balance as a single banner with its icon and a dedicated plus button built into the frame.",
+        "Fixed a rare bug where a renamed or no-longer-usable equipped item could vanish on load instead of returning to the inventory.",
+        "Settings items in the right-hand column now place the label on the left and the icon on the right for a consistent reading order.",
+        "The Low Battery setting is now called Battery Savings.",
+        "Battery Savings and Language can now be changed directly from the Settings list. Language uses a compact EN/IT selector beside its icon.",
+        "The Welcome Premium Pack is a real-money Shop purchase again; previous free claims remain owned. The Gem Shop also adds a one-time free 300 Gems reward for each verified, signed-in Google Play profile after account sync.",
+        "Hero-selection lists across dungeons, raids, the Tower, and Echo Descent now sort available heroes by level, highest first.",
+        "The Tower of Ascension is now called the Tower of Resonance. Existing progress, floor, and achievements are unchanged.",
+        "Raids and Echo Descent now open on an Overview tab showing status, entry requirements, key rewards, formation, and a readiness explanation. Detailed mechanics moved to a Guide tab, while Help remains visible everywhere.",
+        "Added the Legendary Pet Pack below the Welcome Premium Pack: a one-time purchase granting the Lightless family’s Legendary Dreadbell Whale, statistically identical to a hatched Legendary. Full stables block checkout, and restored purchases grant the pet automatically when a slot opens.",
+        "Added a shared Legendary pity counter across every family’s eggs. After 100 consecutive hatches without a Legendary pet, the next hatch is guaranteed Legendary; progress appears on the Pets Eggs tab, Pet Egg Market, and egg details.",
+        "Added an Achievements button to Settings with every Play Games achievement, its store description, and live progress, including on Windows and while signed out. The connected Play Games popup keeps its native-overlay button.",
+        "Added two Echo Resonance achievements — one for fully attuning a hero and one for lifetime Resonance progress — bringing the total to 41 achievements worth 345 points.",
+        "Added a Pets Upgrades tab for permanently increasing stable capacity and every family egg’s Legendary chance. The first three ranks reach 40 slots and a 1% Legendary chance; three Apex ranks extend that to 70 slots and 2%. New saves start with 10 pet slots, while existing saves keep all pets and previously reached capacity.",
+        "Moved Echo Descent access inside the Tower of Resonance screen beside the title, visible but disabled before unlock. Tower, Echo, and newly unlocked dungeons now use activity badges that clear when their corresponding screen or card is opened.",
+        "Centered the Echo Descent icon inside its circular ring in every locked and unlocked state.",
+        "Fixed a rare bug where pets beyond stable capacity could be lost on load. All owned pets are now restored; capacity only limits new hatches and grants.",
+        "Rewrote every hero class’s active and passive skill description in both languages to state exact values, targets, durations, and triggers. Skill-description boxes now fit their content.",
+        "After a defeat beyond the Echo Descent unlock, Tower floors now show the exact Echo Resonance rank recommended for that floor.",
+        "Added a Mailbox letter for every Tower checkpoint from Floor 10 through 90, expanding the story behind the final boss. The Floor 100 letter remains unchanged.",
+        "Redesigned Ascension paths as icon-only circular nodes in a state-colored ring, with name, description, rank, cost, and status shown in one detail box below the tree.",
+        "The Tower popup and victory screen now track progress toward all ten checkpoint materials and explain that they are being saved for a future use.",
+        "Added Waning Patience to Floor 100: The Crown That Waits gains stacking Attack after a grace window in long fights, with the timing and scaling shown before entry and tracked live in combat.",
+        "Added Tower of Resonance Auto-Advance, which attempts consecutive uncleared floors with the saved team and companions until the next multiple-of-ten checkpoint. Confirmation, live progress, stop controls, and a final summary cover the whole run.",
+        "Added rotating Daily and Weekly Quests that progress automatically through normal play, including supported offline combat and crafting. Daily tasks award Coins, weekly tasks award Gems, completed unclaimed rewards are granted automatically at reset, and optional Coin-funded Quest ranks add slots and reward bonuses without penalties for unfinished tasks.",
+        "Added 88 cosmetic Elite Skins — one for every elite class in each of the four raid themes — to a new Shop Skins tab. Each costs 1,000 Gems, can be equipped on any matching elite hero after purchase, and never changes combat stats.",
+        "Pet eggs in the Gem Shop now scale by family tier, from 75 Gems at tier 3 to 300 Gems at tier 12. Chimeric pets can now roll a dungeon-only Drop Rate bonus, while Eclipse pets can roll an EXP Rate bonus for assigned heroes.",
+        "Item details now explain every known acquisition source — monster or boss drops, dungeons or raids, crafting recipes, rotating Shop offers, Quest rewards, and special sources — and link to the relevant activity where possible.",
+        "Added a persistent exact Coin wallet display, keeping the Platinum, Gold, Silver, and Copper breakdown visible across shops, upgrades, crafting, and other Coin-spending screens.",
+        "Added local Lifetime Statistics in Settings for combat, progression, collection, economy, and play time. Values that cannot be reconstructed are labeled as tracked since version 1.08, and the view works without Play Games sign-in.",
+        "Added case-sensitive Reward Codes to the Shop’s Premium tab. Eligible rewards are bound to the verified Play Games profile, recorded in the cloud against repeat redemption, and remain available on Windows without Google Play Billing.",
+        "Added a versioned What’s New popup that presents the main 1.08 highlights once per save, with a Settings button to reopen it. Help topics are now collapsible, and player-facing status names and bilingual terminology are more consistent.",
+        "Retuned campaign XP pacing, progression costs, and Tower preparation so a competent player checking in two or three times per day can reach the Echo Descent unlock in about six days without paid acceleration.",
+        "Reduced startup work by loading noninitial menus, hidden textures, Android monetization, Settings, hero management, Ascension, promotion, and help content only when needed. Inventory and recipe lists also populate more efficiently."
+      ]
+    },
     {
       version: "1.07",
       title: "Controls & Navigation Fix",
@@ -34,11 +104,11 @@ window.WIKI_CONTENT = Object.freeze({
         "Revamped hero active skills, passive skills, and class roles across the promotion tree.",
         "Reworked all four raid mechanics with clearer action windows and improved enemy skills. Matching a crafted raid weapon with its unique accessory now activates a two-piece set bonus.",
         "Expanded the Tower of Ascension into 100 persistent floors with fixed retry encounters, first-clear checkpoint rewards, two companion slots, and a dedicated Floor 100 apex challenge.",
-        "Added Echo Descent after Tower Floor 70: unlimited five-hero pushes through five-depth strata with two companions, secured anchors, and Bond XP instead of ordinary loot. The first eligible Guardian each UTC day grants +2 Resonance, while nine daily laws combine survival pressure, enemy adaptation, and counterplay opportunities.",
+        "Added Echo Descent after Tower Floor 70: unlimited five-hero pushes through five-depth strata with two companions, secured anchors, and Bond XP instead of ordinary loot. The first eligible Guardian each UTC day grants +1 Resonance, while nine daily laws combine survival pressure, enemy adaptation, and counterplay opportunities.",
         "Improved dungeon combat progression, equipment milestones, boss-material rewards, loot rates, and Rune costs. Innate title bonuses now grant 10%.",
         "Added 23 Google Play Games achievements for promotions, Ascension, raid crafting, raid sets, pet hatching, maxed Tavern and Workshop upgrades, long-term lifetime goals, and every tenth-floor Tower boss, bringing the game to 39 achievements worth 320 points.",
         "Improved mobile layouts, equipment details, raid views, touch and mouse scrolling, combat feedback, popup navigation, and item presentation.",
-        "The first-launch guide now explains how to sell spare items for gold and recruit more heroes at the Tavern.",
+        "The first-launch guide now explains how to sell spare items for Coins and recruit more heroes at the Tavern.",
         "The Gem button remains accessible on every platform, and the Welcome Premium Pack can still be claimed for free.",
         "Strengthened startup Play update checks, Billing recovery, cloud deletion, consent handling, and required privacy choices.",
         "Play Games saves are now bound to the verified player account, preventing one account from silently adopting another account's progress.",
@@ -227,7 +297,7 @@ window.WIKI_CONTENT = Object.freeze({
     {
       step: "05",
       title: "Promote and specialize",
-      text: "At level 25 a base class chooses one of two specializations. At level 50 that specialization promotes to its linked elite class. Elite level 50 unlocks Ascension.",
+      text: "At level 25 a base class chooses one of two specializations. At level 50 that specialization promotes to its linked elite class and resets to level 0, immediately unlocking Ascension.",
       tip: "Promotion replaces the active and passive skill kit, so read both paths before committing."
     },
     {
@@ -294,13 +364,14 @@ window.WIKI_CONTENT = Object.freeze({
     {
       id: "mist",
       eyebrow: "Environment",
-      title: "Mist amplifies attacks instead of dealing automatic damage",
-      summary: "Effective Mist is the dungeon's current Mist percentage reduced by the target's Mist Reduction. An attacker's Mist Damage then scales its damage from that effective value.",
+      title: "Mist amplifies attacks and raises enemy Evade",
+      summary: "Mist strengthens outgoing damage for attackers with Mist Damage and adds Evade to enemies in configured dungeons and upper-Tower bands. Mist Reduction counters both interactions.",
       bullets: [
         "Effective Mist = Mist × (1 − target Mist Reduction ÷ 100).",
         "Mist multiplier = 1 + (effective Mist ÷ 100) × (attacker Mist Damage ÷ 100).",
-        "Mist Reduction cannot reduce effective Mist below 0%.",
-        "Later dungeons can begin with Mist and change it periodically; each dungeon detail page lists its current settings.",
+        "Enemy Mist Evade = round(Mist × the activity's Evade rate). An attacking hero removes the same percentage of that Mist-derived Evade as their Mist Reduction.",
+        "Mist Reduction cannot reduce effective Mist or the Mist-derived Evade contribution below 0.",
+        "Later dungeons can begin with Mist and change it periodically; Tower Floors 71–100 use fixed bands that rise toward the apex.",
         "Mage-aligned builds and certain enemies carry native Mist Damage; equipment, pets, and effects can add Mist Reduction."
       ]
     },
@@ -308,7 +379,7 @@ window.WIKI_CONTENT = Object.freeze({
       id: "discovery",
       eyebrow: "Information",
       title: "Discovery is part of progression",
-      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.07 ruleset as an end-to-end strategy reference.",
+      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.08 ruleset as an end-to-end strategy reference.",
       bullets: [
         "A monster enters the Bestiary when its wave is first seen.",
         "An item is discovered through drops, collection, crafting, purchase, equipment restoration, or explicit rewards.",
@@ -392,14 +463,14 @@ window.WIKI_CONTENT = Object.freeze({
     {name:"Magic Defense", kind:"Defense", text:"Percentage-point reduction against Magic damage; heroes cap at 80%."},
     {name:"Evade", kind:"Avoidance", text:"Percentage chance to avoid a direct basic attack or damaging skill; heroes cap at 80%."},
     {name:"Critical Chance", kind:"Offense", text:"Percentage chance for a hit to use Critical Damage; caps at 100%."},
-    {name:"Critical Damage", kind:"Offense", text:"Damage multiplier on a critical. A displayed 150% means ×1.5 damage."},
+    {name:"Critical Damage", kind:"Offense", text:"Damage multiplier on a critical. A displayed 150% means ×1.5 damage; the raw value caps at 300%."},
     {name:"Immunity", kind:"Resistance", text:"Percentage chance to resist a newly applied harmful status; base heroes begin with 10% before class and equipment additions."},
     {name:"Threat", kind:"Targeting", text:"Weighted contribution to direct enemy target selection. Higher Threat is more likely, never absolute by itself."},
     {name:"Counter Chance", kind:"Defense", text:"Chance to reflect damage after a successful incoming hit when counter power is available."},
-    {name:"Counter Damage", kind:"Defense", text:"Percentage of the received HP damage reflected; base physical counter power is 50%."},
-    {name:"Lifesteal", kind:"Sustain", text:"Heals the attacker for a percentage of HP damage dealt."},
-    {name:"Regeneration", kind:"Sustain", text:"Restores a flat amount of HP during the entity's turn processing."},
-    {name:"Healing", kind:"Support", text:"Percentage scale applied to healing performed and relevant self-healing."},
+    {name:"Counter Damage", kind:"Defense", text:"Percentage of the received HP damage reflected; base physical counter power is 50% and the final value caps at 150%."},
+    {name:"Lifesteal", kind:"Sustain", text:"Heals the attacker for a percentage of HP damage dealt; caps at 50%."},
+    {name:"Regeneration", kind:"Sustain", text:"Restores a flat amount of HP during the entity's turn processing; caps at 50."},
+    {name:"Healing", kind:"Support", text:"Percentage scale applied to healing performed and relevant self-healing; caps at 300%."},
     {name:"Decay", kind:"Effect", text:"Built-in ongoing Magic damage dealt during the affected entity's turn processing."},
     {name:"Mist Damage", kind:"Environment", text:"Scales outgoing damage by the target's effective Mist exposure."},
     {name:"Mist Reduction", kind:"Environment", text:"Reduces the Mist percentage used against this target."},
@@ -408,6 +479,7 @@ window.WIKI_CONTENT = Object.freeze({
 
   statuses: [
     {id:"damage_buff", name:"Damage Up", kind:"buff", text:"Increases all outgoing damage by the displayed percentage.", stacking:"Strongest value; duration refreshes."},
+    {id:"crit_damage_buff", name:"Critical Damage Up", kind:"buff", text:"Increases the damage multiplier of critical hits by the displayed amount.", stacking:"Strongest value; duration refreshes."},
     {id:"defense_buff", name:"Defense Up", kind:"buff", text:"Adds displayed percentage points to Defense against Melee and Ranged damage.", stacking:"Strongest value; duration refreshes."},
     {id:"mdef_buff", name:"Magic Defense Up", kind:"buff", text:"Adds displayed percentage points to Magic Defense.", stacking:"Strongest value; duration refreshes."},
     {id:"evade_buff", name:"Evade Up", kind:"buff", text:"Adds displayed percentage points to effective Evade.", stacking:"Strongest value; duration refreshes."},
@@ -415,16 +487,17 @@ window.WIKI_CONTENT = Object.freeze({
     {id:"counter_buff", name:"Counter Chance Up", kind:"buff", text:"Adds displayed percentage points to Counter Chance.", stacking:"Strongest value; duration refreshes."},
     {id:"counter_power", name:"Counter Power Up", kind:"buff", text:"Adds displayed percentage points to reflected counter damage.", stacking:"Strongest value; duration refreshes."},
     {id:"immunity_buff", name:"Immunity Up", kind:"buff", text:"Adds displayed percentage points to the chance to resist newly applied harmful statuses.", stacking:"Strongest value; duration refreshes."},
-    {id:"hot", name:"Skill Regeneration", kind:"buff", text:"Restores the displayed HP at the start of each turn; applied by active skills.", stacking:"Strongest value; duration refreshes."},
-    {id:"healer_hot", name:"Passive Regeneration", kind:"buff", text:"Restores displayed HP at the start of each turn; applied by a healer's action passive.", stacking:"Strongest value; duration refreshes."},
+    {id:"hot", name:"Regeneration", kind:"buff", text:"Restores the displayed HP at the start of each turn; applied by active skills.", stacking:"Strongest value; duration refreshes."},
+    {id:"healer_hot", name:"Regeneration", kind:"buff", text:"Restores displayed HP at the start of each turn; applied by a healer's action passive.", stacking:"Strongest value; duration refreshes."},
     {id:"healing_buff", name:"Healing Up", kind:"buff", text:"Increases healing performed and self-healing by the displayed percentage points.", stacking:"Strongest value; duration refreshes."},
     {id:"threat_buff", name:"Threat Up", kind:"buff", text:"Adds displayed Threat to weighted enemy target selection.", stacking:"Strongest value; duration refreshes."},
     {id:"intercept", name:"Intercept", kind:"buff", text:"Redirects direct enemy attacks from allies to this entity while active.", stacking:"No visible strength."},
     {id:"momentum", name:"Momentum", kind:"buff", text:"Adds outgoing damage as a class passive builds momentum during the encounter.", stacking:"Additive."},
     {id:"attack_down", name:"Attack Down", kind:"debuff", text:"Reduces all outgoing damage by the displayed percentage.", stacking:"Strongest value; duration refreshes."},
-    {id:"vulnerability", name:"Vulnerability", kind:"debuff", text:"Increases direct and ongoing damage received by the displayed percentage.", stacking:"Strongest value; duration refreshes."},
-    {id:"pattern_vulnerability", name:"Observed Pattern", kind:"debuff", text:"Increases damage received as Veyra's Eye observes distinct party attack types.", stacking:"Strongest value; duration refreshes."},
-    {id:"dot", name:"Ongoing Damage", kind:"debuff", text:"Deals the displayed Magic damage at the start of each turn.", stacking:"Strongest value; duration refreshes."},
+    {id:"vulnerability", name:"Vulnerability", kind:"debuff", text:"Increases direct damage and DoT received by the displayed percentage.", stacking:"Strongest value; duration refreshes."},
+    {id:"pattern_vulnerability", name:"Vulnerability", kind:"debuff", text:"Increases damage received as Veyra's Eye observes distinct party attack types.", stacking:"Strongest value; duration refreshes."},
+    {id:"echo_exposure", name:"Vulnerability", kind:"debuff", text:"Increases damage received after fulfilling the current Echo law's counterplay condition.", stacking:"Strongest value; duration refreshes."},
+    {id:"dot", name:"DoT", kind:"debuff", text:"Deals the displayed Magic damage at the start of each turn.", stacking:"Strongest value; duration refreshes."},
     {id:"silence", name:"Silence", kind:"debuff", text:"Prevents an active skill from being used while the status remains.", stacking:"No visible strength."},
     {id:"evade_down", name:"Evade Down", kind:"debuff", text:"Subtracts displayed percentage points from effective Evade.", stacking:"Strongest value; duration refreshes."},
     {id:"anti_heal", name:"Healing Reduction", kind:"debuff", text:"Reduces all healing received by the displayed percentage, capped at 95% reduction.", stacking:"Strongest value; duration refreshes."},
@@ -453,46 +526,66 @@ window.WIKI_CONTENT = Object.freeze({
   ascension: [
     {
       id:"ember_crown", name:"The Ember Crown", role:"DPS", color:"#e36b32", icon:"res://resources/ui/ascension_ember_crown.png",
-      text:"Decisive blows, critical strikes, and merciless finishes.",
+      text:"A martial path of decisive blows, critical strikes, and merciless finishes.",
       skills:[
-        {name:"Ashen Might", tier:0, ranks:5, cost:1, text:"Deal +2% damage per rank."},
-        {name:"Hunter's Pulse", tier:0, ranks:5, cost:1, text:"Gain +2% Critical Chance per rank."},
-        {name:"Serrated Radiance", tier:1, ranks:3, cost:2, text:"Critical hits deal +10% damage per rank."},
-        {name:"Merciless Focus", tier:1, ranks:3, cost:2, text:"Deal +8% damage per rank to enemies below half health."},
-        {name:"Crown of Cinders", tier:2, ranks:1, cost:3, text:"Unique: deal 35% more damage to enemies below 20% health."}
+        {name:"Ashen Might", tier:0, ranks:5, cost:1, text:"Gain +1% Strength per rank."},
+        {name:"Hunter's Pulse", tier:0, ranks:5, cost:1, text:"Gain +1% Dexterity per rank."},
+        {name:"Cinder Insight", tier:0, ranks:5, cost:1, text:"Gain +1% Intelligence per rank."},
+        {name:"Scorched Veins", tier:0, ranks:5, cost:1, text:"Gain +1% maximum Health per rank."},
+        {name:"Serrated Radiance", tier:1, ranks:3, cost:2, text:"Gain +2% Critical Damage per rank."},
+        {name:"Opening Fury", tier:1, ranks:3, cost:2, text:"Gain +2% Critical Chance per rank."},
+        {name:"Duelist's Hunger", tier:1, ranks:3, cost:2, text:"Gain +1% Lifesteal per rank."},
+        {name:"Merciless Focus", tier:2, ranks:3, cost:2, text:"Deal +2% damage per rank to enemies below half Health."},
+        {name:"Sundering Edge", tier:2, ranks:3, cost:2, text:"Attacks ignore 2% of enemy Defense per rank."},
+        {name:"Crown of Cinders", tier:3, ranks:1, cost:1, text:"Unique: deal 8% more damage."}
       ]
     },
     {
       id:"stone_aegis", name:"The Stone Aegis", role:"Tank", color:"#b68b4b", icon:"res://resources/ui/ascension_stone_aegis.png",
-      text:"Endurance, control resistance, and a final wall against lethal damage.",
+      text:"An oath of endurance that turns a hero into the party's immovable last wall.",
       skills:[
-        {name:"Adamant Blood", tier:0, ranks:5, cost:1, text:"Gain +2% maximum HP per rank."},
-        {name:"Bastion Training", tier:0, ranks:5, cost:1, text:"Gain +1 Defense and Magic Defense per rank."},
-        {name:"Commanding Presence", tier:1, ranks:3, cost:2, text:"Gain +2 Threat per rank."},
-        {name:"Sacred Resistance", tier:1, ranks:3, cost:2, text:"Gain +5% status Immunity per rank."},
-        {name:"Last Citadel", tier:2, ranks:1, cost:3, text:"Unique: the first lethal blow each expedition leaves the hero at 1 HP and grants a 20% HP barrier."}
+        {name:"Adamant Blood", tier:0, ranks:5, cost:1, text:"Gain +1% maximum Health per rank."},
+        {name:"Bastion Training", tier:0, ranks:5, cost:1, text:"Gain +1% Strength per rank."},
+        {name:"Oathbound Vigor", tier:0, ranks:5, cost:1, text:"Gain +1% Intelligence per rank."},
+        {name:"Stone Reflexes", tier:0, ranks:5, cost:1, text:"Gain +1% Dexterity per rank."},
+        {name:"Commanding Presence", tier:1, ranks:3, cost:2, text:"Gain +1 Threat per rank."},
+        {name:"Grounded Bulwark", tier:1, ranks:3, cost:2, text:"Gain +1 Defense and Magic Defense per rank."},
+        {name:"Retaliating Wall", tier:1, ranks:3, cost:2, text:"Gain +2% Counter Chance per rank."},
+        {name:"Sacred Resistance", tier:2, ranks:3, cost:2, text:"Gain +1 Defense and Magic Defense per rank while at full Health."},
+        {name:"Weight of Mountains", tier:2, ranks:3, cost:2, text:"Falling below 35% Health raises a barrier equal to 2% of maximum Health per rank."},
+        {name:"Last Citadel", tier:3, ranks:1, cost:1, text:"Unique: take 8% less damage."}
       ]
     },
     {
       id:"wellspring_grace", name:"Wellspring Grace", role:"Healer", color:"#6bc6a0", icon:"res://resources/ui/ascension_wellspring_grace.png",
-      text:"Healing throughput, regeneration, protective overflow, and mana cadence.",
+      text:"A gentle path whose living light sustains, protects, and renews the wounded.",
       skills:[
-        {name:"Living Waters", tier:0, ranks:5, cost:1, text:"Increase healing done by +3% per rank."},
-        {name:"Patient Hands", tier:0, ranks:5, cost:1, text:"Gain +1 Regeneration per rank."},
-        {name:"Overflowing Mercy", tier:1, ranks:3, cost:2, text:"Healing grants a barrier equal to 3% of the target's max HP per rank."},
-        {name:"Luminous Rhythm", tier:1, ranks:3, cost:2, text:"Gain +5% mana generation per rank."},
-        {name:"Dawn Refrain", tier:2, ranks:1, cost:3, text:"Unique: after using a skill, heal the most wounded ally for 12% of maximum HP."}
+        {name:"Living Waters", tier:0, ranks:5, cost:1, text:"Gain +1% Intelligence per rank."},
+        {name:"Patient Hands", tier:0, ranks:5, cost:1, text:"Gain +1% Dexterity per rank."},
+        {name:"Rooted Resolve", tier:0, ranks:5, cost:1, text:"Gain +1% Strength per rank."},
+        {name:"Vital Springs", tier:0, ranks:5, cost:1, text:"Gain +1% maximum Health per rank."},
+        {name:"Overflowing Mercy", tier:1, ranks:3, cost:2, text:"Increase healing done by +2% per rank."},
+        {name:"Blossoming Light", tier:1, ranks:3, cost:2, text:"Gain +1 Regeneration per rank."},
+        {name:"Desperate Grace", tier:1, ranks:3, cost:2, text:"Gain +2% status Immunity per rank."},
+        {name:"Luminous Rhythm", tier:2, ranks:3, cost:2, text:"After using a skill, heal the most wounded ally for 2% of their maximum Health per rank."},
+        {name:"Deep Wellspring", tier:2, ranks:3, cost:2, text:"Healing grants a barrier equal to 1% of the target's maximum Health per rank."},
+        {name:"Dawn Refrain", tier:3, ranks:1, cost:1, text:"Unique: increase all healing done by 8%."}
       ]
     },
     {
       id:"tempest_chorus", name:"The Tempest Chorus", role:"AoE & Effects", color:"#6daee8", icon:"res://resources/ui/ascension_tempest_chorus.png",
-      text:"Area damage, stronger effects, vulnerability procs, and skill echoes.",
+      text:"A storm-song that spreads attacks across foes and turns every impact into a blessing or curse.",
       skills:[
-        {name:"Tempest Reach", tier:0, ranks:5, cost:1, text:"Skills that hit all enemies deal +3% damage per rank."},
-        {name:"Resonant Current", tier:0, ranks:5, cost:1, text:"Skill buffs and debuffs are +2% stronger per rank."},
-        {name:"Gale Mark", tier:1, ranks:3, cost:2, text:"Hits gain +7% chance per rank to inflict 8% Vulnerability for 2 turns."},
-        {name:"Rallying Thunder", tier:1, ranks:3, cost:2, text:"Skill use gains +10% chance per rank to give all allies +10% damage for 2 turns."},
-        {name:"Eye of the Storm", tier:2, ranks:1, cost:3, text:"Unique: damaging skills echo for 40% power against every other living enemy."}
+        {name:"Tempest Reach", tier:0, ranks:5, cost:1, text:"Gain +1% Dexterity per rank."},
+        {name:"Resonant Current", tier:0, ranks:5, cost:1, text:"Gain +1% Intelligence per rank."},
+        {name:"Static Charge", tier:0, ranks:5, cost:1, text:"Gain +1% Strength per rank."},
+        {name:"Lingering Storm", tier:0, ranks:5, cost:1, text:"Gain +1% maximum Health per rank."},
+        {name:"Gale Mark", tier:1, ranks:3, cost:2, text:"Gain +2% Critical Chance per rank."},
+        {name:"Thunderhead", tier:1, ranks:3, cost:2, text:"Gain +2% Critical Damage per rank."},
+        {name:"Squall Dance", tier:1, ranks:3, cost:2, text:"Gain +2% Evade per rank."},
+        {name:"Rallying Thunder", tier:2, ranks:3, cost:2, text:"Skill use has a +4% chance per rank to grant all allies +10% damage for 2 turns."},
+        {name:"Stormfront", tier:2, ranks:3, cost:2, text:"Skills that hit all enemies deal +2% damage per rank."},
+        {name:"Eye of the Storm", tier:3, ranks:1, cost:1, text:"Unique: increase active-skill damage, direct healing, barriers, and numeric buffs and debuffs by 8%."}
       ]
     }
   ],
@@ -513,7 +606,9 @@ window.WIKI_CONTENT = Object.freeze({
     {id:"threat", name:"Threat", base:1, unit:""},
     {id:"counter_chance", name:"Counter Chance", base:1, unit:" point"},
     {id:"counter_damage", name:"Counter Damage", base:3, unit:" points"},
-    {id:"mana_gain", name:"Mana Gain", base:2, unit:"%"}
+    {id:"mana_gain", name:"Mana Gain", base:2, unit:"%"},
+    {id:"drop_rate", name:"Drop Rate", base:2, unit:"%"},
+    {id:"exp_rate", name:"EXP Rate", base:2, unit:"%"}
   ],
 
   raidMechanics: {
@@ -572,15 +667,15 @@ window.WIKI_CONTENT = Object.freeze({
     {id:"cluster", name:"Gem Cluster per dungeon monster", value:"0.1%", detail:"Base roll on every defeated dungeon monster, multiplied by the global drop multiplier. Each collected cluster opens automatically."},
     {id:"gems", name:"Gems inside one cluster", value:"1–5", detail:"1: 80% · 2: 12% · 3: 5% · 4: 2% · 5: 1%. Expected value: 1.32 Gems."},
     {id:"title", name:"Tavern offer has a title", value:"25%", detail:"If successful, one of six titles is chosen uniformly: 4.1667% absolute chance for a specific title per offer. Health and Attack are ×1.10; Defense, Magic Defense, Evade, and Critical Chance gain 10 points."},
-    {id:"egg", name:"Eligible boss drops its pet egg", value:"15%", detail:"Applies to each eligible dungeon or raid boss kill. Buying a family egg costs 150 Gems."},
-    {id:"rarity", name:"Pet hatch rarity", value:"74.5 / 20 / 5 / 0.5", detail:"Common 74.5%, Rare 20%, Epic 5%, Legendary 0.5%. They receive 2, 3, 4, or 5 distinct effects respectively from that family's shuffled pool."},
+    {id:"egg", name:"Eligible boss drops its pet egg", value:"15%", detail:"Applies to each eligible dungeon or raid boss kill. Family eggs cost 75–300 Gems according to tier: 75 at Tier 3, 125 at Tier 5, 150 at Tier 6, 225 at Tier 9, and 300 at Tier 12."},
+    {id:"rarity", name:"Pet hatch rarity — base", value:"74.5 / 20 / 5 / 0.5", detail:"Base odds are Common 74.5%, Rare 20%, Epic 5%, Legendary 0.5%, with 2, 3, 4, or 5 distinct family effects. Permanent hatchery upgrades raise Legendary odds to 2%, and the shared pity guarantees the next Legendary after 100 misses."},
     {id:"runeEarly", name:"Raid Rune Piece — early enemy", value:"1.5%", detail:"Rolled on every eligible non-node raid monster before the raid has completed 10 encounters."},
     {id:"runeLate", name:"Raid Rune Piece — late enemy", value:"3%", detail:"Rolled after 10 normal clears: encounters 11–15 and eligible non-node boss adds. Root Nodes never roll bespoke raid rewards."},
     {id:"runeBoss", name:"Raid Rune Piece — boss", value:"10%", detail:"Separate from the guaranteed boss material roll."},
     {id:"bossMat", name:"Boss drops two materials", value:"25%", detail:"Every raid boss drops at least one boss material; 25% of kills produce a second."},
     {id:"accessory", name:"Raid accessory repeat copy", value:"5%", detail:"Until a copy is discovered or already pending, the roll escalates 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, then guarantees clear 10. It returns to 5% afterward."},
     {id:"daily", name:"Raid entry reset", value:"00:00 UTC", detail:"Each of the four raids tracks its own daily entry. Starting consumes it. A manual refresh costs 50 Gems."},
-    {id:"reward", name:"Daily Gem reward", value:"35 Gems", detail:"One claim per UTC day. With the free Welcome bonus it is granted instantly; otherwise the reward path requires successful rewarded-ad completion when available."}
+    {id:"reward", name:"Daily Gem reward", value:"35 Gems", detail:"One claim per UTC day. Welcome Premium Pack owners receive it instantly; otherwise the reward path requires successful rewarded-ad completion when available."}
   ],
 
   towerPlayGames: {
@@ -606,18 +701,21 @@ window.WIKI_CONTENT = Object.freeze({
     {name:"Weekly Shop", icon:"res://resources/ui/gem.svg", lead:"Permanent capacity expansions bought with Gems.", facts:["7-day refresh", "Tavern Expansion: +1 hero slot", "Workshop Expansion: +1 queue slot", "500 Gems per upgrade", "Maximum 3 levels of each upgrade"]},
     {name:"Inventory", icon:"res://resources/ui/icon_inventory.png", lead:"Collected materials, equipment, selling, and discovery.", facts:["Ordinary items may be sold for their listed Coin value", "Quest keys, Rune Pieces, unique raid accessories, and protected items cannot be sold", "Equipment must satisfy slot and proficiency rules", "One hero cannot equip two copies of the same unique-equipped item"]},
     {name:"Mailbox", icon:"res://resources/ui/icon_mail_letter.png", lead:"Story beats, unlock guidance, and rare-discovery notices.", facts:["Prologue and campaign unlock mail", "Raid quest and first-clear mail", "First Rune Piece tutorial", "Unique raid accessory discoveries", "Read state persists in the save"]},
-    {name:"Pets", icon:"res://resources/ui/icon_pets.png", lead:"Boss eggs hatch into expedition companions with persistent bond levels.", facts:["60-pet stable capacity", "One pet per dungeon or permanent raid; up to two in Tower and Echo Descent", "A deployed pet cannot serve elsewhere", "1 Bond XP per ordinary encounter and 10 per eligible boss kill; Tower and Echo depths grant 25 or 250", "Undeployed pets can be sold for Coins", "Level cap 20; effect values reach ×3 base at level 20, while sale value is level-independent"]},
-    {name:"Premium & daily", icon:"res://resources/ui/icon_rewarded_ad.png", lead:"Optional Gems and a one-time Welcome bonus.", facts:["The Welcome Pack is a FREE one-time claim", "Level-25 Trickster with Ironbark Blade and Ranger Leather", "Permanent +10% XP and standard drop multiplier", "The daily 35-Gem claim becomes instant", "Gem packs are credited only after platform confirmation"]}
+    {name:"Pets", icon:"res://resources/ui/icon_pets.png", lead:"Boss eggs hatch into expedition companions with persistent bond levels.", facts:["New saves start with 10 stable slots; six upgrade ranks extend capacity through 20, 30, 40, 50, 60, and 70", "The same upgrades raise every family's Legendary chance from 0.5% to 2%; after 100 misses, the next hatch is guaranteed Legendary", "Family eggs cost 75–300 Gems by tier", "One pet per dungeon or permanent raid; up to two in Tower and Echo Descent", "1 Bond XP per ordinary encounter and 10 per eligible boss kill; Tower and Echo depths grant 25 or 250", "Level cap 20; effect values reach ×3 base, including Chimeric Drop Rate and Eclipse EXP Rate"]},
+    {name:"Quests", icon:"res://resources/ui/icon_mail_objective_complete.png", lead:"Rotating Daily and Weekly objectives add reliable account progression.", facts:["Daily Quests reward Coins; Weekly Quests reward Gems", "Boards rotate on their own reset cadence", "Completed unclaimed rewards are granted automatically when a board resets", "Optional Coin-purchased Quest ranks scale available objectives and rewards", "Quest progress and ready-to-claim badges update from ordinary play"]},
+    {name:"Elite Skins", icon:"res://resources/ui/icon_heroes.png", lead:"Cosmetic looks for every elite class, themed after the permanent raids.", facts:["88 skins across 22 elite classes and four raid themes", "Each skin costs 1,000 Gems", "Skins are cosmetic only and never change combat stats", "Owned and equipped looks persist per hero"]},
+    {name:"Lifetime Statistics", icon:"res://resources/ui/statistics/icon_statistics_progression.png", lead:"A local Settings reference for long-term combat, progression, collection, economy, and play time.", facts:["Works without Play Games sign-in", "Tracks five categories of lifetime totals", "Values introduced in 1.08 that cannot be reconstructed are clearly labeled", "Statistics persist with the save"]},
+    {name:"Premium & daily", icon:"res://resources/ui/icon_rewarded_ad.png", lead:"Optional purchases, account rewards, Reward Codes, and daily Gems.", facts:["The Welcome Premium Pack is a one-time real-money purchase", "It grants a level-25 Trickster with Ironbark Blade and Ranger Leather, permanent +10% XP and standard drop multiplier, and instant daily 35-Gem claims", "The Legendary Pet Pack grants a Legendary Dreadbell Whale when capacity is available", "A verified signed-in profile can claim 300 Gems once after sync", "Case-sensitive Reward Codes bind eligible rewards to the verified profile and remain redeemable on Windows", "Gem packs are credited only after platform confirmation"]}
   ],
 
   interactions: [
-    {area:"Main navigation", actions:["City opens Tavern, Shop, Workshop, Inventory, Pets, Mail, and town references.", "Heroes opens the roster; select a portrait/card for stats, equipment, skills, promotion, Runes, Ascension, title, rename, or removal.", "Dungeons and Raids open their activity lists; the Raids screen also contains the Tower rail and, after Floor 70, Echo Descent.", "Selecting an activity opens formation, status, report, rewards, and combat.", "Settings contains audio, help/reference catalogs, privacy, Discord, Play Games/cloud, and data deletion."]},
+    {area:"Main navigation", actions:["City opens Tavern, Shop, Workshop, Inventory, Pets, Quests, Mail, and town references.", "Heroes opens the roster; select a portrait/card for stats, equipment, skills, promotion, Runes, Ascension, skins, title, rename, or removal.", "Dungeons and Raids open their activity lists; the Raids screen contains the Tower of Resonance, whose title-bar Echo control becomes available after Floor 70.", "Selecting an activity opens formation, status, report, rewards, and combat.", "Settings contains audio, help/reference catalogs, Lifetime Statistics, achievements, What's New, privacy, Discord, Play Games/cloud, and data deletion."]},
     {area:"Formation", actions:["Select an empty slot, then choose an available hero. Selecting an occupied slot lets you replace or remove it.", "A saved preset stores every formation position, including gaps. Loading skips heroes who were removed or are deployed elsewhere and reports the omissions.", "Ordinary activities accept one pet; Tower and Echo accept up to two distinct pets. A pet preset is scoped to the activity.", "Most activities start with at least one valid hero; Echo Descent requires exactly five. No selected hero or pet may already be deployed elsewhere."]},
     {area:"Running combat", actions:["Combat advances automatically at the activity's listed action interval; no manual attack input is required.", "Select or inspect a combatant to view live HP, Mana, barriers, stats, skills, equipment, and active statuses.", "Battle cues show attacks, heals, skills, evades, criticals, counters, barriers, and harmful-effect resistance.", "Stop a dungeon without losing its pending drops. Abandoning a permanent raid keeps its daily entry consumed; Tower and Echo attempts are unlimited and retain their last secured progress."]},
     {area:"Rewards & reports", actions:["Collect on an activity transfers pending items to Inventory; Gem Clusters open automatically and pet-egg tokens become hatchable eggs.", "Collect All processes every dungeon with pending rewards and reports combined items, Gems, and dungeon count.", "Reports preserve the just-collected session summary and show live per-hour estimates before collection.", "Drops shown inside a running activity are pending, not yet usable in crafting or equipment."]},
-    {area:"Hero detail", actions:["Equipment slots filter compatible items: Melee/Ranged/Magic weapons, Light/Medium/Heavy armor, and accessories.", "Promotion at level 25 presents two specialization cards; promotion at level 50 presents the linked elite class.", "Each Rune upgrade is guaranteed when its matching piece is available. Rune ranks are not random.", "At elite level 50, choose one Ascendant Path, spend up to 15 points, and reset freely; changing paths refunds all points."]},
+    {area:"Hero detail", actions:["Equipment slots filter compatible items: Melee/Ranged/Magic weapons, Light/Medium/Heavy armor, and accessories.", "Promotion at level 25 presents two specialization cards; promotion at level 50 presents the linked elite class.", "Each Rune upgrade is guaranteed when its matching piece is available. Rune ranks are not random.", "Elite promotion unlocks Ascension immediately at reset level 0. Levels 4–46 award 15 points and level 50 awards the final point, for a 16-point budget.", "Choose one Ascendant Path and one option per Foundation, Awakening, Mastery, and Capstone row. Same-path reassignment is free; only changing paths consumes a crafted Sigil of Rebirth and refunds all points."]},
     {area:"Crafting & items", actions:["Open a recipe to review result, quantity, Coin cost, craft time, tier, raid requirement, and every ingredient.", "Starting a batch reserves all ingredients and Coins immediately.", "Use queue cards to inspect completion time or cancel an unfinished job for a full reserved-cost refund.", "Selling is disabled for protected items; equipping removes the item from ordinary inventory until unequipped."]},
-    {area:"Pets", actions:["Boss-dropped eggs appear after activity rewards are collected. Family eggs can also be bought for 150 Gems.", "Hatch to roll rarity and a shuffled set of distinct family effects; the creature sprite follows rarity.", "Rename a pet, assign it to a formation, save it in that activity's preset, or sell it for Coins while not deployed.", "Pet sell value scales with family tier and rarity; Bond level does not affect it.", "Pet effect strength increases nonlinearly with level; level 20 is exactly three times the level-1 base value."]},
+    {area:"Pets", actions:["Boss-dropped eggs appear after activity rewards are collected. Family eggs cost 75–300 Gems according to tier.", "Hatch to roll rarity and a shuffled set of distinct family effects; the creature sprite follows rarity. Hatchery upgrades can raise Legendary odds to 2%, and the shared pity guarantees the next Legendary after 100 misses.", "Rename a pet, assign it to a formation, save it in that activity's preset, or sell it for Coins while not deployed.", "Pet sell value scales with family tier and rarity; Bond level does not affect it.", "Pet effect strength increases nonlinearly with level; level 20 is exactly three times the level-1 base value."]},
     {area:"Cloud & deletion", actions:["Sync Now requests Google Play Games cloud reconciliation on supported authenticated Android builds.", "If histories diverge, compare timestamps and progression summaries before choosing this device or cloud; the valid unselected side is archived as recovery data.", "Play Games identity/achievements and gameplay cloud progress are separate services.", "Delete Data is destructive: after confirmation it removes local progress, preferences, encrypted recovery copies, and the private cloud snapshot."]}
   ],
 
@@ -640,7 +738,7 @@ window.WIKI_CONTENT = Object.freeze({
   },
 
   accuracyNotes: [
-    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.07. Update history is limited to Patch Notes."},
+    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.08, currently in development. Update history is limited to Patch Notes."},
     {title:"Title bonuses grant 10", text:"A generated offer has a 25% title chance. Health and Attack use ×1.10; Defense, Magic Defense, Evade, and Critical Chance add 10 percentage points."},
     {title:"First accessory has a progressive guarantee", text:"Until the first copy is discovered or already pending, a raid accessory rises by 5 percentage points each clear and is guaranteed on clear 10. Later copies are 5%."},
     {title:"Raid clocks count hero actions", text:"Constellation uses 10 hero actions and needs three successful matching hits; the same hero may contribute on later actions. Eclipse phases last 12 Dawn, 12 Dusk, and 6 Total Eclipse hero actions."},

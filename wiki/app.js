@@ -159,7 +159,11 @@
   }
 
   const routeMeta = {
-    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.07."],
+    main: ["Wiki main page", "The whole guide in three wings — pick where to start."],
+    "group-heroes": ["Getting Started & Heroes", "Getting started, combat rules, hero classes, statuses, and long-term hero building."],
+    "group-adventures": ["Adventures & Bestiary", "Dungeons, raids, monsters, items, pets, and the Tower & Echo endgame."],
+    "group-town": ["Town & Reference", "Town systems, menus and interactions, the probability lab, game reference, patch notes, and privacy."],
+    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.08."],
     quickstart: ["New player path", "A spoiler-light route from an empty Tavern to the first raid."],
     mechanics: ["Core mechanics", "Progression, persistence, failure, roster rules, Mist, and discovery."],
     combat: ["Combat & formulas", "The exact order of battle, stat formulas, targeting, damage, healing, and statuses."],
@@ -170,16 +174,33 @@
     raids: ["Raid command", "Four raids, exact action-based mechanics, unlock quests, encounters, bosses, and reward probabilities."],
     items: ["Items & crafting", "Every material, weapon, armor piece, accessory, quest item, raid item, and recipe."],
     pets: ["Pet families", "Every companion family, species, egg source, rarity roll, effect pool, and bond curve."],
-    endgame: ["Endgame challenges", "The Tower of Ascension, Floor 100 Apex, Echo Descent, daily laws, checkpoint rewards, and platform milestones."],
-    tower: ["Tower of Ascension", "All 100 floors, checkpoint rewards, Floor 100 Apex mechanics, Resonance targets, and platform milestones."],
+    endgame: ["Endgame challenges", "The Tower of Resonance, Floor 100 Apex, Echo Descent, daily laws, checkpoint rewards, and platform milestones."],
+    tower: ["Tower of Resonance", "All 100 floors, checkpoint rewards, Floor 100 Apex mechanics, Resonance targets, and platform milestones."],
     echo: ["Echo Descent", "Unlock requirements, Anchors, Guardians, daily laws, Resonance rewards, scaling, and formation rules."],
     progression: ["Progression mastery", "Promotions, XP, Ascension, Runes, titles, and long-term hero building."],
     town: ["Town & economy", "Tavern, Workshop, Shops, Inventory, Mailbox, currencies, upgrades, and premium systems."],
     interactions: ["Interactions & menus", "What every major screen, button group, formation, collection, and account action does."],
     probability: ["Probability lab", "Interactive drop, encounter, first-copy guarantee, title, pet, and raid-odds calculators."],
-    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.07."],
+    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.08."],
     "patch-notes": ["Patch notes", "Player-facing release history for Idle Party Dungeon."],
     privacy: ["Privacy policy", "How Idle Party Dungeon handles local progress, platform services, advertising, purchases, retention, and deletion."]
+  };
+
+  // Step 44 taxonomy: the three top-level wings of the wiki main page. Every
+  // content route in routeMeta (except "main" and the group indexes below)
+  // must appear in exactly one "pages" list — wiki/audit_routes.ps1 enforces
+  // this no-orphan rule.
+  const INDEX_GROUPS = [
+    { route: "group-heroes", glyph: "♜", pages: ["home", "quickstart", "mechanics", "combat", "heroes", "effects", "progression"] },
+    { route: "group-adventures", glyph: "◆", pages: ["dungeons", "monsters", "raids", "endgame", "tower", "echo", "items", "pets"] },
+    { route: "group-town", glyph: "♙", pages: ["town", "interactions", "probability", "reference", "patch-notes", "privacy"] }
+  ];
+
+  const routeGlyphs = {
+    home: "⌂", quickstart: "↗", mechanics: "⚙", combat: "⚔", heroes: "♜", effects: "✦",
+    dungeons: "▰", monsters: "♞", raids: "◆", endgame: "▲", tower: "↑", echo: "↓",
+    items: "◇", pets: "♣", progression: "⌁", town: "♙", interactions: "☝",
+    probability: "%", reference: "≡", "patch-notes": "↺", privacy: "§"
   };
 
   function esc(value) {
@@ -592,6 +613,52 @@
     };
   }
 
+  function renderMainIndex() {
+    return `<div class="page">
+      ${pageHeader("main", badge(`Game version ${C.version.game} · ${C.version.status}`, "green"))}
+      <nav class="index-hub" aria-label="${esc(translate("Main guide sections"))}">
+        ${INDEX_GROUPS.map(group => {
+          const [title, subtitle] = routeMeta[group.route].map(translate);
+          return `<a class="index-hub__button" href="#${group.route}" data-glyph="${esc(group.glyph)}">
+            <span class="index-hub__glyph" aria-hidden="true">${esc(group.glyph)}</span>
+            <strong>${esc(title)}</strong>
+            <small>${esc(subtitle)}</small>
+            <span class="index-hub__meta">
+              <span class="index-hub__count">${group.pages.length} ${esc(translate("chapters"))}</span>
+              <span class="index-hub__action" aria-hidden="true">${esc(translate("Open section"))} →</span>
+            </span>
+          </a>`;
+        }).join("")}
+      </nav>
+    </div>`;
+  }
+
+  function renderGroupIndex(groupRoute) {
+    const group = INDEX_GROUPS.find(entry => entry.route === groupRoute) || INDEX_GROUPS[0];
+    const backLabel = `← ${translate(routeMeta.main[0])}`;
+    const siblings = INDEX_GROUPS.filter(entry => entry.route !== group.route);
+    return `<div class="page">
+      ${pageHeader(group.route, `<a class="button button--ghost button--small" href="#main">${esc(backLabel)}</a>`)}
+      <nav class="section-block" style="margin-top:34px" aria-label="${esc(translate("Chapters in this section"))}">
+        <div class="feature-grid">${group.pages.map((route, index) => {
+          const [title, subtitle] = routeMeta[route].map(translate);
+          return `<a class="feature-card" href="#${route}" data-glyph="${esc(routeGlyphs[route] || "✦")}">
+            <span class="feature-card__index">${String(index + 1).padStart(2, "0")}</span>
+            <h3>${esc(title)}</h3>
+            <p>${esc(subtitle)}</p>
+            <span class="feature-card__action">${esc(translate("Open chapter →"))}</span>
+          </a>`;
+        }).join("")}</div>
+      </nav>
+      <section class="section-block">
+        <div class="group-siblings">
+          <span class="group-siblings__label">${esc(translate("Other wings of the guide"))}</span>
+          ${siblings.map(sibling => `<a class="button button--ghost button--small" href="#${sibling.route}">${esc(translate(routeMeta[sibling.route][0]))} →</a>`).join("")}
+        </div>
+      </section>
+    </div>`;
+  }
+
   function renderHome() {
     const d = state.data;
     const counts = [
@@ -615,7 +682,7 @@
       <section class="hero-banner">
         <div class="hero-banner__art" style="background-image:url('${esc(asset("res://store_assets/final/feature_graphic_1024x500.png"))}')"></div>
         <div class="hero-banner__content">
-          <div class="hero-banner__seal">Updated for ${esc(C.version.game)}</div>
+          <div class="hero-banner__seal">Updated for ${esc(C.version.game)} · ${esc(C.version.status)}</div>
           <h1>The final guide to every road below.</h1>
           <p class="hero-banner__lede">Classes, combat, dungeons, raids, the Tower, Echo Descent, monsters, loot tables, recipes, pets, status effects, town systems, interactions, and exact probabilities—one searchable Codex.</p>
           <div class="hero-banner__actions">
@@ -638,7 +705,7 @@
               </a>`).join("")}</div>
           </section>
           <section class="home-section">
-            ${sectionHeading("Current rules", "Updated for version 1.07", "Every strategy chapter and calculator describes game version 1.07. Patch Notes contain the update history.")}
+            ${sectionHeading("Current rules", `Updated for version ${C.version.game} · ${C.version.status}`, `Every strategy chapter and calculator describes game version ${C.version.game}, currently in development. Patch Notes contain the update history.`)}
             <div class="callout callout--green">
               <strong>Current headline rules:</strong>
               <p>Title bonuses grant 10% or 10 percentage points; first raid accessories gain 5 percentage points per clear until guaranteed on clear 10; Constellation needs 3 matching hits within 10 hero actions; Eclipse uses 12 / 12 / 6 hero actions; dungeon combat is capped to 12 offline hours while crafting catches up fully.</p>
@@ -688,7 +755,7 @@
         ${sectionHeading("Resolution order", "What happens on one action", "The sequence matters: several effects trigger after an action, and status durations decrease when their owner acts.")}
         <div class="feature-grid">
           ${[
-            ["1", "Start-of-turn effects", "Skill regeneration, healer regeneration, then ongoing damage resolve. Ongoing damage can defeat the actor before it acts."],
+            ["1", "Start-of-turn effects", "Regeneration applications resolve, then DoT. DoT can defeat the actor before it acts."],
             ["2", "Skill or basic", "At 100 Mana an unsilenced active skill is attempted; otherwise the unit uses a basic attack and gains Mana even when that basic misses."],
             ["3", "After-action kit", "Healer action passive, flat regeneration, equipment triggers, low-HP barriers, and Decay resolve."],
             ["4", "Duration & next unit", "The acting entity's statuses lose one turn, defeated entities resolve, then the turn index advances through DEX-sorted combatants."],
@@ -849,6 +916,7 @@
     const amount = formatNumber(dungeon.completion_target_amount || 0);
     const type = String(dungeon.completion_target_type || "objective");
     if (type === "kills") return `${amount} individual kills`;
+    if (type === "progression") return `${amount} progress from cleared encounters`;
     if (type === "encounters") return `${amount} cleared encounters`;
     if (type === "targets") return `${amount} marked target kills`;
     return `${amount} ${humanKey(type).toLowerCase()}`;
@@ -950,7 +1018,7 @@
       <div class="callout callout--red"><strong>Entry rule:</strong><p>Each permanent raid has its own daily entry at 00:00 UTC. Starting consumes it; failure and abandonment do not refund it. A replacement entry costs 50 Gems while that raid is idle.</p></div>
       <section class="section-block"><div class="raid-grid">${state.data.raids.map(raid => activityCard(raid, "raid")).join("")}</div></section>
       <section class="section-block">
-        ${sectionHeading("Current rules", "Every raid mechanic in version 1.07", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
+        ${sectionHeading("Current rules", "Every raid mechanic in version 1.08", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
         <div class="mechanic-list">${state.data.raids.map(raid => {
           const mechanic = C.raidMechanics[raid.id];
           return `<article class="mechanic-panel"><div class="mechanic-panel__title" style="background:linear-gradient(145deg,${esc(mechanic.color)}22,transparent)"><span class="eyebrow">${esc(raid.name)}</span><h2>${esc(mechanic.label)}</h2><p>${esc(mechanic.summary || raid.mechanic_summary)}</p></div><div class="mechanic-panel__content"><ul>${mechanic.rules.map(rule => `<li>${esc(rule)}</li>`).join("")}</ul></div></article>`;
@@ -974,7 +1042,12 @@
       const item = state.data.itemMap.get(recipe.result);
       return Number(recipe.required_tier || 0) === tier && !recipe.required_raid && item?.equipment?.slot === "Accessory";
     }).map(recipe => Number(recipe.coin_cost || 0));
-    return (costs.length ? Math.max(...costs) : 0) * 3;
+    const crafts = Number(state.data.tower.rewards?.accessory_crafts_by_floor?.[String(floor)] || 0);
+    return (costs.length ? Math.max(...costs) : 0) * crafts;
+  }
+
+  function towerCheckpointCrafts(floor) {
+    return Number(state.data.tower.rewards?.accessory_crafts_by_floor?.[String(floor)] || 0);
   }
 
   function towerWingTierText(wing) {
@@ -1048,9 +1121,9 @@
       ? `${badge(`${mutations.length} daily laws`, "gold")}${badge(`${echoSystem.hero_count} heroes`, "green")}`
       : `${badge(`${tower.max_floor} Tower floors`, "gold")}${badge("Unlimited attempts", "green")}`;
     return `<div class="page">${pageHeader(route, headerBadges)}
-      <div class="callout callout--green"><strong>Challenge path:</strong><p>The Tower is always available from the Raids screen. Clear Floor ${esc(echoUnlockFloor)} to unlock Echo Descent; its separate action then appears while the Tower rail remains available for the climb and Apex replays.</p></div>
+      <div class="callout callout--green"><strong>Challenge path:</strong><p>Open the Tower from the Raids screen. Its Echo Descent control sits beside the Tower title: it remains visible but disabled until Floor ${esc(echoUnlockFloor)} is cleared, then opens the Echo overview from the same screen.</p></div>
       <section class="section-block" id="endgame-tower" tabindex="-1"${towerHidden}>
-        ${sectionHeading("Permanent ascent", tower.name || "Tower of Ascension", tower.description || "A permanent one-floor-at-a-time climb through all twelve equipment tiers.")}
+        ${sectionHeading("Permanent ascent", tower.name || "Tower of Resonance", tower.description || "A permanent one-floor-at-a-time climb through all twelve equipment tiers.")}
         <div class="info-grid">
           <article class="info-card"><span class="info-card__eyebrow">Formation</span><h3>Up to ${esc(tower.hero_count)} heroes · 2 companions</h3><p>Each attempt uses the ${esc(tower.formation_rows)}×${esc(tower.formation_columns)} formation. Heroes and companions assigned elsewhere cannot be selected.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Retry rule</span><h3>The floor roll stays fixed</h3><p>An encounter is generated once when its floor becomes available. Its enemy roster, order, and checkpoint boss survive failure, abandonment, saving, and every retry.</p></article>
@@ -1058,24 +1131,27 @@
           <article class="info-card"><span class="info-card__eyebrow">Companion Bond XP</span><h3>${esc(tower.rewards?.normal_pet_xp || 25)} normal · ${esc(tower.rewards?.boss_pet_xp || 250)} checkpoint</h3><p>Tower enemies carry no ordinary item drop tables. The selected companions still gain the displayed Bond XP when the floor is cleared.</p></article>
         </div>
         <div class="callout" style="margin-top:18px"><strong>Encounter scaling:</strong><p>Normal floors draw campaign teams near the target tier and scale them to match the floor's difficulty. Every tenth floor uses a tier-appropriate boss with adds. Enemy HP and damage rise across the full climb, with extra checkpoint multipliers.</p></div>
+        <div class="callout" style="margin-top:18px"><strong>Auto-Advance:</strong><p>Start at the next uncleared floor and fight automatically through the next multiple-of-ten checkpoint with the saved team and companions. Every floor still uses normal combat, reward, and save rules. Defeat, an unavailable saved selection, the target checkpoint, or Floor 100 ends the batch; Stop After This Floor finishes the current fight before ending it safely.</p></div>
       </section>
       <section class="section-block"${towerHidden}>
-        ${sectionHeading("Ten wings", "Checkpoint rewards and Play Games milestones", "Only Floors 10, 20, …, 100 pay Tower Coins. Each first clear grants three times the normal Coin price of one standard accessory craft at that checkpoint's target tier.")}
-        <article class="table-panel"><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Wing</th><th>Floors</th><th>Gear band</th><th>Checkpoint</th><th class="numeric">First-clear Coins</th><th>Achievement</th></tr></thead><tbody>
+        ${sectionHeading("Ten wings", "Checkpoint rewards and Play Games milestones", "Floors 10, 20, …, 100 pay a floor-specific number of standard accessory-craft Coin equivalents. Every first clear also grants +1 permanent hero slot and one Tower Keystone.")}
+        <article class="table-panel"><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Wing</th><th>Floors</th><th>Gear band</th><th>Checkpoint value</th><th class="numeric">First-clear Coins</th><th>Achievement</th></tr></thead><tbody>
           ${(tower.wings || []).map(wing => {
             const floor = Number(wing.end_floor);
             const achievement = C.towerPlayGames.achievements.find(entry => Number(entry.floor) === floor);
-            return `<tr><td><strong>${esc(wing.name)}</strong></td><td>${esc(wing.start_floor)}–${esc(wing.end_floor)}</td><td>${esc(towerWingTierText(wing))}</td><td>Floor ${floor}</td><td class="numeric">${formatNumber(towerCheckpointReward(floor))}</td><td>${esc(achievement?.name || "—")}</td></tr>`;
+            return `<tr><td><strong>${esc(wing.name)}</strong></td><td>${esc(wing.start_floor)}–${esc(wing.end_floor)}</td><td>${esc(towerWingTierText(wing))}</td><td>Floor ${floor} · ${formatNumber(towerCheckpointCrafts(floor))}× craft</td><td class="numeric">${formatNumber(towerCheckpointReward(floor))}</td><td>${esc(achievement?.name || "—")}</td></tr>`;
           }).join("")}
         </tbody></table></div></article>
         <div class="callout callout--green" style="margin-top:18px"><strong>Google Play Games:</strong><p>Every tenth-floor first clear unlocks its matching achievement. Sign-in and cloud restore backfill all checkpoints at or below the saved highest floor. The largest cleared floor is also submitted to the ${esc(C.towerPlayGames.leaderboard.name)} leaderboard.</p></div>
         <div class="callout" style="margin-top:18px"><strong>Upper-Tower Resonance targets:</strong><p>Rank 2 on Floors 71–80, Rank 4 on Floors 81–90, Rank 6 on Floors 91–99, and Rank 8 on Floor 100. These are build-readiness targets, not entry requirements.</p></div>
+        <div class="callout callout--red" style="margin-top:18px"><strong>Tower Mist and Echo Pressure:</strong><p>Floors 71–80 use 20% Mist at 0.50 enemy Evade per Mist point; 81–90 use 30% at 0.55; 91–99 use 40% at 0.60; Floor 100 uses 50% at 0.65. From Floor 81, every point that the party's average Echo Resonance falls below the target adds +50% enemy HP and +60% enemy Attack. Neither mechanic blocks entry.</p></div>
       </section>
       <section class="section-block"${towerHidden}>
-        ${sectionHeading("Floor 100", "The Crown That Waits", "The Zenith is a permanent build check whose two mechanics measure raid-set coverage and companion strength.")}
+        ${sectionHeading("Floor 100", "The Crown That Waits", "The Zenith is a permanent build check whose three mechanics measure raid-set coverage, companion strength, and fight duration.")}
         <div class="info-grid">
           <article class="info-card"><span class="info-card__eyebrow">Twelve Seals</span><h3>One active raid set breaks one seal</h3><p>The boss starts at ${formatNumber(apex.boss_hp)} HP and ${formatNumber(apex.boss_attack)} Attack. Each unbroken seal adds ${esc(apex.seal_hp_percent)}% HP and ${esc(apex.seal_damage_percent)}% Attack; ${esc(apex.recommended_active_sets)}–12 active weapon-and-accessory sets are recommended.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Twin Bond</span><h3>Zenith Pulse every ${esc(apex.pulse_interval_enemy_actions)} enemy actions</h3><p>The pulse begins at ${esc(apex.pulse_base_percent)}% maximum HP. Companion level and rarity reduce it by ${esc(apex.pulse_reduction_per_bond)} points per weighted Bond, to a ${esc(apex.pulse_min_percent)}% floor. Two level ${esc(apex.recommended_pet_level)}–20 Rare, Epic, or Legendary companions are recommended.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Waning Patience</span><h3>Enrages after ${esc(apex.enrage_start_enemy_actions)} enemy actions</h3><p>Every ${esc(apex.enrage_stack_interval_enemy_actions)} further enemy actions adds a stack of +${esc(apex.enrage_attack_percent_per_stack)}% Attack, up to ${esc(apex.enrage_max_stacks)} stacks. Ending the fight before the grace window elapses avoids it entirely.</p></article>
         </div>
       </section>
       <section class="section-block" id="endgame-echo-descent" tabindex="-1"${echoHidden}>
@@ -1175,8 +1251,9 @@
   }
 
   function renderPets() {
-    return `<div class="page">${pageHeader("pets", `${badge("6 families", "gold")}${badge("74.5 / 20 / 5 / 0.5 rarity", "green")}`)}
-      <div class="callout"><strong>Hatch sequence:</strong><p>An eligible boss independently rolls 15% for its family egg. Hatching then rolls Common 74.5%, Rare 20%, Epic 5%, or Legendary 0.5%, shuffles that family's six-effect pool, and takes 2, 3, 4, or 5 distinct effects.</p></div>
+    return `<div class="page">${pageHeader("pets", `${badge("6 families", "gold")}${badge("Base odds 74.5 / 20 / 5 / 0.5", "green")}`)}
+      <div class="callout"><strong>Hatch sequence:</strong><p>An eligible boss independently rolls 15% for its family egg. Base hatch odds are Common 74.5%, Rare 20%, Epic 5%, and Legendary 0.5%; rarity takes 2, 3, 4, or 5 distinct effects from the family's shuffled six-effect pool. Hatchery upgrades raise Legendary odds to 2%, and after 100 consecutive non-Legendary hatches the next hatch is guaranteed Legendary across every family.</p></div>
+      <div class="callout callout--green" style="margin-top:14px"><strong>Hatchery upgrades:</strong><p>New saves begin with 10 stable slots. The first three ranks reach 40 slots and 1% Legendary odds; three Apex ranks extend that to 70 slots and 2%. Family eggs cost 75 Gems at Tier 3, 125 at Tier 5, 150 at Tier 6, 225 at Tier 9, and 300 at Tier 12.</p></div>
       <div class="callout callout--green" style="margin-top:14px"><strong>Selling companions:</strong><p>An undeployed pet sells for 25 × family tier² × rarity multiplier Coins. Rarity multipliers are ×1 Common, ×3 Rare, ×10 Epic, and ×50 Legendary; Bond level does not affect the price.</p></div>
       <section class="section-block"><div class="catalog-grid">${state.data.petFamilies.map(petFamilyCard).join("")}</div></section>
       <section class="section-block">
@@ -1191,22 +1268,23 @@
   }
 
   function renderAscension() {
-    return `<div class="path-grid">${C.ascension.map(path => `<article class="path-card" id="path-${esc(slug(path.id))}" style="--path-color:${esc(path.color)}"><div class="path-card__header">${image(path.icon, "", "path-card__icon")}<div><span class="eyebrow">${esc(path.role)}</span><h3>${esc(path.name)}</h3><p>${esc(path.text)}</p></div></div><div class="path-card__skills">${path.skills.map(skill => `<div class="path-skill"><div><strong>${esc(skill.name)}</strong><p>${esc(skill.text)}</p></div><div class="path-skill__meta">T${skill.tier+1}<br>${skill.ranks} rank${skill.ranks===1?"":"s"} · ${skill.cost} pt</div></div>`).join("")}</div></article>`).join("")}</div>`;
+    const rowLabels = ["Foundation", "Awakening", "Mastery", "Capstone"];
+    return `<div class="path-grid">${C.ascension.map(path => `<article class="path-card" id="path-${esc(slug(path.id))}" style="--path-color:${esc(path.color)}"><div class="path-card__header">${image(path.icon, "", "path-card__icon")}<div><span class="eyebrow">${esc(path.role)}</span><h3>${esc(path.name)}</h3><p>${esc(path.text)}</p></div></div><div class="path-card__skills">${path.skills.map(skill => `<div class="path-skill"><div><strong>${esc(skill.name)}</strong><p>${esc(skill.text)}</p></div><div class="path-skill__meta">${esc(rowLabels[skill.tier] || `Row ${skill.tier + 1}`)}<br>${skill.ranks} rank${skill.ranks===1?"":"s"} · ${skill.cost} pt</div></div>`).join("")}</div></article>`).join("")}</div>`;
   }
 
   function renderProgression() {
-    return `<div class="page">${pageHeader("progression", `${badge("15 Ascension points", "gold")}${badge("24 Rune ranks / hero", "green")}`)}
+    return `<div class="page">${pageHeader("progression", `${badge("16 Ascension points", "gold")}${badge("24 Rune ranks / hero", "green")}`)}
       <section class="section-block" style="margin-top:0">
         ${sectionHeading("Career", "Promotion and XP thresholds", "A hero's career preserves earlier growth even when promotion resets the displayed class level.")}
         <div class="info-grid">
           <article class="info-card"><span class="info-card__eyebrow">Level 25</span><h3>Base → specialization</h3><p>Choose one of two branches. Current nonzero HP, attributes, defenses, and Threat are multiplied by 1.2, rounded, then the destination's favored stat gains a random +1 to +3.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Level 50</span><h3>Specialization → elite</h3><p>Promote into the class tied to that path. Elite level growth adds linearly up to +10% HP and Attack at elite level 50.</p></article>
-          <article class="info-card"><span class="info-card__eyebrow">XP formula</span><h3>floor(100 × 1.2^(level−1))</h3><p>Cumulative recruit to elite level 50 is 7,621,966 XP under the current thresholds. XP pauses whenever a promotion choice is due.</p></article>
-          <article class="info-card"><span class="info-card__eyebrow">Elite level 50</span><h3>Ascension unlock</h3><p>Choose one of four paths and spend up to 15 points. Every upgrade is available immediately; only node ranks, costs, and the point budget limit spending. Reset and path changes refund every point.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">XP formula</span><h3>floor(75 × 1.16^(level−1))</h3><p>Cumulative recruit to elite level 50 is 1,365,363 XP under the current thresholds, including the elite reset at level 0. XP pauses whenever a promotion choice is due.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Elite promotion · level 0</span><h3>Ascension unlock</h3><p>Ascension opens as soon as elite promotion resets the class level. Earn one point at levels 4, 7, 10, and every three levels through 46, then the sixteenth at level 50. Choose one option per four rows: Foundation, Awakening, Mastery, and Capstone. Rows unlock after 0, 5, 9, and 15 points spent; the capstone also requires level 50. Same-path ranks and row choices can be reassigned freely. Only changing paths consumes a Sigil of Rebirth, crafted from two Pathless Embers and 50,000 Coins.</p></article>
         </div>
       </section>
       <section class="section-block">${sectionHeading("Permanent engraving", "Six Runes", "Every upgrade succeeds when one matching piece is available: Verdant I, Tidal II, Astral III, Eclipse IV.")}${renderRunes()}</section>
-      <section class="section-block">${sectionHeading("Elite mastery", "Four Ascendant Paths", "Paths are available to every elite-level-50 hero; class role and build goals determine the strongest fit.")}${renderAscension()}</section>
+      <section class="section-block">${sectionHeading("Elite mastery", "Four Ascendant Paths", "Every elite hero can begin a path at reset level 0. Foundation, Awakening, Mastery, and Capstone offer 4, 3, 2, and 1 choices, with one active choice per row.")}${renderAscension()}</section>
       <section class="section-block">${sectionHeading("Tavern rarity", "Six titles", "A 25% title roll followed by uniform selection makes each named title 4.1667% per generated offer.")}<div class="stat-grid">${C.titles.map(title => `<article class="status-card"><span class="eyebrow">${esc(title.stat)}</span><h3>${esc(title.name)}</h3><p>${esc(titleBonusText(title))}</p></article>`).join("")}</div></section>
     </div>`;
   }
@@ -1268,10 +1346,10 @@
         <div class="calculator"><div class="calculator__controls"><div class="field"><label for="calc-activity">Activity</label><select id="calc-activity">${activities}</select></div></div><div class="calculator__result"><div class="odds-list" id="encounter-calculator-result"></div></div></div>
       </section>
       <section class="section-block">
-        ${sectionHeading("Pet combinatorics", "How rare is a specific companion roll?", "Every family has six distinct eligible effects, sampled without replacement after rarity.")}
+        ${sectionHeading("Pet combinatorics", "How rare is a specific companion roll?", "These examples use the 0.5% base Legendary chance before hatchery upgrades and the shared pity guarantee. Every family samples distinct effects without replacement after rarity.")}
         <div class="probability-grid">
           ${[
-            {value:"38.583%",name:"A particular effect appears",detail:"Unconditional across 74.5% Common ×2/6, 20% Rare ×3/6, 5% Epic ×4/6, and 0.5% Legendary ×5/6."},
+            {value:"38.583%",name:"A particular effect appears",detail:"Base unconditional chance across 74.5% Common ×2/6, 20% Rare ×3/6, 5% Epic ×4/6, and 0.5% Legendary ×5/6."},
             {value:"4.967%",name:"A specific Common pair",detail:"74.5% rarity × 1/15 unordered effect pairs."},
             {value:"1%",name:"A specific Rare trio",detail:"20% rarity × 1/20 unordered effect trios."},
             {value:"0.333%",name:"A specific Epic quartet",detail:"5% rarity × 1/15 unordered effect quartets."},
@@ -1350,17 +1428,17 @@
       <section class="section-block">
         ${sectionHeading("Using the guide", "How to read the numbers", "The Codex presents current game behavior in player terms and labels probability assumptions where they matter.")}
         <div class="info-grid">
-          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.07 throughout</h3><p>Every strategy chapter describes version 1.07. Patch Notes contain the update history.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.08 throughout</h3><p>Every strategy chapter describes version 1.08. Patch Notes contain the update history.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Probabilities</span><h3>Base chances by default</h3><p>Drop, hatch, encounter, and title odds use base values unless a selected bonus is shown beside the result.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Character sheets</span><h3>Preview values are labeled</h3><p>Class sheets show a clean preview. Owned heroes keep their individual growth and receive the listed promotion adjustments.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Spoilers</span><h3>The full game is visible</h3><p>The Codex reveals every class, enemy, activity, item, pet family, and endgame challenge for planning purposes.</p></article>
         </div>
       </section>
       <section class="section-block">
-        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.07.")}
+        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.08.")}
         <div class="info-grid">${C.accuracyNotes.map(note=>`<article class="info-card"><span class="info-card__eyebrow">Guide note</span><h3>${esc(note.title)}</h3><p>${esc(note.text)}</p></article>`).join("")}</div>
       </section>
-      <section class="section-block"><div class="callout callout--green"><strong>Current guide version:</strong><p>Game ${esc(C.version.game)} · Updated ${esc(C.version.updated)}. Content and artwork © 2026 BroglioGames. All rights reserved.</p></div></section>
+      <section class="section-block"><div class="callout callout--green"><strong>Current guide version:</strong><p>Game ${esc(C.version.game)} · ${esc(C.version.status)} · Updated ${esc(C.version.updated)}. Content and artwork © 2026 BroglioGames. All rights reserved.</p></div></section>
     </div>`;
   }
 
@@ -1369,7 +1447,7 @@
     const latest = releases[0];
     return `<div class="page">${pageHeader("patch-notes", `${badge(`${releases.length} versions`, "gold")}${badge(`Latest ${latest.version}`, "green")}`)}
       <section class="section-block" style="margin-top:0">
-        <div class="callout callout--green"><strong>Latest release: version ${esc(latest.version)}</strong><p>${esc(latest.title)} is the current game update. Earlier entries below are kept as historical patch notes.</p></div>
+        <div class="callout callout--green"><strong>Current version: ${esc(latest.version)}</strong><p>${esc(latest.title)} · ${esc(latest.status)}. Earlier entries below are kept as historical patch notes.</p></div>
         <nav class="release-jump" aria-label="Jump to a game version">
           <span>Jump to</span>
           ${releases.map(release => `<a href="#patch-notes/${slug(release.version)}">${esc(release.version)}</a>`).join("")}
@@ -1433,11 +1511,16 @@
     if (!state.data) return;
     const renderId = ++state.routeRenderId;
     const [rawRoute, rawId = ""] = location.hash.replace(/^#/, "").split("/");
-    const route = Object.hasOwn(routeMeta, rawRoute) ? rawRoute : "home";
+    // Empty, missing, and renamed routes all fall back to the wiki main page.
+    const route = Object.hasOwn(routeMeta, rawRoute) ? rawRoute : "main";
     const entityId = decodeURIComponent(rawId || "");
     if (entityDialog.open) entityDialog.close();
     if (searchDialog.open) searchDialog.close();
     const renderers = {
+      main: renderMainIndex,
+      "group-heroes": () => renderGroupIndex("group-heroes"),
+      "group-adventures": () => renderGroupIndex("group-adventures"),
+      "group-town": () => renderGroupIndex("group-town"),
       home: renderHome, quickstart: renderQuickstart, mechanics: renderMechanics, combat: renderCombat,
       heroes: renderHeroes, effects: renderEffects, dungeons: renderDungeons, monsters: renderMonsters,
       raids: renderRaids, items: renderItems, pets: renderPets, endgame: renderEndgame,
@@ -1445,7 +1528,7 @@
       town: renderTown, interactions: renderInteractions, probability: renderProbability, reference: renderReference,
       "patch-notes": renderPatchNotes, privacy: renderPrivacy
     };
-    document.title = route === "home"
+    document.title = route === "main" || route === "home"
       ? translate("Idle Party Dungeon — The Adventurer's Codex")
       : `${translate(routeMeta[route][0])} — ${translate("Idle Party Dungeon Codex")}`;
     outlet.innerHTML = renderers[route]();
@@ -1698,18 +1781,20 @@
     const sprites = Object.entries(family.sprites || {});
     const effects = (family.effect_pool || []).map(id => C.petEffects.find(effect => effect.id === id)).filter(Boolean);
     const effectCounts = {common:2, rare:3, epic:4, legendary:5};
+    const eggPrices = {3:75, 5:125, 6:150, 9:225, 12:300};
+    const eggPrice = Number(eggPrices[Number(family.tier)] || 150);
     const sourceLabel = family.source_type === "raid" ? "Raid" : "Campaign dungeon";
     return `<header class="detail-hero">${image(family.sprites?.legendary?.texture || family.sprites?.epic?.texture || family.egg_icon,"","detail-hero__art detail-hero__art--contain")}<div><div class="detail-hero__chips">${badge(`${family.egg_drop_chance}% egg`,"gold")}${badge(`Tier ${family.tier}`)}${badge(sourceLabel)}</div><h1 id="dialog-title">${esc(family.name)}</h1><p>${esc(family.egg_name)} from ${esc(family.source_boss)}. Six possible effects and four rarity-specific creature forms.</p></div></header>
       <div class="detail-body">
-        <section class="detail-section"><h2>Egg source</h2>${statTiles([["Activity",activityName(family.source_id)],["Boss",family.source_boss],["Drop chance",`${family.egg_drop_chance}%`],["Gem price",150],["Family tier",family.tier],["Stable limit",60]])}</section>
-        <section class="detail-section"><h2>Hatch forms</h2><div class="detail-grid detail-grid--three">${sprites.map(([kind,sprite])=>`<article class="detail-box">${image(sprite.texture,"", "", `style="width:100%;height:150px;object-fit:contain"`)}<div class="detail-box__label" style="margin-top:10px">${esc(kind)} · ${esc(rarity[kind])}% · ${effectCounts[kind] || 0} effects</div><h3>${esc(sprite.name)}</h3></article>`).join("")}</div></section>
+        <section class="detail-section"><h2>Egg source</h2>${statTiles([["Activity",activityName(family.source_id)],["Boss",family.source_boss],["Drop chance",`${family.egg_drop_chance}%`],["Gem price",eggPrice],["Family tier",family.tier],["Stable capacity","10–70"]])}</section>
+        <section class="detail-section"><h2>Hatch forms</h2><div class="detail-grid detail-grid--three">${sprites.map(([kind,sprite])=>`<article class="detail-box">${image(sprite.texture,"", "", `style="width:100%;height:150px;object-fit:contain"`)}<div class="detail-box__label" style="margin-top:10px">${esc(kind)} · ${esc(rarity[kind])}% base · ${effectCounts[kind] || 0} effects</div><h3>${esc(sprite.name)}</h3></article>`).join("")}</div><div class="callout" style="margin-top:14px"><strong>Legendary upgrades and pity:</strong><p>Permanent hatchery ranks raise every family's Legendary chance from 0.5% to 2%. The shared counter guarantees the next hatch as Legendary after 100 consecutive misses.</p></div></section>
         <section class="detail-section"><h2>Effect pool</h2><div class="stat-sheet">${effects.map(effect=>`<div class="stat-tile"><span>${esc(effect.name)}</span><strong>+${effect.base}${esc(effect.unit)}</strong></div>`).join("")}</div><div class="callout" style="margin-top:14px"><strong>Level curve:</strong><p>Multiplier = 1 + 2 × ((level − 1) ÷ 19)^1.5. Every value is ×3 at level 20.</p></div></section>
       </div>`;
   }
 
   function closeEntityDialog() {
     if (entityDialog.open) entityDialog.close();
-    const route = location.hash.replace(/^#/, "").split("/")[0] || "home";
+    const route = location.hash.replace(/^#/, "").split("/")[0] || "main";
     history.replaceState(null, "", `#${route}`);
   }
 
@@ -1762,9 +1847,9 @@
       languageButton.setAttribute("title", label);
     }
     const description = document.querySelector('meta[name="description"]');
-    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.07: heroes, combat, dungeons, raids, the Tower of Ascension, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
+    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.08: heroes, combat, dungeons, raids, the Tower of Resonance, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
     const openGraphDescription = document.querySelector('meta[property="og:description"]');
-    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.07, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
+    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.08, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
     const openGraphTitle = document.querySelector('meta[property="og:title"]');
     if (openGraphTitle) openGraphTitle.content = translate("Idle Party Dungeon — The Adventurer's Codex");
   }
@@ -1855,7 +1940,7 @@
     localizeTree(outlet);
     try {
       await loadData();
-      if (!location.hash) history.replaceState(null, "", "#home");
+      if (!location.hash) history.replaceState(null, "", "#main");
       renderCurrentRoute();
     } catch (error) {
       console.error(error);

@@ -37,7 +37,7 @@
         "epic": {"name": "Matron Whelp", "texture": "res://resources/pets/chimeric/matron-whelp.png"},
         "legendary": {"name": "Mosaic Crownbeast", "texture": "res://resources/pets/chimeric/mosaic-crownbeast.png"}
       },
-      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "lifesteal", "max_hp"]
+      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "lifesteal", "drop_rate"]
     },
     "rootbound": {
       "name": "Rootbound",
@@ -56,7 +56,7 @@
         "epic": {"name": "Grove Colossus Calf", "texture": "res://resources/pets/rootbound/grove-colossus-calf.png"},
         "legendary": {"name": "Worldroot Kirin", "texture": "res://resources/pets/rootbound/worldroot-kirin.png"}
       },
-      "effect_pool": ["max_hp", "defense", "threat", "regeneration", "counter_chance", "counter_damage"]
+      "effect_pool": ["max_hp", "defense", "magic_defense", "regeneration", "counter_chance", "counter_damage"]
     },
     "lightless": {
       "name": "Lightless",
@@ -113,7 +113,7 @@
         "epic": {"name": "Eclipse Seraph", "texture": "res://resources/pets/eclipse/eclipse-seraph.png"},
         "legendary": {"name": "Totality Dragon", "texture": "res://resources/pets/eclipse/totality-dragon.png"}
       },
-      "effect_pool": ["attack", "healing", "defense", "magic_defense", "max_hp", "immunity"]
+      "effect_pool": ["attack", "healing", "defense", "magic_defense", "max_hp", "exp_rate"]
     }
   }
 }
