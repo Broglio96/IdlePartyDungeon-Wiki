@@ -1,12 +1,12 @@
 /*
  * Contenuti della guida in italiano per Idle Party Dungeon 1.08.
  * La cronologia degli aggiornamenti resta nel capitolo Note di aggiornamento.
- * Aggiornato il 23 luglio 2026.
+ * Aggiornato il 24 luglio 2026.
  */
 window.WIKI_CONTENT_IT = Object.freeze({
   version: {
     game: "1.08",
-    updated: "23 luglio 2026",
+    updated: "24 luglio 2026",
     status: "In sviluppo"
   },
 
@@ -14,7 +14,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
     {
       version: "1.08",
       title: "Aggiornamento Risonanza e progressione",
-      date: "23 luglio 2026",
+      date: "24 luglio 2026",
       status: "In sviluppo",
       notes: [
         "Ribilanciate le classi degli eroi per ottenere prestazioni più uniformi in ogni classe, percorso di promozione e fase della progressione, dai primi dungeon fino ai raid e al fine gioco.",
@@ -65,6 +65,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
         "Dopo una sconfitta oltre lo sblocco dell’Eco, i piani della Torre ora mostrano il grado esatto di Risonanza dell’Eco consigliato.",
         "Aggiunta una lettera nella Posta per ogni traguardo della Torre dal Piano 10 al 90, ampliando la storia del boss finale. La lettera del Piano 100 resta invariata.",
         "Ridisegnati i percorsi dell’Ascensione con nodi circolari composti solo da icone, racchiusi da un anello colorato in base allo stato; nome, descrizione, grado, costo e stato compaiono in un unico riquadro sotto l’albero.",
+        "I distintivi dell’Ascensione sui ritratti degli eroi ora hanno uno sfondo circolare colorato in base al grado, e il primo sblocco dell’Ascensione invia una lettera localizzata nella Posta che spiega percorsi, punti, costi di respec e conseguenze irreversibili della promozione.",
         "La finestra della Torre e la schermata di vittoria ora mostrano i progressi verso tutti e dieci i materiali dei traguardi e spiegano che sono conservati per un uso futuro.",
         "Aggiunta Pazienza Calante al Piano 100: La Corona che Attende ottiene Attacco cumulativo dopo un periodo di grazia negli scontri lunghi; tempi e crescita sono mostrati prima dell’ingresso e seguiti in diretta durante il combattimento.",
         "Aggiunto l’Avanzamento automatico della Torre della Risonanza, che tenta in sequenza i piani non completati con squadra e famigli salvati fino al successivo traguardo multiplo di dieci. Conferma, progresso in diretta, controllo di arresto e riepilogo finale coprono l’intera serie.",
@@ -75,9 +76,11 @@ window.WIKI_CONTENT_IT = Object.freeze({
         "Aggiunto un portafoglio delle Monete esatto e sempre visibile, che mantiene il dettaglio di Platino, Oro, Argento e Rame durante Negozio, potenziamenti, creazione e altre schermate di spesa.",
         "Aggiunte Statistiche complessive locali nelle Impostazioni per combattimento, progressione, collezione, economia e tempo di gioco. I valori storici non ricostruibili sono indicati come registrati dalla versione 1.08 e la vista funziona senza accesso a Play Games.",
         "Aggiunti Codici premio con distinzione tra maiuscole e minuscole nella scheda Premium del Negozio. Le ricompense idonee sono legate al profilo Play Games verificato, registrate nel cloud contro riscatti ripetuti e disponibili su Windows anche senza Google Play Billing.",
+        "Aggiunto un diritto una tantum al Pacchetto Famiglio Leggendario tramite Codice premio, che usa la stessa assegnazione autorevole di famiglio e Gemme, gli stessi controlli di capienza, recupero e ricevuta cloud legata al profilo di un acquisto normale.",
         "Aggiunta una finestra Novità legata alla versione che presenta una volta per salvataggio i principali cambiamenti della 1.08, con un pulsante nelle Impostazioni per riaprirla. Gli argomenti della guida ora sono comprimibili e nomi degli stati e terminologia bilingue sono più uniformi.",
         "Ricalibrati ritmo dei PE della campagna, costi della progressione e preparazione della Torre, così un giocatore competente che controlla il gioco due o tre volte al giorno può raggiungere lo sblocco della Discesa dell’Eco in circa sei giorni senza accelerazioni a pagamento.",
-        "Ridotto il lavoro all’avvio caricando menu non iniziali, texture nascoste, monetizzazione Android, Impostazioni, gestione degli eroi, Ascensione, promozione e guida solo quando servono. Anche gli elenchi di Inventario e ricette vengono popolati in modo più efficiente."
+        "Ridotto il lavoro all’avvio caricando menu non iniziali, texture nascoste, monetizzazione Android, Impostazioni, gestione degli eroi, Ascensione, promozione e guida solo quando servono. Anche gli elenchi di Inventario e ricette vengono popolati in modo più efficiente.",
+        "Rielaborata l’immagine di avvio Android affinché il titolo completo di Idle Party Dungeon resti leggibile nelle maschere circolare, squircle, quadrata arrotondata, legacy e dell’icona del negozio."
       ]
     },
     {

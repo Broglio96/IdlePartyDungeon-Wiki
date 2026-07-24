@@ -21,23 +21,23 @@
       "effect_pool": ["healing", "magic_defense", "regeneration", "immunity", "mist_reduction", "max_hp"]
     },
     "chimeric": {
-      "name": "Chimeric",
-      "egg_name": "Chimeric Egg",
+      "name": "Orbitglass",
+      "egg_name": "Orbitglass Egg",
       "source_type": "dungeon",
-      "source_id": "Umbral Menagerie",
-      "source_boss": "Chimera Matron",
-      "tier": 9,
+      "source_id": "Shattered Observatory",
+      "source_boss": "Glasswing Astromancer",
+      "tier": 8,
       "egg_drop_chance": 15.0,
-      "accent_color": "#9a63ad",
+      "accent_color": "#3d4f83",
       "egg_icon": "res://resources/pets/eggs/chimeric-egg.png",
-      "names": ["Patch", "Morrow", "Mosaic", "Shade", "Stitch", "Nyx"],
+      "names": ["Glint", "Orbit", "Prism", "Astra", "Lens", "Vesper"],
       "sprites": {
-        "common": {"name": "Umbral Kit", "texture": "res://resources/pets/chimeric/umbral-kit.png"},
-        "rare": {"name": "Patchwork Drake", "texture": "res://resources/pets/chimeric/patchwork-drake.png"},
-        "epic": {"name": "Matron Whelp", "texture": "res://resources/pets/chimeric/matron-whelp.png"},
-        "legendary": {"name": "Mosaic Crownbeast", "texture": "res://resources/pets/chimeric/mosaic-crownbeast.png"}
+        "common": {"name": "Glasswing Scarab", "texture": "res://resources/pets/chimeric/umbral-kit.png"},
+        "rare": {"name": "Prismtail Familiar", "texture": "res://resources/pets/chimeric/patchwork-drake.png"},
+        "epic": {"name": "Orrery Warden", "texture": "res://resources/pets/chimeric/matron-whelp.png"},
+        "legendary": {"name": "Convergence Wyrm", "texture": "res://resources/pets/chimeric/mosaic-crownbeast.png"}
       },
-      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "lifesteal", "drop_rate"]
+      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "lifesteal", "max_hp"]
     },
     "rootbound": {
       "name": "Rootbound",
@@ -94,7 +94,7 @@
         "epic": {"name": "Star-Eater Cub", "texture": "res://resources/pets/starglass/star-eater-cub.png"},
         "legendary": {"name": "Constellation Phoenix", "texture": "res://resources/pets/starglass/constellation-phoenix.png"}
       },
-      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "mana_gain", "immunity"]
+      "effect_pool": ["attack", "critical_chance", "critical_damage", "evade", "mana_gain", "drop_rate"]
     },
     "eclipse": {
       "name": "Eclipse",

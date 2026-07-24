@@ -18,7 +18,7 @@ Draft entry, updated as each implementation step lands. Not yet released — con
 - Equipment pickers now show the exact stat change versus your currently equipped item for every candidate piece.
 - Long-press a hero during combat to manage their equipment and runes without pausing the fight.
 - Combat arenas keep every hero and monster in a fixed position for the whole fight — defeated entities no longer cause the rest of the formation to reshuffle.
-- Combat entities are now sized to match their health bars, and the Mist/Stats arena buttons are larger and cleaner without boxed backgrounds.
+- Combat entities are now sized to match their health bars, and the Mist/Stats arena buttons are cleaner without boxed backgrounds. The Stats control is now intentionally larger, remains pinned safely to the top-right, and opens a combat-statistics surface styled like Settings Statistics.
 - Combat Stats, hero-selection, and pet-selection popups launched from an arena now match the exact size of the combat popup that opened them, instead of floating smaller.
 - Fixed nested popups (like hero details opened from a team picker) sometimes rendering behind their parent or failing to restore the exact previous view when closed.
 - Notifications now always render above every popup and menu.
@@ -27,7 +27,7 @@ Draft entry, updated as each implementation step lands. Not yet released — con
 - Dungeon clear requirements are now on one consistent progression system; a new safeguard keeps dungeon fights from stalling indefinitely.
 - Coin prices and rewards are now shown consistently with the wallet's denomination icons everywhere in the game.
 - Dungeon and raid icons now show a tier badge matching the item-icon style.
-- Normalized icon sizing and padding across the interface — the Mist and Stats combat icons now match exactly, and several undersized icons (including the hero rename icon) are corrected to a consistent visual weight.
+- Normalized icon sizing and padding across the interface — the Mist control keeps its compact utility size while the Stats control is deliberately emphasized, and several undersized icons (including the hero rename icon) are corrected to a consistent visual weight.
 - The Wiki link now opens a three-button main index page.
 - Redesigned the gem balance display into a single banner with the gem icon and a dedicated plus button built into its frame, keeping your current balance clear and readable at every screen size.
 - Fixed a rare bug where a renamed or no-longer-usable equipped item could vanish on load instead of being returned to your inventory.
@@ -38,7 +38,7 @@ Draft entry, updated as each implementation step lands. Not yet released — con
 - Hero-selection lists across dungeons, raids, the Tower, and Echo Descent now sort your available heroes by level, highest first.
 - The Tower of Ascension is now called the **Tower of Resonance**. Your progress, floor, and achievements are unchanged.
 - Redesigned the Raids and Echo Descent screens around an Overview tab that opens first, showing current status, entry requirements, key rewards, and your formation in one place, plus a readiness line that explains exactly what's blocking a start; full mechanic explanations moved to a separate Guide tab. The Help button now stays visible on every tab and in every state.
-- Added the Legendary Pet Pack to the Shop's Premium tab, directly below the Welcome Premium Pack: a one-time real-money purchase that grants the tier-6 Lightless family's Legendary Dreadbell Whale, statistically identical to a hatched Legendary pet. Checkout is blocked while your stable is full; if an owned purchase is restored while full, the Whale joins automatically as soon as a slot frees up.
+- Added the Legendary Pet Pack to the Shop's Premium tab, directly below the Welcome Premium Pack: a one-time real-money purchase that grants the tier-6 Lightless family's Legendary Dreadbell Whale, statistically identical to a hatched Legendary pet, plus exactly 1,000 Gems. Checkout is blocked while your stable is full; if an owned purchase is restored while full, the Whale and Gems arrive together automatically as soon as a slot frees up.
 - Added a shared Legendary pet pity counter across every family's egg: go 100 hatches in a row without a Legendary pet, from any egg, and your next hatch is guaranteed to be Legendary. A "Legendary pity" progress line now shows on the Pets Eggs tab, the Shop's Pet Egg Market, and every pet egg's detail screen.
 - Added a new Achievements button to Settings showing every Play Games achievement, its store description, and your live progress — fully populated on Windows and while signed out of Google Play Games. The existing Google Play Games popup keeps its own Achievements button for the native overlay when connected.
 - Added two Echo Resonance achievements — one for fully attuning a hero and one for lifetime Resonance progress — bringing the current Google Play Games total to 41 achievements worth 345 points.
@@ -50,19 +50,22 @@ Draft entry, updated as each implementation step lands. Not yet released — con
 - Tower of Resonance floors past your Echo Descent unlock now tell you the exact Echo Resonance rank recommended for that floor if you're defeated, instead of a generic "try again."
 - Added a new Mailbox letter for every Tower of Resonance checkpoint floor (10 through 90), telling the story of how the Tower's final boss came to be — Floor 100's letter is unchanged. Letters for Floors 70, 80, and 90 arrive from a new in-world voice found along the climb rather than from Eira.
 - Redesigned the Ascension path as icon-only circular nodes in a state-colored ring instead of text-heavy cards, with every detail — name, description, rank, cost, and status — now living in a single detail box below the tree that updates as you select each node.
+- Ascension badges on hero portraits now have tier-colored circular backing, and the first unlock sends one localized Mailbox letter explaining paths, points, respec costs, and irreversible promotion consequences.
 - The Tower of Resonance popup and its victory screen now show progress toward all ten checkpoint materials, explaining they're saved for a future use.
 - Added Waning Patience: Floor 100's Crown That Waits now grows enraged in a fight that runs long, escalating its attack in stacks up to a cap. The grace window and per-stack scaling are shown before you enter and tracked live in the combat status line once triggered.
 - Added Tower of Resonance Auto-Advance: attempt consecutive floors automatically with your saved team and companions, starting from the next uncleared floor and stopping at the next multiple-of-ten checkpoint. A confirmation shows the exact range and rules before you start, live progress and a Stop After This Floor action replace the start button while it runs, and one summary shows exactly what it cleared when it stops.
 - Added rotating Daily and Weekly Quests that progress automatically through normal play, including supported offline combat and crafting. Daily tasks award Coins, weekly tasks award Gems, completed unclaimed rewards are granted automatically at reset, and optional Coin-funded Quest ranks add slots and reward bonuses without adding penalties for unfinished tasks.
 - Added 88 cosmetic Elite Skins — one for each elite class in each of the four raid themes — to a new Shop Skins tab. Each skin costs 1,000 Gems, can be equipped on any matching elite hero after purchase, and never changes combat stats.
-- Pet eggs in the Gem Shop now scale by family tier, from 75 Gems for tier 3 to 300 Gems for tier 12. Chimeric pets can now roll a dungeon-only Drop Rate bonus, while Eclipse pets can roll an EXP Rate bonus for their assigned heroes.
+- Pet eggs in the Gem Shop now scale by family tier, from 75 Gems for tier 3 to 300 Gems for tier 12. Orbitglass pets retain their T8 Max HP option, Starglass pets can roll the dungeon-only Drop Rate bonus at T9, and Eclipse pets can roll an EXP Rate bonus for their assigned heroes.
 - Item details now explain every known acquisition source — monster or boss drop, dungeon or raid, crafting recipe, rotating Shop offer, Quest reward, or other special source — and link directly to the relevant activity where possible.
 - Added a persistent exact Coin wallet display, so the Platinum, Gold, Silver, and Copper breakdown remains visible while browsing shops, upgrades, crafting, and other Coin-spending screens.
 - Added local Lifetime Statistics in Settings for combat, progression, collection, economy, and play time. Historical values that cannot be reconstructed are truthfully labeled as tracked since version 1.08; the view works without Play Games sign-in.
 - Added case-sensitive Reward Codes to the Shop's Premium tab. Eligible rewards are bound to the currently verified Play Games profile, recorded in the cloud to prevent repeat redemption, and remain available on Windows even when Google Play Billing is unavailable.
+- Added a one-time Legendary Pet Pack reward-code entitlement that uses the same authoritative pet-and-Gem grant, capacity checks, recovery, and profile-bound cloud receipt as a normal pack purchase.
 - Added a versioned What's New popup that presents the main 1.08 highlights once per save, with a Settings button to reopen it later. Help topics are now collapsible, and player-facing status names and bilingual terminology are more consistent.
 - Retuned campaign XP pacing, progression costs, and Tower preparation so a competent player checking in two or three times per day can reach the Echo Descent unlock in about six days without paid acceleration.
 - Reduced startup work by loading noninitial menus, hidden textures, Android monetization, Settings, hero-management, Ascension, promotion, and help content only when needed. Inventory and recipe lists also populate more efficiently.
+- Reworked the Android launcher artwork so the full Idle Party Dungeon title stays legible inside adaptive circle, squircle, rounded-square, legacy, and store icon masks.
 
 ## Version 1.07 — Controls & Navigation Fix
 

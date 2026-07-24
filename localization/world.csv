@@ -821,9 +821,9 @@ PRONTO"
 "This floor guarantees its authored %s signature encounter.","This floor guarantees its authored %s signature encounter.","Questo piano garantisce lo scontro caratteristico previsto per %s."
 "A Tower sentinel","A Tower sentinel","Una sentinella della Torre"
 "TOWER OF
-ASCENSION","TOWER OF
-ASCENSION","TORRE DELL'
-ASCENSIONE"
+RESONANCE","TOWER OF
+RESONANCE","TORRE DELLA
+RISONANZA"
 "IN BATTLE","IN BATTLE","IN BATTAGLIA"
 "TOWER MIST
 This floor's Mist sits at %s%%, adding +%s%% Evade to every enemy. Mist Reduction and Mist Damage heroes counter it the same way they do in dungeons.","TOWER MIST
@@ -832,7 +832,7 @@ La Nebbia di questo piano è al %s%%, che aggiunge +%s%% Schivata a ogni nemico.
 "AUTO-ADVANCE","AUTO-ADVANCE","AVANZAMENTO AUTOMATICO"
 "AUTO-ADVANCE · FLOORS %s-%s","AUTO-ADVANCE · FLOORS %s-%s","AVANZAMENTO AUTOMATICO · PIANI %s-%s"
 "The Tower stands fully conquered. Auto-Advance is no longer needed.","The Tower stands fully conquered. Auto-Advance is no longer needed.","La Torre è stata completamente conquistata. L'Avanzamento Automatico non è più necessario."
-"Fights automatically from the next uncleared floor through the next multiple-of-ten checkpoint. Every floor uses your saved team and companions and resolves through the normal fight, reward, and save rules -- defeat on any floor stops the batch.","Fights automatically from the next uncleared floor through the next multiple-of-ten checkpoint. Every floor uses your saved team and companions and resolves through the normal fight, reward, and save rules -- defeat on any floor stops the batch.","Combatte automaticamente dal prossimo piano non superato fino al successivo checkpoint multiplo di dieci. Ogni piano usa la squadra e i famigli salvati e si risolve secondo le normali regole di combattimento, ricompensa e salvataggio: la sconfitta in un piano qualsiasi interrompe il lotto."
+"Fights automatically from the next uncleared floor through the next multiple-of-ten checkpoint. Every floor uses the formation and companions displayed above and resolves through the normal fight, reward, and save rules -- defeat on any floor stops the batch.","Fights automatically from the next uncleared floor through the next multiple-of-ten checkpoint. Every floor uses the formation and companions displayed above and resolves through the normal fight, reward, and save rules -- defeat on any floor stops the batch.","Combatte automaticamente dal prossimo piano non superato fino al successivo checkpoint multiplo di dieci. Ogni piano usa la formazione e i famigli mostrati sopra e si risolve secondo le normali regole di combattimento, ricompensa e salvataggio: la sconfitta in un piano qualsiasi interrompe il lotto."
 "Start Auto-Advance","Start Auto-Advance","Avvia Avanzamento Automatico"
 "Auto-Advance is unavailable right now","Auto-Advance is unavailable right now","L'Avanzamento Automatico non è disponibile al momento"
 "Attempt Floors %s-%s automatically","Attempt Floors %s-%s automatically","Affronta automaticamente i piani %s-%s"

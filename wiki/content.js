@@ -1,12 +1,12 @@
 /*
  * Player-facing guide content for Idle Party Dungeon 1.08.
  * Update history is kept in the Patch Notes chapter.
- * Updated 23 July 2026.
+ * Updated 24 July 2026.
  */
 window.WIKI_CONTENT = Object.freeze({
   version: {
     game: "1.08",
-    updated: "23 July 2026",
+    updated: "24 July 2026",
     status: "In development"
   },
 
@@ -14,7 +14,7 @@ window.WIKI_CONTENT = Object.freeze({
     {
       version: "1.08",
       title: "Resonance & Progression Update",
-      date: "23 July 2026",
+      date: "24 July 2026",
       status: "In development",
       notes: [
         "Rebalanced hero classes for more consistent performance across every class, promotion path, and progression stage, from early dungeons through raids and the endgame.",
@@ -65,6 +65,7 @@ window.WIKI_CONTENT = Object.freeze({
         "After a defeat beyond the Echo Descent unlock, Tower floors now show the exact Echo Resonance rank recommended for that floor.",
         "Added a Mailbox letter for every Tower checkpoint from Floor 10 through 90, expanding the story behind the final boss. The Floor 100 letter remains unchanged.",
         "Redesigned Ascension paths as icon-only circular nodes in a state-colored ring, with name, description, rank, cost, and status shown in one detail box below the tree.",
+        "Ascension badges on hero portraits now have tier-colored circular backing, and the first Ascension unlock sends a localized Mailbox letter explaining paths, points, respec costs, and irreversible promotion consequences.",
         "The Tower popup and victory screen now track progress toward all ten checkpoint materials and explain that they are being saved for a future use.",
         "Added Waning Patience to Floor 100: The Crown That Waits gains stacking Attack after a grace window in long fights, with the timing and scaling shown before entry and tracked live in combat.",
         "Added Tower of Resonance Auto-Advance, which attempts consecutive uncleared floors with the saved team and companions until the next multiple-of-ten checkpoint. Confirmation, live progress, stop controls, and a final summary cover the whole run.",
@@ -75,9 +76,11 @@ window.WIKI_CONTENT = Object.freeze({
         "Added a persistent exact Coin wallet display, keeping the Platinum, Gold, Silver, and Copper breakdown visible across shops, upgrades, crafting, and other Coin-spending screens.",
         "Added local Lifetime Statistics in Settings for combat, progression, collection, economy, and play time. Values that cannot be reconstructed are labeled as tracked since version 1.08, and the view works without Play Games sign-in.",
         "Added case-sensitive Reward Codes to the Shop’s Premium tab. Eligible rewards are bound to the verified Play Games profile, recorded in the cloud against repeat redemption, and remain available on Windows without Google Play Billing.",
+        "Added a one-time Legendary Pet Pack reward-code entitlement that uses the same authoritative pet-and-Gem grant, capacity checks, recovery, and profile-bound cloud receipt as a normal purchase.",
         "Added a versioned What’s New popup that presents the main 1.08 highlights once per save, with a Settings button to reopen it. Help topics are now collapsible, and player-facing status names and bilingual terminology are more consistent.",
         "Retuned campaign XP pacing, progression costs, and Tower preparation so a competent player checking in two or three times per day can reach the Echo Descent unlock in about six days without paid acceleration.",
-        "Reduced startup work by loading noninitial menus, hidden textures, Android monetization, Settings, hero management, Ascension, promotion, and help content only when needed. Inventory and recipe lists also populate more efficiently."
+        "Reduced startup work by loading noninitial menus, hidden textures, Android monetization, Settings, hero management, Ascension, promotion, and help content only when needed. Inventory and recipe lists also populate more efficiently.",
+        "Reworked the Android launcher artwork so the full Idle Party Dungeon title stays legible inside adaptive circle, squircle, rounded-square, legacy, and store icon masks."
       ]
     },
     {
