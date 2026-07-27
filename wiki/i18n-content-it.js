@@ -93,7 +93,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
       version: "1.07",
       title: "Correzione di comandi e navigazione",
       date: "19 luglio 2026",
-      status: "Versione attuale per test chiuso",
+      status: "Versione precedente per test chiuso",
       notes: [
         "Risolto un problema della versione 1.06 che poteva rendere inattivi pulsanti e menu dopo l'aggiornamento.",
         "I comandi touch e lo scorrimento ora funzionano normalmente su Android, così come i comandi del mouse su Windows.",

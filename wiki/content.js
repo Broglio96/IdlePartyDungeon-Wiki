@@ -93,7 +93,7 @@ window.WIKI_CONTENT = Object.freeze({
       version: "1.07",
       title: "Controls & Navigation Fix",
       date: "19 July 2026",
-      status: "Current closed-test release",
+      status: "Previous closed-test release",
       notes: [
         "Fixed an issue in version 1.06 that could leave buttons and menus unresponsive after installing the update.",
         "Touch controls and scrolling now work normally on Android, and mouse controls now work normally on Windows.",
