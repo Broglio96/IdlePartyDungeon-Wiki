@@ -163,7 +163,7 @@
     "group-heroes": ["Getting Started & Heroes", "Getting started, combat rules, hero classes, statuses, and long-term hero building."],
     "group-adventures": ["Adventures & Bestiary", "Dungeons, raids, monsters, items, pets, and the Tower & Echo endgame."],
     "group-town": ["Town & Reference", "Town systems, menus and interactions, the probability lab, game reference, patch notes, and privacy."],
-    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.08."],
+    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.09."],
     quickstart: ["New player path", "A spoiler-light route from an empty Tavern to the first raid."],
     mechanics: ["Core mechanics", "Progression, persistence, failure, roster rules, Mist, and discovery."],
     combat: ["Combat & formulas", "The exact order of battle, stat formulas, targeting, damage, healing, and statuses."],
@@ -176,12 +176,12 @@
     pets: ["Pet families", "Every companion family, species, egg source, rarity roll, effect pool, and bond curve."],
     endgame: ["Endgame challenges", "The Tower of Resonance, Floor 100 Apex, Echo Descent, daily laws, checkpoint rewards, and platform milestones."],
     tower: ["Tower of Resonance", "All 100 floors, checkpoint rewards, Floor 100 Apex mechanics, Resonance targets, and platform milestones."],
-    echo: ["Echo Descent", "Unlock requirements, Anchors, Guardians, daily laws, Resonance rewards, scaling, and formation rules."],
+    echo: ["Echo Descent", "Unlock requirements, the daily Guardian fight, daily laws, Resonance rewards, and formation rules."],
     progression: ["Progression mastery", "Promotions, XP, Ascension, Runes, titles, and long-term hero building."],
     town: ["Town & economy", "Tavern, Workshop, Shops, Inventory, Mailbox, currencies, upgrades, and premium systems."],
     interactions: ["Interactions & menus", "What every major screen, button group, formation, collection, and account action does."],
     probability: ["Probability lab", "Interactive drop, encounter, first-copy guarantee, title, pet, and raid-odds calculators."],
-    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.08."],
+    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.09."],
     "patch-notes": ["Patch notes", "Player-facing release history for Idle Party Dungeon."],
     privacy: ["Privacy policy", "How Idle Party Dungeon handles local progress, platform services, advertising, purchases, retention, and deletion."]
   };
@@ -532,7 +532,7 @@
     C.runes.forEach(rune => entries.push({ type: "Rune", name: rune.name, subtitle: rune.stat, route: "progression", id: rune.id, icon: rune.icon, keywords: rune.text }));
     C.ascension.forEach(path => entries.push({ type: "Ascension", name: path.name, subtitle: path.role, route: "progression", id: path.id, icon: path.icon, keywords: `${path.text} ${path.skills.map(s => `${s.name} ${s.text}`).join(" ")}` }));
     entries.push({ type: "Endgame", name: d.tower.name, subtitle: `${d.tower.max_floor} persistent floors`, route: "tower", id: "", icon: "", keywords: `${d.tower.description} ${(d.tower.wings || []).map(wing => wing.name).join(" ")} Floor 100 Apex checkpoint rewards`, translateFragments: true });
-    entries.push({ type: "Endgame", name: d.echoDescent.system?.name || "Echo Descent", subtitle: "Five-hero endless descent", route: "echo", id: "", icon: "", keywords: `${d.echoDescent.system?.description || ""} daily laws mutations Guardians anchors`, translateFragments: true });
+    entries.push({ type: "Endgame", name: d.echoDescent.system?.name || "Echo Descent", subtitle: "Five-hero daily fight", route: "echo", id: "", icon: "", keywords: `${d.echoDescent.system?.description || ""} daily fight laws mutations Guardian Resonance`, translateFragments: true });
     (d.echoDescent.mutations || []).forEach(mutation => entries.push({ type: "Echo law", name: mutation.name, subtitle: humanKey(mutation.category), route: "echo", id: "", icon: "", keywords: `${mutation.description} ${Object.keys(mutation.effects || {}).join(" ")}` }));
     C.patchNotes.forEach(release => entries.push({ type: "Release", name: `${translate("Version")} ${release.version} — ${release.title}`, subtitle: `${release.date} · ${release.status}`, route: "patch-notes", id: slug(release.version), icon: "", keywords: release.notes.join(" ") }));
     C.privacyPolicy.sections.forEach(section => entries.push({ type: "Privacy", name: section.title, subtitle: `Effective ${C.privacyPolicy.effectiveDate}`, route: "privacy", id: section.id, icon: "", keywords: section.paragraphs.join(" ") }));
@@ -673,7 +673,7 @@
       ["01", "Heroes", "Compare all 55 class kits and promotion paths.", "heroes", "♜"],
       ["02", "Dungeon atlas", "See objectives, exact encounter weights, bosses, and loot.", "dungeons", "▰"],
       ["03", "Raid command", "Learn every action-based mechanic and progressive first-copy guarantee.", "raids", "◆"],
-      ["04", "Endgame challenges", "Climb 100 Tower floors, solve the Apex, and push Echo Descent.", "endgame", "▲"],
+      ["04", "Endgame challenges", "Climb 100 Tower floors, solve the Apex, and challenge Echo Descent.", "endgame", "▲"],
       ["05", "Bestiary", "Inspect 76 enemies and their current combat stats.", "monsters", "♞"],
       ["06", "Build systems", "Plan Runes, Ascension, pets, titles, and equipment.", "progression", "✦"],
       ["07", "Probability lab", "Model drops, first-copy guarantees, hatches, and encounter composition.", "probability", "%"]
@@ -705,7 +705,7 @@
               </a>`).join("")}</div>
           </section>
           <section class="home-section">
-            ${sectionHeading("Current rules", `Updated for version ${C.version.game} · ${C.version.status}`, `Every strategy chapter and calculator describes game version ${C.version.game}, currently in development. Patch Notes contain the update history.`)}
+            ${sectionHeading("Current rules", `Updated for version ${C.version.game} · ${C.version.status}`, `Every strategy chapter and calculator describes game version ${C.version.game}, the current closed-test release. Patch Notes contain the update history.`)}
             <div class="callout callout--green">
               <strong>Current headline rules:</strong>
               <p>Title bonuses grant 10% or 10 percentage points; first raid accessories gain 5 percentage points per clear until guaranteed on clear 10; Constellation needs 3 matching hits within 10 hero actions; Eclipse uses 12 / 12 / 6 hero actions; dungeon combat is capped to 12 offline hours while crafting catches up fully.</p>
@@ -1018,7 +1018,7 @@
       <div class="callout callout--red"><strong>Entry rule:</strong><p>Each permanent raid has its own daily entry at 00:00 UTC. Starting consumes it; failure and abandonment do not refund it. A replacement entry costs 50 Gems while that raid is idle.</p></div>
       <section class="section-block"><div class="raid-grid">${state.data.raids.map(raid => activityCard(raid, "raid")).join("")}</div></section>
       <section class="section-block">
-        ${sectionHeading("Current rules", "Every raid mechanic in version 1.08", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
+        ${sectionHeading("Current rules", "Every raid mechanic in version 1.09", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
         <div class="mechanic-list">${state.data.raids.map(raid => {
           const mechanic = C.raidMechanics[raid.id];
           return `<article class="mechanic-panel"><div class="mechanic-panel__title" style="background:linear-gradient(145deg,${esc(mechanic.color)}22,transparent)"><span class="eyebrow">${esc(raid.name)}</span><h2>${esc(mechanic.label)}</h2><p>${esc(mechanic.summary || raid.mechanic_summary)}</p></div><div class="mechanic-panel__content"><ul>${mechanic.rules.map(rule => `<li>${esc(rule)}</li>`).join("")}</ul></div></article>`;
@@ -1114,6 +1114,10 @@
     const echoSystem = echo.system || {};
     const apex = tower.apex || {};
     const mutations = echo.mutations || [];
+    const echoLawRotation = (echoSystem.mutation_categories || [])
+      .map(category => ({ category, laws: mutations.filter(mutation => mutation.category === category) }))
+      .filter(slot => slot.laws.length);
+    const echoLawSets = echoLawRotation.reduce((total, slot) => total * slot.laws.length, 1);
     const echoUnlockFloor = Number(echoSystem.unlock_tower_floor || tower.max_floor);
     const towerHidden = route === "echo" ? " hidden" : "";
     const echoHidden = route === "tower" ? " hidden" : "";
@@ -1121,7 +1125,7 @@
       ? `${badge(`${mutations.length} daily laws`, "gold")}${badge(`${echoSystem.hero_count} heroes`, "green")}`
       : `${badge(`${tower.max_floor} Tower floors`, "gold")}${badge("Unlimited attempts", "green")}`;
     return `<div class="page">${pageHeader(route, headerBadges)}
-      <div class="callout callout--green"><strong>Challenge path:</strong><p>Open the Tower from the Raids screen. Its Echo Descent control sits beside the Tower title: it remains visible but disabled until Floor ${esc(echoUnlockFloor)} is cleared, then opens the Echo overview from the same screen.</p></div>
+      <div class="callout callout--green"><strong>Challenge path:</strong><p>Open the Tower from the Raids screen. Its Echo Descent control sits beside the Tower title: it remains visible but disabled until the Tower's ${esc(echoUnlockFloor)}th challenge is cleared, then opens the Echo overview from the same screen.</p></div>
       <section class="section-block" id="endgame-tower" tabindex="-1"${towerHidden}>
         ${sectionHeading("Permanent ascent", tower.name || "Tower of Resonance", tower.description || "A permanent one-floor-at-a-time climb through all twelve equipment tiers.")}
         <div class="info-grid">
@@ -1155,17 +1159,20 @@
         </div>
       </section>
       <section class="section-block" id="endgame-echo-descent" tabindex="-1"${echoHidden}>
-        ${sectionHeading(`Beyond Floor ${echoUnlockFloor}`, echoSystem.name || "Echo Descent", echoSystem.description || "An endless five-hero descent beyond the Tower.")}
+        ${sectionHeading("Daily Echo challenge", echoSystem.name || "Echo Descent", echoSystem.description || "A five-hero daily Guardian fight beyond the Tower.")}
         <div class="info-grid">
-          <article class="info-card"><span class="info-card__eyebrow">Exact formation</span><h3>${esc(echoSystem.hero_count)} heroes · up to ${esc(echoSystem.companion_count)} companions</h3><p>Unlike the Tower, Echo requires all five hero slots to be filled before a run can begin.</p></article>
-          <article class="info-card"><span class="info-card__eyebrow">One stratum</span><h3>${esc(echoSystem.normal_depths_per_anchor)} depths + 1 Guardian</h3><p>Clear all ${esc(echoSystem.depths_per_anchor)} depths in one push to secure the next Anchor. Failure or abandonment returns the party to the last secured Anchor; attempts are unlimited.</p></article>
-          <article class="info-card"><span class="info-card__eyebrow">Reward rule</span><h3>+${esc(echoSystem.resonance_rank_per_day)} Resonance · once per day</h3><p>The first reward-eligible Guardian each UTC day secures the next Anchor and grants the displayed Resonance to its five heroes. Later clears that day are practice. Echo monsters drop no ordinary items or currency; companions earn ${esc(echoSystem.companion_xp_normal)} / ${esc(echoSystem.companion_xp_guardian)} Bond XP on normal / Guardian depths.</p></article>
-          <article class="info-card"><span class="info-card__eyebrow">Daily rotation</span><h3>Three laws · 00:00 UTC</h3><p>Each UTC day selects one Environment, one Adaptation, and one Opportunity. A started stratum freezes its laws and encounter order even if 00:00 UTC passes before it finishes.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Exact formation</span><h3>${esc(echoSystem.hero_count)} heroes · up to ${esc(echoSystem.companion_count)} companions</h3><p>Unlike the Tower, Echo requires all five hero slots to be filled before today's fight can begin.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">One daily fight</span><h3>1 Guardian challenge</h3><p>Failure or abandonment lets the party retry today's fight. Winning closes Echo until 00:00 UTC.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Reward rule</span><h3>+${esc(echoSystem.resonance_rank_per_day)} Resonance · once per day</h3><p>Winning the daily fight grants the displayed Resonance to all five heroes. Each hero can gain at most one rank per day. Echo monsters drop no ordinary items or currency; companions earn ${esc(echoSystem.companion_xp_guardian)} Bond XP.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Daily rotation</span><h3>Three laws · 00:00 UTC</h3><p>Each UTC day selects one Environment, one Adaptation, and one Opportunity. A started fight keeps its laws and encounter even if 00:00 UTC passes before it finishes.</p></article>
         </div>
-        <div class="callout" style="margin-top:18px"><strong>Depth scaling:</strong><p>At Depth d, base enemy HP is ×${esc(echo.difficulty?.base_hp_multiplier)} × (1 + ${formatPercent(Number(echo.difficulty?.hp_growth_per_depth || 0) * 100)} × (d−1)); damage is ×${esc(echo.difficulty?.base_damage_multiplier)} × (1 + ${formatPercent(Number(echo.difficulty?.damage_growth_per_depth || 0) * 100)} × (d−1)). Every fifth-depth Guardian adds ×${esc(echo.difficulty?.guardian_hp_multiplier)} HP and ×${esc(echo.difficulty?.guardian_damage_multiplier)} damage. Daily laws add combat mechanics instead of more stat multipliers.</p></div>
       </section>
       <section class="section-block"${echoHidden}>
         ${sectionHeading("Daily laws", "Nine mechanics across three roles", "Every rotation combines one survival pressure, one enemy adaptation, and one counterplay opportunity. Build the five-hero party around all three.")}
+        ${echoLawRotation.length ? `<article class="table-panel"><div class="table-panel__header"><h3>Daily rotation</h3><p>Three laws · 00:00 UTC</p></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Category</th><th class="numeric">Entries</th><th>Daily laws</th></tr></thead><tbody>
+          ${echoLawRotation.map(slot => `<tr><td><strong>${esc(humanKey(slot.category))}</strong></td><td class="numeric">${formatNumber(slot.laws.length)}</td><td>${slot.laws.map(law => badge(law.name)).join(" ")}</td></tr>`).join("")}
+        </tbody></table></div></article>` : ""}
+        <div class="callout" style="margin-top:18px"><strong>Daily laws add combat mechanics:</strong><p>No law raises enemy Health, Attack, Defense, or Evade. Laws suppress Mana, charge Health for active skills, cut healing received, deny a damage type outright, or expose enemies to extra damage, so the counter is the five-hero party you bring rather than raw stats. The rotation slots combine into ${formatNumber(echoLawSets)} daily law sets and walk through every one of them before repeating. A fight that has already started keeps the laws and the enemy formation it began with, even if 00:00 UTC passes first.</p></div>
         <div class="info-grid">${mutations.map(mutation => `<article class="info-card"><span class="info-card__eyebrow">${esc(humanKey(mutation.category))}</span><h3>${esc(mutation.name)}</h3><p>${esc(mutation.description)}</p><div class="entity-card__footer">${esc(echoEffectText(mutation.effects))}</div></article>`).join("")}</div>
       </section>
     </div>`;
@@ -1245,14 +1252,14 @@
   function petFamilyCard(family) {
     const featured = family.sprites?.legendary || family.sprites?.epic || {};
     return `<article class="entity-card portrait-card" data-openable="true" tabindex="0" role="button" data-entity-type="pet" data-entity-id="${esc(family.id)}">
-      <div class="entity-card__media entity-card__media--portrait">${image(featured.texture || family.egg_icon, `${family.name} pet`)}<div class="entity-card__badge-row">${badge(`Tier ${family.tier}`)}${badge("15% egg", "gold")}</div></div>
+      <div class="entity-card__media entity-card__media--portrait">${image(featured.texture || family.egg_icon, `${family.name} pet`)}<div class="entity-card__badge-row">${badge(`Tier ${family.tier}`)}${badge(`${family.egg_drop_chance}% egg`, "gold")}</div></div>
       <div class="entity-card__body"><div class="entity-card__kicker">${esc(family.source_boss)}</div><h3>${esc(family.name)}</h3><p class="entity-card__desc">Common: ${esc(family.sprites?.common?.name)} · Rare: ${esc(family.sprites?.rare?.name)} · Epic: ${esc(family.sprites?.epic?.name)} · Legendary: ${esc(family.sprites?.legendary?.name)}</p><div class="entity-card__footer">Family & hatch detail</div></div>
     </article>`;
   }
 
   function renderPets() {
     return `<div class="page">${pageHeader("pets", `${badge("6 families", "gold")}${badge("Base odds 74.5 / 20 / 5 / 0.5", "green")}`)}
-      <div class="callout"><strong>Hatch sequence:</strong><p>An eligible boss independently rolls 15% for its family egg. Base hatch odds are Common 74.5%, Rare 20%, Epic 5%, and Legendary 0.5%; rarity takes 2, 3, 4, or 5 distinct effects from the family's shuffled six-effect pool. Hatchery upgrades raise Legendary odds to 2%, and after 100 consecutive non-Legendary hatches the next hatch is guaranteed Legendary across every family.</p></div>
+      <div class="callout"><strong>Hatch sequence:</strong><p>An eligible dungeon boss independently rolls 1% for its family egg, and an eligible Raid boss rolls 20%. The rates differ because the kill counts do: a maxed party left on an egg dungeon overnight kills its boss around 70 times, while each Raid boss dies at most once a day on its single daily entry. Base hatch odds are Common 74.5%, Rare 20%, Epic 5%, and Legendary 0.5%; rarity takes 2, 3, 4, or 5 distinct effects from the family's shuffled six-effect pool. Hatchery upgrades raise Legendary odds to 2%, and after 100 consecutive non-Legendary hatches the next hatch is guaranteed Legendary across every family.</p></div>
       <div class="callout callout--green" style="margin-top:14px"><strong>Hatchery upgrades:</strong><p>New saves begin with 10 stable slots. The first three ranks reach 40 slots and 1% Legendary odds; three Apex ranks extend that to 70 slots and 2%. Family eggs cost 75 Gems at Tier 3, 125 at Tier 5, 150 at Tier 6, 225 at Tier 9, and 300 at Tier 12.</p></div>
       <div class="callout callout--green" style="margin-top:14px"><strong>Selling companions:</strong><p>An undeployed pet sells for 25 × family tier² × rarity multiplier Coins. Rarity multipliers are ×1 Common, ×3 Rare, ×10 Epic, and ×50 Legendary; Bond level does not affect the price.</p></div>
       <section class="section-block"><div class="catalog-grid">${state.data.petFamilies.map(petFamilyCard).join("")}</div></section>
@@ -1384,7 +1391,7 @@
       let miss = 1;
       const rows = [];
       for (let clear=1; clear<=n; clear++) {
-        const chance = clear >= 10 ? 1 : clear * .05;
+        const chance = clear >= 10 ? 1 : .15 + (clear - 1) * .05;
         miss *= (1 - chance);
         rows.push(`${clear}: ${formatPercent(chance*100,0)}`);
       }
@@ -1428,14 +1435,14 @@
       <section class="section-block">
         ${sectionHeading("Using the guide", "How to read the numbers", "The Codex presents current game behavior in player terms and labels probability assumptions where they matter.")}
         <div class="info-grid">
-          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.08 throughout</h3><p>Every strategy chapter describes version 1.08. Patch Notes contain the update history.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.09 throughout</h3><p>Every strategy chapter describes version 1.09. Patch Notes contain the update history.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Probabilities</span><h3>Base chances by default</h3><p>Drop, hatch, encounter, and title odds use base values unless a selected bonus is shown beside the result.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Character sheets</span><h3>Preview values are labeled</h3><p>Class sheets show a clean preview. Owned heroes keep their individual growth and receive the listed promotion adjustments.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Spoilers</span><h3>The full game is visible</h3><p>The Codex reveals every class, enemy, activity, item, pet family, and endgame challenge for planning purposes.</p></article>
         </div>
       </section>
       <section class="section-block">
-        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.08.")}
+        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.09.")}
         <div class="info-grid">${C.accuracyNotes.map(note=>`<article class="info-card"><span class="info-card__eyebrow">Guide note</span><h3>${esc(note.title)}</h3><p>${esc(note.text)}</p></article>`).join("")}</div>
       </section>
       <section class="section-block"><div class="callout callout--green"><strong>Current guide version:</strong><p>Game ${esc(C.version.game)} · ${esc(C.version.status)} · Updated ${esc(C.version.updated)}. Content and artwork © 2026 BroglioGames. All rights reserved.</p></div></section>
@@ -1674,7 +1681,7 @@
         ${mist?`<section class="detail-section"><h2>Mist behavior</h2><div class="detail-grid"><article class="detail-box"><div class="detail-box__label">Starting Mist</div><h3>${formatPercent(dungeon.base_mist_percentage || 0)}</h3><p>Current environmental value when a run starts or restores without a saved value.</p></article><article class="detail-box"><div class="detail-box__label">Change cadence</div><h3>Every ${dungeon.mist_change_interval || "—"} clears</h3><p>Rerolls from ${formatPercent(dungeon.mist_min_percentage || 0)} to ${formatPercent(dungeon.mist_max_percentage || 0)}. Enemy Evade scale: ${dungeon.enemy_evade_per_mist || 0} per Mist point.</p></article></div></section>`:""}
         <section class="detail-section"><h2>Normal encounter odds</h2>${encounterOddsHtml(dungeon)}${bossTeam?`<div class="callout" style="margin-top:14px"><strong>Forced boss team:</strong><p>${esc(teamNames(bossTeam))}. This group is excluded from random encounters and appears after the objective is complete.</p></div>`:""}</section>
         <section class="detail-section"><h2>Monster roster</h2><div class="hero-banner__actions">${monsters.map(monster=>`<button class="button button--small" type="button" data-entity-type="monster" data-entity-id="${esc(monster.name)}">${esc(monster.name)}</button>`).join("")}</div></section>
-        <section class="detail-section"><h2>Effective per-kill item odds</h2>${lootRows.length?`<article class="table-panel"><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Monster</th><th>Item</th><th class="numeric">Base</th><th class="numeric">Standard</th><th class="numeric">Welcome</th></tr></thead><tbody>${lootRows.map(row=>`<tr><td>${esc(row.monster)}</td><td><button class="button button--small" data-entity-type="item" data-entity-id="${esc(row.name)}" type="button">${esc(row.name)}</button></td><td class="numeric">${formatPercent(row.chance,4)}</td><td class="numeric">${formatPercent(row.effective,4)}</td><td class="numeric">${formatPercent(row.premium,4)}</td></tr>`).join("")}</tbody></table></div></article>`:"<p>No ordinary item drops.</p>"}<div class="callout" style="margin-top:14px"><strong>Additional independent roll:</strong><p>Every defeated dungeon monster rolls a Gem Cluster at 0.1% base, or 0.11% with Welcome. Eligible bosses roll pet eggs separately at 15%.</p></div></section>
+        <section class="detail-section"><h2>Effective per-kill item odds</h2>${lootRows.length?`<article class="table-panel"><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Monster</th><th>Item</th><th class="numeric">Base</th><th class="numeric">Standard</th><th class="numeric">Welcome</th></tr></thead><tbody>${lootRows.map(row=>`<tr><td>${esc(row.monster)}</td><td><button class="button button--small" data-entity-type="item" data-entity-id="${esc(row.name)}" type="button">${esc(row.name)}</button></td><td class="numeric">${formatPercent(row.chance,4)}</td><td class="numeric">${formatPercent(row.effective,4)}</td><td class="numeric">${formatPercent(row.premium,4)}</td></tr>`).join("")}</tbody></table></div></article>`:"<p>No ordinary item drops.</p>"}<div class="callout" style="margin-top:14px"><strong>Additional independent roll:</strong><p>Every defeated dungeon monster rolls a Gem Cluster at 0.1% base, or 0.11% with Welcome. Eligible bosses roll pet eggs separately at 1% in dungeons and 20% in Raids.</p></div></section>
       </div>`;
   }
 
@@ -1741,7 +1748,7 @@
         <section class="detail-section"><h2>Reward family</h2><div class="detail-grid detail-grid--three">
           <article class="detail-box"><div class="detail-box__label">Rune Piece</div><h3>${esc(raid.rune_piece)}</h3><p>1.5% through normal encounter 10 · 3% after 10 clears · 10% boss. Root Nodes never roll it.</p><button class="button button--small" data-entity-type="item" data-entity-id="${esc(raid.rune_piece)}" type="button">Open item</button></article>
           <article class="detail-box"><div class="detail-box__label">Boss material</div><h3>${esc(raid.boss_material)}</h3><p>Always 1; 25% chance for 2.</p><button class="button button--small" data-entity-type="item" data-entity-id="${esc(raid.boss_material)}" type="button">Open item</button></article>
-          <article class="detail-box"><div class="detail-box__label">Unique accessory</div><h3>${esc(raid.rare_accessory)}</h3><p>Until discovered or already pending: 5% → 45%, then guaranteed clear 10. Repeat copies are 5%.</p><button class="button button--small" data-entity-type="item" data-entity-id="${esc(raid.rare_accessory)}" type="button">Open item</button></article>
+          <article class="detail-box"><div class="detail-box__label">Unique accessory</div><h3>${esc(raid.rare_accessory)}</h3><p>Until discovered or already pending: 15% → 55%, then guaranteed clear 10. Repeat copies are 15%.</p><button class="button button--small" data-entity-type="item" data-entity-id="${esc(raid.rare_accessory)}" type="button">Open item</button></article>
         </div></section>
         <section class="detail-section"><h2>Raid bestiary</h2><div class="hero-banner__actions">${monsters.map(name=>`<button class="button button--small" data-entity-type="monster" data-entity-id="${esc(name)}" type="button">${esc(name)}</button>`).join("")}</div></section>
       </div>`;
@@ -1847,9 +1854,9 @@
       languageButton.setAttribute("title", label);
     }
     const description = document.querySelector('meta[name="description"]');
-    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.08: heroes, combat, dungeons, raids, the Tower of Resonance, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
+    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.09: heroes, combat, dungeons, raids, the Tower of Resonance, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
     const openGraphDescription = document.querySelector('meta[property="og:description"]');
-    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.08, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
+    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.09, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
     const openGraphTitle = document.querySelector('meta[property="og:title"]');
     if (openGraphTitle) openGraphTitle.content = translate("Idle Party Dungeon — The Adventurer's Codex");
   }

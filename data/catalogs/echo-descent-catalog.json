@@ -2,14 +2,14 @@
   "system": {
     "id": "echo_descent",
     "name": "Echo Descent",
-    "description": "Beyond Floor 70, five heroes cross unstable strata shaped by three daily laws and return with permanent Resonance.",
+    "description": "After the Tower unlock, five heroes face one daily Guardian fight under three shifting laws and return with permanent Resonance.",
     "mechanic_summary": "Three daily laws reshape damage, recovery, and combat openings.",
     "icon": "res://resources/ui/icon_echo_descent.png",
     "hero_count": 5,
     "formation_rows": 1,
     "formation_columns": 5,
     "companion_count": 2,
-    "depths_per_anchor": 5,
+    "depths_per_anchor": 1,
     "unlock_tower_floor": 70,
     "resonance_rank_per_day": 1,
     "resonance_max_rank": 10,
@@ -44,6 +44,7 @@
     "seed_salt": 73129
   },
   "difficulty": {
+    "depth_index_stride": 5,
     "base_hp_multiplier": 0.90,
     "hp_growth_per_depth": 0.025,
     "base_damage_multiplier": 0.90,

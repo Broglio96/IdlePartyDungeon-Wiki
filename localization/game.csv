@@ -1,4 +1,10 @@
 keys,en,it
+"EGG HATCHING","EGG HATCHING","SCHIUSA DELL'UOVO"
+"A NEW COMPANION","A NEW COMPANION","UN NUOVO COMPAGNO"
+"The egg is stirring...","The egg is stirring...","L'uovo si sta muovendo..."
+"Tap to reveal","Tap to reveal","Tocca per rivelare"
+"Hatched!","Hatched!","Si è schiuso!"
+"Rare Species","Rare Species","Specie rara"
 "Source breakdown","Source breakdown","Ripartizione delle fonti"
 "%s class and stored promotion base","%s class and stored promotion base","Classe %s e base delle promozioni memorizzata"
 "Title","Title","Titolo"
@@ -60,8 +66,6 @@ keys,en,it
 "The main offensive attribute for Ranged heroes. It increases their Attack and therefore the power of their basic attacks and class skills; persistent class and Ascension passives are included in this combat-start total.","The main offensive attribute for Ranged heroes. It increases their Attack and therefore the power of their basic attacks and class skills; persistent class and Ascension passives are included in this combat-start total.","L'attributo offensivo principale degli eroi a Distanza. Aumenta il loro Attacco e quindi la potenza degli attacchi base e delle abilità di classe; le passive permanenti di classe e Ascensione sono incluse in questo totale di inizio combattimento."
 "The possible damage range of a normal basic attack after persistent class and Ascension passives, but before critical hits, combat-only bonuses, mist effects, and the target's defenses are applied.","The possible damage range of a normal basic attack after persistent class and Ascension passives, but before critical hits, combat-only bonuses, mist effects, and the target's defenses are applied.","L'intervallo di danno possibile di un normale attacco base dopo le passive permanenti di classe e Ascensione, ma prima di applicare colpi critici, bonus solo in combattimento, effetti della Nebbia e difese del bersaglio."
 "Controls the experience credited to this hero from the share awarded to living party members when an enemy is defeated. Account and activity reward multipliers are applied later and are not part of this hero combat-start total.","Controls the experience credited to this hero from the share awarded to living party members when an enemy is defeated. Account and activity reward multipliers are applied later and are not part of this hero combat-start total.","Controlla l'esperienza accreditata a questo eroe dalla quota assegnata ai membri del gruppo ancora vivi quando un nemico viene sconfitto. I moltiplicatori ricompensa dell'account e dell'attività vengono applicati in seguito e non fanno parte di questo totale di inizio combattimento."
-"Ascension · Balance: %s · Next point: level %s · Capstone: level %s, cost %s, requires %s spent · Row costs: %s / %s / %s / %s","Ascension · Balance: %s · Next point: level %s · Capstone: level %s, cost %s, requires %s spent · Row costs: %s / %s / %s / %s","Ascensione · Saldo: %s · Prossimo punto: livello %s · Apice: livello %s, costo %s, richiede %s spesi · Costi righe: %s / %s / %s / %s"
-"Ascension · Balance: %s · All %s points earned · Capstone: level %s, cost %s, requires %s spent · Row costs: %s / %s / %s / %s","Ascension · Balance: %s · All %s points earned · Capstone: level %s, cost %s, requires %s spent · Row costs: %s / %s / %s / %s","Ascensione · Saldo: %s · Tutti i %s punti ottenuti · Apice: livello %s, costo %s, richiede %s spesi · Costi righe: %s / %s / %s / %s"
 "%s SPENT · %s EARNED","%s SPENT · %s EARNED","%s SPESI · %s OTTENUTI"
 "NEXT ASCENSION POINT · LEVEL %s","NEXT ASCENSION POINT · LEVEL %s","PROSSIMO PUNTO ASCENSIONE · LIVELLO %s"
 "ALL %s ASCENSION POINTS EARNED","ALL %s ASCENSION POINTS EARNED","TUTTI I %s PUNTI ASCENSIONE OTTENUTI"
@@ -87,7 +91,7 @@ I gradi possono essere aggiunti e rimossi liberamente nel percorso attuale. I co
 "A hero's class sets their attack type, preferred attribute, equipment proficiencies, stats, and skills. Defeated enemies split XP among heroes still alive; a hero who falls loses 10% of their current XP. XP pauses at a promotion point until you choose a specialization. Promotion resets the displayed level for the new class, multiplies scalable stats, adds a random bonus to that class's favored stat, and replaces both skills. Elite promotion immediately unlocks Ascension at reset level 0; leveling again earns Ascension Points through level 50 while granting up to 10% extra stat growth. Open the Class Catalog to compare every specialization before choosing.","A hero's class sets their attack type, preferred attribute, equipment proficiencies, stats, and skills. Defeated enemies split XP among heroes still alive; a hero who falls loses 10% of their current XP. XP pauses at a promotion point until you choose a specialization. Promotion resets the displayed level for the new class, multiplies scalable stats, adds a random bonus to that class's favored stat, and replaces both skills. Elite promotion immediately unlocks Ascension at reset level 0; leveling again earns Ascension Points through level 50 while granting up to 10% extra stat growth. Open the Class Catalog to compare every specialization before choosing.","La classe di un eroe determina tipo di attacco, attributo preferito, competenze negli equipaggiamenti, statistiche e abilità. I nemici sconfitti dividono i PE tra gli eroi ancora vivi; un eroe caduto perde il 10% dei PE attuali. I PE si fermano a un punto di promozione finché non scegli una specializzazione. La promozione azzera il livello mostrato per la nuova classe, moltiplica le statistiche scalabili, aggiunge un bonus casuale alla statistica favorita dalla classe e sostituisce entrambe le abilità. La promozione élite sblocca subito l'Ascensione al livello 0; salire di nuovo di livello assegna Punti Ascensione fino al livello 50 e fino al 10% di crescita extra delle statistiche. Apri il Catalogo classi per confrontare tutte le specializzazioni prima di scegliere."
 "Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. Elite promotion unlocks Ascension immediately at reset level 0; subsequent levels earn 16 points through level 50. Choose one of four Ascendant Paths with choice rows of 4, 3, 2, and 1 options. Row costs are 1, 2, 2, and 1 points, with spend gates at 5, 9, and 15. The capstone requires post-reset level 50 and costs 1 point. Only changing paths consumes a crafted Sigil of Rebirth, made in the Workshop from two Pathless Embers dropped rarely by raid bosses.","Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. Elite promotion unlocks Ascension immediately at reset level 0; subsequent levels earn 16 points through level 50. Choose one of four Ascendant Paths with choice rows of 4, 3, 2, and 1 options. Row costs are 1, 2, 2, and 1 points, with spend gates at 5, 9, and 15. The capstone requires post-reset level 50 and costs 1 point. Only changing paths consumes a crafted Sigil of Rebirth, made in the Workshop from two Pathless Embers dropped rarely by raid bosses.","Ogni eroe ha sei percorsi runici permanenti nella scheda Rune. Ogni grado garantito costa 1 materiale da raid corrispondente, nell'ordine: Frammenti runici verdeggianti, mareali, astrali e dell'Eclissi per ciascun percorso. Rimuovere un eroe restituisce tutti i Frammenti runici investiti. La promozione élite sblocca subito l'Ascensione al livello 0; i livelli successivi assegnano 16 punti entro il livello 50. Scegli uno dei quattro Percorsi Ascendenti con righe di scelta da 4, 3, 2 e 1 opzioni. I costi delle righe sono 1, 2, 2 e 1 punti, con soglie di spesa a 5, 9 e 15. L'Apice richiede il livello 50 dopo l'azzeramento e costa 1 punto. Solo il cambio di percorso consuma un Emblema della Rinascita creato nel laboratorio con due Braci Senza Sentiero ottenute raramente dai boss dei raid."
 "Shows progress within the current class. Gaining levels increases Health and Attack. Reaching a class milestone pauses experience gain until the hero is promoted; elite promotion unlocks Ascension at reset level 0, and subsequent elite levels earn Ascension Points through level 50.","Shows progress within the current class. Gaining levels increases Health and Attack. Reaching a class milestone pauses experience gain until the hero is promoted; elite promotion unlocks Ascension at reset level 0, and subsequent elite levels earn Ascension Points through level 50.","Mostra l'avanzamento nella classe attuale. Salire di livello aumenta Salute e Attacco. Raggiungere un traguardo di classe sospende l'esperienza finché l'eroe non viene promosso; la promozione élite sblocca l'Ascensione al livello 0 e i livelli élite successivi assegnano Punti Ascensione fino al livello 50."
-"Elite promotion unlocks Ascension immediately at reset level 0. Subsequent levels earn %s points through level 50. Choose one of four Ascendant Paths with four choice rows of 4, 3, 2, and 1 options; row costs are 1, 2, 2, and 1 points. The capstone requires level 50 and 15 points spent. Choosing a first path is free, while leaving it later consumes a crafted Sigil of Rebirth.","Elite promotion unlocks Ascension immediately at reset level 0. Subsequent levels earn %s points through level 50. Choose one of four Ascendant Paths with four choice rows of 4, 3, 2, and 1 options; row costs are 1, 2, 2, and 1 points. The capstone requires level 50 and 15 points spent. Choosing a first path is free, while leaving it later consumes a crafted Sigil of Rebirth.","La promozione élite sblocca subito l'Ascensione al livello 0. I livelli successivi assegnano %s punti entro il livello 50. Scegli uno dei quattro Percorsi Ascendenti con quattro righe di scelta da 4, 3, 2 e 1 opzioni; i costi delle righe sono 1, 2, 2 e 1 punti. L'Apice richiede il livello 50 e 15 punti spesi. La scelta del primo percorso è gratuita, mentre abbandonarlo in seguito consuma un Emblema della Rinascita creato."
+"Elite promotion unlocks Ascension immediately at reset level 0. Subsequent levels earn %s points through level 50. Choose one of four Ascendant Paths with four choice rows of 4, 3, 2, and 1 options; row costs are 1, 2, 2, and 1 points, with spend gates at 5, 9, and 15. The capstone requires post-reset level 50 and costs 1 point. Choosing a first path is free, while changing paths later consumes a crafted Sigil of Rebirth.","Elite promotion unlocks Ascension immediately at reset level 0. Subsequent levels earn %s points through level 50. Choose one of four Ascendant Paths with four choice rows of 4, 3, 2, and 1 options; row costs are 1, 2, 2, and 1 points, with spend gates at 5, 9, and 15. The capstone requires post-reset level 50 and costs 1 point. Choosing a first path is free, while changing paths later consumes a crafted Sigil of Rebirth.","La promozione élite sblocca subito l'Ascensione al livello 0. I livelli successivi assegnano %s punti entro il livello 50. Scegli uno dei quattro Percorsi Ascendenti con quattro righe di scelta da 4, 3, 2 e 1 opzioni; i costi delle righe sono 1, 2, 2 e 1 punti, con soglie di spesa a 5, 9 e 15. L'Apice richiede il livello 50 dopo l'azzeramento e costa 1 punto. La scelta del primo percorso è gratuita, mentre cambiare percorso in seguito consuma un Emblema della Rinascita creato."
 "Fight contributions","Fight contributions","Statistiche combattimento"
 "Contributions","Contributions","Contributi"
 "Combat statistics","Combat statistics","Statistiche di combattimento"
@@ -124,6 +128,7 @@ I gradi possono essere aggiunti e rimossi liberamente nel percorso attuale. I co
 "Raid run time and records","Raid run time and records","Tempo e record del raid"
 "Live run time: %s","Live run time: %s","Tempo della sessione in corso: %s"
 "Best clear: %s · %s","Best clear: %s · %s","Miglior completamento: %s · %s"
+"Fastest clears","Fastest clears","Completamenti più veloci"
 "Recent clears","Recent clears","Completamenti recenti"
 "Combat record bests","Combat record bests","Migliori record di combattimento"
 "No raid clears recorded yet.","No raid clears recorded yet.","Nessun completamento raid ancora registrato."
@@ -135,6 +140,7 @@ I gradi possono essere aggiunti e rimossi liberamente nel percorso attuale. I co
 "Records","Records","Record"
 "Raid Records","Raid Records","Record dei raid"
 "RAID RECORDS","RAID RECORDS","RECORD DEL RAID"
+"FASTEST CLEARS","FASTEST CLEARS","COMPLETAMENTI PIÙ VELOCI"
 "RECENT CLEARS","RECENT CLEARS","COMPLETAMENTI RECENTI"
 "COMBAT RECORD BESTS","COMBAT RECORD BESTS","MIGLIORI RECORD DI COMBATTIMENTO"
 "FIGHT CONTRIBUTIONS","FIGHT CONTRIBUTIONS","CONTRIBUTI IN COMBATTIMENTO"
@@ -343,7 +349,7 @@ I gradi possono essere aggiunti e rimossi liberamente nel percorso attuale. I co
 "Google Play Games profile, achievements, and leaderboards","Google Play Games profile, achievements, and leaderboards","Profilo, obiettivi e classifiche di Google Play Games"
 "About Me","About Me","Chi sono"
 "A note from the developer","A note from the developer","Una nota dello sviluppatore"
-"Join Discord","Join Discord","Unisciti a Discord"
+"Join Discord","Join Discord","Discord"
 "Join the Idle Party Dungeon community on Discord","Join the Idle Party Dungeon community on Discord","Unisciti alla comunità di Idle Party Dungeon su Discord"
 "Wiki","Wiki","Wiki"
 "Open the Idle Party Dungeon wiki","Open the Idle Party Dungeon wiki","Apri la wiki di Idle Party Dungeon"
@@ -487,9 +493,6 @@ WPN","ANY
 WPN","QUALSIASI
 ARMA"
 "Raid set","Raid set","Set da raid"
-"2-PIECE","2-PIECE","2 PEZZI"
-"Unique accessory + ANY crafted raid weapon","Unique accessory + ANY crafted raid weapon","Accessorio unico + QUALSIASI arma da raid creata"
-"Complete the two-piece raid set to activate its additional effect.","Complete the two-piece raid set to activate its additional effect.","Completa il set da raid di due pezzi per attivare l'effetto aggiuntivo."
 "Class Name","Class Name","Nome classe"
 "SPECIALIZED CLASS","SPECIALIZED CLASS","CLASSE SPECIALIZZATA"
 "Class description","Class description","Descrizione della classe"
@@ -514,7 +517,7 @@ GARANTITO"
 "Eggs","Eggs","Uova"
 "Premium","Premium","Premium"
 "Hero Choices","Hero Choices","Scelte eroe"
-"Upgrades","Upgrades","Potenziamenti"
+"Upgrades","Upgrades","Migliorie"
 "Queue","Queue","Coda"
 "Battle","Battle","Battaglia"
 "Info","Info","Informazioni"
@@ -618,13 +621,11 @@ Revisione: %d | Eroi: %d | Monete: %d | Gemme: %d"
 "Saving, offline progress, and services","Saving, offline progress, and services","Salvataggio, progressi offline e servizi"
 "Recruit heroes in the Tavern, equip them from the Heroes page, then choose an unlocked dungeon and fill its party slots. A running dungeon or raid continues while the game is closed, with combat progress credited for up to 12 hours away. Return to a dungeon's chest to review its report and collect stored loot; collecting does not stop the expedition. Crafting has no 12-hour catch-up cap.","Recruit heroes in the Tavern, equip them from the Heroes page, then choose an unlocked dungeon and fill its party slots. A running dungeon or raid continues while the game is closed, with combat progress credited for up to 12 hours away. Return to a dungeon's chest to review its report and collect stored loot; collecting does not stop the expedition. Crafting has no 12-hour catch-up cap.","Recluta eroi nella Taverna, equipaggiali dalla pagina Eroi, poi scegli un dungeon sbloccato e riempi gli spazi del gruppo. Dungeon e raid attivi continuano mentre il gioco è chiuso, con progressi di combattimento riconosciuti per un massimo di 12 ore. Torna al forziere del dungeon per consultare il rapporto e raccogliere il bottino accumulato; la raccolta non interrompe la spedizione. La creazione non ha il limite di recupero di 12 ore."
 "City contains the Tavern, Shop, Inventory, and Crafting. Heroes is where you manage the roster, equipment, levels, and promotions. Dungeons and Raids let you assemble teams and track battles. Settings contains audio, mail, Google Play Games, and the game reference catalogs.","City contains the Tavern, Shop, Inventory, and Crafting. Heroes is where you manage the roster, equipment, levels, and promotions. Dungeons and Raids let you assemble teams and track battles. Settings contains audio, mail, Google Play Games, and the game reference catalogs.","La Città contiene Taverna, Negozio, Inventario e Creazione. In Eroi gestisci formazione, equipaggiamento, livelli e promozioni. Dungeon e Raid consentono di comporre squadre e seguire le battaglie. In Impostazioni trovi audio, posta, Google Play Games e i cataloghi di riferimento del gioco."
-"A hero's class sets their attack type, preferred attribute, equipment proficiencies, stats, and skills. Defeated enemies split XP among heroes still alive; a hero who falls loses 10% of their current XP. XP pauses at a promotion point until you choose a specialization. Promotion resets the displayed level for the new class, multiplies scalable stats, adds a random bonus to that class's favored stat, and replaces both skills. Elite heroes then level to 50 with up to 10% extra stat growth and unlock Ascension at the cap. Open the Class Catalog to compare every specialization before choosing.","A hero's class sets their attack type, preferred attribute, equipment proficiencies, stats, and skills. Defeated enemies split XP among heroes still alive; a hero who falls loses 10% of their current XP. XP pauses at a promotion point until you choose a specialization. Promotion resets the displayed level for the new class, multiplies scalable stats, adds a random bonus to that class's favored stat, and replaces both skills. Elite heroes then level to 50 with up to 10% extra stat growth and unlock Ascension at the cap. Open the Class Catalog to compare every specialization before choosing.","La classe di un eroe determina tipo di attacco, attributo preferito, competenze negli equipaggiamenti, statistiche e abilità. I nemici sconfitti dividono i PE tra gli eroi ancora vivi; un eroe caduto perde il 10% dei PE attuali. I PE si fermano a un punto di promozione finché non scegli una specializzazione. La promozione azzera il livello mostrato per la nuova classe, moltiplica le statistiche scalabili, aggiunge un bonus casuale alla statistica favorita dalla classe e sostituisce entrambe le abilità. Gli eroi élite salgono poi fino al livello 50, con fino al 10% di crescita extra delle statistiche, e al limite sbloccano l'Ascensione. Apri il Catalogo classi per confrontare tutte le specializzazioni prima di scegliere."
 "The Heroes header switches between grid and list layouts. Open roster settings to reorder heroes, sort them by base class, or remove an undeployed hero. Open a hero's detail card to rename them. Removing a hero returns every equipped item and all Rune Pieces invested in that hero, but the removed hero and their level, promotion, title, and Ascension progress cannot be recovered.","The Heroes header switches between grid and list layouts. Open roster settings to reorder heroes, sort them by base class, or remove an undeployed hero. Open a hero's detail card to rename them. Removing a hero returns every equipped item and all Rune Pieces invested in that hero, but the removed hero and their level, promotion, title, and Ascension progress cannot be recovered.","L'intestazione Eroi alterna le viste a griglia e a elenco. Apri le impostazioni della formazione per riordinare gli eroi, ordinarli per classe base o rimuovere un eroe non schierato. Apri la scheda dettagli di un eroe per rinominarlo. La rimozione restituisce ogni oggetto equipaggiato e tutti i Frammenti runici investiti, ma l'eroe rimosso e i suoi livello, promozione, titolo e progressi di Ascensione non possono essere recuperati."
-"Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.","Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.","Ogni nuovo arrivo in Taverna ha il 25% di probabilità di possedere un titolo innato. Il titolo resta con quell'eroe anche dopo rinomina e promozione. Il Tenace conferisce +10% Difesa; Il Protetto +10% Difesa magica; L'Agile +10% Schivata; Occhio di falco +10% Probabilità critica; Il Vigoroso +10% Salute; e Il Possente +10% Attacco."
+"Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.","Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.","Ogni nuovo arrivo in Taverna ha il 25% di probabilità di possedere un titolo innato. Il titolo resta con quell'eroe anche dopo rinomina e promozione. Il Tenace conferisce +10% Difesa; Il Protetto +10% Difesa magica; L'Agile +10% Schivata; Occhio di falco +10% Probabilità critica; Il Vigoroso +10% Salute; e Il Possente +10% Attacco."
 "Strength also increases Health. Melee heroes draw Attack from Strength, Ranged heroes from Dexterity, and Magic heroes from Intelligence. Intelligence also increases Mana Gain. Combatants act in Dexterity order. A basic attack grants the displayed Mana Gain even when the hit is evaded; at 100 mana, the hero spends the meter to attempt their active skill instead of a basic attack unless Silenced. If a skill has no valid action, the mana is kept and a basic attack is used. Passive skills trigger automatically from their stated conditions.","Strength also increases Health. Melee heroes draw Attack from Strength, Ranged heroes from Dexterity, and Magic heroes from Intelligence. Intelligence also increases Mana Gain. Combatants act in Dexterity order. A basic attack grants the displayed Mana Gain even when the hit is evaded; at 100 mana, the hero spends the meter to attempt their active skill instead of a basic attack unless Silenced. If a skill has no valid action, the mana is kept and a basic attack is used. Passive skills trigger automatically from their stated conditions.","Anche la Forza aumenta la Salute. Gli eroi da mischia ricavano l'Attacco dalla Forza, quelli a distanza dalla Destrezza e quelli magici dall'Intelligenza. L'Intelligenza aumenta anche il Guadagno mana. I combattenti agiscono in ordine di Destrezza. Un attacco base concede il Guadagno mana mostrato anche se viene schivato; a 100 mana l'eroe consuma la barra per tentare l'abilità attiva al posto dell'attacco base, salvo Silenzio. Se l'abilità non ha un'azione valida, il mana viene conservato e si usa un attacco base. Le abilità passive si attivano automaticamente alle condizioni indicate."
 "Defense reduces Melee and Ranged damage, while Magic Defense reduces Magic damage. Threat weights who direct attacks choose. Evade can avoid basic attacks and damaging skills; Immunity can resist a newly applied harmful status. Critical Chance controls critical frequency and Critical Damage its multiplier. Counter Chance can answer a surviving, Health-damaging Melee or Ranged basic hit; Magic Counter is the equivalent chance against Magic basic hits, and Counter Damage returns that percentage of Health damage taken. Lifesteal heals from Health damage dealt by basic attacks. Regeneration heals and Decay damages their owner after each basic attack. Healing scales healing performed and self-healing, while EXP Rate scales XP earned.","Defense reduces Melee and Ranged damage, while Magic Defense reduces Magic damage. Threat weights who direct attacks choose. Evade can avoid basic attacks and damaging skills; Immunity can resist a newly applied harmful status. Critical Chance controls critical frequency and Critical Damage its multiplier. Counter Chance can answer a surviving, Health-damaging Melee or Ranged basic hit; Magic Counter is the equivalent chance against Magic basic hits, and Counter Damage returns that percentage of Health damage taken. Lifesteal heals from Health damage dealt by basic attacks. Regeneration heals and Decay damages their owner after each basic attack. Healing scales healing performed and self-healing, while EXP Rate scales XP earned.","La Difesa riduce i danni da Mischia e a Distanza, mentre la Difesa magica riduce quelli Magici. La Minaccia pesa nella scelta dei bersagli degli attacchi diretti. La Schivata può evitare attacchi base e abilità dannose; l'Immunità può resistere a un nuovo stato negativo. Probabilità critica determina la frequenza dei critici e Danno critico il moltiplicatore. Probabilità di contrattacco può rispondere a un colpo base da Mischia o a Distanza che infligge danni alla Salute senza uccidere; Contrattacco magico è l'equivalente contro i colpi base Magici, mentre Danno da contrattacco restituisce quella percentuale dei danni alla Salute subiti. Rubavita cura in base ai danni alla Salute inflitti dagli attacchi base. Rigenerazione cura e Decadimento danneggia il proprietario dopo ogni attacco base. Cura amplifica le cure effettuate e l'autocura, mentre Tasso PE moltiplica i PE ottenuti."
 "Open a hero to manage one Weapon, one Armor, and two Accessory slots. Weapons and armor must match the hero's exact class proficiency; accessories are broadly usable, but an item marked unique-equipped cannot occupy both accessory slots on the same hero. Stat changes update a deployed hero immediately, and some Raid gear adds triggered effects beyond its visible totals. Inventory contains owned materials and unequipped gear; item details show bonuses, recipe relationships, quantity, and sell value. Selling is permanent.","Open a hero to manage one Weapon, one Armor, and two Accessory slots. Weapons and armor must match the hero's exact class proficiency; accessories are broadly usable, but an item marked unique-equipped cannot occupy both accessory slots on the same hero. Stat changes update a deployed hero immediately, and some Raid gear adds triggered effects beyond its visible totals. Inventory contains owned materials and unequipped gear; item details show bonuses, recipe relationships, quantity, and sell value. Selling is permanent.","Apri un eroe per gestire un'Arma, un'Armatura e due spazi Accessorio. Armi e armature devono corrispondere esattamente alla competenza della classe; gli accessori sono in genere utilizzabili da tutti, ma un oggetto con equipaggiamento unico non può occupare entrambi gli spazi accessorio sullo stesso eroe. Le modifiche alle statistiche aggiornano subito un eroe schierato e alcuni equipaggiamenti da raid aggiungono effetti attivati oltre ai totali visibili. L'Inventario contiene materiali posseduti ed equipaggiamento non indossato; i dettagli degli oggetti mostrano bonus, relazioni con ricette, quantità e valore di vendita. La vendita è definitiva."
-"Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths and spend at most 15 points. Every upgrade is available immediately after choosing a path, subject only to its rank, cost, and the 15-point budget. Resetting the current path or choosing another is free.","Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths and spend at most 15 points. Every upgrade is available immediately after choosing a path, subject only to its rank, cost, and the 15-point budget. Resetting the current path or choosing another is free.","Ogni eroe ha sei percorsi runici permanenti nella scheda Rune. Ogni grado garantito costa 1 materiale da raid corrispondente, nell'ordine: Frammenti runici verdeggianti, mareali, astrali e dell'Eclissi per ciascun percorso. Rimuovere un eroe restituisce tutti i Frammenti runici investiti. Un eroe élite al livello 50 sblocca l'Ascensione: scegli uno dei quattro Percorsi Ascendenti e spendi al massimo 15 punti. Dopo aver scelto un percorso, ogni potenziamento è disponibile subito: valgono solo il costo e il grado massimo del nodo, oltre al budget di 15 punti. Azzerare il percorso attuale o sceglierne un altro è gratuito."
 "Choose Craft in the City and open Recipes. Discovering any ingredient reveals a recipe; crafting also requires its dungeon tier, any required Raid first clear, enough ingredients, and the coin cost. Queuing a batch deducts those resources immediately. The Workshop processes jobs in order, one at a time, and larger batches take proportionally longer. Capacity adds waiting queue slots; Speed shortens current and future jobs. Canceling any queued job refunds all of its ingredients and coins. Crafting continues while closed and catches up for the full elapsed time, unlike the 12-hour combat cap.","Choose Craft in the City and open Recipes. Discovering any ingredient reveals a recipe; crafting also requires its dungeon tier, any required Raid first clear, enough ingredients, and the coin cost. Queuing a batch deducts those resources immediately. The Workshop processes jobs in order, one at a time, and larger batches take proportionally longer. Capacity adds waiting queue slots; Speed shortens current and future jobs. Canceling any queued job refunds all of its ingredients and coins. Crafting continues while closed and catches up for the full elapsed time, unlike the 12-hour combat cap.","Scegli Creazione nella Città e apri Ricette. Scoprire un qualsiasi ingrediente rivela una ricetta; per creare servono anche il grado del dungeon, l'eventuale prima vittoria nel Raid, ingredienti sufficienti e il costo in monete. Mettere in coda un lotto sottrae subito tali risorse. Il Laboratorio elabora i lavori in ordine, uno alla volta, e i lotti più grandi richiedono proporzionalmente più tempo. Capacità aggiunge spazi alla coda d'attesa; Velocità accorcia i lavori attuali e futuri. Annullare un lavoro in coda rimborsa tutti gli ingredienti e le monete. La creazione continua mentre il gioco è chiuso e recupera tutto il tempo trascorso, a differenza del limite di 12 ore del combattimento."
 "Choose an unlocked activity, assign eligible heroes, and start the run. Save Team stores that activity's exact formation, including empty positions; Load Team restores free saved heroes and reports any who were removed or deployed elsewhere. Dungeon chests collect accumulated loot without stopping the expedition. Mist directly adds enemy Evade; Mist Reduction protects its owner from enemy bonuses that scale with mist but does not remove that Evade, while Mist Damage converts the mist affecting a target into extra basic-attack damage. A normal Raid consumes its daily entry when started, even if failed or abandoned, and resets at 00:00 UTC. Raid enemies can drop their Rune Piece during a run; killing the boss adds its exclusive material and a chance at the rare accessory.","Choose an unlocked activity, assign eligible heroes, and start the run. Save Team stores that activity's exact formation, including empty positions; Load Team restores free saved heroes and reports any who were removed or deployed elsewhere. Dungeon chests collect accumulated loot without stopping the expedition. Mist directly adds enemy Evade; Mist Reduction protects its owner from enemy bonuses that scale with mist but does not remove that Evade, while Mist Damage converts the mist affecting a target into extra basic-attack damage. A normal Raid consumes its daily entry when started, even if failed or abandoned, and resets at 00:00 UTC. Raid enemies can drop their Rune Piece during a run; killing the boss adds its exclusive material and a chance at the rare accessory.","Scegli un'attività sbloccata, assegna eroi idonei e avvia la spedizione. Salva squadra memorizza la formazione esatta dell'attività, comprese le posizioni vuote; Carica squadra ripristina gli eroi salvati disponibili e segnala quelli rimossi o schierati altrove. I forzieri dei dungeon raccolgono il bottino accumulato senza interrompere la spedizione. La Nebbia aggiunge direttamente Schivata ai nemici; Riduzione nebbia protegge il proprietario dai bonus nemici che scalano con la nebbia ma non elimina quella Schivata, mentre Danno da nebbia converte la nebbia sul bersaglio in danni extra degli attacchi base. Un Raid normale consuma l'ingresso giornaliero all'avvio, anche se fallito o abbandonato, e si azzera alle 00:00 UTC. I nemici del Raid possono lasciare il proprio Frammento runico durante la spedizione; uccidere il boss aggiunge il suo materiale esclusivo e una probabilità di ottenere l'accessorio raro."
 "The Tavern refreshes all remaining offers together every three hours before upgrades, always including a healer when one is available. Recruiting removes that offer, and the coin price rises with current roster size. Tavern upgrades add roster capacity, accelerate the current and future timer, or add choices; later ranks can require progression items. The Shop's four coin bundles refresh every three hours, while gem-funded Tavern and Workshop capacity each have one weekly stock and cap at rank 3. Copper, silver, gold, and platinum are denominations of the same coin wallet. Catalog names and loot reveal through encounters and drops.","The Tavern refreshes all remaining offers together every three hours before upgrades, always including a healer when one is available. Recruiting removes that offer, and the coin price rises with current roster size. Tavern upgrades add roster capacity, accelerate the current and future timer, or add choices; later ranks can require progression items. The Shop's four coin bundles refresh every three hours, while gem-funded Tavern and Workshop capacity each have one weekly stock and cap at rank 3. Copper, silver, gold, and platinum are denominations of the same coin wallet. Catalog names and loot reveal through encounters and drops.","La Taverna aggiorna insieme tutte le offerte rimaste ogni tre ore prima dei potenziamenti, includendo sempre un guaritore quando disponibile. Reclutare rimuove quell'offerta e il prezzo in monete cresce con la dimensione attuale della formazione. I potenziamenti della Taverna aumentano la capienza, accelerano il timer attuale e quelli futuri oppure aggiungono scelte; i gradi successivi possono richiedere oggetti di progressione. I quattro pacchetti in monete del Negozio si aggiornano ogni tre ore, mentre gli aumenti di capienza di Taverna e Laboratorio acquistati con gemme hanno ciascuno una disponibilità settimanale e arrivano al grado 3. Rame, argento, oro e platino sono tagli dello stesso portafoglio di monete. Nomi e bottini dei cataloghi si svelano tramite incontri e ritrovamenti."
@@ -972,7 +973,7 @@ Questi eroi non hanno potuto unirsi:
 "OWNED","OWNED","POSSEDUTO"
 "Purchase the Welcome Premium Pack","Purchase the Welcome Premium Pack","Acquista il Pacchetto Premium di benvenuto"
 "Pack delivered; Google Play is finalizing the purchase","Pack delivered; Google Play is finalizing the purchase","Pacchetto consegnato; Google Play sta completando l'acquisto"
-"Welcome Premium Pack unlocked · Trickster joined your roster","Welcome Premium Pack unlocked · Trickster joined your roster","Pacchetto Premium di benvenuto sbloccato · l'Imbroglione si è unito alla formazione"
+"Welcome Premium Pack unlocked · Trickster joined your roster","Welcome Premium Pack unlocked · Trickster joined your roster","Pacchetto Premium di benvenuto sbloccato · l'Ingannatore si è unito alla formazione"
 "Permanent account entitlement","Permanent account entitlement","Diritto permanente dell'account"
 "Legendary Pet Pack","Legendary Pet Pack","Pacchetto Famiglio Leggendario"
 "Unlock the tier-6 Lightless Legendary Dreadbell Whale — a level 1 companion with 5 of its family's 6 possible bonuses: Magic Defense, Healing, Immunity, Mana Gain, Mist Reduction, and Regeneration. Statistically identical to a hatched Legendary, never better. Includes 1,000 Gems.","Unlock the tier-6 Lightless Legendary Dreadbell Whale — a level 1 companion with 5 of its family's 6 possible bonuses: Magic Defense, Healing, Immunity, Mana Gain, Mist Reduction, and Regeneration. Statistically identical to a hatched Legendary, never better. Includes 1,000 Gems.","Sblocca la Leggendaria Balena della campana funesta della famiglia Senza Luce (grado 6) — un compagno di livello 1 con 5 dei 6 possibili bonus della famiglia: Difesa magica, Cura, Immunità, Guadagno di mana, Riduzione nebbia e Rigenerazione. Statisticamente identico a un esemplare Leggendario ottenuto per schiusa, mai superiore. Include 1.000 Gemme."
@@ -1104,7 +1105,8 @@ La ricompensa viene concessa al termine della pubblicità e può essere riscossa
 "%s/%s pets · %s eggs","%s/%s pets · %s eggs","%s/%s famigli · %s uova"
 "%s %s%% (%s bonuses)","%s %s%% (%s bonuses)","%s %s%% (%s bonus)"
 "No pets hatched yet. Boss eggs can be opened from the Eggs tab.","No pets hatched yet. Boss eggs can be opened from the Eggs tab.","Nessun famiglio è ancora nato. Le uova dei boss possono essere aperte dalla scheda Uova."
-"Boss eggs drop at 15%%. Hatch odds (rarity / party bonuses): %s.","Boss eggs drop at 15%%. Hatch odds (rarity / party bonuses): %s.","Le uova dei boss hanno una probabilità del 15%%. Probabilità di schiusa (rarità / bonus al gruppo): %s."
+"%s%% on an eligible dungeon boss and %s%% on a Raid boss","%s%% on an eligible dungeon boss and %s%% on a Raid boss","%s%% su un boss di dungeon idoneo e %s%% su un boss di Raid"
+"Boss eggs drop at %s. Hatch odds (rarity / party bonuses): %s.","Boss eggs drop at %s. Hatch odds (rarity / party bonuses): %s.","Le uova dei boss cadono con probabilità %s. Probabilità di schiusa (rarità / bonus al gruppo): %s."
 "Legendary pity: %s/%s","Legendary pity: %s/%s","Garanzia Leggendario: %s/%s"
 "HATCH","HATCH","SCHIUDI"
 "Hatch %s","Hatch %s","Schiudi %s"
@@ -1168,6 +1170,7 @@ Prezzo di vendita:"
 "Materials only","Materials only","Solo materiali"
 "Cost:","Cost:","Costo:"
 "· Requires first raid clear","· Requires first raid clear","· Richiede il primo completamento del raid"
+"Requires first raid clear","Requires first raid clear","Richiede il primo completamento del raid"
 "Inspect %s","Inspect %s","Esamina %s"
 "Unknown item","Unknown item","Oggetto sconosciuto"
 "FULL","FULL","PIENO"
@@ -1185,9 +1188,12 @@ Prezzo di vendita:"
 "Craft %s","Craft %s","Crea %s"
 "All crafting slots are occupied. Upgrade the workshop or wait for a batch to finish.","All crafting slots are occupied. Upgrade the workshop or wait for a batch to finish.","Tutti gli slot di creazione sono occupati. Potenzia il laboratorio o attendi che un lotto finisca."
 "There are not enough ingredients or Coins for this recipe.","There are not enough ingredients or Coins for this recipe.","Non ci sono abbastanza ingredienti o Monete per questa ricetta."
+"There are not enough ingredients for this recipe.","There are not enough ingredients for this recipe.","Non ci sono abbastanza ingredienti per questa ricetta."
 "Choose any number of crafts to add as one batch.","Choose any number of crafts to add as one batch.","Scegli quante creazioni aggiungere come lotto unico."
 "Batch time: %s · Speed +%s%%","Batch time: %s · Speed +%s%%","Durata lotto: %s · Velocità +%s%%"
 "No discovered crafting recipes match this filter.","No discovered crafting recipes match this filter.","Nessuna ricetta di creazione scoperta corrisponde a questo filtro."
+"Undiscovered","Undiscovered","Non scoperte"
+"No undiscovered recipe uses a material you own.","No undiscovered recipe uses a material you own.","Nessuna ricetta non scoperta usa un materiale che possiedi."
 "QUEUE","QUEUE","CODA"
 "SPEED","SPEED","VELOCITÀ"
 "Workshop improvements","Workshop improvements","Migliorie del laboratorio"
@@ -1211,7 +1217,6 @@ Tutti i materiali riservati saranno rimborsati."
 "Ascension · %s","Ascension · %s","Ascensione · %s"
 "CHANGE PATH","CHANGE PATH","CAMBIA PERCORSO"
 "Refund all points and return to the four Ascendant Paths.","Refund all points and return to the four Ascendant Paths.","Rimborsa tutti i punti e torna ai quattro Percorsi ascendenti."
-"Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths and invest up to %s points. A path contains 25 points of upgrades, so every completed build is a deliberate choice. Changing paths is free.","Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths and invest up to %s points. A path contains 25 points of upgrades, so every completed build is a deliberate choice. Changing paths is free.","Il livello élite 50 sblocca l'Ascensione. Scegli uno dei quattro Percorsi ascendenti e investi fino a %s punti. Un percorso contiene 25 punti di potenziamenti, quindi ogni configurazione completa richiede scelte precise. Cambiare percorso è gratuito."
 "CHOOSE AN ASCENDANT PATH","CHOOSE AN ASCENDANT PATH","SCEGLI UN PERCORSO ASCENDENTE"
 "%s PATH","%s PATH","PERCORSO %s"
 "ASCENDANT","ASCENDANT","ASCENDENTE"
@@ -1252,7 +1257,7 @@ PASSIVA · %s
 The Tavern presents base-class recruits with a possible innate title. The recruitment price rises with the number of heroes currently on your roster; recruiting removes only the chosen offer.
 
 [b]Innate titles[/b]
-Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.
+Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.
 
 [b]Hero Choices[/b]
 The remaining offers refresh together when the Tavern timer reaches zero. Each fresh list includes a healer when one is available. Your roster must have room before a hero can join.
@@ -1263,7 +1268,7 @@ Permanent Tavern upgrades add roster capacity, shorten the current and future ar
 The Tavern presents base-class recruits with a possible innate title. The recruitment price rises with the number of heroes currently on your roster; recruiting removes only the chosen offer.
 
 [b]Innate titles[/b]
-Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; The Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.
+Each new Tavern arrival has a 25% chance to possess an innate title. A title stays with that hero through renaming and promotion. The Stalwart grants +10% Defense; The Warded grants +10% Magic Defense; The Nimble grants +10% Evade; Keen-Eyed grants +10% Critical Chance; The Vigorous grants +10% Health; and The Forceful grants +10% Attack.
 
 [b]Hero Choices[/b]
 The remaining offers refresh together when the Tavern timer reaches zero. Each fresh list includes a healer when one is available. Your roster must have room before a hero can join.
@@ -1355,24 +1360,57 @@ Il Laboratorio elabora i lavori in coda nell'ordine, uno alla volta. Usa Coda pe
 Annullare un lavoro in coda rimborsa tutti gli ingredienti e il costo in monete. La creazione continua mentre il gioco è chiuso e recupera tutto il tempo trascorso. Usa Ricette per esplorare i percorsi svelati scoprendo almeno un ingrediente."
 "[b]Hatch and train expedition companions[/b]
 
-Drowned Tollkeeper, Chimera Matron, and the four permanent Raid bosses each have a fixed 15% chance to drop their family egg. Hatch odds and party bonuses are {PET_RARITY_SUMMARY}. Assign one available pet to a dungeon or Raid; it earns Bond XP from completed encounters and strengthens its effects through level 20. A pet selected during party setup is not active yet: its bonuses and deployment begin only when that dungeon or Raid starts.","[b]Hatch and train expedition companions[/b]
+Drowned Tollkeeper, Glasswing Astromancer, and the four permanent Raid bosses each drop their family egg at {PET_EGG_DROP_SUMMARY}. Dungeon egg bosses pay out more per kill because you only meet them while that dungeon is your target, while every Raid boss is reachable once a day for as long as you play. Hatch odds and party bonuses are {PET_RARITY_SUMMARY}. Assign one available pet to a dungeon or Raid; it earns Bond XP from completed encounters and strengthens its effects through level 20. A pet selected during party setup is not active yet: its bonuses and deployment begin only when that dungeon or Raid starts.","[b]Hatch and train expedition companions[/b]
 
-Drowned Tollkeeper, Chimera Matron, and the four permanent Raid bosses each have a fixed 15% chance to drop their family egg. Hatch odds and party bonuses are {PET_RARITY_SUMMARY}. Assign one available pet to a dungeon or Raid; it earns Bond XP from completed encounters and strengthens its effects through level 20. A pet selected during party setup is not active yet: its bonuses and deployment begin only when that dungeon or Raid starts.","[b]Schiudi e addestra i famigli da spedizione[/b]
+Drowned Tollkeeper, Glasswing Astromancer, and the four permanent Raid bosses each drop their family egg at {PET_EGG_DROP_SUMMARY}. Dungeon egg bosses pay out more per kill because you only meet them while that dungeon is your target, while every Raid boss is reachable once a day for as long as you play. Hatch odds and party bonuses are {PET_RARITY_SUMMARY}. Assign one available pet to a dungeon or Raid; it earns Bond XP from completed encounters and strengthens its effects through level 20. A pet selected during party setup is not active yet: its bonuses and deployment begin only when that dungeon or Raid starts.","[b]Schiudi e addestra i famigli da spedizione[/b]
 
-Il Gabelliere annegato, la Matrona chimera e i quattro boss permanenti dei Raid hanno ciascuno una probabilità fissa del 15% di lasciare l'uovo della propria famiglia. Le probabilità di schiusa e i bonus al gruppo sono {PET_RARITY_SUMMARY}. Assegna un famiglio disponibile a un dungeon o Raid: ottiene PE Legame dagli scontri completati e rafforza i suoi effetti fino al livello 20. Un famiglio selezionato durante la preparazione del gruppo non è ancora attivo: i suoi bonus e il suo impiego iniziano solo all'avvio del dungeon o Raid."
-"[b]Shape an elite hero's final build[/b]
+Il Gabelliere annegato, l'Astromante Alacristallo e i quattro boss permanenti dei Raid lasciano l'uovo della propria famiglia con probabilità {PET_EGG_DROP_SUMMARY}. I boss dei dungeon rendono di più per uccisione perché li incontri solo finché quel dungeon è il tuo obiettivo, mentre ogni boss dei Raid resta raggiungibile una volta al giorno per sempre. Le probabilità di schiusa e i bonus al gruppo sono {PET_RARITY_SUMMARY}. Assegna un famiglio disponibile a un dungeon o Raid: ottiene PE Legame dagli scontri completati e rafforza i suoi effetti fino al livello 20. Un famiglio selezionato durante la preparazione del gruppo non è ancora attivo: i suoi bonus e il suo impiego iniziano solo all'avvio del dungeon o Raid."
+"[b]Earn rotating Daily and Weekly rewards[/b]
 
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then invest up to 15 points across its illustrated upgrade nodes.
+[b]Automatic progress[/b]
+Quests need no accept step. Normal combat, dungeon and raid clears, finished crafts, and Coins earned update them automatically. Supported offline combat and crafting catch-up count through the same gameplay events.
 
-Every Basic, Awakened, and capstone upgrade is available immediately after choosing a path. Each node shows its rank and per-rank cost. Resetting points or changing paths is free.","[b]Shape an elite hero's final build[/b]
+[b]Daily and weekly resets[/b]
+Daily Quests reset at 00:00 UTC. Weekly Quests reset Monday at 00:00 UTC. A Weekly board created after Monday scales its targets to the days remaining in that week.
 
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then invest up to 15 points across its illustrated upgrade nodes.
+[b]Claims and expiry[/b]
+Claim completed rewards whenever you like. Completed rewards left unclaimed are granted automatically at reset. Incomplete Quests expire without a penalty.
 
-Every Basic, Awakened, and capstone upgrade is available immediately after choosing a path. Each node shows its rank and per-rank cost. Resetting points or changing paths is free.","[b]Definisci la configurazione finale di un eroe élite[/b]
+[b]Quest ranks[/b]
+Ranks add reward bonuses and can add Daily or Weekly slots. Rank upgrades cost Coins, never Gems, and apply only when each next board resets; current boards and rewards stay frozen.
 
-L'Ascensione si sblocca al livello élite 50. Scegli uno dei quattro Percorsi ascendenti, poi investi fino a 15 punti nei nodi di potenziamento illustrati.
+[b]No chores or penalties[/b]
+There are no streaks, rerolls, missed-day penalties, rewarded-ad requirements, or premium-purchase requirements. Keep playing the activities you already use.","[b]Earn rotating Daily and Weekly rewards[/b]
 
-Tutti i potenziamenti Base, Risvegliati e vertice sono disponibili subito dopo aver scelto un percorso. Ogni nodo mostra il proprio grado e il costo per grado. Azzerare i punti o cambiare percorso è gratuito."
+[b]Automatic progress[/b]
+Quests need no accept step. Normal combat, dungeon and raid clears, finished crafts, and Coins earned update them automatically. Supported offline combat and crafting catch-up count through the same gameplay events.
+
+[b]Daily and weekly resets[/b]
+Daily Quests reset at 00:00 UTC. Weekly Quests reset Monday at 00:00 UTC. A Weekly board created after Monday scales its targets to the days remaining in that week.
+
+[b]Claims and expiry[/b]
+Claim completed rewards whenever you like. Completed rewards left unclaimed are granted automatically at reset. Incomplete Quests expire without a penalty.
+
+[b]Quest ranks[/b]
+Ranks add reward bonuses and can add Daily or Weekly slots. Rank upgrades cost Coins, never Gems, and apply only when each next board resets; current boards and rewards stay frozen.
+
+[b]No chores or penalties[/b]
+There are no streaks, rerolls, missed-day penalties, rewarded-ad requirements, or premium-purchase requirements. Keep playing the activities you already use.","[b]Ottieni ricompense giornaliere e settimanali a rotazione[/b]
+
+[b]Progresso automatico[/b]
+Le missioni non richiedono accettazione. Il combattimento normale, i completamenti di dungeon e raid, le creazioni terminate e le monete ottenute le aggiornano automaticamente. Il recupero offline supportato per combattimento e creazione conta tramite gli stessi eventi di gioco.
+
+[b]Ripristini giornalieri e settimanali[/b]
+Le missioni giornaliere si ripristinano alle 00:00 UTC. Le missioni settimanali si ripristinano lunedì alle 00:00 UTC. Una serie settimanale creata dopo lunedì adatta gli obiettivi ai giorni rimasti nella settimana.
+
+[b]Riscossione e scadenza[/b]
+Riscuoti le ricompense completate quando vuoi. Le ricompense completate non riscosse vengono assegnate automaticamente al ripristino. Le missioni incomplete scadono senza penalità.
+
+[b]Ranghi missione[/b]
+I ranghi aggiungono bonus alle ricompense e possono aggiungere slot giornalieri o settimanali. I potenziamenti costano monete, mai gemme, e si applicano solo quando si ripristina ciascuna serie successiva; le serie e le ricompense attuali restano invariate.
+
+[b]Nessun obbligo o penalità[/b]
+Non ci sono serie consecutive, rilanci, penalità per giorni saltati, requisiti di pubblicità con ricompensa o acquisti premium. Continua a giocare alle attività che già utilizzi."
 " - available"," - available"," - disponibile"
 " - deployed in %s"," - deployed in %s"," - schierato in %s"
 " - Owned x%s"," - Owned x%s"," - Posseduti x%s"
@@ -1809,21 +1847,6 @@ Ogni checkpoint di dieci piani aumenta permanentemente di uno la capienza per il
 "Consume 1 %s to release %s from %s? Every spent point is refunded and all four Ascendant Paths reopen. Hero level, equipment, and runes are kept; no path bonuses apply until a new path is chosen.","Consume 1 %s to release %s from %s? Every spent point is refunded and all four Ascendant Paths reopen. Hero level, equipment, and runes are kept; no path bonuses apply until a new path is chosen.","Consumare 1 %s per liberare %s da %s? Ogni punto speso viene rimborsato e i quattro Percorsi ascendenti si riaprono. Livello dell'eroe, equipaggiamento e rune vengono mantenuti; nessun bonus di percorso si applica finché non viene scelto un nuovo percorso."
 "A %s is required for this respec.","A %s is required for this respec.","Per questa ridistribuzione serve un %s."
 "[color=#e7d45b]A rare %s smolders in the remains.[/color]","[color=#e7d45b]A rare %s smolders in the remains.[/color]","[color=#e7d45b]Una rara %s arde tra i resti.[/color]"
-"Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths and invest up to %s points. A path contains 25 points of upgrades, so every completed build is a deliberate choice. Choosing a first path is free; leaving it later consumes a crafted Sigil of Rebirth.","Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths and invest up to %s points. A path contains 25 points of upgrades, so every completed build is a deliberate choice. Choosing a first path is free; leaving it later consumes a crafted Sigil of Rebirth.","Il livello élite 50 sblocca l'Ascensione. Scegli uno dei quattro Percorsi ascendenti e investi fino a %s punti. Un percorso contiene 25 punti di potenziamenti, quindi ogni configurazione completa richiede scelte precise. La scelta del primo percorso è gratuita; abbandonarlo in seguito consuma un Emblema della Rinascita creato."
-"Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths and spend at most 15 points. Every upgrade is available immediately after choosing a path, subject only to its rank, cost, and the 15-point budget. Resetting the current path consumes a crafted Seal of Reflection; switching to another path consumes a crafted Sigil of Rebirth. Both are crafted in the Workshop from the Pathless Ember, a rare raid-boss drop.","Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths and spend at most 15 points. Every upgrade is available immediately after choosing a path, subject only to its rank, cost, and the 15-point budget. Resetting the current path consumes a crafted Seal of Reflection; switching to another path consumes a crafted Sigil of Rebirth. Both are crafted in the Workshop from the Pathless Ember, a rare raid-boss drop.","Ogni eroe ha sei percorsi runici permanenti nella scheda Rune. Ogni grado garantito costa 1 materiale da raid corrispondente, nell'ordine: Frammenti runici verdeggianti, mareali, astrali e dell'Eclissi per ciascun percorso. Rimuovere un eroe restituisce tutti i Frammenti runici investiti. Un eroe élite al livello 50 sblocca l'Ascensione: scegli uno dei quattro Percorsi Ascendenti e spendi al massimo 15 punti. Dopo aver scelto un percorso, ogni potenziamento è disponibile subito: valgono solo il costo e il grado massimo del nodo, oltre al budget di 15 punti. Azzerare il percorso attuale consuma un Sigillo della Riflessione creato; passare a un altro percorso consuma un Emblema della Rinascita creato. Entrambi si creano nel laboratorio dalla Brace Senza Sentiero, un raro bottino dei boss dei raid."
-"[b]Shape an elite hero's final build[/b]
-
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then invest up to 15 points across its illustrated upgrade nodes.
-
-Every Basic, Awakened, and capstone upgrade is available immediately after choosing a path. Each node shows its rank and per-rank cost. Resetting points consumes a Seal of Reflection and changing paths consumes a Sigil of Rebirth; craft both in the Workshop from a Pathless Ember, a rare raid-boss drop.","[b]Shape an elite hero's final build[/b]
-
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then invest up to 15 points across its illustrated upgrade nodes.
-
-Every Basic, Awakened, and capstone upgrade is available immediately after choosing a path. Each node shows its rank and per-rank cost. Resetting points consumes a Seal of Reflection and changing paths consumes a Sigil of Rebirth; craft both in the Workshop from a Pathless Ember, a rare raid-boss drop.","[b]Definisci la configurazione finale di un eroe élite[/b]
-
-L'Ascensione si sblocca al livello élite 50. Scegli uno dei quattro Percorsi ascendenti, poi investi fino a 15 punti nei nodi di potenziamento illustrati.
-
-Tutti i potenziamenti Base, Risvegliati e vertice sono disponibili subito dopo aver scelto un percorso. Ogni nodo mostra il proprio grado e il costo per grado. Azzerare i punti consuma un Sigillo della Riflessione e cambiare percorso consuma un Emblema della Rinascita; creali entrambi nel laboratorio da una Brace Senza Sentiero, un raro bottino dei boss dei raid."
 "Active: %s · %s · %s","Active: %s · %s · %s","Attivo: %s · %s · %s"
 "Other class types:","Other class types:","Altri tipi di classe:"
 "Class types:","Class types:","Tipi di classe:"
@@ -1858,74 +1881,18 @@ Tutti i potenziamenti Base, Risvegliati e vertice sono disponibili subito dopo a
 "Permission needed","Permission needed","Autorizzazione necessaria"
 "Blocked by system settings","Blocked by system settings","Bloccato dalle impostazioni di sistema"
 "Not available on this device","Not available on this device","Non disponibile su questo dispositivo"
-"PICK","PICK","SCEGLI"
-"PICKED","PICKED","SCELTO"
-"CLAIM","CLAIM","RISCUOTI"
 "LOCKED","LOCKED","BLOCCATO"
-"ROW TAKEN","ROW TAKEN","RIGA OCCUPATA"
-"Pick one option in this row. Picking is free.","Pick one option in this row. Picking is free.","Scegli una sola opzione in questa riga. La scelta è gratuita."
-"Invest points to rank up this pick.","Invest points to rank up this pick.","Investi punti per aumentare il grado di questa scelta."
-"Another option holds this row. Switching consumes a %s.","Another option holds this row. Switching consumes a %s.","Un'altra opzione occupa questa riga. Cambiare consuma un %s."
 "Unlocks after spending %s Ascension Points.","Unlocks after spending %s Ascension Points.","Si sblocca dopo aver speso %s Punti Ascensione."
-"Granted free once all %s points are invested.","Granted free once all %s points are invested.","Concesso gratuitamente una volta investiti tutti i %s punti."
-"Claim this capstone for free.","Claim this capstone for free.","Riscuoti gratuitamente questo coronamento."
 "UNLOCKS AT %s SPENT","UNLOCKS AT %s SPENT","SI SBLOCCA A %s SPESI"
-"%s · RANK %s/%s · FREE AT FULL INVESTMENT","%s · RANK %s/%s · FREE AT FULL INVESTMENT","%s · GRADO %s/%s · GRATIS A INVESTIMENTO COMPLETO"
-"SWITCH · 1 %s","SWITCH · 1 %s","CAMBIA · 1 %s"
-"Switch this row's pick to %s. Consumes one %s and refunds this row's invested points.","Switch this row's pick to %s. Consumes one %s and refunds this row's invested points.","Cambia la scelta di questa riga in %s. Consuma un %s e rimborsa i punti investiti nella riga."
-"Craft a %s in the Workshop to switch this row's pick.","Craft a %s in the Workshop to switch this row's pick.","Crea un %s nel laboratorio per cambiare la scelta di questa riga."
-"INVEST ALL %s POINTS TO UNLOCK","INVEST ALL %s POINTS TO UNLOCK","INVESTI TUTTI I %s PUNTI PER SBLOCCARE"
 "Spend Ascension Points in earlier rows to unlock this row.","Spend Ascension Points in earlier rows to unlock this row.","Spendi Punti Ascensione nelle righe precedenti per sbloccare questa riga."
-"CLAIM CAPSTONE · FREE","CLAIM CAPSTONE · FREE","RISCUOTI CORONAMENTO · GRATIS"
-"Claim %s. The capstone is granted free at full investment.","Claim %s. The capstone is granted free at full investment.","Riscuoti %s. Il coronamento è concesso gratuitamente a investimento completo."
-"PICK & INVEST · %s POINT","PICK & INVEST · %s POINT","SCEGLI E INVESTI · %s PUNTO"
-"PICK & INVEST · %s POINTS","PICK & INVEST · %s POINTS","SCEGLI E INVESTI · %s PUNTI"
-"Pick %s for this row and add its first rank. Picking is free.","Pick %s for this row and add its first rank. Picking is free.","Scegli %s per questa riga e aggiungi il suo primo grado. La scelta è gratuita."
 "REMOVE · %s POINT","REMOVE · %s POINT","RIMUOVI · %s PUNTO"
 "REMOVE · %s POINTS","REMOVE · %s POINTS","RIMUOVI · %s PUNTI"
 "Remove one rank from %s and return %s to the available budget.","Remove one rank from %s and return %s to the available budget.","Rimuovi un grado da %s e restituisci %s al budget disponibile."
 "A later row's invested points depend on this one staying spent.","A later row's invested points depend on this one staying spent.","I punti investiti in una riga successiva dipendono dal fatto che questa riga resti spesa."
 "ROW ACTIVE","ROW ACTIVE","RIGA ATTIVA"
 "Remove every rank from %s before adding a different option in this row.","Remove every rank from %s before adding a different option in this row.","Rimuovi ogni grado da %s prima di aggiungere un'opzione diversa in questa riga."
-"ADD · FREE","ADD · FREE","AGGIUNGI · GRATIS"
-"Add this capstone and select it automatically.","Add this capstone and select it automatically.","Aggiungi questo coronamento e selezionalo automaticamente."
 "Add the first rank to %s and select it automatically for this row.","Add the first rank to %s and select it automatically for this row.","Aggiungi il primo grado a %s e selezionalo automaticamente per questa riga."
-"REMOVE · FREE","REMOVE · FREE","RIMUOVI · GRATIS"
-"Remove %s and clear this row's selection.","Remove %s and clear this row's selection.","Rimuovi %s e libera la selezione di questa riga."
-"Add this capstone for free.","Add this capstone for free.","Aggiungi gratuitamente questo coronamento."
 "Add the first rank to select this option automatically.","Add the first rank to select this option automatically.","Aggiungi il primo grado per selezionare automaticamente questa opzione."
-"Switch this row's pick?","Switch this row's pick?","Cambiare la scelta di questa riga?"
-"Consume 1 %s to switch %s's %s pick from %s to %s? The row's %s invested points return to the budget. Other rows keep their picks and ranks.","Consume 1 %s to switch %s's %s pick from %s to %s? The row's %s invested points return to the budget. Other rows keep their picks and ranks.","Consumare 1 %s per cambiare la scelta di %s nella riga %s da %s a %s? I %s punti investiti nella riga tornano al budget. Le altre righe mantengono scelte e gradi."
-"Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths. Each path offers four choice rows of 4, 3, 2, and 1 options: pick one option per row for free, then invest up to %s points to rank your picks. More rows unlock as you spend, so every completed build is a deliberate choice. Choosing a first path is free; leaving it later consumes a crafted Sigil of Rebirth.","Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths. Each path offers four choice rows of 4, 3, 2, and 1 options: pick one option per row for free, then invest up to %s points to rank your picks. More rows unlock as you spend, so every completed build is a deliberate choice. Choosing a first path is free; leaving it later consumes a crafted Sigil of Rebirth.","Il livello élite 50 sblocca l'Ascensione. Scegli uno dei quattro Percorsi ascendenti. Ogni percorso offre quattro righe di scelta con 4, 3, 2 e 1 opzioni: scegli gratuitamente un'opzione per riga, poi investi fino a %s punti per aumentare il grado delle tue scelte. Altre righe si sbloccano man mano che spendi, quindi ogni configurazione completa richiede scelte precise. La scelta del primo percorso è gratuita; abbandonarlo in seguito consuma un Emblema della Rinascita creato."
-"Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths. Each path offers four choice rows of 4, 3, 2, and 1 options: adding a first rank selects that option automatically, and removing its last rank clears the row for a free reassignment. Invest up to %s points; more rows unlock as you spend. Choosing a first path is free, while leaving it later consumes a crafted Sigil of Rebirth.","Elite level 50 unlocks Ascension. Choose one of four Ascendant Paths. Each path offers four choice rows of 4, 3, 2, and 1 options: adding a first rank selects that option automatically, and removing its last rank clears the row for a free reassignment. Invest up to %s points; more rows unlock as you spend. Choosing a first path is free, while leaving it later consumes a crafted Sigil of Rebirth.","Il livello élite 50 sblocca l'Ascensione. Scegli uno dei quattro Percorsi ascendenti. Ogni percorso offre quattro righe di scelta con 4, 3, 2 e 1 opzioni: aggiungere un primo grado seleziona automaticamente l'opzione e rimuovere l'ultimo grado libera la riga per una ridistribuzione gratuita. Investi fino a %s punti; altre righe si sbloccano man mano che spendi. La scelta del primo percorso è gratuita, mentre abbandonarlo in seguito consuma un Emblema della Rinascita creato."
-"Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths, then pick one option in each of its four choice rows of 4, 3, 2, and 1 options. Picking is free; ranks spend a 15-point budget and can be freely added or removed to reallocate within the current path, later rows unlock at 5 and 10 points spent, and investing all 15 grants the capstone for free. Switching a row's pick consumes a crafted Seal of Reflection; changing paths consumes a crafted Sigil of Rebirth. Both are crafted in the Workshop from the Pathless Ember, a rare raid-boss drop.","Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths, then pick one option in each of its four choice rows of 4, 3, 2, and 1 options. Picking is free; ranks spend a 15-point budget and can be freely added or removed to reallocate within the current path, later rows unlock at 5 and 10 points spent, and investing all 15 grants the capstone for free. Switching a row's pick consumes a crafted Seal of Reflection; changing paths consumes a crafted Sigil of Rebirth. Both are crafted in the Workshop from the Pathless Ember, a rare raid-boss drop.","Ogni eroe ha sei percorsi runici permanenti nella scheda Rune. Ogni grado garantito costa 1 materiale da raid corrispondente, nell'ordine: Frammenti runici verdeggianti, mareali, astrali e dell'Eclissi per ciascun percorso. Rimuovere un eroe restituisce tutti i Frammenti runici investiti. Un eroe élite al livello 50 sblocca l'Ascensione: scegli uno dei quattro Percorsi Ascendenti, poi scegli un'opzione in ciascuna delle sue quattro righe di scelta con 4, 3, 2 e 1 opzioni. La scelta è gratuita; i gradi spendono un budget di 15 punti e possono essere aggiunti o rimossi liberamente per ridistribuirli all'interno del percorso attuale, le righe successive si sbloccano a 5 e 10 punti spesi e investirli tutti e 15 concede gratuitamente il coronamento. Cambiare la scelta di una riga consuma un Sigillo della Riflessione creato; cambiare percorso consuma un Emblema della Rinascita creato. Entrambi si creano nel laboratorio dalla Brace Senza Sentiero, un raro bottino dei boss dei raid."
-"Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths with four choice rows of 4, 3, 2, and 1 options. Adding a first rank selects that option automatically; removing its last rank clears the row, so same-path reassignment is free. Later rows unlock at 5 and 9 points spent, and investing all 15 makes the free capstone available. Only changing paths consumes a crafted Sigil of Rebirth, made in the Workshop from two Pathless Embers dropped rarely by raid bosses.","Every hero has six permanent rune tracks in their Runes tab. Each guaranteed rank costs 1 matching raid material in order: Verdant, Tidal, Astral, then Eclipse Rune Pieces per track. Removing a hero refunds every invested Rune Piece. An elite hero at level 50 unlocks Ascension: choose one of four Ascendant Paths with four choice rows of 4, 3, 2, and 1 options. Adding a first rank selects that option automatically; removing its last rank clears the row, so same-path reassignment is free. Later rows unlock at 5 and 9 points spent, and investing all 15 makes the free capstone available. Only changing paths consumes a crafted Sigil of Rebirth, made in the Workshop from two Pathless Embers dropped rarely by raid bosses.","Ogni eroe ha sei percorsi runici permanenti nella scheda Rune. Ogni grado garantito costa 1 materiale da raid corrispondente, nell'ordine: Frammenti runici verdeggianti, mareali, astrali e dell'Eclissi per ciascun percorso. Rimuovere un eroe restituisce tutti i Frammenti runici investiti. Un eroe élite al livello 50 sblocca l'Ascensione: scegli uno dei quattro Percorsi Ascendenti con quattro righe di scelta da 4, 3, 2 e 1 opzioni. Aggiungere un primo grado seleziona automaticamente l'opzione; rimuovere l'ultimo grado libera la riga, quindi la ridistribuzione nello stesso percorso è gratuita. Le righe successive si sbloccano a 5 e 9 punti spesi e investirli tutti e 15 rende disponibile il coronamento gratuito. Solo il cambio di percorso consuma un Emblema della Rinascita creato, prodotto nel laboratorio con due Braci Senza Sentiero ottenute raramente dai boss dei raid."
-"[b]Shape an elite hero's final build[/b]
-
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then build it through four choice rows of 4, 3, 2, and 1 options: pick one option per row and invest up to 15 points to rank your picks.
-
-Picking is free, and ranks can be freely added and removed at any time to reallocate your build within the current path. Spending points unlocks the later rows at 5 and 10 spent, and investing all 15 grants the capstone pick for free. Switching a row's pick consumes a Seal of Reflection and changing paths consumes a Sigil of Rebirth; craft both in the Workshop from a Pathless Ember, a rare raid-boss drop.","[b]Shape an elite hero's final build[/b]
-
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then build it through four choice rows of 4, 3, 2, and 1 options: pick one option per row and invest up to 15 points to rank your picks.
-
-Picking is free, and ranks can be freely added and removed at any time to reallocate your build within the current path. Spending points unlocks the later rows at 5 and 10 spent, and investing all 15 grants the capstone pick for free. Switching a row's pick consumes a Seal of Reflection and changing paths consumes a Sigil of Rebirth; craft both in the Workshop from a Pathless Ember, a rare raid-boss drop.","[b]Definisci la configurazione finale di un eroe élite[/b]
-
-L'Ascensione si sblocca al livello élite 50. Scegli uno dei quattro Percorsi ascendenti, poi costruiscilo attraverso quattro righe di scelta con 4, 3, 2 e 1 opzioni: scegli un'opzione per riga e investi fino a 15 punti per aumentare il grado delle tue scelte.
-
-La scelta è gratuita, e i gradi possono essere aggiunti o rimossi liberamente in qualsiasi momento per ridistribuire la configurazione all'interno del percorso attuale. Spendere punti sblocca le righe successive a 5 e 10 punti spesi, e investirli tutti e 15 concede gratuitamente la scelta del coronamento. Cambiare la scelta di una riga consuma un Sigillo della Riflessione e cambiare percorso consuma un Emblema della Rinascita; creali entrambi nel laboratorio da una Brace Senza Sentiero, un raro bottino dei boss dei raid."
-"[b]Shape an elite hero's final build[/b]
-
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then build it through four choice rows of 4, 3, 2, and 1 options. Adding the first rank selects that option automatically, and only one option per row can hold ranks.
-
-Ranks can be added and removed freely within the current path. Removing the last rank clears that row so another option can receive the next rank. Spending points unlocks later rows at 5 and 9 spent, and investing all 15 makes the free capstone available. Changing paths consumes a Sigil of Rebirth crafted in the Workshop from two Pathless Embers; same-path reassignment never consumes an item.","[b]Shape an elite hero's final build[/b]
-
-Ascension unlocks at elite level 50. Choose one of four Ascendant Paths, then build it through four choice rows of 4, 3, 2, and 1 options. Adding the first rank selects that option automatically, and only one option per row can hold ranks.
-
-Ranks can be added and removed freely within the current path. Removing the last rank clears that row so another option can receive the next rank. Spending points unlocks later rows at 5 and 9 spent, and investing all 15 makes the free capstone available. Changing paths consumes a Sigil of Rebirth crafted in the Workshop from two Pathless Embers; same-path reassignment never consumes an item.","[b]Definisci la configurazione finale di un eroe élite[/b]
-
-L'Ascensione si sblocca al livello élite 50. Scegli uno dei quattro Percorsi ascendenti, poi costruiscilo attraverso quattro righe di scelta con 4, 3, 2 e 1 opzioni. Aggiungere il primo grado seleziona automaticamente l'opzione e solo un'opzione per riga può avere gradi.
-
-I gradi possono essere aggiunti e rimossi liberamente nel percorso attuale. Rimuovere l'ultimo grado libera la riga, così un'altra opzione può ricevere il grado successivo. Spendere punti sblocca le righe successive a 5 e 9 punti spesi e investirli tutti e 15 rende disponibile il coronamento gratuito. Cambiare percorso consuma un Emblema della Rinascita creato nel laboratorio da due Braci Senza Sentiero; la ridistribuzione nello stesso percorso non consuma mai oggetti."
 "[color=yellow]The fight stalled — the party regroups.[/color]","[color=yellow]The fight stalled — the party regroups.[/color]","[color=yellow]Lo scontro si è arenato — il gruppo si riorganizza.[/color]"
 "Crafting complete!","Crafting complete!","Creazione completata!"
 "Your crafting queue has finished. Collect your items!","Your crafting queue has finished. Collect your items!","La coda di creazione è terminata. Ritira i tuoi oggetti!"
@@ -1979,7 +1946,7 @@ Each raid unlocks through its story quest, then grants one free entry per UTC da
 Arrange up to the listed number of heroes plus one companion. The formation is kept while you switch tabs, and saved presets restore it instantly. The readiness line under the formation explains anything that still blocks the start.
 
 [b]Rewards[/b]
-Raid bosses drop rune pieces, boss materials, and exclusive accessories, and raid gear builds two-piece set bonuses. Abandoning a daily raid consumes the entry; collected rewards wait in the raid view until claimed.","[b]Defeat permanent bosses with a large formation[/b]
+Raid bosses drop rune pieces, boss materials, and exclusive accessories, and raid gear builds three-piece set bonuses. Abandoning a daily raid consumes the entry; collected rewards wait in the raid view until claimed.","[b]Defeat permanent bosses with a large formation[/b]
 
 Each raid unlocks through its story quest, then grants one free entry per UTC day. The Overview tab shows the raid's current status, entry requirements, key rewards, and your formation; the Guide tab explains its combat mechanic in full.
 
@@ -1987,7 +1954,7 @@ Each raid unlocks through its story quest, then grants one free entry per UTC da
 Arrange up to the listed number of heroes plus one companion. The formation is kept while you switch tabs, and saved presets restore it instantly. The readiness line under the formation explains anything that still blocks the start.
 
 [b]Rewards[/b]
-Raid bosses drop rune pieces, boss materials, and exclusive accessories, and raid gear builds two-piece set bonuses. Abandoning a daily raid consumes the entry; collected rewards wait in the raid view until claimed.","[b]Sconfiggi boss permanenti con una grande formazione[/b]
+Raid bosses drop rune pieces, boss materials, and exclusive accessories, and raid gear builds three-piece set bonuses. Abandoning a daily raid consumes the entry; collected rewards wait in the raid view until claimed.","[b]Sconfiggi boss permanenti con una grande formazione[/b]
 
 Ogni raid si sblocca con la sua missione della storia, poi concede un ingresso gratuito per giorno UTC. La scheda Panoramica mostra lo stato attuale del raid, i requisiti d'ingresso, le ricompense chiave e la tua formazione; la scheda Guida spiega a fondo la sua meccanica di combattimento.
 
@@ -1995,7 +1962,7 @@ Ogni raid si sblocca con la sua missione della storia, poi concede un ingresso g
 Schiera fino al numero indicato di eroi più un famiglio. La formazione viene mantenuta mentre cambi scheda e i preset salvati la ripristinano all'istante. La riga di prontezza sotto la formazione spiega cosa blocca ancora l'avvio.
 
 [b]Ricompense[/b]
-I boss dei raid lasciano frammenti di runa, materiali del boss e accessori esclusivi, e l'equipaggiamento raid attiva bonus di set da due pezzi. Abbandonare un raid giornaliero consuma l'ingresso; le ricompense raccolte attendono nella schermata del raid finché non vengono riscattate."
+I boss dei raid lasciano frammenti di runa, materiali del boss e accessori esclusivi, e l'equipaggiamento raid attiva bonus di set da tre pezzi. Abbandonare un raid giornaliero consuma l'ingresso; le ricompense raccolte attendono nella schermata del raid finché non vengono riscattate."
 "[b]Descend beyond the crown once per day[/b]
 
 Echo Descent opens after the Tower unlock floor. Exactly five heroes and up to two companions descend through four depths and one Guardian. The Overview tab shows today's descent state, laws, and your formation; the Guide tab explains the full rules.
@@ -2046,7 +2013,7 @@ Apri Organizza formazione della Torre, poi avvia l'Avanzamento Automatico sotto 
 "Elemental Depths Conquered","Elemental Depths Conquered","Profondità Elementali conquistate"
 "Defeat the Slime King and complete the Elemental Depths.","Defeat the Slime King and complete the Elemental Depths.","Sconfiggi il Re degli Slime e completa le Profondità Elementali."
 "Warden of the Forest Edge","Warden of the Forest Edge","Guardiano del Margine della Foresta"
-"Defeat the Ironbark Warden and complete the Forest Edge.","Defeat the Ironbark Warden and complete the Forest Edge.","Sconfiggi il Guardiano Cortecciaferrea e completa il Margine della Foresta."
+"Defeat the Ironbark Warden and complete the Forest Edge.","Defeat the Ironbark Warden and complete the Forest Edge.","Sconfiggi il Guardiano Scorzaferrea e completa il Margine della Foresta."
 "Rootmind Broken","Rootmind Broken","Menteradice infranta"
 "Defeat the Ferrum Rootmind and complete the Ironroot Warrens.","Defeat the Ferrum Rootmind and complete the Ironroot Warrens.","Sconfiggi la Menteradice Ferrum e completa i Cunicoli di Radiceferrea."
 "The Toll Is Paid","The Toll Is Paid","Il pedaggio è pagato"
@@ -2111,6 +2078,8 @@ Apri Organizza formazione della Torre, poi avvia l'Avanzamento Automatico sotto 
 "Max the permanent Workshop Capacity and Speed upgrade tracks.","Max the permanent Workshop Capacity and Speed upgrade tracks.","Massimizza i percorsi di potenziamento permanenti di Capacità e Velocità del Laboratorio."
 "Fully Attuned","Fully Attuned","Pienamente sintonizzato"
 "Raise any hero to the maximum Echo Resonance rank.","Raise any hero to the maximum Echo Resonance rank.","Porta un eroe qualsiasi al grado massimo di Risonanza dell'Eco."
+"Every Path Mastered","Every Path Mastered","Ogni cammino padroneggiato"
+"Hold one hero of every elite class in your roster at the same time.","Hold one hero of every elite class in your roster at the same time.","Tieni contemporaneamente nella tua formazione un eroe di ogni classe élite."
 "Fortune Forged","Fortune Forged","Fortuna forgiata"
 "Earn 10,000,000 Coins from rewards and item sales.","Earn 10,000,000 Coins from rewards and item sales.","Guadagna 10.000.000 di Monete da ricompense e vendita di oggetti."
 "Bane of Ten Thousand","Bane of Ten Thousand","Flagello di diecimila"
@@ -2257,6 +2226,8 @@ Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a que
 "Granted by an undiscovered special reward","Granted by an undiscovered special reward","Concesso da una ricompensa speciale non scoperta"
 "Enemy drop: %s in %s","Enemy drop: %s in %s","Bottino nemico: %s in %s"
 "Boss-exclusive drop: %s in %s","Boss-exclusive drop: %s in %s","Bottino esclusivo del boss: %s in %s"
+"Enemy drop: %s","Enemy drop: %s","Bottino nemico: %s"
+"Boss-exclusive drop: %s","Boss-exclusive drop: %s","Bottino esclusivo del boss: %s"
 "Activity reward: %s","Activity reward: %s","Ricompensa attività: %s"
 "Activity reward: %s checkpoints (Floors %s)","Activity reward: %s checkpoints (Floors %s)","Ricompensa attività: checkpoint di %s (Piani %s)"
 "Crafting: Workshop recipe","Crafting: Workshop recipe","Creazione: ricetta del Laboratorio"
@@ -2281,7 +2252,7 @@ Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a que
 "Coin balance: %s platinum, %s gold, %s silver, %s copper","Coin balance: %s platinum, %s gold, %s silver, %s copper","Saldo monete: %s platino, %s oro, %s argento, %s rame"
 "Exact wallet tuple: %s","Exact wallet tuple: %s","Tupla esatta del portafoglio: %s"
 "Quests","Quests","Missioni"
-"Open rotating Daily and Weekly Quests, upgrades, and help.","Open rotating Daily and Weekly Quests, upgrades, and help.","Apri le missioni giornaliere e settimanali a rotazione, i potenziamenti e la guida."
+"Open rotating Daily and Weekly Quests and upgrades.","Open rotating Daily and Weekly Quests and upgrades.","Apri le missioni giornaliere e settimanali a rotazione e i potenziamenti."
 "%s quest rewards ready to claim","%s quest rewards ready to claim","%s ricompense missione pronte da riscuotere"
 "The badge remains until each completed quest reward is claimed or auto-granted at reset.","The badge remains until each completed quest reward is claimed or auto-granted at reset.","L'indicatore rimane finché ogni ricompensa delle missioni completate non viene riscossa o assegnata automaticamente al ripristino."
 "Quest progress","Quest progress","Progresso missione"
@@ -2329,9 +2300,7 @@ Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a que
 "Quest Daily tab","Daily","Oggi"
 "Quest Weekly tab","Weekly","Settimana"
 "Quest Upgrades tab","Upgrades","Migliorie"
-"Quest Help tab","Help","Aiuto"
 "Quest rank upgrades","Quest rank upgrades","Potenziamenti del rango missione"
-"Quest Help","Quest Help","Guida missioni"
 "Make progress automatically through normal play.","Make progress automatically through normal play.","Avanza automaticamente giocando normalmente."
 "Defeat monsters","Defeat monsters","Sconfiggi mostri"
 "Complete dungeon runs","Complete dungeon runs","Completa spedizioni nei dungeon"
@@ -2343,16 +2312,6 @@ Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a que
 "Successfully complete any unlocked raid. The free daily entry is enough.","Successfully complete any unlocked raid. The free daily entry is enough.","Completa con successo qualsiasi raid sbloccato. L'ingresso giornaliero gratuito è sufficiente."
 "Finish crafted items. Offline crafting completion counts.","Finish crafted items. Offline crafting completion counts.","Completa oggetti creati. La creazione completata offline conta."
 "Earn Coins from gameplay rewards and item sales.","Earn Coins from gameplay rewards and item sales.","Ottieni monete dalle ricompense di gioco e dalla vendita di oggetti."
-"Automatic progress","Automatic progress","Progresso automatico"
-"Quests need no accept step. Normal combat, dungeon and raid clears, finished crafts, and Coins earned update them automatically. Supported offline combat and crafting catch-up count through the same gameplay events.","Quests need no accept step. Normal combat, dungeon and raid clears, finished crafts, and Coins earned update them automatically. Supported offline combat and crafting catch-up count through the same gameplay events.","Le missioni non richiedono accettazione. Il combattimento normale, i completamenti di dungeon e raid, le creazioni terminate e le monete ottenute le aggiornano automaticamente. Il recupero offline supportato per combattimento e creazione conta tramite gli stessi eventi di gioco."
-"Daily and weekly resets","Daily and weekly resets","Ripristini giornalieri e settimanali"
-"Daily Quests reset at 00:00 UTC. Weekly Quests reset Monday at 00:00 UTC. A Weekly board created after Monday scales its targets to the days remaining in that week.","Daily Quests reset at 00:00 UTC. Weekly Quests reset Monday at 00:00 UTC. A Weekly board created after Monday scales its targets to the days remaining in that week.","Le missioni giornaliere si ripristinano alle 00:00 UTC. Le missioni settimanali si ripristinano lunedì alle 00:00 UTC. Una serie settimanale creata dopo lunedì adatta gli obiettivi ai giorni rimasti nella settimana."
-"Claims and expiry","Claims and expiry","Riscossione e scadenza"
-"Claim completed rewards whenever you like. Completed rewards left unclaimed are granted automatically at reset. Incomplete Quests expire without a penalty.","Claim completed rewards whenever you like. Completed rewards left unclaimed are granted automatically at reset. Incomplete Quests expire without a penalty.","Riscuoti le ricompense completate quando vuoi. Le ricompense completate non riscosse vengono assegnate automaticamente al ripristino. Le missioni incomplete scadono senza penalità."
-"Quest ranks","Quest ranks","Ranghi missione"
-"Ranks add reward bonuses and can add Daily or Weekly slots. Rank upgrades cost Coins, never Gems, and apply only when each next board resets; current boards and rewards stay frozen.","Ranks add reward bonuses and can add Daily or Weekly slots. Rank upgrades cost Coins, never Gems, and apply only when each next board resets; current boards and rewards stay frozen.","I ranghi aggiungono bonus alle ricompense e possono aggiungere slot giornalieri o settimanali. I potenziamenti costano monete, mai gemme, e si applicano solo quando si ripristina ciascuna serie successiva; le serie e le ricompense attuali restano invariate."
-"No chores or penalties","No chores or penalties","Nessun obbligo o penalità"
-"There are no streaks, rerolls, missed-day penalties, rewarded-ad requirements, or premium-purchase requirements. Keep playing the activities you already use.","There are no streaks, rerolls, missed-day penalties, rewarded-ad requirements, or premium-purchase requirements. Keep playing the activities you already use.","Non ci sono serie consecutive, rilanci, penalità per giorni saltati, requisiti di pubblicità con ricompensa o acquisti premium. Continua a giocare alle attività che già utilizzi."
 "REWARD CODE","REWARD CODE","CODICE PREMIO"
 "Codes are case-sensitive. Enter capitalization exactly as published.","Codes are case-sensitive. Enter capitalization exactly as published.","I codici distinguono maiuscole e minuscole. Inserisci esattamente le maiuscole pubblicate."
 "Enter case-sensitive code","Enter case-sensitive code","Codice: maiuscole esatte"
@@ -2374,6 +2333,7 @@ Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a que
 "The Legendary Pet Pack is already owned. The code was not consumed.","The Legendary Pet Pack is already owned. The code was not consumed.","Il Pacchetto Famiglio Leggendario è già posseduto. Il codice non è stato consumato."
 "Your hero roster is full. Free a slot and try again; the code was not consumed.","Your hero roster is full. Free a slot and try again; the code was not consumed.","La lista degli eroi è piena. Libera uno slot e riprova; il codice non è stato consumato."
 "Sign in to Google Play Games to verify this profile. The code was not consumed.","Sign in to Google Play Games to verify this profile. The code was not consumed.","Accedi a Google Play Games per verificare questo profilo. Il codice non è stato consumato."
+"Google Play Games is available in Android builds. The code was not consumed.","Google Play Games is available in Android builds. The code was not consumed.","Google Play Games è disponibile nelle versioni Android. Il codice non è stato consumato."
 "Finish Google Play Games cloud synchronization before redeeming. The code was not consumed.","Finish Google Play Games cloud synchronization before redeeming. The code was not consumed.","Completa la sincronizzazione cloud di Google Play Games prima del riscatto. Il codice non è stato consumato."
 "Retrying the reward-code cloud receipt…","Retrying the reward-code cloud receipt…","Nuovo tentativo di caricamento della ricevuta cloud del codice premio…"
 "Redeeming code and committing the reward locally…","Redeeming code and committing the reward locally…","Riscatto del codice e salvataggio locale della ricompensa…"
@@ -2439,11 +2399,196 @@ Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a que
 "Highlights from this update","Highlights from this update","Novità principali di questo aggiornamento"
 "A steadier adventure","A steadier adventure","Un'avventura più equilibrata"
 "Heroes, dungeons, Mist, Ascension, equipment, and progression have been rebalanced for a smoother climb.","Heroes, dungeons, Mist, Ascension, equipment, and progression have been rebalanced for a smoother climb.","Eroi, dungeon, Nebbia, Ascensione, equipaggiamento e progressione sono stati ribilanciati per un avanzamento più fluido."
+"Raid sets, reforged","Raid sets, reforged","Set da raid, riforgiati"
+"Every raid set is now three pieces with its own gear identity, plus new craftable raid armors and reforging that keeps a piece's effects.","Every raid set is now three pieces with its own gear identity, plus new craftable raid armors and reforging that keeps a piece's effects.","Ogni set da raid ora è composto da tre pezzi con una propria identità di equipaggiamento, con nuove armature da raid creabili e una riforgiatura che conserva gli effetti del pezzo."
 "Tower of Resonance","Tower of Resonance","Torre della Risonanza"
 "The renamed Tower now has Auto-Advance, stronger final floors, checkpoint rewards, and clearer Echo Resonance guidance.","The renamed Tower now has Auto-Advance, stronger final floors, checkpoint rewards, and clearer Echo Resonance guidance.","La Torre, ora rinominata, offre Avanzamento automatico, piani finali più difficili, ricompense ai checkpoint e indicazioni più chiare sulla Risonanza dell'Eco."
 "More ways to grow","More ways to grow","Più modi per progredire"
 "Achievements, pet upgrades, shared Legendary pity, and a new Legendary companion pack expand long-term progression.","Achievements, pet upgrades, shared Legendary pity, and a new Legendary companion pack expand long-term progression.","Obiettivi, potenziamenti dei famigli, garanzia Leggendaria condivisa e un nuovo pacchetto famiglio Leggendario ampliano la progressione a lungo termine."
 "A smoother interface","A smoother interface","Un'interfaccia più fluida"
 "Raid and Echo screens, combat management, equipment comparisons, nested popups, and device notifications are clearer and easier to use.","Raid and Echo screens, combat management, equipment comparisons, nested popups, and device notifications are clearer and easier to use.","Schermate Raid ed Eco, gestione del combattimento, confronti dell'equipaggiamento, popup annidati e notifiche del dispositivo sono più chiari e facili da usare."
+"Faster and lighter","Faster and lighter","Più veloce e leggero"
+"Menus and buttons respond far faster, catching up after a long absence takes seconds instead of minutes, and the download is about half its old size.","Menus and buttons respond far faster, catching up after a long absence takes seconds instead of minutes, and the download is about half its old size.","Menu e pulsanti rispondono molto più rapidamente, il recupero dopo una lunga assenza richiede secondi invece di minuti e il download pesa circa la metà di prima."
 "What's New · Version %s","What's New · Version %s","Novità · Versione %s"
 "Open the current release highlights.","Open the current release highlights.","Apri le novità della versione attuale."
+"Beyond Floor 70, five heroes face one Guardian floor each UTC day under three shifting laws and return with permanent Resonance.","Beyond Floor 70, five heroes face one Guardian floor each UTC day under three shifting laws and return with permanent Resonance.","Oltre il Piano 70, cinque eroi affrontano un piano del Guardiano ogni giorno UTC sotto tre leggi mutevoli e tornano con Risonanza permanente."
+"Echo Descent - Today's floor is complete. The next daily floor opens at 00:00 UTC.","Echo Descent - Today's floor is complete. The next daily floor opens at 00:00 UTC.","Discesa dell'Eco - Il piano di oggi è completato. Il prossimo piano giornaliero si apre alle 00:00 UTC."
+"Today's Echo floor is complete.
+Secured Anchor: %s · Deepest reached: %s","Today's Echo floor is complete.
+Secured Anchor: %s · Deepest reached: %s","Il piano dell'Eco di oggi è completato.
+Ancora consolidata: %s · Profondità massima raggiunta: %s"
+"Today's floor: Depth %s to Anchor %s
+Secured Anchor: %s · Deepest reached: %s","Today's floor: Depth %s to Anchor %s
+Secured Anchor: %s · Deepest reached: %s","Piano di oggi: Profondità %s verso Ancora %s
+Ancora consolidata: %s · Profondità massima raggiunta: %s"
+"Daily floor complete · +%s Resonance claimed for today's five heroes","Daily floor complete · +%s Resonance claimed for today's five heroes","Piano giornaliero completato · +%s Risonanza ottenuta dai cinque eroi di oggi"
+"Daily floor ready · Guardian clear grants +%s Resonance and secures Anchor %s","Daily floor ready · Guardian clear grants +%s Resonance and secures Anchor %s","Piano giornaliero pronto · Sconfiggere il Guardiano concede +%s Risonanza e consolida l'Ancora %s"
+"Echo Descent unlocks after Tower Floor %s. Each UTC day offers one Guardian floor.
+
+Failure or abandon lets the party retry today's floor from its secured Anchor. A successful clear closes Echo until the next daily reset, and Echo monsters grant no ordinary item drops.
+
+Recommended: Career Lv. %s · Tier %s gear","Echo Descent unlocks after Tower Floor %s. Each UTC day offers one Guardian floor.
+
+Failure or abandon lets the party retry today's floor from its secured Anchor. A successful clear closes Echo until the next daily reset, and Echo monsters grant no ordinary item drops.
+
+Recommended: Career Lv. %s · Tier %s gear","La Discesa dell'Eco si sblocca dopo il Piano %s della Torre. Ogni giorno UTC offre un piano del Guardiano.
+
+Una sconfitta o un abbandono permette al gruppo di ritentare il piano di oggi dalla sua Ancora consolidata. Una vittoria chiude l'Eco fino al prossimo ripristino giornaliero e i mostri dell'Eco non lasciano oggetti normali.
+
+Consigliato: Livello carriera %s · Equipaggiamento T%s"
+"Clearing the daily Guardian secures the next Anchor and grants +%s Resonance to every hero in the victorious formation. Echo then closes until 00:00 UTC, so each hero can gain at most one Resonance rank per day. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","Clearing the daily Guardian secures the next Anchor and grants +%s Resonance to every hero in the victorious formation. Echo then closes until 00:00 UTC, so each hero can gain at most one Resonance rank per day. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","Sconfiggere il Guardiano giornaliero consolida l'Ancora successiva e concede +%s Risonanza a ogni eroe della formazione vincente. L'Eco si chiude quindi fino alle 00:00 UTC, così ogni eroe può ottenere al massimo un grado di Risonanza al giorno. La Risonanza ha un grado massimo di %s. Ogni grado concede +2%% a PV massimi e Attacco, oltre a +0,5 a Difesa e Difesa magica, aiutando quegli eroi a salire ai piani più alti della Torre."
+"Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started floor keeps the laws it began with until that fight resolves. Review today's laws in Overview before arranging the formation; during a push, Info shows the locked set.","Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started floor keeps the laws it began with until that fight resolves. Review today's laws in Overview before arranging the formation; during a push, Info shows the locked set.","Tre leggi rimodellano danni, recupero e aperture in combattimento. Cambiano alle 00:00 UTC, mentre un piano avviato mantiene le leggi con cui è iniziato finché lo scontro non si risolve. Consulta le leggi di oggi in Panoramica prima di organizzare la formazione; durante un'avanzata, Info mostra il set vincolato."
+"Locked for this floor; daily rotation cannot change this run.","Locked for this floor; daily rotation cannot change this run.","Vincolate a questo piano; il cambio giornaliero non può modificare questa avanzata."
+"Next daily floor at 00:00 UTC in %s","Next daily floor at 00:00 UTC in %s","Prossimo piano giornaliero alle 00:00 UTC tra %s"
+"Today's Echo floor is complete; the next floor opens at 00:00 UTC","Today's Echo floor is complete; the next floor opens at 00:00 UTC","Il piano dell'Eco di oggi è completato; il prossimo si apre alle 00:00 UTC"
+"Depth %s | Daily floor %s/%s","Depth %s | Daily floor %s/%s","Profondità %s | Piano giornaliero %s/%s"
+"Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. Today's single Guardian floor grants +%s Echo Resonance to exactly five heroes, then closes until 00:00 UTC.","Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. Today's single Guardian floor grants +%s Echo Resonance to exactly five heroes, then closes until 00:00 UTC.","Potere permanente dell'Eco. Il grado %s concede +%s%% a PV massimi e Attacco e +%.1f a Difesa e Difesa magica. L'unico piano del Guardiano di oggi concede +%s Risonanza dell'Eco a esattamente cinque eroi, poi si chiude fino alle 00:00 UTC."
+"Echo Depth %s cleared; Anchor %s held","Echo Depth %s cleared; Anchor %s held","Profondità dell'Eco %s superata; Ancora %s mantenuta"
+"Daily floor complete","Daily floor complete","Piano giornaliero completato"
+"[b]Plan today's floor in Overview[/b]
+
+Overview keeps the next depth and Anchor, today's completion state, current laws, formation readiness, and the formation action together.
+
+[b]Use Guide as the rules reference[/b]
+Guide holds the daily-floor structure, Anchor and retry rules, daily Resonance limit, law timing, recommendations, and clear history.
+
+[b]During the floor[/b]
+Battle shows live combat. Info shows the laws locked to that floor. Abandoning returns the party to its secured Anchor so it can retry today.","[b]Plan today's floor in Overview[/b]
+
+Overview keeps the next depth and Anchor, today's completion state, current laws, formation readiness, and the formation action together.
+
+[b]Use Guide as the rules reference[/b]
+Guide holds the daily-floor structure, Anchor and retry rules, daily Resonance limit, law timing, recommendations, and clear history.
+
+[b]During the floor[/b]
+Battle shows live combat. Info shows the laws locked to that floor. Abandoning returns the party to its secured Anchor so it can retry today.","[b]Pianifica il piano di oggi in Panoramica[/b]
+
+Panoramica riunisce la prossima profondità e Ancora, lo stato di completamento odierno, le leggi attuali, la prontezza della formazione e la relativa azione.
+
+[b]Usa Guida come riferimento per le regole[/b]
+Guida contiene la struttura del piano giornaliero, le regole di Ancora e ritentativo, il limite giornaliero di Risonanza, gli orari delle leggi, i consigli e lo storico delle vittorie.
+
+[b]Durante il piano[/b]
+Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a quel piano. Abbandonare riporta il gruppo alla sua Ancora consolidata, così può ritentare oggi."
+"After the Tower unlock, five heroes face one daily Guardian fight under three shifting laws and return with permanent Resonance.","After the Tower unlock, five heroes face one daily Guardian fight under three shifting laws and return with permanent Resonance.","Dopo lo sblocco della Torre, cinque eroi affrontano uno scontro giornaliero con il Guardiano sotto tre leggi mutevoli e ottengono Risonanza permanente."
+"[color=yellow]The daily Echo fight was abandoned. You can challenge it again today.[/color]","[color=yellow]The daily Echo fight was abandoned. You can challenge it again today.[/color]","[color=yellow]Lo scontro giornaliero dell'Eco è stato abbandonato. Puoi affrontarlo di nuovo oggi.[/color]"
+"[color=yellow]Daily Echo fight won.[/color]","[color=yellow]Daily Echo fight won.[/color]","[color=yellow]Scontro giornaliero dell'Eco vinto.[/color]"
+"Daily fight in progress","Daily fight in progress","Scontro giornaliero in corso"
+"Daily fight complete","Daily fight complete","Scontro giornaliero completato"
+"Daily fight ready","Daily fight ready","Scontro giornaliero pronto"
+"Daily laws | %s","Daily laws | %s","Leggi giornaliere | %s"
+"Daily fight in progress | %s/%s heroes | %s/%s companions","Daily fight in progress | %s/%s heroes | %s/%s companions","Scontro giornaliero in corso | %s/%s eroi | %s/%s famigli"
+"Daily fight | Kills %s | Deaths %s | XP %s","Daily fight | Kills %s | Deaths %s | XP %s","Scontro giornaliero | Uccisioni %s | Morti %s | PE %s"
+"Echo Descent - unlocks after the Tower's %sth challenge","Echo Descent - unlocks after the Tower's %sth challenge","Discesa dell'Eco - si sblocca dopo la sfida numero %s della Torre"
+"Echo Descent - Today's fight is in progress. Open the active fight.","Echo Descent - Today's fight is in progress. Open the active fight.","Discesa dell'Eco - Lo scontro di oggi è in corso. Apri lo scontro attivo."
+"Echo Descent - Today's fight is complete. The next challenge opens at 00:00 UTC.","Echo Descent - Today's fight is complete. The next challenge opens at 00:00 UTC.","Discesa dell'Eco - Lo scontro di oggi è completato. La prossima sfida si apre alle 00:00 UTC."
+"Echo Descent - Today's fight is ready. Open Echo Descent.","Echo Descent - Today's fight is ready. Open Echo Descent.","Discesa dell'Eco - Lo scontro di oggi è pronto. Apri la Discesa dell'Eco."
+"TODAY'S FIGHT","TODAY'S FIGHT","SCONTRO DI OGGI"
+"Today's Echo fight is complete.","Today's Echo fight is complete.","Lo scontro dell'Eco di oggi è completato."
+"Today's Echo fight is ready.","Today's Echo fight is ready.","Lo scontro dell'Eco di oggi è pronto."
+"Daily fight complete · +%s Resonance claimed for today's five heroes","Daily fight complete · +%s Resonance claimed for today's five heroes","Scontro giornaliero completato · +%s Risonanza ottenuta dai cinque eroi di oggi"
+"Daily fight ready · Win to grant +%s Resonance to all five heroes","Daily fight ready · Win to grant +%s Resonance to all five heroes","Scontro giornaliero pronto · Vinci per concedere +%s Risonanza a tutti e cinque gli eroi"
+"Echo Descent unlocks after the Tower's %sth challenge. Each UTC day offers one Guardian fight.
+
+Failure or abandonment lets the party retry today's fight. Winning closes Echo until the next daily reset, and Echo monsters grant no ordinary item drops.
+
+Recommended: Career Lv. %s · Tier %s gear","Echo Descent unlocks after the Tower's %sth challenge. Each UTC day offers one Guardian fight.
+
+Failure or abandonment lets the party retry today's fight. Winning closes Echo until the next daily reset, and Echo monsters grant no ordinary item drops.
+
+Recommended: Career Lv. %s · Tier %s gear","La Discesa dell'Eco si sblocca dopo la sfida numero %s della Torre. Ogni giorno UTC offre uno scontro con il Guardiano.
+
+Una sconfitta o un abbandono permette al gruppo di ritentare lo scontro di oggi. Una vittoria chiude l'Eco fino al prossimo ripristino giornaliero e i mostri dell'Eco non rilasciano oggetti ordinari.
+
+Consigliato: livello carriera %s · equipaggiamento grado %s"
+"Daily fights won: %s","Daily fights won: %s","Scontri giornalieri vinti: %s"
+"Winning the daily fight grants +%s Resonance to every hero in the victorious formation. Echo then closes until 00:00 UTC, so each hero can gain at most one Resonance rank per day. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher in the Tower.","Winning the daily fight grants +%s Resonance to every hero in the victorious formation. Echo then closes until 00:00 UTC, so each hero can gain at most one Resonance rank per day. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher in the Tower.","Vincere lo scontro giornaliero concede +%s Risonanza a ogni eroe della formazione vincente. L'Eco si chiude quindi fino alle 00:00 UTC, così ogni eroe può ottenere al massimo un grado di Risonanza al giorno. La Risonanza ha un grado massimo di %s. Ogni grado concede +2%% a PV massimi e Attacco, oltre a +0,5 a Difesa e Difesa magica, aiutando quegli eroi a salire più in alto nella Torre."
+"Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started fight keeps the laws it began with until it resolves. Review today's laws in Overview before arranging the formation; during the fight, Info shows the locked set.","Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started fight keeps the laws it began with until it resolves. Review today's laws in Overview before arranging the formation; during the fight, Info shows the locked set.","Tre leggi rimodellano danni, recupero e aperture in combattimento. Cambiano alle 00:00 UTC, mentre uno scontro già iniziato mantiene le leggi con cui è iniziato finché non si risolve. Consulta le leggi di oggi in Panoramica prima di organizzare la formazione; durante lo scontro, Info mostra il set vincolato."
+"CURRENT FIGHT LAWS","CURRENT FIGHT LAWS","LEGGI DELLO SCONTRO ATTUALE"
+"Locked for this fight; daily rotation cannot change it.","Locked for this fight; daily rotation cannot change it.","Vincolate a questo scontro; il cambio giornaliero non può modificarle."
+"Next daily fight at 00:00 UTC in %s","Next daily fight at 00:00 UTC in %s","Prossimo scontro giornaliero alle 00:00 UTC tra %s"
+"The daily Echo fight is in progress. Finish or abandon it before attempting the Tower.","The daily Echo fight is in progress. Finish or abandon it before attempting the Tower.","Lo scontro giornaliero dell'Eco è in corso. Completalo o abbandonalo prima di tentare la Torre."
+"Abandon Fight
+(Retry remains available)","Abandon Fight
+(Retry remains available)","Abbandona lo scontro
+(Puoi ancora ritentare)"
+"You can challenge today's Echo fight again","You can challenge today's Echo fight again","Puoi affrontare di nuovo lo scontro dell'Eco di oggi"
+"Today's Echo fight is complete; the next challenge opens at 00:00 UTC","Today's Echo fight is complete; the next challenge opens at 00:00 UTC","Lo scontro dell'Eco di oggi è completato; la prossima sfida si apre alle 00:00 UTC"
+"Challenge Today's Echo Fight","Challenge Today's Echo Fight","Affronta lo scontro dell'Eco di oggi"
+"ECHO DESCENT UNLOCK
+Clear the Tower's %sth challenge to reveal the Echo icon beside this title.","ECHO DESCENT UNLOCK
+Clear the Tower's %sth challenge to reveal the Echo icon beside this title.","SBLOCCO DISCESA DELL'ECO
+Supera la sfida numero %s della Torre per mostrare l'icona dell'Eco accanto a questo titolo."
+"Echo Descent unlocks after clearing the Tower's %sth challenge.","Echo Descent unlocks after clearing the Tower's %sth challenge.","La Discesa dell'Eco si sblocca dopo aver superato la sfida numero %s della Torre."
+"Finish or abandon the active Echo fight first","Finish or abandon the active Echo fight first","Completa o abbandona prima lo scontro attivo dell'Eco"
+"Daily Echo fight won","Daily Echo fight won","Scontro giornaliero dell'Eco vinto"
+"Daily Echo fight abandoned · Retry remains available","Daily Echo fight abandoned · Retry remains available","Scontro giornaliero dell'Eco abbandonato · Puoi ancora ritentare"
+"Daily Echo fight lost · Retry remains available","Daily Echo fight lost · Retry remains available","Scontro giornaliero dell'Eco perso · Puoi ancora ritentare"
+"Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. Winning today's Guardian fight grants +%s Echo Resonance to exactly five heroes, then closes until 00:00 UTC.","Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. Winning today's Guardian fight grants +%s Echo Resonance to exactly five heroes, then closes until 00:00 UTC.","Potere permanente dell'Eco. Il grado %s concede +%s%% a PV massimi e Attacco e +%.1f a Difesa e Difesa magica. Vincere lo scontro di oggi con il Guardiano concede +%s Risonanza dell'Eco a esattamente cinque eroi, poi chiude l'Eco fino alle 00:00 UTC."
+"[b]Plan today's fight in Overview[/b]
+
+Overview keeps today's completion state, current laws, formation readiness, and challenge action together.
+
+[b]Use Guide as the rules reference[/b]
+Guide explains retries, the daily Resonance limit, law timing, recommendations, and fight history.
+
+[b]During the fight[/b]
+Battle shows live combat. Info shows the laws locked to that fight. Abandoning keeps today's challenge available for another attempt.","[b]Plan today's fight in Overview[/b]
+
+Overview keeps today's completion state, current laws, formation readiness, and challenge action together.
+
+[b]Use Guide as the rules reference[/b]
+Guide explains retries, the daily Resonance limit, law timing, recommendations, and fight history.
+
+[b]During the fight[/b]
+Battle shows live combat. Info shows the laws locked to that fight. Abandoning keeps today's challenge available for another attempt.","[b]Pianifica lo scontro di oggi in Panoramica[/b]
+
+Panoramica riunisce lo stato di completamento odierno, le leggi attuali, la prontezza della formazione e l'azione per affrontare la sfida.
+
+[b]Usa Guida come riferimento per le regole[/b]
+Guida spiega i ritentativi, il limite giornaliero di Risonanza, gli orari delle leggi, i consigli e lo storico degli scontri.
+
+[b]Durante lo scontro[/b]
+Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a quello scontro. Abbandonare mantiene disponibile la sfida di oggi per un altro tentativo."
+"Echo Descent - unlocks after the Tower's 70th challenge","Echo Descent - unlocks after the Tower's 70th challenge","Discesa dell'Eco - si sblocca dopo la sfida numero 70 della Torre"
+"Echo fights won","Echo fights won","Scontri dell'Eco vinti"
+"Search recipes...","Search recipes...","Cerca ricette..."
+"Recipe Details","Recipe Details","Dettagli ricetta"
+"Filter by item type","Filter by item type","Filtra per tipo di oggetto"
+"Type","Type","Tipo"
+"Sort recipes","Sort recipes","Ordina ricette"
+"Queued","Queued","In coda"
+"Unknown","Unknown","Sconosciuto"
+"Unknown recipes","Unknown","Ignote"
+"QUEUE %s/%s","QUEUE %s/%s","CODA %s/%s"
+"No recipes match the current search and filters.","No recipes match the current search and filters.","Nessuna ricetta corrisponde alla ricerca e ai filtri attuali."
+"Queued for crafting ×%s","Queued for crafting ×%s","In coda per la creazione ×%s"
+"Open recipe details","Open recipe details","Apri i dettagli della ricetta"
+"Ready, but every crafting slot is occupied","Ready, but every crafting slot is occupied","Pronto, ma tutti gli slot di creazione sono occupati"
+"Ready to craft ×%s","Ready to craft ×%s","Pronto da creare ×%s"
+"Open to review missing materials and Coins","Open to review missing materials and Coins","Apri per controllare i materiali e le Monete mancanti"
+"Open to review missing materials","Open to review missing materials","Apri per controllare i materiali mancanti"
+"Reach Tier %s to unlock this recipe","Reach Tier %s to unlock this recipe","Raggiungi il Grado %s per sbloccare questa ricetta"
+"Clear %s once to unlock this recipe","Clear %s once to unlock this recipe","Completa %s una volta per sbloccare questa ricetta"
+"the required Raid","the required Raid","il Raid richiesto"
+"DISCOVERED","DISCOVERED","SCOPERTO"
+"Known Recipe","Known Recipe","Ricetta nota"
+"Time · %s each","Time · %s each","Tempo · %s ciascuno"
+"Not enough materials or Coins","Not enough materials or Coins","Materiali o Monete insufficienti"
+"Not enough materials","Not enough materials","Materiali insufficienti"
+"Queue full · %s / %s jobs","Queue full · %s / %s jobs","Coda piena · %s / %s lavorazioni"
+"Ready to craft · maximum ×%s","Ready to craft · maximum ×%s","Pronto da creare · massimo ×%s"
+"%s · Tier %s · Owned ×%s","%s · Tier %s · Owned ×%s","%s · Grado %s · Posseduti ×%s"
+"Tier %s · Craft it once to reveal its identity and properties.","Tier %s · Craft it once to reveal its identity and properties.","Grado %s · Crealo una volta per rivelarne identità e proprietà."
+"IN QUEUE ×%s · Crafting now · %s remaining","IN QUEUE ×%s · Crafting now · %s remaining","IN CODA ×%s · In creazione · %s rimanenti"
+"IN QUEUE ×%s · Position #%s","IN QUEUE ×%s · Position #%s","IN CODA ×%s · Posizione n. %s"
+"Unknown material","Unknown material","Materiale sconosciuto"
+"Batch time · %s","Batch time · %s","Tempo lotto · %s"
+"View Item","View Item","Vedi oggetto"
+"Need Materials","Need Materials","Servono materiali"
+"Craft Another","Craft Another","Creane un altro"
+"Craft & Discover","Craft & Discover","Crea e scopri"
+"UNDISCOVERED","UNDISCOVERED","NON SCOPERTO"
+"Queue Full","Queue Full","Coda piena"
+"%s / %s  %s","%s / %s  %s","%s / %s  %s"
+"−","−","−"
