@@ -2,8 +2,8 @@
   "system": {
     "id": "echo_descent",
     "name": "Echo Descent",
-    "description": "After the Tower unlock, five heroes face one daily Guardian fight under three shifting laws and return with permanent Resonance.",
-    "mechanic_summary": "Three daily laws reshape damage, recovery, and combat openings.",
+    "description": "After the Tower unlock, five heroes face one daily Guardian fight under a randomly selected three-law theme and return with permanent Resonance.",
+    "mechanic_summary": "One daily theme bundles three laws into a focused combat strategy.",
     "icon": "res://resources/ui/icon_echo_descent.png",
     "hero_count": 5,
     "formation_rows": 1,
@@ -57,6 +57,92 @@
     "defense_cap": 88,
     "evade_cap": 75
   },
+  "daily_combinations": [
+    {
+      "id": "arcane_famine",
+      "name": "Arcane Famine",
+      "theme": "Magic only",
+      "description": "Only Magic attacks deal damage. Mana is scarce, so debuffs create the safest openings.",
+      "mutation_ids": ["starved_current", "adamant_ward", "hexbreak"]
+    },
+    {
+      "id": "bloodspell_crucible",
+      "name": "Bloodspell Crucible",
+      "theme": "Magic only",
+      "description": "Only Magic attacks deal damage. Skills consume Health, while critical hits expose the Guardian.",
+      "mutation_ids": ["sanguine_casting", "adamant_ward", "keen_rupture"]
+    },
+    {
+      "id": "silent_sanctum",
+      "name": "Silent Sanctum",
+      "theme": "Magic only",
+      "description": "Only Magic attacks deal damage. Healing is weakened, and harmful effects become the main opening.",
+      "mutation_ids": ["severed_grace", "adamant_ward", "hexbreak"]
+    },
+    {
+      "id": "dry_powder",
+      "name": "Dry Powder",
+      "theme": "Physical only",
+      "description": "Magic attacks deal no damage. Slower Mana gain shifts the plan toward physical critical hits.",
+      "mutation_ids": ["starved_current", "null_ward", "keen_rupture"]
+    },
+    {
+      "id": "bloodsteel_offensive",
+      "name": "Bloodsteel Offensive",
+      "theme": "Physical only",
+      "description": "Magic attacks deal no damage. Physical skills cost Health, and debuffs open burst windows.",
+      "mutation_ids": ["sanguine_casting", "null_ward", "hexbreak"]
+    },
+    {
+      "id": "mortal_vanguard",
+      "name": "Mortal Vanguard",
+      "theme": "Physical only",
+      "description": "Magic attacks deal no damage. Reduced healing rewards decisive physical critical chains.",
+      "mutation_ids": ["severed_grace", "null_ward", "keen_rupture"]
+    },
+    {
+      "id": "prismatic_relay",
+      "name": "Prismatic Relay",
+      "theme": "Rotate attack types",
+      "description": "Repeated damage types are blocked. Rotate Melee, Ranged, and Magic attacks despite slower Mana gain.",
+      "mutation_ids": ["starved_current", "prismatic_memory", "triune_fracture"]
+    },
+    {
+      "id": "sanguine_spectrum",
+      "name": "Sanguine Spectrum",
+      "theme": "Rotate attack types",
+      "description": "Repeated damage types are blocked. Rotate all three types while paying Health for active skills.",
+      "mutation_ids": ["sanguine_casting", "prismatic_memory", "triune_fracture"]
+    },
+    {
+      "id": "fractured_grace",
+      "name": "Fractured Grace",
+      "theme": "Rotate attack types",
+      "description": "Repeated damage types are blocked. Rotate all three types while managing sharply reduced healing.",
+      "mutation_ids": ["severed_grace", "prismatic_memory", "triune_fracture"]
+    },
+    {
+      "id": "deadeye_drought",
+      "name": "Deadeye Drought",
+      "theme": "Ranged only",
+      "description": "Only Ranged attacks deal damage. Slower Mana gain rewards accurate critical volleys.",
+      "mutation_ids": ["starved_current", "horizon_ward", "keen_rupture"]
+    },
+    {
+      "id": "bloodshot_volley",
+      "name": "Bloodshot Volley",
+      "theme": "Ranged only",
+      "description": "Only Ranged attacks deal damage. Skills cost Health, and debuffs open focused-fire windows.",
+      "mutation_ids": ["sanguine_casting", "horizon_ward", "hexbreak"]
+    },
+    {
+      "id": "last_arrow",
+      "name": "Last Arrow",
+      "theme": "Ranged only",
+      "description": "Only Ranged attacks deal damage. Reduced healing rewards decisive critical volleys.",
+      "mutation_ids": ["severed_grace", "horizon_ward", "keen_rupture"]
+    }
+  ],
   "mutations": [
     {
       "id": "starved_current",
@@ -110,6 +196,16 @@
       "description": "After an enemy takes a damage type, it is immune to that type until struck by a different one.",
       "effects": {
         "enemy_repeat_type_immunity": true
+      }
+    },
+    {
+      "id": "horizon_ward",
+      "category": "adaptation",
+      "name": "Horizon Ward",
+      "description": "Enemies are immune to Melee and Magic damage. Bring Ranged attackers.",
+      "effects": {
+        "enemy_magic_immunity": true,
+        "enemy_melee_immunity": true
       }
     },
     {

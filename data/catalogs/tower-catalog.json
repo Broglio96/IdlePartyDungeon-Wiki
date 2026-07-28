@@ -8,18 +8,66 @@
   "formation_columns": 4,
   "turn_interval": 0.65,
   "tier_bands": [
-    {"start_floor": 1, "end_floor": 9, "tier": 1},
-    {"start_floor": 10, "end_floor": 19, "tier": 2},
-    {"start_floor": 20, "end_floor": 29, "tier": 3},
-    {"start_floor": 30, "end_floor": 34, "tier": 4},
-    {"start_floor": 35, "end_floor": 39, "tier": 5},
-    {"start_floor": 40, "end_floor": 49, "tier": 6},
-    {"start_floor": 50, "end_floor": 59, "tier": 7},
-    {"start_floor": 60, "end_floor": 64, "tier": 8},
-    {"start_floor": 65, "end_floor": 69, "tier": 9},
-    {"start_floor": 70, "end_floor": 79, "tier": 10},
-    {"start_floor": 80, "end_floor": 89, "tier": 11},
-    {"start_floor": 90, "end_floor": 100, "tier": 12}
+    {
+      "start_floor": 1,
+      "end_floor": 9,
+      "tier": 1
+    },
+    {
+      "start_floor": 10,
+      "end_floor": 19,
+      "tier": 2
+    },
+    {
+      "start_floor": 20,
+      "end_floor": 29,
+      "tier": 3
+    },
+    {
+      "start_floor": 30,
+      "end_floor": 34,
+      "tier": 4
+    },
+    {
+      "start_floor": 35,
+      "end_floor": 39,
+      "tier": 5
+    },
+    {
+      "start_floor": 40,
+      "end_floor": 49,
+      "tier": 6
+    },
+    {
+      "start_floor": 50,
+      "end_floor": 59,
+      "tier": 7
+    },
+    {
+      "start_floor": 60,
+      "end_floor": 64,
+      "tier": 8
+    },
+    {
+      "start_floor": 65,
+      "end_floor": 69,
+      "tier": 9
+    },
+    {
+      "start_floor": 70,
+      "end_floor": 79,
+      "tier": 10
+    },
+    {
+      "start_floor": 80,
+      "end_floor": 89,
+      "tier": 11
+    },
+    {
+      "start_floor": 90,
+      "end_floor": 100,
+      "tier": 12
+    }
   ],
   "difficulty": {
     "adjacent_tier_factor": 1.42,
@@ -28,22 +76,58 @@
     "damage_start_multiplier": 0.85,
     "damage_end_multiplier": 1.35,
     "hp_curve": [
-      {"floor": 1, "multiplier": 0.85},
-      {"floor": 70, "multiplier": 1.45},
-      {"floor": 80, "multiplier": 3.5089},
-      {"floor": 90, "multiplier": 5.7803},
-      {"floor": 99, "multiplier": 8.395},
-      {"floor": 100, "multiplier": 2.05}
+      {
+        "floor": 1,
+        "multiplier": 0.85
+      },
+      {
+        "floor": 70,
+        "multiplier": 1.45
+      },
+      {
+        "floor": 80,
+        "multiplier": 3.5089
+      },
+      {
+        "floor": 90,
+        "multiplier": 5.7803
+      },
+      {
+        "floor": 99,
+        "multiplier": 8.395
+      },
+      {
+        "floor": 100,
+        "multiplier": 2.05
+      }
     ],
     "damage_curve": [
-      {"floor": 1, "multiplier": 0.85},
-      {"floor": 70, "multiplier": 1.15},
-      {"floor": 80, "multiplier": 2.5816},
-      {"floor": 90, "multiplier": 3.9942},
-      {"floor": 99, "multiplier": 5.5284},
-      {"floor": 100, "multiplier": 1.35}
+      {
+        "floor": 1,
+        "multiplier": 0.85
+      },
+      {
+        "floor": 70,
+        "multiplier": 1.15
+      },
+      {
+        "floor": 80,
+        "multiplier": 2.5816
+      },
+      {
+        "floor": 90,
+        "multiplier": 3.9942
+      },
+      {
+        "floor": 99,
+        "multiplier": 5.5284
+      },
+      {
+        "floor": 100,
+        "multiplier": 1.35
+      }
     ],
-    "boss_hp_multiplier": 2.20,
+    "boss_hp_multiplier": 2.2,
     "boss_damage_multiplier": 1.12,
     "defense_cap": 88
   },
@@ -73,30 +157,235 @@
     }
   },
   "wings": [
-    {"id":"foundations","name":"The Foundations","start_floor":1,"end_floor":10,"normal_monsters":["Mortar Slime","Keystone Spark","Chalkvein Slime","Grout Ooze","Plumbline Blob","Bedrock Jelly","Pillar Ember","Understep Drip","Foundation Surveyor"],"boss_name":"Basalt Oathkeeper"},
-    {"id":"flooded_stair","name":"The Flooded Stair","start_floor":11,"end_floor":20,"normal_monsters":["Rimewake Climber","Siltstep Ooze","Brineglass Skulker","Undertow Prism","Floodmark Leech","Rainchain Wisp","Foamveil Lurker","Drowned Landing Guard","Bellrope Revenant"],"boss_name":"Bellwarden of the Drowned Step"},
-    {"id":"iron_boughs","name":"The Iron Boughs","start_floor":21,"end_floor":30,"normal_monsters":["Rustleaf Charger","Mossiron Prowler","Rivetwing Wisp","Bogbolt Beetle","Boughplate Sentinel","Ferric Sapling","Rootgear Sentry","Canopy Foundry Wisp","Ironvine Standard-Bearer"],"boss_name":"Ferric Canopy Sovereign"},
-    {"id":"lantern_reach","name":"The Lantern Reach","start_floor":31,"end_floor":40,"normal_monsters":["Rootcoil Lamplighter","Sporewick Diviner","Ferrum Beacon","Emberroot Pilgrim","Sunk Lantern Bearer","Blackwater Wick","Tollflame Sentry","Causeway Candlekeeper","Gloamglass Ferryman"],"boss_name":"Wickbound Pilgrim"},
-    {"id":"ashen_vault","name":"The Ashen Vault","start_floor":41,"end_floor":50,"normal_monsters":["Vault-Ash Sentinel","Soot Reliquary Keeper","Unspent Wickshade","Ember Censer Hound","Cinderlock Custodian","Ashglass Wraith","Charred Keybearer","Reliquary Moth","Last Ember Sacristan"],"boss_name":"Cinder Reliquary"},
-    {"id":"star_gallery","name":"The Star Gallery","start_floor":51,"end_floor":60,"normal_monsters":["Stardust Disciple","Comet Cinder Monk","Orbiting Ashling","Constellation Pilgrim","Starcoal Anchorite","Meteor Votary","Night-Sky Cenobite","Ashen Astrolabe","Galactic Incense Bearer"],"boss_name":"Orrery Curator"},
-    {"id":"chimera_walk","name":"The Chimera Walk","start_floor":61,"end_floor":70,"normal_monsters":["Prismhide Prowler","Orbitbone Sentinel","Starglass Stitcher","Many-Eyed Astromancer","Patchstar Hound","Umbral Graftling","Chimeric Talon","Suturewing Horror","Broodwalk Stalker"],"boss_name":"Manymade Matriarch"},
-    {"id":"crownless_spire","name":"The Crownless Spire","start_floor":71,"end_floor":80,"normal_monsters":["Vacant Vanguard","Bannerless Marshal","Hollow Stair Knight","Sealbound Castellan","Crown-Eater","Empty Court Duelist","Black Parapet Watcher","Throneless Adjudicator","Last Bastion Shade"],"boss_name":"Empty Castellan"},
-    {"id":"worldroot_crown","name":"The Worldroot Crown","start_floor":81,"end_floor":90,"normal_monsters":["Vein-Crowned Behemoth","Sapthrone Oracle","Heartroot Knight","Bloomvein Beast","Crownwood Augur","Pulsebark Guardian","Royal Mycelium","Bloodsap Cantor","Worldroot Scion"],"boss_name":"Heartbloom Colossus"},
-    {"id":"zenith","name":"The Zenith","start_floor":91,"end_floor":100,"normal_monsters":["Zenith Herald","Dawn-Ash Seal","Eventide Seal","Silent Meridian","Root of Noon","Lastlight Gaoler","Eclipse Witness","Crownshadow Seraph","Waiting Thronekeeper"],"boss_name":"The Crown That Waits"}
+    {
+      "id": "foundations",
+      "name": "The Foundations",
+      "start_floor": 1,
+      "end_floor": 10,
+      "normal_monsters": [
+        "Mortar Slime",
+        "Keystone Spark",
+        "Chalkvein Slime",
+        "Grout Ooze",
+        "Plumbline Blob",
+        "Bedrock Jelly",
+        "Pillar Ember",
+        "Understep Drip",
+        "Foundation Surveyor"
+      ],
+      "boss_name": "Basalt Oathkeeper"
+    },
+    {
+      "id": "flooded_stair",
+      "name": "The Flooded Stair",
+      "start_floor": 11,
+      "end_floor": 20,
+      "normal_monsters": [
+        "Rimewake Climber",
+        "Siltstep Ooze",
+        "Brineglass Skulker",
+        "Undertow Prism",
+        "Floodmark Leech",
+        "Rainchain Wisp",
+        "Foamveil Lurker",
+        "Drowned Landing Guard",
+        "Bellrope Revenant"
+      ],
+      "boss_name": "Bellwarden of the Drowned Step"
+    },
+    {
+      "id": "iron_boughs",
+      "name": "The Iron Boughs",
+      "start_floor": 21,
+      "end_floor": 30,
+      "normal_monsters": [
+        "Rustleaf Charger",
+        "Mossiron Prowler",
+        "Rivetwing Wisp",
+        "Bogbolt Beetle",
+        "Boughplate Sentinel",
+        "Ferric Sapling",
+        "Rootgear Sentry",
+        "Canopy Foundry Wisp",
+        "Ironvine Standard-Bearer"
+      ],
+      "boss_name": "Ferric Canopy Sovereign"
+    },
+    {
+      "id": "lantern_reach",
+      "name": "The Lantern Reach",
+      "start_floor": 31,
+      "end_floor": 40,
+      "normal_monsters": [
+        "Rootcoil Lamplighter",
+        "Sporewick Diviner",
+        "Ferrum Beacon",
+        "Emberroot Pilgrim",
+        "Sunk Lantern Bearer",
+        "Blackwater Wick",
+        "Tollflame Sentry",
+        "Causeway Candlekeeper",
+        "Gloamglass Ferryman"
+      ],
+      "boss_name": "Wickbound Pilgrim"
+    },
+    {
+      "id": "ashen_vault",
+      "name": "The Ashen Vault",
+      "start_floor": 41,
+      "end_floor": 50,
+      "normal_monsters": [
+        "Vault-Ash Sentinel",
+        "Soot Reliquary Keeper",
+        "Unspent Wickshade",
+        "Ember Censer Hound",
+        "Cinderlock Custodian",
+        "Ashglass Wraith",
+        "Charred Keybearer",
+        "Reliquary Moth",
+        "Last Ember Sacristan"
+      ],
+      "boss_name": "Cinder Reliquary"
+    },
+    {
+      "id": "star_gallery",
+      "name": "The Star Gallery",
+      "start_floor": 51,
+      "end_floor": 60,
+      "normal_monsters": [
+        "Stardust Disciple",
+        "Comet Cinder Monk",
+        "Orbiting Ashling",
+        "Constellation Pilgrim",
+        "Starcoal Anchorite",
+        "Meteor Votary",
+        "Night-Sky Cenobite",
+        "Ashen Astrolabe",
+        "Galactic Incense Bearer"
+      ],
+      "boss_name": "Orrery Curator"
+    },
+    {
+      "id": "chimera_walk",
+      "name": "The Chimera Walk",
+      "start_floor": 61,
+      "end_floor": 70,
+      "normal_monsters": [
+        "Prismhide Prowler",
+        "Orbitbone Sentinel",
+        "Starglass Stitcher",
+        "Many-Eyed Astromancer",
+        "Patchstar Hound",
+        "Umbral Graftling",
+        "Chimeric Talon",
+        "Suturewing Horror",
+        "Broodwalk Stalker"
+      ],
+      "boss_name": "Manymade Matriarch"
+    },
+    {
+      "id": "crownless_spire",
+      "name": "The Crownless Spire",
+      "start_floor": 71,
+      "end_floor": 80,
+      "normal_monsters": [
+        "Vacant Vanguard",
+        "Bannerless Marshal",
+        "Hollow Stair Knight",
+        "Sealbound Castellan",
+        "Crown-Eater",
+        "Empty Court Duelist",
+        "Black Parapet Watcher",
+        "Throneless Adjudicator",
+        "Last Bastion Shade"
+      ],
+      "boss_name": "Empty Castellan"
+    },
+    {
+      "id": "worldroot_crown",
+      "name": "The Worldroot Crown",
+      "start_floor": 81,
+      "end_floor": 90,
+      "normal_monsters": [
+        "Vein-Crowned Behemoth",
+        "Sapthrone Oracle",
+        "Heartroot Knight",
+        "Bloomvein Beast",
+        "Crownwood Augur",
+        "Pulsebark Guardian",
+        "Royal Mycelium",
+        "Bloodsap Cantor",
+        "Worldroot Scion"
+      ],
+      "boss_name": "Heartbloom Colossus"
+    },
+    {
+      "id": "zenith",
+      "name": "The Zenith",
+      "start_floor": 91,
+      "end_floor": 100,
+      "normal_monsters": [
+        "Zenith Herald",
+        "Dawn-Ash Seal",
+        "Eventide Seal",
+        "Silent Meridian",
+        "Root of Noon",
+        "Lastlight Gaoler",
+        "Eclipse Witness",
+        "Crownshadow Seraph",
+        "Waiting Thronekeeper"
+      ],
+      "boss_name": "The Crown That Waits"
+    }
   ],
   "mist_schedule": {
     "bands": [
-      {"start_floor": 71, "end_floor": 80, "mist": 20, "mist_enemy_evade_per_percent": 0.5},
-      {"start_floor": 81, "end_floor": 90, "mist": 30, "mist_enemy_evade_per_percent": 0.55},
-      {"start_floor": 91, "end_floor": 99, "mist": 40, "mist_enemy_evade_per_percent": 0.6},
-      {"start_floor": 100, "end_floor": 100, "mist": 50, "mist_enemy_evade_per_percent": 0.65}
+      {
+        "start_floor": 71,
+        "end_floor": 80,
+        "mist": 20,
+        "mist_enemy_evade_per_percent": 0.5
+      },
+      {
+        "start_floor": 81,
+        "end_floor": 90,
+        "mist": 30,
+        "mist_enemy_evade_per_percent": 0.55
+      },
+      {
+        "start_floor": 91,
+        "end_floor": 99,
+        "mist": 40,
+        "mist_enemy_evade_per_percent": 0.6
+      },
+      {
+        "start_floor": 100,
+        "end_floor": 100,
+        "mist": 50,
+        "mist_enemy_evade_per_percent": 0.65
+      }
     ]
   },
   "echo_pressure_schedule": {
     "bands": [
-      {"start_floor": 81, "end_floor": 90, "enemy_hp_percent_per_missing_rank": 50.0, "enemy_attack_percent_per_missing_rank": 60.0},
-      {"start_floor": 91, "end_floor": 99, "enemy_hp_percent_per_missing_rank": 50.0, "enemy_attack_percent_per_missing_rank": 60.0},
-      {"start_floor": 100, "end_floor": 100, "enemy_hp_percent_per_missing_rank": 50.0, "enemy_attack_percent_per_missing_rank": 60.0}
+      {
+        "start_floor": 81,
+        "end_floor": 90,
+        "enemy_hp_percent_per_missing_rank": 50.0,
+        "enemy_attack_percent_per_missing_rank": 60.0
+      },
+      {
+        "start_floor": 91,
+        "end_floor": 99,
+        "enemy_hp_percent_per_missing_rank": 50.0,
+        "enemy_attack_percent_per_missing_rank": 60.0
+      },
+      {
+        "start_floor": 100,
+        "end_floor": 100,
+        "enemy_hp_percent_per_missing_rank": 50.0,
+        "enemy_attack_percent_per_missing_rank": 60.0
+      }
     ]
   },
   "apex": {

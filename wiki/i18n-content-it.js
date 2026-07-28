@@ -1,21 +1,38 @@
 /*
- * Contenuti della guida in italiano per Idle Party Dungeon 1.09.
+ * Contenuti della guida in italiano per Idle Party Dungeon 1.10.
  * La cronologia degli aggiornamenti resta nel capitolo Note di aggiornamento.
- * Aggiornato il 27 luglio 2026.
+ * Aggiornato il 28 luglio 2026.
  */
 window.WIKI_CONTENT_IT = Object.freeze({
   version: {
-    game: "1.09",
-    updated: "27 luglio 2026",
+    game: "1.10",
+    updated: "28 luglio 2026",
     status: "Versione attuale per test chiuso"
   },
 
   patchNotes: [
     {
+      version: "1.10",
+      title: "Riforgia dei raid e temi dell'Eco",
+      date: "28 luglio 2026",
+      status: "Versione attuale per test chiuso",
+      notes: [
+        "L'accessorio unico di ogni raid ora può essere riforgiato a un grado superiore, come già accadeva per la sua arma e la sua armatura. Un accessorio riforgiato mantiene l'identità del raid, il bonus del set e l'effetto attivato: cambiano solo le statistiche, così un set completato al proprio grado di raid può accompagnare il gruppo nella scalata.",
+        "Il combattimento giornaliero contro il Guardiano della Discesa dell'Eco ora si svolge sotto uno di dodici temi con un nome — Carestia Arcana, Staffetta Prismatica, Ultima Freccia e altri nove — ognuno dei quali combina tre delle dieci leggi dell'Eco in un'unica strategia leggibile. I temi ruotano alle 00:00 UTC e un combattimento già iniziato conserva le leggi con cui è cominciato fino alla sua conclusione. La panoramica della Discesa dell'Eco mostra il tema di oggi e le sue tre leggi.",
+        "L'equipaggiamento ora arriva con una cadenza più regolare. Ogni grado ordinario offre le tre armi Base più esattamente una linea di variante — armi da colpo critico ai gradi 1, 5, 7 e 11, armi specialistiche ai gradi 2, 4, 8 e 10 — invece di oscillare tra tre e otto nuovi pezzi per grado. I gradi da raid 3, 6, 9 e 12 offrono solo le tre armi Base e le tre armature Base che la riforgia dei raid consuma.",
+        "Le armature da guardia ora coprono un peso per ogni grado pari ordinario — Leggera, Media, Pesante e di nuovo Leggera — anziché tutti e tre i pesi insieme. Tienine conto: una build da colpo critico può ora attendere fino a quattro gradi tra un miglioramento e l'altro invece di due, perché i gradi da raid non portano più quella linea.",
+        "L'elenco delle ricette del laboratorio ha un filtro per grado accanto ai comandi di tipo e ordinamento: scegli da G1 a G12 per vedere solo le ricette di quel grado. Si combina con il filtro per tipo, la casella di ricerca e i segnalini di stato, e riportandolo su “Grado” si ripristina l'elenco completo.",
+        "L'ordinamento delle ricette usa etichette compatte — Qtà, Grado e A-Z con una freccia su o giù — così tutti e tre i comandi stanno su una riga al telefono. L'ordine alfabetico inverso è una novità; tutti gli altri restano invariati.",
+        "Risolta la schermata nera su Google Play Games su PC, dove il gioco si avviava e raggiungeva un menu pienamente interattivo ma i fotogrammi non arrivavano mai alla finestra. I telefoni non sono interessati. Google Play Games su PC ha inoltre ricevuto una build nativa, che ha ridotto l'avvio da circa 5,1 secondi a circa 1,8.",
+        "Ridipinte le armi di grado 8 dell'Osservatorio Infranto — Arco da guerra Orbita, Lama piuma Cometa e Uncino Divorante di Vetrostellare — nella tavolozza dorata da planetario della loro famiglia, e ritematizzate le armi che hanno cambiato grado perché ognuna continui a leggersi come opera del proprio dungeon.",
+        "Rimosso il fregio decorativo che attraversava i titoli di pagina, sezione, scheda ed eroe, dove alla dimensione di pubblicazione finiva sopra il testo. Il pulsante di navigazione selezionato ora usa lo stile ornato invece di quello piatto premuto."
+      ]
+    },
+    {
       version: "1.09",
       title: "Aggiornamento Risonanza e progressione",
       date: "27 luglio 2026",
-      status: "Versione attuale per test chiuso",
+      status: "Versione precedente per test chiuso",
       notes: [
         "Ribilanciate le classi degli eroi per ottenere prestazioni più uniformi in ogni classe, percorso di promozione e fase della progressione, dai primi dungeon fino ai raid e al fine gioco.",
         "Rielaborati i bonus dei set da raid: il set di ogni raid ora è composto da tre pezzi — l’arma creata, l’armatura creata e l’accessorio unico del raid. Due pezzi qualsiasi concedono un potenziamento fisso di statistiche, e il set completo da tre pezzi risveglia in aggiunta un effetto che si adatta al ruolo della classe e al tipo di arma, nella modalità critici o danno base propria del raid. Migliorata inoltre la sopravvivenza di Mistico e Paladino con equipaggiamento da raid.",
@@ -93,7 +110,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
       version: "1.07",
       title: "Correzione di comandi e navigazione",
       date: "19 luglio 2026",
-      status: "Versione precedente per test chiuso",
+      status: "Versione per test chiuso",
       notes: [
         "Risolto un problema della versione 1.06 che poteva rendere inattivi pulsanti e menu dopo l'aggiornamento.",
         "I comandi touch e lo scorrimento ora funzionano normalmente su Android, così come i comandi del mouse su Windows.",
@@ -388,7 +405,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
       id: "discovery",
       eyebrow: "Informazioni",
       title: "La scoperta fa parte della progressione",
-      summary: "I cataloghi nel gioco nascondono intenzionalmente i contenuti non ancora incontrati, ma questo Codex presenta l'intero sistema di regole della 1.09 come riferimento strategico completo.",
+      summary: "I cataloghi nel gioco nascondono intenzionalmente i contenuti non ancora incontrati, ma questo Codex presenta l'intero sistema di regole della 1.10 come riferimento strategico completo.",
       bullets: [
         "Un mostro entra nel Bestiario quando la sua ondata viene vista per la prima volta.",
         "Un oggetto viene scoperto tramite ritrovamento, raccolta, creazione, acquisto, ripristino dell'equipaggiamento o ricompensa esplicita.",
@@ -723,7 +740,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
     {area:"Combattimento in corso", actions:["Il combattimento avanza automaticamente secondo l'intervallo d'azione indicato per l'attività; non è necessario impartire attacchi manuali.", "Seleziona o esamina un combattente per vedere in tempo reale PV, Mana, barriere, statistiche, abilità, equipaggiamento e stati attivi.", "Gli indicatori di battaglia mostrano attacchi, cure, abilità, schivate, critici, contrattacchi, barriere e resistenza agli effetti nocivi.", "Interrompi un dungeon senza perdere i bottini in attesa. Abbandonare un raid permanente mantiene consumato l'ingresso giornaliero; i tentativi della Torre restano illimitati, mentre una sconfitta o un abbandono nell'Eco mantiene disponibile lo scontro di oggi per un altro tentativo."]},
     {area:"Ricompense e rapporti", actions:["Raccogli in un'attività trasferisce gli oggetti in attesa all'Inventario; i Grappoli di Gemme si aprono automaticamente e i gettoni uovo diventano uova da schiudere.", "Raccogli tutto elabora ogni dungeon con ricompense in attesa e riporta oggetti, Gemme e numero di dungeon complessivi.", "I rapporti conservano il riepilogo della sessione appena raccolta e, prima della raccolta, mostrano stime orarie in tempo reale.", "I bottini mostrati in un'attività attiva sono in attesa e non ancora utilizzabili per la creazione o l'equipaggiamento."]},
     {area:"Dettagli dell'eroe", actions:["Gli slot di equipaggiamento filtrano gli oggetti compatibili: armi da Mischia, a Distanza o Magiche, armature Leggere, Medie o Pesanti e accessori.", "La promozione al livello 25 presenta due schede di specializzazione; quella al livello 50 presenta la classe élite associata.", "Ogni potenziamento di una Runa è garantito quando è disponibile il Frammento corrispondente. I gradi delle Rune non sono casuali.", "La promozione élite sblocca subito l'Ascensione al livello 0 azzerato. I livelli 4–46 assegnano 15 punti e il livello 50 assegna quello finale, per un budget di 16 punti.", "Scegli un Percorso Ascendente e un'opzione per ciascuna riga Fondamenta, Risveglio, Maestria e Coronamento. La ridistribuzione nello stesso percorso è gratuita; solo il cambio di percorso consuma un Emblema della Rinascita creato e restituisce tutti i punti."]},
-    {area:"Creazione e oggetti", actions:["Apri una ricetta per controllare risultato, quantità, costo in Monete, tempo di creazione, grado, requisito del raid e tutti gli ingredienti.", "Imposta il filtro Tipo di oggetto su Non scoperte per elencare solo le ricette che producono qualcosa che non hai mai visto e usano un materiale che possiedi; nomi e icone restano mascherati finché non le trovi.","Avviare un lotto riserva immediatamente tutti gli ingredienti e le Monete.", "Usa le schede della coda per controllare il tempo di completamento o annullare un lavoro incompleto ottenendo il rimborso completo dei costi riservati.", "La vendita è disattivata per gli oggetti protetti; equipaggiare rimuove l'oggetto dall'Inventario ordinario finché non viene tolto."]},
+    {area:"Creazione e oggetti", actions:["Apri una ricetta per controllare risultato, quantità, costo in Monete, tempo di creazione, grado, requisito del raid e tutti gli ingredienti.", "Imposta il filtro Tipo di oggetto su Non scoperte per elencare solo le ricette che producono qualcosa che non hai mai visto e usano un materiale che possiedi; nomi e icone restano mascherati finché non le trovi.", "Imposta il filtro Grado su T1-T12 per elencare solo le ricette di quel grado, come il distintivo di grado su ogni scheda; restringe ciò che il filtro Tipo, il testo di ricerca e i pulsanti di stato già selezionano.","Avviare un lotto riserva immediatamente tutti gli ingredienti e le Monete.","Usa le schede della coda per controllare il tempo di completamento o annullare un lavoro incompleto ottenendo il rimborso completo dei costi riservati.", "La vendita è disattivata per gli oggetti protetti; equipaggiare rimuove l'oggetto dall'Inventario ordinario finché non viene tolto."]},
     {area:"Famigli", actions:["Le uova lasciate dai boss compaiono dopo aver raccolto le ricompense dell'attività. Le uova di famiglia costano 75–300 Gemme in base al grado.", "Schiudi per estrarre rarità e un insieme mescolato di effetti distinti della famiglia; l'immagine della creatura segue la rarità. I potenziamenti dell'incubatoio portano la probabilità Leggendaria al 2% e la garanzia condivisa assicura il prossimo Leggendario dopo 100 insuccessi.", "Rinomina un famiglio, assegnalo a una formazione, salvalo nella formazione di quell'attività oppure vendilo in cambio di Monete quando non è schierato.", "Il valore di vendita dipende dal grado della famiglia e dalla rarità; il livello Legame non lo influenza.", "L'intensità degli effetti aumenta in modo non lineare con il livello; al livello 20 è esattamente tre volte il valore base del livello 1."]},
     {area:"Cloud ed eliminazione", actions:["Sincronizza ora richiede la riconciliazione cloud di Google Play Games nelle build Android supportate e autenticate.", "Se le cronologie divergono, confronta data, ora e riepiloghi della progressione prima di scegliere questo dispositivo o il cloud; il lato valido non selezionato viene archiviato come dato di recupero.", "Identità e obiettivi di Play Games e progressi di gioco nel cloud sono servizi separati.", "Elimina dati è un'operazione distruttiva: dopo la conferma rimuove progressi locali, preferenze, copie di recupero crittografate e istantanea privata nel cloud."]}
   ],
@@ -747,7 +764,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
   },
 
   accuracyNotes: [
-    {title:"Versione attuale della guida", text:"Ogni capitolo strategico e calcolatore descrive la versione 1.09 del gioco, la versione attuale per test chiuso. La cronologia degli aggiornamenti è limitata alle Note di aggiornamento."},
+    {title:"Versione attuale della guida", text:"Ogni capitolo strategico e calcolatore descrive la versione 1.10 del gioco, la versione attuale per test chiuso. La cronologia degli aggiornamenti è limitata alle Note di aggiornamento."},
     {title:"I bonus dei titoli conferiscono 10", text:"Un'offerta generata ha il 25% di probabilità di possedere un titolo. Salute e Attacco usano ×1,10; Difesa, Difesa magica, Schivata e Probabilità critica aggiungono 10 punti percentuali."},
     {title:"Il primo accessorio ha una garanzia progressiva", text:"Finché la prima copia non viene scoperta o è già in attesa, la probabilità di un accessorio da raid parte dal 15%, aumenta di 5 punti percentuali a ogni vittoria ed è garantita alla decima. Le copie successive hanno probabilità del 15%."},
     {title:"Gli orologi dei raid contano le azioni degli eroi", text:"La Costellazione usa 10 azioni degli eroi e richiede tre colpi corrispondenti riusciti; lo stesso eroe può contribuire in azioni successive. Le fasi dell'Eclissi durano 12 azioni all'Alba, 12 al Crepuscolo e 6 nell'Eclissi Totale."},

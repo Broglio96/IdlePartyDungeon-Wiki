@@ -18,7 +18,7 @@
 	  "next_dungeon": "Forest Edge", "completion_target_type": "progression", "completion_target_amount": 120, "completion_boss": "Slime King", "story_mail_id": "unlock_forest_edge", "material_family": "Prismcore",
 	  "mist":10,"mist_change_interval":10,"mist_min":10,"mist_max":25,"mist_enemy_evade_per_percent":0.4,"enemy_hp_multiplier":1.1008,"enemy_damage_multiplier":0.9705,"enemy_defense_bonus":0,"enemy_magic_defense_bonus":0,
 	  "monster_teams": [
-		{"monsters":["Prism Slime","Mist Slime"],"weight":32},{"monsters":["Prism Slime","Ember Prism"],"weight":28},{"monsters":["Mist Slime","Venom Mist"],"weight":24},{"monsters":["Prism Slime","Loam Mist"],"weight":18},
+		{"monsters":["Prism Slime","Mist Slime"],"weight":32},{"monsters":["Prism Slime","Ember Prism","Frost Prism"],"weight":28},{"monsters":["Mist Slime","Venom Mist"],"weight":24},{"monsters":["Prism Slime","Loam Mist"],"weight":18},
 		{"monsters":["Slime King"],"weight":0,"is_boss":true}
 	  ]
 	},

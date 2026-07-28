@@ -1,25 +1,42 @@
 /*
- * Player-facing guide content for Idle Party Dungeon 1.09.
+ * Player-facing guide content for Idle Party Dungeon 1.10.
  * Update history is kept in the Patch Notes chapter.
- * Updated 27 July 2026.
+ * Updated 28 July 2026.
  */
 window.WIKI_CONTENT = Object.freeze({
   version: {
-    game: "1.09",
-    updated: "27 July 2026",
+    game: "1.10",
+    updated: "28 July 2026",
     status: "Current closed-test release"
   },
 
   patchNotes: [
     {
+      version: "1.10",
+      title: "Raid Reforge & Echo Themes",
+      date: "28 July 2026",
+      status: "Current closed-test release",
+      notes: [
+        "Every raid's unique accessory can now be reforged to a higher tier, the same way its weapon and armor already could. A reforged accessory keeps its raid identity, its set bonus, and its triggered effect while only the stats scale, so a set assembled at its own raid tier can be carried up with the party.",
+        "The daily Echo Descent Guardian fight now runs under one of twelve named themes — Arcane Famine, Prismatic Relay, Last Arrow and nine more — each bundling three of the ten Echo laws into a single readable strategy. Themes rotate at 00:00 UTC, and a fight already under way keeps the laws it began with until it resolves. The Echo Descent overview shows today's theme and its three laws.",
+        "Equipment now arrives on a steadier cadence. Every ordinary tier offers the three Core weapons plus exactly one variant line — critical-hit weapons on tiers 1, 5, 7 and 11, specialist weapons on tiers 2, 4, 8 and 10 — instead of swinging between three and eight new pieces per tier. Raid tiers 3, 6, 9 and 12 offer only the three Core weapons and three Core armors that raid reforging consumes.",
+        "Guard armor now covers one weight per ordinary even tier — Light, Medium, Heavy, then Light again — rather than all three weights at once. Plan for a critical-hit build waiting up to four tiers between upgrades rather than two, because the raid tiers no longer carry that line.",
+        "The Workshop's recipe list has a tier filter beside the type and sort controls: pick T1 through T12 to see only that tier's recipes. It stacks with the type filter, the search box, and the status chips, and clearing it back to “Tier” restores the full list.",
+        "Recipe sorting reads as compact labels — Qty, Tier and A-Z with an up or down arrow — so all three controls fit one row on a phone. Reverse alphabetical is new; every other order is unchanged.",
+        "Fixed the black screen on Google Play Games on PC, where the game booted and reached a fully interactive menu but its frames never reached the window. Phones are untouched. Google Play Games on PC also gained a native build, cutting startup there from about 5.1 seconds to about 1.8.",
+        "Repainted the tier-8 Shattered Observatory weapons — Orbit Warbow, Comet Featherblade and Starglass Hungering Crook — into the family's gilded orrery palette, and rethemed the weapons that moved tier so each still reads as the work of its own dungeon.",
+        "Cleared the decorative flourish that ran across page, section, card and hero titles, where it collapsed onto the text at the shipping title size. The selected navigation button now uses the ornate style instead of the flat pressed one."
+      ]
+    },
+    {
       version: "1.09",
       title: "Resonance & Progression Update",
       date: "27 July 2026",
-      status: "Current closed-test release",
+      status: "Previous closed-test release",
       notes: [
         "Rebalanced hero classes for more consistent performance across every class, promotion path, and progression stage, from early dungeons through raids and the endgame.",
         "Reworked raid set bonuses: each raid's set is now three pieces — its crafted weapon, its crafted armor, and its unique accessory. Any two pieces grant a flat stat rider, and the full three-piece set additionally awakens an effect that adapts to class role and weapon type in the raid's own critical or base-damage mode. Mystic and Paladin raid wearers also gained better survivability.",
-        "Every raid now has its own gear identity — the Marching Grove protects, the Lightless Armada sustains, the Broken Sky crits, and the Last Road balances. Each raid offers one weapon per weapon type plus three new craftable raid armors (Light, Medium, Heavy) in that identity, and reforging a raid piece to a higher tier keeps its identity and effects while only the stats scale up. Consolidated weapon recipes are no longer offered, but already-crafted weapons keep working and can still be reforged.",
+        "Every raid now has its own gear identity — the Marching Grove protects, the Lightless Armada sustains, the Broken Sky crits, and the Last Road balances. Each raid offers one weapon per weapon type plus three new craftable raid armors (Light, Medium, Heavy) in that identity, and reforging a raid piece to a higher tier keeps its identity and effects while only the stats scale up — so every raid's set can be carried all the way to tier 12 and all four remain viable endgame choices. The older off-identity raid weapons have been retired from the game entirely.",
         "Reworked Ascension into four choice rows — Foundation, Awakening, Mastery, and Capstone — with a meaningful pick at every stage of a 16-point build. Ranks can be freely reallocated, including switching a row’s pick within the current path; changing Ascendant Path now uses a rare raid-crafted item.",
         "Rebalanced Mist across all three affected dungeons for more consistent difficulty by tier. Mist Reduction pet bonuses now genuinely reduce the extra enemy evasion granted by Mist.",
         "Dungeon monster difficulty now scales smoothly by tier for a steadier climb from Slime Forest through Eclipse Throne. Tower of Resonance Floors 71–100 are also harder as the party approaches the Apex, matched to expected Echo Resonance investment.",
@@ -93,7 +110,7 @@ window.WIKI_CONTENT = Object.freeze({
       version: "1.07",
       title: "Controls & Navigation Fix",
       date: "19 July 2026",
-      status: "Previous closed-test release",
+      status: "Closed-test release",
       notes: [
         "Fixed an issue in version 1.06 that could leave buttons and menus unresponsive after installing the update.",
         "Touch controls and scrolling now work normally on Android, and mouse controls now work normally on Windows.",
@@ -388,7 +405,7 @@ window.WIKI_CONTENT = Object.freeze({
       id: "discovery",
       eyebrow: "Information",
       title: "Discovery is part of progression",
-      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.09 ruleset as an end-to-end strategy reference.",
+      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.10 ruleset as an end-to-end strategy reference.",
       bullets: [
         "A monster enters the Bestiary when its wave is first seen.",
         "An item is discovered through drops, collection, crafting, purchase, equipment restoration, or explicit rewards.",
@@ -723,7 +740,7 @@ window.WIKI_CONTENT = Object.freeze({
     {area:"Running combat", actions:["Combat advances automatically at the activity's listed action interval; no manual attack input is required.", "Select or inspect a combatant to view live HP, Mana, barriers, stats, skills, equipment, and active statuses.", "Battle cues show attacks, heals, skills, evades, criticals, counters, barriers, and harmful-effect resistance.", "Stop a dungeon without losing its pending drops. Abandoning a permanent raid keeps its daily entry consumed; Tower attempts remain unlimited, while an Echo failure or abandonment keeps today's fight available to retry."]},
     {area:"Rewards & reports", actions:["Collect on an activity transfers pending items to Inventory; Gem Clusters open automatically and pet-egg tokens become hatchable eggs.", "Collect All processes every dungeon with pending rewards and reports combined items, Gems, and dungeon count.", "Reports preserve the just-collected session summary and show live per-hour estimates before collection.", "Drops shown inside a running activity are pending, not yet usable in crafting or equipment."]},
     {area:"Hero detail", actions:["Equipment slots filter compatible items: Melee/Ranged/Magic weapons, Light/Medium/Heavy armor, and accessories.", "Promotion at level 25 presents two specialization cards; promotion at level 50 presents the linked elite class.", "Each Rune upgrade is guaranteed when its matching piece is available. Rune ranks are not random.", "Elite promotion unlocks Ascension immediately at reset level 0. Levels 4–46 award 15 points and level 50 awards the final point, for a 16-point budget.", "Choose one Ascendant Path and one option per Foundation, Awakening, Mastery, and Capstone row. Same-path reassignment is free; only changing paths consumes a crafted Sigil of Rebirth and refunds all points."]},
-    {area:"Crafting & items", actions:["Open a recipe to review result, quantity, Coin cost, craft time, tier, raid requirement, and every ingredient.", "Set the Item type filter to Undiscovered to shortlist recipes that make something you have never seen and use a material you currently hold; names and icons stay masked until you find them.","Starting a batch reserves all ingredients and Coins immediately.", "Use queue cards to inspect completion time or cancel an unfinished job for a full reserved-cost refund.", "Selling is disabled for protected items; equipping removes the item from ordinary inventory until unequipped."]},
+    {area:"Crafting & items", actions:["Open a recipe to review result, quantity, Coin cost, craft time, tier, raid requirement, and every ingredient.", "Set the Item type filter to Undiscovered to shortlist recipes that make something you have never seen and use a material you currently hold; names and icons stay masked until you find them.", "Set the Tier filter to T1-T12 to list only that tier's recipes, matching the tier badge on each card; it narrows whatever the type filter, search text, and status chips already select.","Starting a batch reserves all ingredients and Coins immediately.","Use queue cards to inspect completion time or cancel an unfinished job for a full reserved-cost refund.", "Selling is disabled for protected items; equipping removes the item from ordinary inventory until unequipped."]},
     {area:"Pets", actions:["Boss-dropped eggs appear after activity rewards are collected. Family eggs cost 75–300 Gems according to tier.", "Hatch to roll rarity and a shuffled set of distinct family effects; the creature sprite follows rarity. Hatchery upgrades can raise Legendary odds to 2%, and the shared pity guarantees the next Legendary after 100 misses.", "Rename a pet, assign it to a formation, save it in that activity's preset, or sell it for Coins while not deployed.", "Pet sell value scales with family tier and rarity; Bond level does not affect it.", "Pet effect strength increases nonlinearly with level; level 20 is exactly three times the level-1 base value."]},
     {area:"Cloud & deletion", actions:["Sync Now requests Google Play Games cloud reconciliation on supported authenticated Android builds.", "If histories diverge, compare timestamps and progression summaries before choosing this device or cloud; the valid unselected side is archived as recovery data.", "Play Games identity/achievements and gameplay cloud progress are separate services.", "Delete Data is destructive: after confirmation it removes local progress, preferences, encrypted recovery copies, and the private cloud snapshot."]}
   ],
@@ -747,7 +764,7 @@ window.WIKI_CONTENT = Object.freeze({
   },
 
   accuracyNotes: [
-    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.09, the current closed-test release. Update history is limited to Patch Notes."},
+    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.10, the current closed-test release. Update history is limited to Patch Notes."},
     {title:"Title bonuses grant 10", text:"A generated offer has a 25% title chance. Health and Attack use ×1.10; Defense, Magic Defense, Evade, and Critical Chance add 10 percentage points."},
     {title:"First accessory has a progressive guarantee", text:"Until the first copy is discovered or already pending, a raid accessory starts at 15%, rises by 5 percentage points each clear, and is guaranteed on clear 10. Later copies are 15%."},
     {title:"Raid clocks count hero actions", text:"Constellation uses 10 hero actions and needs three successful matching hits; the same hero may contribute on later actions. Eclipse phases last 12 Dawn, 12 Dusk, and 6 Total Eclipse hero actions."},

@@ -1,4 +1,16 @@
-## Version 1.09 (Current Closed-Test Release)
+## Version 1.10 (In Development)
+
+- Every raid's unique accessory can now be reforged to a higher tier, the same way its weapon and armor already could. A reforged accessory keeps its raid identity, its set bonus, and its triggered effect - only the stats scale to the new tier - so a set assembled at its own raid tier can be carried up with the party instead of being left behind by the relic that anchors it.
+- The daily Echo Descent Guardian fight now runs under one of twelve named themes - Arcane Famine, Prismatic Relay, Last Arrow and nine more - each bundling three of the ten Echo laws into a single readable strategy instead of three unrelated rules. Themes rotate at 00:00 UTC, and a fight already under way keeps the laws it began with until it resolves. Today's theme and its three laws are shown in the Echo Descent overview.
+- Equipment now arrives on a steadier cadence. Every ordinary tier offers the three Core weapons plus exactly one variant line - critical-hit weapons on tiers 1, 5, 7 and 11, and specialist weapons on tiers 2, 4, 8 and 10 - instead of swinging between three and eight new pieces per tier. The raid tiers (3, 6, 9 and 12) now offer only the three Core weapons and three Core armors that raid reforging consumes. Twenty-four pieces were retired and eight moved tier; every class still has at least one weapon of its own type that helps its role.
+- Guard armor now covers one weight per ordinary even tier - Light, Medium, Heavy, then Light again - rather than offering all three weights at once. One consequence worth planning around: a critical-hit build can now wait up to four tiers between upgrades rather than two, because the raid tiers no longer carry that line.
+- The Workshop's recipe list now has a tier filter beside the type and sort controls: pick T1 through T12 to see only that tier's recipes, matching the tier badge on every recipe card. It stacks with the type filter, the search box, and the status chips, and clearing it back to "Tier" restores the full list.
+- Recipe sorting now reads as compact labels - Qty, Tier and A-Z with an up or down arrow - so all three controls fit one row on a phone instead of the sort label being cut off. Reverse alphabetical (A-Z down) is new; every other order is unchanged.
+- Fixed the black screen on Google Play Games on PC. The game booted and reached a fully interactive menu, but its frames never reached the window. It now renders through a compatible path on that platform only, leaving phones untouched. Google Play Games on PC also gained a native build, which cut startup there from about 5.1 seconds to about 1.8.
+- Repainted the tier-8 Shattered Observatory weapons - Orbit Warbow, Comet Featherblade and Starglass Hungering Crook - into the family's gilded orrery palette instead of the ice-blue crystal they shipped with, and rethemed the weapons that moved tier so each still reads as the work of its own dungeon.
+- Cleared the decorative flourish that ran across page, section, card and hero titles: at the shipping title size it collapsed onto the text and bracketed it, hurting legibility. Titles now use the same clean plate the close button already used, and the selected navigation button picks up the ornate style instead of the flat pressed one.
+
+## Version 1.09
 
 Release entry frozen on 27 July 2026. The Windows build is published, and the Android closed-test bundle has been submitted for Google Play review.
 
