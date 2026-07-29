@@ -163,7 +163,7 @@
     "group-heroes": ["Getting Started & Heroes", "Getting started, combat rules, hero classes, statuses, and long-term hero building."],
     "group-adventures": ["Adventures & Bestiary", "Dungeons, raids, monsters, items, pets, and the Tower & Echo endgame."],
     "group-town": ["Town & Reference", "Town systems, menus and interactions, the probability lab, game reference, patch notes, and privacy."],
-    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.10."],
+    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.11."],
     quickstart: ["New player path", "A spoiler-light route from an empty Tavern to the first raid."],
     mechanics: ["Core mechanics", "Progression, persistence, failure, roster rules, Mist, and discovery."],
     combat: ["Combat & formulas", "The exact order of battle, stat formulas, targeting, damage, healing, and statuses."],
@@ -181,7 +181,7 @@
     town: ["Town & economy", "Tavern, Workshop, Shops, Inventory, Mailbox, currencies, upgrades, and premium systems."],
     interactions: ["Interactions & menus", "What every major screen, button group, formation, collection, and account action does."],
     probability: ["Probability lab", "Interactive drop, encounter, first-copy guarantee, title, pet, and raid-odds calculators."],
-    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.10."],
+    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.11."],
     "patch-notes": ["Patch notes", "Player-facing release history for Idle Party Dungeon."],
     privacy: ["Privacy policy", "How Idle Party Dungeon handles local progress, platform services, advertising, purchases, retention, and deletion."]
   };
@@ -1018,7 +1018,7 @@
       <div class="callout callout--red"><strong>Entry rule:</strong><p>Each permanent raid has its own daily entry at 00:00 UTC. Starting consumes it; failure and abandonment do not refund it. A replacement entry costs 50 Gems while that raid is idle.</p></div>
       <section class="section-block"><div class="raid-grid">${state.data.raids.map(raid => activityCard(raid, "raid")).join("")}</div></section>
       <section class="section-block">
-        ${sectionHeading("Current rules", "Every raid mechanic in version 1.10", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
+        ${sectionHeading("Current rules", "Every raid mechanic in version 1.11", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
         <div class="mechanic-list">${state.data.raids.map(raid => {
           const mechanic = C.raidMechanics[raid.id];
           return `<article class="mechanic-panel"><div class="mechanic-panel__title" style="background:linear-gradient(145deg,${esc(mechanic.color)}22,transparent)"><span class="eyebrow">${esc(raid.name)}</span><h2>${esc(mechanic.label)}</h2><p>${esc(mechanic.summary || raid.mechanic_summary)}</p></div><div class="mechanic-panel__content"><ul>${mechanic.rules.map(rule => `<li>${esc(rule)}</li>`).join("")}</ul></div></article>`;
@@ -1435,14 +1435,14 @@
       <section class="section-block">
         ${sectionHeading("Using the guide", "How to read the numbers", "The Codex presents current game behavior in player terms and labels probability assumptions where they matter.")}
         <div class="info-grid">
-          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.10 throughout</h3><p>Every strategy chapter describes version 1.10. Patch Notes contain the update history.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.11 throughout</h3><p>Every strategy chapter describes version 1.11. Patch Notes contain the update history.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Probabilities</span><h3>Base chances by default</h3><p>Drop, hatch, encounter, and title odds use base values unless a selected bonus is shown beside the result.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Character sheets</span><h3>Preview values are labeled</h3><p>Class sheets show a clean preview. Owned heroes keep their individual growth and receive the listed promotion adjustments.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Spoilers</span><h3>The full game is visible</h3><p>The Codex reveals every class, enemy, activity, item, pet family, and endgame challenge for planning purposes.</p></article>
         </div>
       </section>
       <section class="section-block">
-        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.10.")}
+        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.11.")}
         <div class="info-grid">${C.accuracyNotes.map(note=>`<article class="info-card"><span class="info-card__eyebrow">Guide note</span><h3>${esc(note.title)}</h3><p>${esc(note.text)}</p></article>`).join("")}</div>
       </section>
       <section class="section-block"><div class="callout callout--green"><strong>Current guide version:</strong><p>Game ${esc(C.version.game)} · ${esc(C.version.status)} · Updated ${esc(C.version.updated)}. Content and artwork © 2026 BroglioGames. All rights reserved.</p></div></section>
@@ -1854,9 +1854,9 @@
       languageButton.setAttribute("title", label);
     }
     const description = document.querySelector('meta[name="description"]');
-    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.10: heroes, combat, dungeons, raids, the Tower of Resonance, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
+    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.11: heroes, combat, dungeons, raids, the Tower of Resonance, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
     const openGraphDescription = document.querySelector('meta[property="og:description"]');
-    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.10, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
+    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.11, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
     const openGraphTitle = document.querySelector('meta[property="og:title"]');
     if (openGraphTitle) openGraphTitle.content = translate("Idle Party Dungeon — The Adventurer's Codex");
   }

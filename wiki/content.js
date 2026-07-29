@@ -1,26 +1,40 @@
 /*
- * Player-facing guide content for Idle Party Dungeon 1.10.
+ * Player-facing guide content for Idle Party Dungeon 1.11.
  * Update history is kept in the Patch Notes chapter.
  * Updated 28 July 2026.
  */
 window.WIKI_CONTENT = Object.freeze({
   version: {
-    game: "1.10",
+    game: "1.11",
     updated: "28 July 2026",
     status: "Current closed-test release"
   },
 
   patchNotes: [
     {
+      version: "1.11",
+      title: "Save Recovery & Language Foundation",
+      date: "28 July 2026",
+      status: "Current closed-test release",
+      notes: [
+        "Added Save Recovery to Play Games settings, available even while signed out. On Android it can export the exact encrypted local save through the system file picker, validate and preview a selected backup before a confirmed replacement, and preserve a verified pre-change archive.",
+        "A save linked to another Play Games profile can be explicitly reassociated after a fresh identity check and then compared with the current profile's cloud copy. The game never chooses a history automatically, requires a second confirmation, keeps local play available, and reports the actual payload size and limit when a cloud upload is too large.",
+        "The language list is now one simple row per language: flag first, then the language's own name. Languages that are not ready remain visible but disabled, without rollout labels or status text cluttering the picker.",
+        "German and French translations now cover the complete game catalog. Both remain disabled while their layouts and native-language review are completed, so players never receive a partially reviewed language or English fallback text."
+      ]
+    },
+    {
       version: "1.10",
       title: "Raid Reforge & Echo Themes",
       date: "28 July 2026",
-      status: "Current closed-test release",
+      status: "Previous closed-test release",
       notes: [
         "Every raid's unique accessory can now be reforged to a higher tier, the same way its weapon and armor already could. A reforged accessory keeps its raid identity, its set bonus, and its triggered effect while only the stats scale, so a set assembled at its own raid tier can be carried up with the party.",
         "The daily Echo Descent Guardian fight now runs under one of twelve named themes — Arcane Famine, Prismatic Relay, Last Arrow and nine more — each bundling three of the ten Echo laws into a single readable strategy. Themes rotate at 00:00 UTC, and a fight already under way keeps the laws it began with until it resolves. The Echo Descent overview shows today's theme and its three laws.",
         "Equipment now arrives on a steadier cadence. Every ordinary tier offers the three Core weapons plus exactly one variant line — critical-hit weapons on tiers 1, 5, 7 and 11, specialist weapons on tiers 2, 4, 8 and 10 — instead of swinging between three and eight new pieces per tier. Raid tiers 3, 6, 9 and 12 offer only the three Core weapons and three Core armors that raid reforging consumes.",
         "Guard armor now covers one weight per ordinary even tier — Light, Medium, Heavy, then Light again — rather than all three weights at once. Plan for a critical-hit build waiting up to four tiers between upgrades rather than two, because the raid tiers no longer carry that line.",
+        "Hero selection has a sort control in the Workshop's compact style: order the available heroes by level, Echo Resonance, class or name, each with an up and a down arrow. It appears in every hero picker — expeditions, raids, the Tower and Echo Descent — and applies immediately without losing the team you have assembled. Level, highest first, remains the default.",
+        "Companion selection gained the same control, ordering companions by level, rarity or family in either direction. Family follows the order you met them in, from the earliest dungeon to the latest, so every companion of a family sits together.",
         "The Workshop's recipe list has a tier filter beside the type and sort controls: pick T1 through T12 to see only that tier's recipes. It stacks with the type filter, the search box, and the status chips, and clearing it back to “Tier” restores the full list.",
         "Recipe sorting reads as compact labels — Qty, Tier and A-Z with an up or down arrow — so all three controls fit one row on a phone. Reverse alphabetical is new; every other order is unchanged.",
         "Fixed the black screen on Google Play Games on PC, where the game booted and reached a fully interactive menu but its frames never reached the window. Phones are untouched. Google Play Games on PC also gained a native build, cutting startup there from about 5.1 seconds to about 1.8.",
@@ -229,7 +243,7 @@ window.WIKI_CONTENT = Object.freeze({
 
   privacyPolicy: {
     title: "Idle Party Dungeon Privacy Policy",
-    effectiveDate: "16 July 2026",
+    effectiveDate: "28 July 2026",
     intro: "Idle Party Dungeon is developed and published by BroglioGames. This policy explains how the game handles information.",
     sections: [
       {
@@ -238,6 +252,7 @@ window.WIKI_CONTENT = Object.freeze({
         paragraphs: [
           "The game stores gameplay progress, settings, and any custom names you give your heroes locally on your device. Gameplay progress and custom hero names are kept in an encrypted save file; some preferences, such as audio settings, are kept in a separate local settings file. Gameplay data includes features such as heroes and their titles, inventory, crafting, raids, mail, shop state, notification state, premium entitlements, and one-way hashes used to prevent duplicate purchase fulfillment. A randomly generated save profile identifier and a shortened one-way hash derived from the device identifier are included in save metadata to identify save versions and prevent save conflicts. They are not used for advertising or tracking and are not sent to BroglioGames.",
           "On Android, Google Play Games Services may handle your Play Games player identifier, profile and display name, achievement progress, leaderboard scores, and a private Saved Games snapshot containing the gameplay data described above. The game temporarily displays your Play Games display name while it is running but does not add it to the save. Google handles platform authentication and cloud storage; Idle Party Dungeon does not receive or store your Google password. Divergent device and cloud histories are not merged automatically: the game keeps encrypted recovery copies and asks you which history to continue.",
+          "On Android, Save Recovery can export an encrypted copy of the local save to a document location you choose through the system file picker, and can import a backup file that you explicitly select. These files are transferred only between the game and the location you choose; they are not automatically sent to BroglioGames, Google Play Games, Discord, or another third party. Anyone who can access an exported backup file may retain, copy, or delete it, so store it in a location you control.",
           "The Android version uses Google AdMob to provide optional rewarded advertisements. Google and its advertising partners may process device information, advertising identifiers where available, IP address, ad interactions, diagnostics, and consent choices to deliver, measure, prevent fraud in, and where permitted personalize advertisements. The game requests applicable advertising consent before requesting ads.",
           "Premium Pack purchases are processed by Google Play Billing. Google processes payment details, purchase history, tax, fraud-prevention data, and receipts. Idle Party Dungeon receives the product identifier, purchase status, and purchase token needed to unlock and restore the purchase; it does not receive your full card or bank details."
         ]
@@ -261,7 +276,7 @@ window.WIKI_CONTENT = Object.freeze({
         id: "retention-deletion",
         title: "Storage, retention, and deletion",
         paragraphs: [
-          "Local game data remains on your device until you use **Settings > Play Games > Delete Data**, clear the app's data, or uninstall it, subject to your platform's backup behaviour. After explicit confirmation, **Delete Data** removes the local save, backup and recovery copies, local audio settings, cloud-sync metadata, and the game's private Play Games Saved Games snapshot. It does not delete the Google Account, Play Games profile, achievements, leaderboard entries, advertising consent records, or Google Play purchase records; those are retained under Google's policies and managed through Google's account and privacy controls. A non-consumable purchase can be restored from the Google Play account that bought it. Content posted on Discord is retained and can be managed under Discord's policies and account controls."
+          "Local game data remains on your device until you use **Settings > Play Games > Delete Data**, clear the app's data, or uninstall it, subject to your platform's backup behaviour. After explicit confirmation, **Delete Data** removes the local save, backup and recovery copies, local audio settings, cloud-sync metadata, and the game's private Play Games Saved Games snapshot. It cannot delete backup files that you previously exported through the Android system file picker; you manage those files in the document location you selected. It does not delete the Google Account, Play Games profile, achievements, leaderboard entries, advertising consent records, or Google Play purchase records; those are retained under Google's policies and managed through Google's account and privacy controls. A non-consumable purchase can be restored from the Google Play account that bought it. Content posted on Discord is retained and can be managed under Discord's policies and account controls."
         ]
       },
       {
@@ -405,7 +420,7 @@ window.WIKI_CONTENT = Object.freeze({
       id: "discovery",
       eyebrow: "Information",
       title: "Discovery is part of progression",
-      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.10 ruleset as an end-to-end strategy reference.",
+      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.11 ruleset as an end-to-end strategy reference.",
       bullets: [
         "A monster enters the Bestiary when its wave is first seen.",
         "An item is discovered through drops, collection, crafting, purchase, equipment restoration, or explicit rewards.",
@@ -736,7 +751,7 @@ window.WIKI_CONTENT = Object.freeze({
 
   interactions: [
     {area:"Main navigation", actions:["City opens Tavern, Shop, Workshop, Inventory, Pets, Quests, Mail, and town references.", "Heroes opens the roster; select a portrait/card for stats, equipment, skills, promotion, Runes, Ascension, skins, title, rename, or removal.", "Dungeons and Raids open their activity lists; the Raids screen contains the Tower of Resonance, whose title-bar Echo control becomes available after Floor 70.", "Selecting an activity opens formation, status, report, rewards, and combat.", "Settings contains audio, help/reference catalogs, Lifetime Statistics, achievements, What's New, privacy, Discord, Play Games/cloud, and data deletion."]},
-    {area:"Formation", actions:["Select an empty slot, then choose an available hero. Selecting an occupied slot lets you replace or remove it.", "A saved preset stores every formation position, including gaps. Loading skips heroes who were removed or are deployed elsewhere and reports the omissions.", "Ordinary activities accept one pet; Tower and Echo accept up to two distinct pets. A pet preset is scoped to the activity.", "Most activities start with at least one valid hero; Echo Descent requires exactly five. No selected hero or pet may already be deployed elsewhere."]},
+    {area:"Formation", actions:["Select an empty slot, then choose an available hero. Selecting an occupied slot lets you replace or remove it.", "Use the hero picker's sort control to order the available heroes by level, Echo Resonance, class or name, ascending or descending; the companion picker sorts by level, rarity or family. Both choices persist and never change which heroes or companions are eligible.", "A saved preset stores every formation position, including gaps. Loading skips heroes who were removed or are deployed elsewhere and reports the omissions.", "Ordinary activities accept one pet; Tower and Echo accept up to two distinct pets. A pet preset is scoped to the activity.", "Most activities start with at least one valid hero; Echo Descent requires exactly five. No selected hero or pet may already be deployed elsewhere."]},
     {area:"Running combat", actions:["Combat advances automatically at the activity's listed action interval; no manual attack input is required.", "Select or inspect a combatant to view live HP, Mana, barriers, stats, skills, equipment, and active statuses.", "Battle cues show attacks, heals, skills, evades, criticals, counters, barriers, and harmful-effect resistance.", "Stop a dungeon without losing its pending drops. Abandoning a permanent raid keeps its daily entry consumed; Tower attempts remain unlimited, while an Echo failure or abandonment keeps today's fight available to retry."]},
     {area:"Rewards & reports", actions:["Collect on an activity transfers pending items to Inventory; Gem Clusters open automatically and pet-egg tokens become hatchable eggs.", "Collect All processes every dungeon with pending rewards and reports combined items, Gems, and dungeon count.", "Reports preserve the just-collected session summary and show live per-hour estimates before collection.", "Drops shown inside a running activity are pending, not yet usable in crafting or equipment."]},
     {area:"Hero detail", actions:["Equipment slots filter compatible items: Melee/Ranged/Magic weapons, Light/Medium/Heavy armor, and accessories.", "Promotion at level 25 presents two specialization cards; promotion at level 50 presents the linked elite class.", "Each Rune upgrade is guaranteed when its matching piece is available. Rune ranks are not random.", "Elite promotion unlocks Ascension immediately at reset level 0. Levels 4–46 award 15 points and level 50 awards the final point, for a 16-point budget.", "Choose one Ascendant Path and one option per Foundation, Awakening, Mastery, and Capstone row. Same-path reassignment is free; only changing paths consumes a crafted Sigil of Rebirth and refunds all points."]},
@@ -764,7 +779,7 @@ window.WIKI_CONTENT = Object.freeze({
   },
 
   accuracyNotes: [
-    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.10, the current closed-test release. Update history is limited to Patch Notes."},
+    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.11, the current closed-test release. Update history is limited to Patch Notes."},
     {title:"Title bonuses grant 10", text:"A generated offer has a 25% title chance. Health and Attack use ×1.10; Defense, Magic Defense, Evade, and Critical Chance add 10 percentage points."},
     {title:"First accessory has a progressive guarantee", text:"Until the first copy is discovered or already pending, a raid accessory starts at 15%, rises by 5 percentage points each clear, and is guaranteed on clear 10. Later copies are 15%."},
     {title:"Raid clocks count hero actions", text:"Constellation uses 10 hero actions and needs three successful matching hits; the same hero may contribute on later actions. Eclipse phases last 12 Dawn, 12 Dusk, and 6 Total Eclipse hero actions."},

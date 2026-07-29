@@ -1,26 +1,40 @@
 /*
- * Contenuti della guida in italiano per Idle Party Dungeon 1.10.
+ * Contenuti della guida in italiano per Idle Party Dungeon 1.11.
  * La cronologia degli aggiornamenti resta nel capitolo Note di aggiornamento.
  * Aggiornato il 28 luglio 2026.
  */
 window.WIKI_CONTENT_IT = Object.freeze({
   version: {
-    game: "1.10",
+    game: "1.11",
     updated: "28 luglio 2026",
     status: "Versione attuale per test chiuso"
   },
 
   patchNotes: [
     {
+      version: "1.11",
+      title: "Recupero salvataggi e base linguistica",
+      date: "28 luglio 2026",
+      status: "Versione attuale per test chiuso",
+      notes: [
+        "Aggiunto Recupero salvataggi alle impostazioni di Play Games, disponibile anche senza accesso. Su Android può esportare il salvataggio locale cifrato esatto tramite il selettore file di sistema, convalidare e mostrare l'anteprima di un backup selezionato prima della sostituzione confermata e conservare un archivio verificato precedente alla modifica.",
+        "Un salvataggio collegato a un altro profilo Play Games può essere riassociato esplicitamente dopo una nuova verifica dell'identità e poi confrontato con la copia cloud del profilo attuale. Il gioco non sceglie mai una cronologia da solo, richiede una seconda conferma, mantiene disponibile il gioco locale e segnala dimensione effettiva e limite quando un caricamento cloud è troppo grande.",
+        "L'elenco delle lingue ora usa una sola riga semplice per lingua: prima la bandiera, poi il nome nella lingua stessa. Le lingue non ancora pronte restano visibili ma disattivate, senza etichette di distribuzione o testo di stato nel selettore.",
+        "Le traduzioni tedesca e francese ora coprono l'intero catalogo del gioco. Entrambe restano disattivate finché non terminano il controllo dei layout e la revisione madrelingua, così i giocatori non ricevono mai una lingua revisionata solo in parte o testi di riserva in inglese."
+      ]
+    },
+    {
       version: "1.10",
       title: "Riforgia dei raid e temi dell'Eco",
       date: "28 luglio 2026",
-      status: "Versione attuale per test chiuso",
+      status: "Versione precedente per test chiuso",
       notes: [
         "L'accessorio unico di ogni raid ora può essere riforgiato a un grado superiore, come già accadeva per la sua arma e la sua armatura. Un accessorio riforgiato mantiene l'identità del raid, il bonus del set e l'effetto attivato: cambiano solo le statistiche, così un set completato al proprio grado di raid può accompagnare il gruppo nella scalata.",
         "Il combattimento giornaliero contro il Guardiano della Discesa dell'Eco ora si svolge sotto uno di dodici temi con un nome — Carestia Arcana, Staffetta Prismatica, Ultima Freccia e altri nove — ognuno dei quali combina tre delle dieci leggi dell'Eco in un'unica strategia leggibile. I temi ruotano alle 00:00 UTC e un combattimento già iniziato conserva le leggi con cui è cominciato fino alla sua conclusione. La panoramica della Discesa dell'Eco mostra il tema di oggi e le sue tre leggi.",
         "L'equipaggiamento ora arriva con una cadenza più regolare. Ogni grado ordinario offre le tre armi Base più esattamente una linea di variante — armi da colpo critico ai gradi 1, 5, 7 e 11, armi specialistiche ai gradi 2, 4, 8 e 10 — invece di oscillare tra tre e otto nuovi pezzi per grado. I gradi da raid 3, 6, 9 e 12 offrono solo le tre armi Base e le tre armature Base che la riforgia dei raid consuma.",
         "Le armature da guardia ora coprono un peso per ogni grado pari ordinario — Leggera, Media, Pesante e di nuovo Leggera — anziché tutti e tre i pesi insieme. Tienine conto: una build da colpo critico può ora attendere fino a quattro gradi tra un miglioramento e l'altro invece di due, perché i gradi da raid non portano più quella linea.",
+        "La selezione degli eroi ha un comando di ordinamento nello stile compatto del Laboratorio: ordina gli eroi disponibili per livello, Risonanza dell'Eco, classe o nome, ciascuno con una freccia su e una giù. Compare in ogni selettore di eroi — spedizioni, raid, Torre e Discesa dell'Eco — e si applica subito senza perdere la squadra che hai già composto. Il livello, dal più alto, resta l'ordine predefinito.",
+        "La selezione dei famigli ha lo stesso comando, con ordinamento per livello, rarità o famiglia in entrambe le direzioni. La famiglia segue l'ordine in cui li hai incontrati, dal dungeon più antico al più recente, così i famigli della stessa famiglia restano insieme.",
         "L'elenco delle ricette del laboratorio ha un filtro per grado accanto ai comandi di tipo e ordinamento: scegli da G1 a G12 per vedere solo le ricette di quel grado. Si combina con il filtro per tipo, la casella di ricerca e i segnalini di stato, e riportandolo su “Grado” si ripristina l'elenco completo.",
         "L'ordinamento delle ricette usa etichette compatte — Qtà, Grado e A-Z con una freccia su o giù — così tutti e tre i comandi stanno su una riga al telefono. L'ordine alfabetico inverso è una novità; tutti gli altri restano invariati.",
         "Risolta la schermata nera su Google Play Games su PC, dove il gioco si avviava e raggiungeva un menu pienamente interattivo ma i fotogrammi non arrivavano mai alla finestra. I telefoni non sono interessati. Google Play Games su PC ha inoltre ricevuto una build nativa, che ha ridotto l'avvio da circa 5,1 secondi a circa 1,8.",
@@ -229,7 +243,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
 
   privacyPolicy: {
     title: "Informativa sulla privacy di Idle Party Dungeon",
-    effectiveDate: "16 luglio 2026",
+    effectiveDate: "28 luglio 2026",
     intro: "Idle Party Dungeon è sviluppato e pubblicato da BroglioGames. Questa informativa spiega come il gioco gestisce le informazioni.",
     sections: [
       {
@@ -238,6 +252,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
         paragraphs: [
           "Il gioco memorizza localmente sul dispositivo i progressi, le impostazioni e gli eventuali nomi personalizzati assegnati agli eroi. I progressi e i nomi personalizzati sono conservati in un file di salvataggio crittografato; alcune preferenze, come le impostazioni audio, sono conservate in un file locale separato. I dati di gioco comprendono elementi quali eroi e relativi titoli, inventario, creazione, raid, posta, stato del negozio, stato delle notifiche, diritti Premium e hash unidirezionali usati per impedire l'accredito duplicato degli acquisti. Un identificatore del profilo di salvataggio generato casualmente e un hash unidirezionale abbreviato ricavato dall'identificatore del dispositivo sono inclusi nei metadati per distinguere le versioni dei salvataggi e prevenire conflitti. Non vengono usati per pubblicità o tracciamento e non vengono inviati a BroglioGames.",
           "Su Android, Google Play Games Services può gestire l'identificatore giocatore di Play Games, il profilo e il nome visualizzato, l'avanzamento degli obiettivi, i punteggi delle classifiche e un'istantanea privata di Saved Games contenente i dati di gioco descritti sopra. Il gioco mostra temporaneamente il nome di Play Games durante l'esecuzione, ma non lo aggiunge al salvataggio. Google gestisce l'autenticazione della piattaforma e l'archiviazione cloud; Idle Party Dungeon non riceve né conserva la password Google. Le cronologie divergenti tra dispositivo e cloud non vengono unite automaticamente: il gioco conserva copie di recupero crittografate e chiede quale cronologia continuare.",
+          "Su Android, Recupero salvataggi può esportare una copia cifrata del salvataggio locale in una posizione scelta tramite il selettore file di sistema e può importare un file di backup selezionato esplicitamente. Questi file vengono trasferiti solo tra il gioco e la posizione scelta; non vengono inviati automaticamente a BroglioGames, Google Play Games, Discord o altre terze parti. Chiunque possa accedere a un backup esportato può conservarlo, copiarlo o eliminarlo, quindi salvalo in una posizione sotto il tuo controllo.",
           "La versione Android usa Google AdMob per offrire pubblicità con ricompensa facoltative. Google e i suoi partner pubblicitari possono trattare informazioni sul dispositivo, identificatori pubblicitari quando disponibili, indirizzo IP, interazioni con gli annunci, dati diagnostici e scelte sul consenso per mostrare e misurare la pubblicità, prevenire frodi e, dove consentito, personalizzare gli annunci. Il gioco richiede il consenso pubblicitario applicabile prima di richiedere gli annunci.",
           "Gli acquisti del Pacchetto Premium sono elaborati da Google Play Billing. Google tratta dati di pagamento, cronologia degli acquisti, imposte, dati antifrode e ricevute. Idle Party Dungeon riceve l'identificatore del prodotto, lo stato dell'acquisto e il token necessari per sbloccare e ripristinare l'acquisto; non riceve i dati completi della carta o del conto bancario."
         ]
@@ -261,7 +276,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
         id: "retention-deletion",
         title: "Archiviazione, conservazione ed eliminazione",
         paragraphs: [
-          "I dati locali del gioco restano sul dispositivo finché non usi **Impostazioni > Play Games > Elimina dati**, cancelli i dati dell'app o la disinstalli, compatibilmente con il comportamento di backup della piattaforma. Dopo una conferma esplicita, **Elimina dati** rimuove il salvataggio locale, le copie di backup e recupero, le impostazioni audio locali, i metadati di sincronizzazione cloud e l'istantanea privata Play Games Saved Games del gioco. Non elimina l'Account Google, il profilo Play Games, gli obiettivi, le voci delle classifiche, i registri del consenso pubblicitario o gli acquisti di Google Play; questi vengono conservati secondo le norme di Google e gestiti tramite i relativi controlli per account e privacy. Un acquisto non consumabile può essere ripristinato dall'account Google Play che lo ha effettuato. I contenuti pubblicati su Discord vengono conservati e possono essere gestiti secondo le norme e i controlli dell'account Discord."
+          "I dati locali del gioco restano sul dispositivo finché non usi **Impostazioni > Play Games > Elimina dati**, cancelli i dati dell'app o la disinstalli, compatibilmente con il comportamento di backup della piattaforma. Dopo una conferma esplicita, **Elimina dati** rimuove il salvataggio locale, le copie di backup e recupero, le impostazioni audio locali, i metadati di sincronizzazione cloud e l'istantanea privata Play Games Saved Games del gioco. Non può eliminare i file di backup esportati in precedenza tramite il selettore file di sistema Android; quei file vengono gestiti nella posizione scelta. Non elimina l'Account Google, il profilo Play Games, gli obiettivi, le voci delle classifiche, i registri del consenso pubblicitario o gli acquisti di Google Play; questi vengono conservati secondo le norme di Google e gestiti tramite i relativi controlli per account e privacy. Un acquisto non consumabile può essere ripristinato dall'account Google Play che lo ha effettuato. I contenuti pubblicati su Discord vengono conservati e possono essere gestiti secondo le norme e i controlli dell'account Discord."
         ]
       },
       {
@@ -405,7 +420,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
       id: "discovery",
       eyebrow: "Informazioni",
       title: "La scoperta fa parte della progressione",
-      summary: "I cataloghi nel gioco nascondono intenzionalmente i contenuti non ancora incontrati, ma questo Codex presenta l'intero sistema di regole della 1.10 come riferimento strategico completo.",
+      summary: "I cataloghi nel gioco nascondono intenzionalmente i contenuti non ancora incontrati, ma questo Codex presenta l'intero sistema di regole della 1.11 come riferimento strategico completo.",
       bullets: [
         "Un mostro entra nel Bestiario quando la sua ondata viene vista per la prima volta.",
         "Un oggetto viene scoperto tramite ritrovamento, raccolta, creazione, acquisto, ripristino dell'equipaggiamento o ricompensa esplicita.",
@@ -736,7 +751,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
 
   interactions: [
     {area:"Navigazione principale", actions:["Città apre Taverna, Negozio, Laboratorio, Inventario, Famigli, Missioni, Posta e riferimenti della città.", "Eroi apre la formazione; seleziona un ritratto o una scheda per statistiche, equipaggiamento, abilità, promozione, Rune, Ascensione, aspetti, titolo, rinomina o rimozione.", "Dungeon e Raid aprono gli elenchi delle attività; la schermata Raid contiene la Torre della Risonanza, il cui controllo dell'Eco accanto al titolo diventa disponibile dopo il Piano 70.", "Selezionare un'attività apre formazione, stato, rapporto, ricompense e combattimento.", "Impostazioni contiene audio, cataloghi di aiuto e riferimento, Statistiche totali, obiettivi, Novità, privacy, Discord, Play Games e cloud ed eliminazione dei dati."]},
-    {area:"Formazione", actions:["Seleziona uno slot vuoto, poi scegli un eroe disponibile. Selezionando uno slot occupato puoi sostituirlo o rimuoverlo.", "Una formazione salvata conserva ogni posizione, compresi gli spazi vuoti. Il caricamento ignora gli eroi rimossi o schierati altrove e segnala le omissioni.", "Le attività ordinarie accettano un famiglio; Torre ed Eco ne accettano fino a due distinti. La formazione dei famigli appartiene alla singola attività.", "La maggior parte delle attività può iniziare con almeno un eroe valido; la Discesa dell'Eco ne richiede esattamente cinque. Nessun eroe o famiglio selezionato può essere già schierato altrove."]},
+    {area:"Formazione", actions:["Seleziona uno slot vuoto, poi scegli un eroe disponibile. Selezionando uno slot occupato puoi sostituirlo o rimuoverlo.", "Usa il comando di ordinamento del selettore di eroi per ordinare gli eroi disponibili per livello, Risonanza dell'Eco, classe o nome, in ordine crescente o decrescente; il selettore dei famigli ordina per livello, rarità o famiglia. Entrambe le scelte vengono conservate e non cambiano mai quali eroi o famigli sono idonei.", "Una formazione salvata conserva ogni posizione, compresi gli spazi vuoti. Il caricamento ignora gli eroi rimossi o schierati altrove e segnala le omissioni.", "Le attività ordinarie accettano un famiglio; Torre ed Eco ne accettano fino a due distinti. La formazione dei famigli appartiene alla singola attività.", "La maggior parte delle attività può iniziare con almeno un eroe valido; la Discesa dell'Eco ne richiede esattamente cinque. Nessun eroe o famiglio selezionato può essere già schierato altrove."]},
     {area:"Combattimento in corso", actions:["Il combattimento avanza automaticamente secondo l'intervallo d'azione indicato per l'attività; non è necessario impartire attacchi manuali.", "Seleziona o esamina un combattente per vedere in tempo reale PV, Mana, barriere, statistiche, abilità, equipaggiamento e stati attivi.", "Gli indicatori di battaglia mostrano attacchi, cure, abilità, schivate, critici, contrattacchi, barriere e resistenza agli effetti nocivi.", "Interrompi un dungeon senza perdere i bottini in attesa. Abbandonare un raid permanente mantiene consumato l'ingresso giornaliero; i tentativi della Torre restano illimitati, mentre una sconfitta o un abbandono nell'Eco mantiene disponibile lo scontro di oggi per un altro tentativo."]},
     {area:"Ricompense e rapporti", actions:["Raccogli in un'attività trasferisce gli oggetti in attesa all'Inventario; i Grappoli di Gemme si aprono automaticamente e i gettoni uovo diventano uova da schiudere.", "Raccogli tutto elabora ogni dungeon con ricompense in attesa e riporta oggetti, Gemme e numero di dungeon complessivi.", "I rapporti conservano il riepilogo della sessione appena raccolta e, prima della raccolta, mostrano stime orarie in tempo reale.", "I bottini mostrati in un'attività attiva sono in attesa e non ancora utilizzabili per la creazione o l'equipaggiamento."]},
     {area:"Dettagli dell'eroe", actions:["Gli slot di equipaggiamento filtrano gli oggetti compatibili: armi da Mischia, a Distanza o Magiche, armature Leggere, Medie o Pesanti e accessori.", "La promozione al livello 25 presenta due schede di specializzazione; quella al livello 50 presenta la classe élite associata.", "Ogni potenziamento di una Runa è garantito quando è disponibile il Frammento corrispondente. I gradi delle Rune non sono casuali.", "La promozione élite sblocca subito l'Ascensione al livello 0 azzerato. I livelli 4–46 assegnano 15 punti e il livello 50 assegna quello finale, per un budget di 16 punti.", "Scegli un Percorso Ascendente e un'opzione per ciascuna riga Fondamenta, Risveglio, Maestria e Coronamento. La ridistribuzione nello stesso percorso è gratuita; solo il cambio di percorso consuma un Emblema della Rinascita creato e restituisce tutti i punti."]},
@@ -764,7 +779,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
   },
 
   accuracyNotes: [
-    {title:"Versione attuale della guida", text:"Ogni capitolo strategico e calcolatore descrive la versione 1.10 del gioco, la versione attuale per test chiuso. La cronologia degli aggiornamenti è limitata alle Note di aggiornamento."},
+    {title:"Versione attuale della guida", text:"Ogni capitolo strategico e calcolatore descrive la versione 1.11 del gioco, la versione attuale per test chiuso. La cronologia degli aggiornamenti è limitata alle Note di aggiornamento."},
     {title:"I bonus dei titoli conferiscono 10", text:"Un'offerta generata ha il 25% di probabilità di possedere un titolo. Salute e Attacco usano ×1,10; Difesa, Difesa magica, Schivata e Probabilità critica aggiungono 10 punti percentuali."},
     {title:"Il primo accessorio ha una garanzia progressiva", text:"Finché la prima copia non viene scoperta o è già in attesa, la probabilità di un accessorio da raid parte dal 15%, aumenta di 5 punti percentuali a ogni vittoria ed è garantita alla decima. Le copie successive hanno probabilità del 15%."},
     {title:"Gli orologi dei raid contano le azioni degli eroi", text:"La Costellazione usa 10 azioni degli eroi e richiede tre colpi corrispondenti riusciti; lo stesso eroe può contribuire in azioni successive. Le fasi dell'Eclissi durano 12 azioni all'Alba, 12 al Crepuscolo e 6 nell'Eclissi Totale."},
