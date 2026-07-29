@@ -1,4 +1,20 @@
-## Version 1.11 (In Development)
+## Version 1.12 (In Development)
+- Every class now uses fixed active and passive budgets set by tier and spends at least half of its skill power on its listed role, so promotion choices compare complete kits rather than one obviously stronger option.
+- Each of the eleven promotion lines now owns a distinct effect vocabulary. Corrected direct-damage modifiers, party and self counters, Attack Down, Magic-only attacks, on-kill evasion, defeated-target spill damage, and Siege Architect's Siege Battery.
+- Skill cooldowns and effect durations are aligned, endgame defence still lets ordinary attacks matter, healer actives carry more of their healing, and all 110 descriptions match runtime behavior in English, Italian, German, and French.
+- Campaign pacing now targets a roughly two-month journey. Dungeon completion goals and XP targets rise deliberately across all twelve tiers instead of compressing most progression into the opening days.
+- When a story meter is complete, its boss stays sealed until every hero in the active party equips at least three items from that dungeon's tier or higher. The tracker shows the ready-hero count, and other power sources cannot substitute for the equipment requirement.
+- The first four additional Tavern recruits remain quick to field at 81, 111, 152, and 208 Coins. Later recruits and permanent Tavern or Workshop upgrades now become long-term Coin goals, with the complete current prices listed in the Codex.
+- Crafting stays quick at the start, then applies a tier multiplier from ×1 at Tier 1 through ×13 at Tier 12. Workshop speed upgrades still divide the result, and queued jobs still catch up across the full elapsed offline interval.
+- Tower Floors 1–70 now climb through all twelve equipment tiers: Tier 1 covers Floors 1–5, Tier 12 begins on Floor 65, and clearing Floor 70 opens Echo Descent.
+- Floors 71–100 now measure both Echo Resonance and active raid sets. Each missing average Resonance rank adds +18% enemy Health and +22% Attack; each missing active set adds +6% Health and +7% Attack. Targets rise by band to Rank 8 and 10 sets at Floor 100, while entry stays unrestricted.
+- Echo Descent no longer gains Health or Attack from previous daily clears. Its twelve themes remain at a stable full-raid-set gear check, with unlimited retries and no lost daily claim on defeat.
+- Battery Savings now opens four independent device settings: lower screen luminosity, a 30 FPS cap with low-processor mode, reduced combat animations and visual effects, and slower refresh for inactive gameplay pages. None changes combat timing or progress.
+- Pet cards now tint their full inner background by rarity, and the large icons on City navigation cards no longer swallow taps or mouse clicks intended for Tavern, Shop, Inventory, Workshop, Pets, or Quests.
+
+## Version 1.11
+
+Closed-testing release published on 29 July 2026.
 
 - Added Save Recovery to the Play Games settings, available even while signed out. It can export the exact encrypted local save through Android's file picker, validate and preview an imported backup before a confirmed replacement, and preserve a verified pre-change archive.
 - A save linked to another Play Games profile can now be explicitly reassociated after a fresh identity check, then compared with the current profile's cloud copy. The game never picks a branch automatically, requires a second confirmation, keeps local play available, and reports the actual payload size and limit if a cloud upload is too large.

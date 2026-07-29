@@ -163,7 +163,7 @@
     "group-heroes": ["Getting Started & Heroes", "Getting started, combat rules, hero classes, statuses, and long-term hero building."],
     "group-adventures": ["Adventures & Bestiary", "Dungeons, raids, monsters, items, pets, and the Tower & Echo endgame."],
     "group-town": ["Town & Reference", "Town systems, menus and interactions, the probability lab, game reference, patch notes, and privacy."],
-    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.11."],
+    home: ["Codex overview", "The complete field guide to Idle Party Dungeon 1.12."],
     quickstart: ["New player path", "A spoiler-light route from an empty Tavern to the first raid."],
     mechanics: ["Core mechanics", "Progression, persistence, failure, roster rules, Mist, and discovery."],
     combat: ["Combat & formulas", "The exact order of battle, stat formulas, targeting, damage, healing, and statuses."],
@@ -181,7 +181,7 @@
     town: ["Town & economy", "Tavern, Workshop, Shops, Inventory, Mailbox, currencies, upgrades, and premium systems."],
     interactions: ["Interactions & menus", "What every major screen, button group, formation, collection, and account action does."],
     probability: ["Probability lab", "Interactive drop, encounter, first-copy guarantee, title, pet, and raid-odds calculators."],
-    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.11."],
+    reference: ["Game reference", "Guide coverage, current rules, exact values, and practical clarifications for version 1.12."],
     "patch-notes": ["Patch notes", "Player-facing release history for Idle Party Dungeon."],
     privacy: ["Privacy policy", "How Idle Party Dungeon handles local progress, platform services, advertising, purchases, retention, and deletion."]
   };
@@ -283,6 +283,12 @@
     if (total < 60) return `${formatNumber(total, 1)} ${state.locale === "it" ? "s" : "sec"}`;
     if (total < 3600) return `${formatNumber(total / 60, 1)} min`;
     return `${formatNumber(total / 3600, 2)} ${state.locale === "it" ? "h" : "hr"}`;
+  }
+
+  function recipeCraftTime(recipe) {
+    const tier = Math.max(0, Math.min(12, Number(recipe.required_tier || 0)));
+    const multipliers = C.craftingTimeMultiplierByTier || [];
+    return Number(recipe.craft_time_seconds || 0) * Number(multipliers[tier] || 1);
   }
 
   function humanKey(key) {
@@ -757,7 +763,7 @@
           ${[
             ["1", "Start-of-turn effects", "Regeneration applications resolve, then DoT. DoT can defeat the actor before it acts."],
             ["2", "Skill or basic", "At 100 Mana an unsilenced active skill is attempted; otherwise the unit uses a basic attack and gains Mana even when that basic misses."],
-            ["3", "After-action kit", "Healer action passive, flat regeneration, equipment triggers, low-HP barriers, and Decay resolve."],
+            ["3", "After-action kit", "Flat and percentage regeneration, equipment triggers, low-HP barriers, and Decay resolve. No class heals automatically here."],
             ["4", "Duration & next unit", "The acting entity's statuses lose one turn, defeated entities resolve, then the turn index advances through DEX-sorted combatants."],
             ["5", "Wave reward beat", "After all enemies fall, the reward appears before the following enemy group is created."],
             ["6", "Wipe behavior", "Dungeons rebuild the full party and continue. Raids end the attempt and keep the daily entry consumed."]
@@ -935,7 +941,7 @@
       `Tier ${activity.tier}`,
       `Team ${activity.max_team_size}`,
       objectiveText(activity),
-      activity.completion_boss ? `Boss: ${activity.completion_boss}` : "No story boss",
+      activity.completion_boss ? `Boss: ${activity.completion_boss} · 3 × T${activity.tier}+ each` : "No story boss",
       Number(activity.base_mist_percentage || 0) > 0 ? `Mist ${activity.base_mist_percentage}%` : "Clear air"
     ];
     return `<article class="activity-card" tabindex="0" role="button" data-entity-type="${raid ? "raid" : "dungeon"}" data-entity-id="${esc(raid ? activity.id : activity.name)}" aria-label="Open ${esc(activity.name)} details">
@@ -946,8 +952,8 @@
   }
 
   function renderDungeons() {
-    return `<div class="page">${pageHeader("dungeons", `${badge("12 campaign tiers", "gold")}${badge("Bosses are forced", "green")}`)}
-      <div class="callout"><strong>How boss encounters work:</strong><p>Boss groups are excluded from random encounters. Once the story meter is met, the required boss becomes the immediate next encounter. A boss win—or a full-party wipe during that attempt—resets the current meter.</p></div>
+    return `<div class="page">${pageHeader("dungeons", `${badge("12 campaign tiers", "gold")}${badge("Bosses are gear checks", "green")}`)}
+      <div class="callout"><strong>How story bosses work:</strong><p>Boss groups are excluded from random encounters. Once the story meter is met, the required boss stays sealed until every hero in the active party equips at least three items from that dungeon's tier or higher. The tracker shows how many heroes are ready. A boss win—or a full-party wipe during that attempt—resets the current meter.</p></div>
       <section class="section-block">
         <div class="dungeon-grid">${state.data.dungeons.map(dungeon => activityCard(dungeon, "dungeon")).join("")}</div>
       </section>
@@ -1018,7 +1024,7 @@
       <div class="callout callout--red"><strong>Entry rule:</strong><p>Each permanent raid has its own daily entry at 00:00 UTC. Starting consumes it; failure and abandonment do not refund it. A replacement entry costs 50 Gems while that raid is idle.</p></div>
       <section class="section-block"><div class="raid-grid">${state.data.raids.map(raid => activityCard(raid, "raid")).join("")}</div></section>
       <section class="section-block">
-        ${sectionHeading("Current rules", "Every raid mechanic in version 1.11", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
+        ${sectionHeading("Current rules", "Every raid mechanic in version 1.12", "These summaries explain the exact action counts, thresholds, and responses used in each raid.")}
         <div class="mechanic-list">${state.data.raids.map(raid => {
           const mechanic = C.raidMechanics[raid.id];
           return `<article class="mechanic-panel"><div class="mechanic-panel__title" style="background:linear-gradient(145deg,${esc(mechanic.color)}22,transparent)"><span class="eyebrow">${esc(raid.name)}</span><h2>${esc(mechanic.label)}</h2><p>${esc(mechanic.summary || raid.mechanic_summary)}</p></div><div class="mechanic-panel__content"><ul>${mechanic.rules.map(rule => `<li>${esc(rule)}</li>`).join("")}</ul></div></article>`;
@@ -1147,8 +1153,8 @@
           }).join("")}
         </tbody></table></div></article>
         <div class="callout callout--green" style="margin-top:18px"><strong>Google Play Games:</strong><p>Every tenth-floor first clear unlocks its matching achievement. Sign-in and cloud restore backfill all checkpoints at or below the saved highest floor. The largest cleared floor is also submitted to the ${esc(C.towerPlayGames.leaderboard.name)} leaderboard.</p></div>
-        <div class="callout" style="margin-top:18px"><strong>Upper-Tower Resonance targets:</strong><p>Rank 2 on Floors 71–80, Rank 4 on Floors 81–90, Rank 6 on Floors 91–99, and Rank 8 on Floor 100. These are build-readiness targets, not entry requirements.</p></div>
-        <div class="callout callout--red" style="margin-top:18px"><strong>Tower Mist and Echo Pressure:</strong><p>Floors 71–80 use 20% Mist at 0.50 enemy Evade per Mist point; 81–90 use 30% at 0.55; 91–99 use 40% at 0.60; Floor 100 uses 50% at 0.65. From Floor 81, every point that the party's average Echo Resonance falls below the target adds +50% enemy HP and +60% enemy Attack. Neither mechanic blocks entry.</p></div>
+        <div class="callout" style="margin-top:18px"><strong>Upper-Tower build targets:</strong><p>Floors 71–80 expect average Echo Rank 2 and 4 active raid sets; Floors 81–90 expect Rank 4 and 6 sets; Floors 91–99 expect Rank 6 and 8 sets; Floor 100 expects Rank 8 and 10 sets. These are build-readiness targets, not entry requirements.</p></div>
+        <div class="callout callout--red" style="margin-top:18px"><strong>Tower Mist and Echo Pressure:</strong><p>Floors 71–80 use 20% Mist at 0.50 enemy Evade per Mist point; 81–90 use 30% at 0.55; 91–99 use 40% at 0.60; Floor 100 uses 50% at 0.65. From Floor 71, every missing average Echo Resonance rank adds +18% enemy HP and +22% Attack, while every missing active raid set adds +6% HP and +7% Attack. Neither mechanic blocks entry.</p></div>
       </section>
       <section class="section-block"${towerHidden}>
         ${sectionHeading("Floor 100", "The Crown That Waits", "The Zenith is a permanent build check whose three mechanics measure raid-set coverage, companion strength, and fight duration.")}
@@ -1192,7 +1198,7 @@
     const item = state.data.itemMap.get(recipe.result) || { name: recipe.result };
     const ingredients = Object.entries(recipe.ingredients || {}).map(([name, quantity]) => `${name} ×${quantity}`).join(" · ");
     return `<article class="entity-card item-card" data-openable="true" tabindex="0" role="button" data-entity-type="item" data-entity-id="${esc(recipe.result)}">
-      <div class="entity-card__media">${image(item.icon, "")}</div><div class="entity-card__body"><div class="entity-card__kicker">Recipe · T${esc(recipe.required_tier || 1)} · ${esc(formatDuration(recipe.craft_time_seconds || 0))}</div><h3>${esc(recipe.result)}${Number(recipe.quantity || 1) > 1 ? ` ×${recipe.quantity}` : ""}</h3><p class="entity-card__desc">${esc(ingredients)}</p></div>
+      <div class="entity-card__media">${image(item.icon, "")}</div><div class="entity-card__body"><div class="entity-card__kicker">Recipe · T${esc(recipe.required_tier || 1)} · ${esc(formatDuration(recipeCraftTime(recipe)))}</div><h3>${esc(recipe.result)}${Number(recipe.quantity || 1) > 1 ? ` ×${recipe.quantity}` : ""}</h3><p class="entity-card__desc">${esc(ingredients)}</p></div>
     </article>`;
   }
 
@@ -1300,17 +1306,25 @@
     return `<article class="table-panel"><div class="table-panel__header"><h3>${esc(title)}</h3><p>${esc(note)}</p></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Upgrade</th><th>Dungeon gate</th><th class="numeric">Coins</th><th>Material</th></tr></thead><tbody>${rows.map((row,index)=>`<tr><td><strong>Level ${index+1}</strong></td><td>Tier ${row.gate}</td><td class="numeric">${formatNumber(row.coin)}</td><td>${esc(row.items || "—")}</td></tr>`).join("")}</tbody></table></div></article>`;
   }
 
+  function recruitmentCostTable() {
+    return `<article class="table-panel"><div class="table-panel__header"><h3>Hero recruitment</h3><p>The first four hires create a second farming party quickly; later hires become the campaign's main roster-expansion Coin sink.</p></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Additional hero</th><th class="numeric">Coins</th></tr></thead><tbody>${(C.recruitCosts || []).map((cost,index)=>`<tr><td><strong>Hire ${index+1}</strong></td><td class="numeric">${formatNumber(cost)}</td></tr>`).join("")}</tbody></table></div></article>`;
+  }
+
   function renderTown() {
     return `<div class="page">${pageHeader("town", `${badge("500 starting Coins", "gold")}${badge("3h shop cycle", "green")}`)}
       <section class="section-block" style="margin-top:0"><div class="system-grid">${C.townSystems.map(system => `<article class="system-card"><div class="system-card__top">${image(system.icon, "", "system-card__icon")}<div><span class="eyebrow">City system</span><h3>${esc(system.name)}</h3></div></div><p>${esc(system.lead)}</p><ul>${system.facts.map(fact => `<li>${esc(fact)}</li>`).join("")}</ul></article>`).join("")}</div></section>
       <section class="section-block">
+        ${sectionHeading("Roster economy", "Every campaign recruitment price", "Prices depend on how many heroes have been recruited beyond the starting roster, not on the individual offer's level, class, or title.")}
+        ${recruitmentCostTable()}
+      </section>
+      <section class="section-block">
         ${sectionHeading("Progression economy", "Every permanent town-upgrade price", "Gate is the highest unlocked campaign tier. Construction Bundles are consumed with the listed Coins.")}
         <div class="mechanic-list">
-          ${economyTable("Tavern capacity", C.economyTables.tavern_capacity, "+1 hero slot per level; 14 campaign upgrades.")}
+          ${economyTable("Tavern capacity", C.economyTables.tavern_capacity, "+1 hero slot per level; 14 campaign Coin upgrades and 2 Apex ranks.")}
           ${economyTable("Tavern refresh speed", C.economyTables.tavern_refresh, "Interval = 3 hours ÷ (1 + 0.10 × purchased levels).")}
           ${economyTable("Tavern offer count", C.economyTables.tavern_offers, "+1 generated offer per level.")}
           ${economyTable("Workshop capacity", C.economyTables.craft_capacity, "+1 crafting queue slot per level.")}
-          ${economyTable("Workshop speed", C.economyTables.craft_speed, "Duration = base duration ÷ (1 + 0.10 × purchased levels).")}
+          ${economyTable("Workshop speed", C.economyTables.craft_speed, "Duration = tier-adjusted duration ÷ (1 + 0.10 × purchased levels).")}
         </div>
       </section>
       <section class="section-block"><div class="callout"><strong>How to earn Coins:</strong><p>Combat does not add Coins directly. Dungeon and raid loot becomes Coins chiefly when you sell ordinary inventory items; crafting and upgrades spend that wallet.</p></div></section>
@@ -1435,14 +1449,14 @@
       <section class="section-block">
         ${sectionHeading("Using the guide", "How to read the numbers", "The Codex presents current game behavior in player terms and labels probability assumptions where they matter.")}
         <div class="info-grid">
-          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.11 throughout</h3><p>Every strategy chapter describes version 1.11. Patch Notes contain the update history.</p></article>
+          <article class="info-card"><span class="info-card__eyebrow">Current version</span><h3>Version 1.12 throughout</h3><p>Every strategy chapter describes version 1.12. Patch Notes contain the update history.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Probabilities</span><h3>Base chances by default</h3><p>Drop, hatch, encounter, and title odds use base values unless a selected bonus is shown beside the result.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Character sheets</span><h3>Preview values are labeled</h3><p>Class sheets show a clean preview. Owned heroes keep their individual growth and receive the listed promotion adjustments.</p></article>
           <article class="info-card"><span class="info-card__eyebrow">Spoilers</span><h3>The full game is visible</h3><p>The Codex reveals every class, enemy, activity, item, pet family, and endgame challenge for planning purposes.</p></article>
         </div>
       </section>
       <section class="section-block">
-        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.11.")}
+        ${sectionHeading("Current clarifications", "Rules worth highlighting", "These details answer common strategy questions for version 1.12.")}
         <div class="info-grid">${C.accuracyNotes.map(note=>`<article class="info-card"><span class="info-card__eyebrow">Guide note</span><h3>${esc(note.title)}</h3><p>${esc(note.text)}</p></article>`).join("")}</div>
       </section>
       <section class="section-block"><div class="callout callout--green"><strong>Current guide version:</strong><p>Game ${esc(C.version.game)} · ${esc(C.version.status)} · Updated ${esc(C.version.updated)}. Content and artwork © 2026 BroglioGames. All rights reserved.</p></div></section>
@@ -1777,7 +1791,7 @@
         ${item.raid_set_bonus?`<section class="detail-section"><h2>${esc(item.raid_set_bonus.name || "Raid set bonus")}</h2><div class="callout"><strong>${esc(item.raid_set_bonus.pieces || 2)}-piece set:</strong><p>${esc(item.raid_set_bonus.description)}</p></div></section>`:""}
         <section class="detail-section"><h2>Acquisition</h2>
           ${drops.length?`<div class="detail-grid">${drops.map(drop=>`<article class="detail-box"><div class="detail-box__label">Monster drop · ${formatPercent(drop.chance)}</div><h3>${esc(drop.monster)}</h3><p>${esc((drop.locations||[]).map(x=>x.name||activityName(x.id)).join(", ")||"Unknown location")}</p><button class="button button--small" data-entity-type="monster" data-entity-id="${esc(drop.monster)}" type="button">Open monster</button></article>`).join("")}</div>`:""}
-          ${recipes.length?recipes.map(recipe=>`<article class="detail-box" style="margin-top:12px"><div class="detail-box__label">Crafting recipe · Tier ${esc(recipe.required_tier || 1)}</div><h3>${esc(formatDuration(recipe.craft_time_seconds || 0))}${recipe.required_raid?` · requires a ${esc(activityName(recipe.required_raid))} clear`:""}</h3><p>${Object.entries(recipe.ingredients||{}).map(([name,count])=>`${esc(name)} ×${count}`).join(" · ")}${recipe.coin_cost?` · ${formatNumber(recipe.coin_cost)} Coins`:""}</p></article>`).join(""):""}
+          ${recipes.length?recipes.map(recipe=>`<article class="detail-box" style="margin-top:12px"><div class="detail-box__label">Crafting recipe · Tier ${esc(recipe.required_tier || 1)}</div><h3>${esc(formatDuration(recipeCraftTime(recipe)))}${recipe.required_raid?` · requires a ${esc(activityName(recipe.required_raid))} clear`:""}</h3><p>${Object.entries(recipe.ingredients||{}).map(([name,count])=>`${esc(name)} ×${count}`).join(" · ")}${recipe.coin_cost?` · ${formatNumber(recipe.coin_cost)} Coins`:""}</p></article>`).join(""):""}
           ${!drops.length&&!recipes.length?`<div class="callout"><p>Granted, purchased, protected, or resolved by a special reward system rather than an ordinary monster table or crafting recipe.</p></div>`:""}
         </section>
       </div>`;
@@ -1854,9 +1868,9 @@
       languageButton.setAttribute("title", label);
     }
     const description = document.querySelector('meta[name="description"]');
-    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.11: heroes, combat, dungeons, raids, the Tower of Resonance, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
+    if (description) description.content = translate("The complete guide to Idle Party Dungeon 1.12: heroes, combat, dungeons, raids, the Tower of Resonance, Echo Descent, monsters, loot odds, crafting, pets, patch notes, privacy, and every major interaction.");
     const openGraphDescription = document.querySelector('meta[property="og:description"]');
-    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.11, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
+    if (openGraphDescription) openGraphDescription.content = translate("A complete, searchable game guide updated for version 1.12, with exact probabilities and every class, monster, dungeon, raid, endgame challenge, item, recipe, status, and system.");
     const openGraphTitle = document.querySelector('meta[property="og:title"]');
     if (openGraphTitle) openGraphTitle.content = translate("Idle Party Dungeon — The Adventurer's Codex");
   }

@@ -272,6 +272,7 @@ Story complete,Story complete,Storia completata,Geschichte abgeschlossen,Histoir
 Story complete | Boss revealed,Story complete | Boss revealed,Storia completata | Boss rivelato,Geschichte abgeschlossen | Boss enthüllt,Histoire terminée | Boss révélé
 Story complete | %s [%s/%s],Story complete | %s [%s/%s],Storia completata | %s [%s/%s],Geschichte abgeschlossen | %s [%s/%s],Histoire terminée | %s [%s/%s]
 Boss revealed,Boss revealed,Boss rivelato,Boss enthüllt,Boss révélé
+Boss sealed | Equip %s Tier %s items per hero (%s/%s ready),Boss sealed | Equip %s Tier %s items per hero (%s/%s ready),Boss sigillato | Equipaggia %s oggetti di grado %s per eroe (%s/%s pronti),Boss versiegelt | Rüste pro Held %s Gegenstände der Stufe %s aus (%s/%s bereit),Boss scellé | Équipez %s objets de palier %s par héros (%s/%s prêts)
 %s [%s/%s],%s [%s/%s],%s [%s/%s],%s [%s/%s],%s [%s/%s]
 %s pending items,%s pending items,%s oggetti in attesa,%s ausstehende Gegenstände,%s objets en attente
 Mist %s%% | %s pending items,Mist %s%% | %s pending items,Nebbia %s%% | %s oggetti in attesa,Nebel %s%% | %s ausstehende Gegenstände,Brume %s%% | %s objets en attente
@@ -339,10 +340,15 @@ RAID PATHWAYS  -  One independent entry per unlocked raid each UTC day,RAID PATH
 Sound,Sound,Audio,Ton,Son
 Battery Savings,Battery Savings,Risparmio batteria,Akkusparmodus,Économie de batterie
 Save power and extend battery life,Save power and extend battery life,Risparmia energia e prolunga la durata della batteria,Strom sparen und die Akkulaufzeit verlängern,Économiser l'énergie et prolonger l'autonomie
-"Caps the game at 30 FPS, reduces background UI refreshes, disables combat animations, and dims the screen. Gameplay progress and combat timing are unchanged.","Caps the game at 30 FPS, reduces background UI refreshes, disables combat animations, and dims the screen. Gameplay progress and combat timing are unchanged.","Limita il gioco a 30 FPS, riduce gli aggiornamenti dell'interfaccia in background, disattiva le animazioni di combattimento e oscura lo schermo. I progressi di gioco e i tempi di combattimento restano invariati.","Begrenzt das Spiel auf 30 FPS, reduziert Oberflächen-Aktualisierungen im Hintergrund, deaktiviert Kampfanimationen und dimmt den Bildschirm. Spielfortschritt und Kampf-Timing bleiben unverändert.","Limite le jeu à 30 FPS, réduit les rafraîchissements d'interface en arrière-plan, désactive les animations de combat et assombrit l'écran. La progression et le rythme des combats restent inchangés."
-Recommended when your device is running low on battery.,Recommended when your device is running low on battery.,Consigliata quando la batteria del dispositivo è quasi scarica.,"Empfohlen, wenn der Akku deines Geräts zur Neige geht.",Recommandé lorsque la batterie de ton appareil est faible.
-Enable Battery Savings,Enable Battery Savings,Attiva Risparmio batteria,Akkusparmodus aktivieren,Activer l'économie de batterie
-Use less power while keeping gameplay active,Use less power while keeping gameplay active,Riduci il consumo energetico mantenendo il gioco attivo,Weniger Energie verbrauchen und das Spiel trotzdem aktiv halten,Consomme moins d'énergie tout en gardant le jeu actif
+Choose the power-saving improvements you want. Each option works independently and is remembered on this device.,Choose the power-saving improvements you want. Each option works independently and is remembered on this device.,Scegli i miglioramenti per il risparmio energetico che desideri. Ogni opzione funziona in modo indipendente e viene memorizzata su questo dispositivo.,Wähle die gewünschten Energiesparmaßnahmen. Jede Option funktioniert unabhängig und wird auf diesem Gerät gespeichert.,Choisis les améliorations d'économie d'énergie que tu souhaites. Chaque option fonctionne indépendamment et est mémorisée sur cet appareil.
+Lower screen luminosity,Lower screen luminosity,Riduci luminosità schermo,Bildschirmhelligkeit reduzieren,Réduire la luminosité de l'écran
+Dims the screen with a dark overlay.,Dims the screen with a dark overlay.,Oscura lo schermo con una sovrapposizione scura.,Dunkelt den Bildschirm mit einer dunklen Überlagerung ab.,Assombrit l'écran à l'aide d'un voile sombre.
+FPS cap,FPS cap,Limite FPS,FPS-Begrenzung,Limite d'IPS
+Limits rendering to 30 FPS and enables low-processor mode.,Limits rendering to 30 FPS and enables low-processor mode.,Limita il rendering a 30 FPS e attiva la modalità a basso consumo del processore.,Begrenzt die Darstellung auf 30 FPS und aktiviert den Prozessorsparmodus.,Limite le rendu à 30 IPS et active le mode processeur basse consommation.
+Reduced animations,Reduced animations,Animazioni ridotte,Reduzierte Animationen,Animations réduites
+Disables combat animations and visual effects.,Disables combat animations and visual effects.,Disattiva le animazioni di combattimento e gli effetti visivi.,Deaktiviert Kampfanimationen und visuelle Effekte.,Désactive les animations de combat et les effets visuels.
+Background refresh,Background refresh,Aggiornamento in background,Hintergrundaktualisierung,Actualisation en arrière-plan
+Updates inactive gameplay pages less often.,Updates inactive gameplay pages less often.,Aggiorna meno spesso le pagine di gioco inattive.,Aktualisiert inaktive Spielseiten seltener.,Actualise moins souvent les pages de jeu inactives.
 Emberflow · endless tavern soundtrack,Emberflow · endless tavern soundtrack,Emberflow · colonna sonora infinita della taverna,Emberflow · endloser Tavernen-Soundtrack,Emberflow · bande-son de taverne sans fin
 Emberflow · muted,Emberflow · muted,Emberflow · audio disattivato,Emberflow · stummgeschaltet,Emberflow · son coupé
 Master,Master,Generale,Meister,Maître
@@ -1015,6 +1021,7 @@ Choose a hero for slot %s,Choose a hero for slot %s,Scegli un eroe per lo slot %
 Team slot %s,Team slot %s,Slot squadra %s,Teamplatz %s,Emplacement d'équipe %s
 Tap to select - hold for hero details,Tap to select - hold for hero details,Tocca per selezionare - tieni premuto per i dettagli dell'eroe,Tippen zum Auswählen - gedrückt halten für Heldendetails,Touche pour sélectionner - maintiens pour les détails du héros
 No heroes are currently available.,No heroes are currently available.,Al momento non ci sono eroi disponibili.,Derzeit sind keine Helden verfügbar.,Aucun héros n'est disponible actuellement.
+No heroes match this filter.,No heroes match this filter.,Nessun eroe corrisponde a questo filtro.,Keine Helden entsprechen diesem Filter.,Aucun héros ne correspond à ce filtre.
 ACTIVE COMPANION,ACTIVE COMPANION,FAMIGLIO ATTIVO,AKTIVER BEGLEITER,COMPAGNON ACTIF
 Battle report,Battle report,Rapporto di battaglia,Kampfbericht,Rapport de bataille
 COMPANION,COMPANION,FAMIGLIO,BEGLEITER,COMPAGNON
@@ -1251,6 +1258,8 @@ Prix de vente :"
 Inventory empty,Inventory empty,Inventario vuoto,Inventar leer,Inventaire vide
 No owned items match this filter.,No owned items match this filter.,Nessun oggetto posseduto corrisponde a questo filtro.,Keine besessenen Gegenstände entsprechen diesem Filter.,Aucun objet possédé ne correspond à ce filtre.
 Item type,Item type,Tipo di oggetto,Gegenstandstyp,Type d'objet
+Raid family,Raid family,Famiglia raid,Raid-Familie,Famille de raid
+Filter by raid family,Filter by raid family,Filtra per famiglia raid,Nach Raid-Familie filtern,Filtrer par famille de raid
 Sort by,Sort by,Ordina per,Sortieren,Trier par
 Craftable amount,Craftable amount,Quantità creabile,Herstellbare Menge,Quantité fabricable
 Owned amount,Owned amount,Quantità posseduta,Besessene Menge,Quantité possédée
@@ -1260,6 +1269,7 @@ Tier: High to Low,Tier: High to Low,Grado: dal più alto al più basso,Grad: abs
 Alphabetical,Alphabetical,Alfabetico,Alphabetisch,Alphabétique
 Reverse alphabetical,Reverse alphabetical,Alfabetico inverso,Umgekehrt alphabetisch,Alphabétique inverse
 Qty ↓,Qty ↓,Qtà ↓,Anz ↓,Qté ↓
+Value ↓,Value ↓,Valore ↓,Wert ↓,Valeur ↓
 Tier ↑,Tier ↑,Grado ↑,Grad ↑,Palier ↑
 Tier ↓,Tier ↓,Grado ↓,Grad ↓,Palier ↓
 A-Z ↑,A-Z ↑,A-Z ↑,A-Z ↑,A-Z ↑
@@ -1956,100 +1966,17 @@ WING %s,WING %s,ALA %s,FLÜGEL %s,AILE %s
 [color=#69e6ff]Opened %s Gem Clusters: +%s gem[/color],[color=#69e6ff]Opened %s Gem Clusters: +%s gem[/color],[color=#69e6ff]Aperti %s ammassi di gemme: +%s gemma[/color],[color=#69e6ff]%s Edelsteincluster geöffnet: +%s Edelstein[/color],[color=#69e6ff]%s Amas de gemmes ouverts : +%s gemme[/color]
 [color=#69e6ff]Opened %s Gem Clusters: +%s gems[/color],[color=#69e6ff]Opened %s Gem Clusters: +%s gems[/color],[color=#69e6ff]Aperti %s ammassi di gemme: +%s gemme[/color],[color=#69e6ff]%s Edelsteincluster geöffnet: +%s Edelsteine[/color],[color=#69e6ff]%s Amas de gemmes ouverts : +%s gemmes[/color]
 %s became a %s,%s became a %s,%s ha ottenuto la classe %s,%s wurde zu %s,%s est devenu %s
-[color=yellow]The descent was abandoned. The secured anchor remains at depth %s.[/color],[color=yellow]The descent was abandoned. The secured anchor remains at depth %s.[/color],[color=yellow]La discesa è stata abbandonata. L'ancora consolidata resta alla profondità %s.[/color],[color=yellow]Der Abstieg wurde abgebrochen. Der gesicherte Anker bleibt bei Tiefe %s.[/color],[color=yellow]La descente a été abandonnée. L'ancre sécurisée reste à la profondeur %s.[/color]
-Depth %s in progress,Depth %s in progress,Profondità %s in corso,Tiefe %s läuft,Profondeur %s en cours
-Depth %s ready,Depth %s ready,Profondità %s pronta,Tiefe %s bereit,Profondeur %s prête
-Depth %s | Stratum %s/%s,Depth %s | Stratum %s/%s,Profondità %s | Strato %s/%s,Tiefe %s | Schicht %s/%s,Profondeur %s | Strate %s/%s
 No active laws,No active laws,Nessuna legge attiva,Keine aktiven Gesetze,Aucune loi active
-Anchor %s | Highest depth %s | Day %s | %s,Anchor %s | Highest depth %s | Day %s | %s,Ancora %s | Profondità massima %s | Giorno %s | %s,Anker %s | Höchste Tiefe %s | Tag %s | %s,Ancre %s | Profondeur maximale %s | Jour %s | %s
-Running | Depth %s | Anchor %s | %s/%s heroes | %s/%s companions,Running | Depth %s | Anchor %s | %s/%s heroes | %s/%s companions,In corso | Profondità %s | Ancora %s | %s/%s eroi | %s/%s famigli,Läuft | Tiefe %s | Anker %s | %s/%s Helden | %s/%s Begleiter,En cours | Profondeur %s | Ancre %s | %s/%s héros | %s/%s familiers
-Depth %s ready | Anchor %s | Highest depth %s,Depth %s ready | Anchor %s | Highest depth %s,Profondità %s pronta | Ancora %s | Profondità massima %s,Tiefe %s bereit | Anker %s | Höchste Tiefe %s,Profondeur %s prête | Ancre %s | Profondeur maximale %s
-Depth %s | Highest %s | Anchor %s | Kills %s | Deaths %s | XP %s | Day %s,Depth %s | Highest %s | Anchor %s | Kills %s | Deaths %s | XP %s | Day %s,Profondità %s | Massima %s | Ancora %s | Uccisioni %s | Morti %s | PE %s | Giorno %s,Tiefe %s | Höchste %s | Anker %s | Siege %s | Tode %s | EP %s | Tag %s,Profondeur %s | Maximale %s | Ancre %s | Victoires %s | Morts %s | XP %s | Jour %s
-[color=yellow]Echo depth %s cleared.[/color],[color=yellow]Echo depth %s cleared.[/color],[color=yellow]Profondità dell'Eco %s superata.[/color],[color=yellow]Echo-Tiefe %s bezwungen.[/color],[color=yellow]Profondeur d'Écho %s terminée.[/color]
 secured,secured,consolidata,gesichert,sécurisé
 held,held,mantenuta,gehalten,détenu
-Echo Depth %s: Anchor %s %s,Echo Depth %s: Anchor %s %s,Profondità dell'Eco %s: Ancora %s %s,Echo-Tiefe %s: Anker %s %s,Profondeur d'Écho %s : Ancre %s %s
-"ECHO %s
-ANCHOR %s
-IN BATTLE","ECHO %s
-ANCHOR %s
-IN BATTLE","ECO %s
-ANCORA %s
-IN BATTAGLIA","ECHO %s
-ANKER %s
-IM KAMPF","ÉCHO %s
-ANCRE %s
-EN COMBAT"
-"ECHO %s
-ANCHOR %s
-READY","ECHO %s
-ANCHOR %s
-READY","ECO %s
-ANCORA %s
-PRONTO","ECHO %s
-ANKER %s
-BEREIT","ÉCHO %s
-ANCRE %s
-PRÊT"
-"Echo Descent - Depth %s, secured Anchor %s. Five heroes and two companions; attempts are unlimited.","Echo Descent - Depth %s, secured Anchor %s. Five heroes and two companions; attempts are unlimited.","Discesa dell'Eco - Profondità %s, Ancora consolidata %s. Cinque eroi e due famigli; i tentativi sono illimitati.","Echo-Abstieg - Tiefe %s, gesicherter Anker %s. Fünf Helden und zwei Begleiter; die Versuche sind unbegrenzt.","Descente d'Écho - Profondeur %s, Ancre sécurisée %s. Cinq héros et deux compagnons ; les tentatives sont illimitées."
 BEYOND THE CROWN,BEYOND THE CROWN,OLTRE LA CORONA,JENSEITS DER KRONE,AU-DELÀ DE LA COURONNE
-"Five heroes descend through four hostile depths and one Guardian. Clearing the Guardian secures the next Anchor.
-
-Deepest reached: %s
-Secured Anchor: %s
-Next push: Depth %s to Anchor %s
-Formation: exactly 5 heroes and up to 2 companions
-
-Failure or abandon returns the party to its secured Anchor. Attempts are unlimited.","Five heroes descend through four hostile depths and one Guardian. Clearing the Guardian secures the next Anchor.
-
-Deepest reached: %s
-Secured Anchor: %s
-Next push: Depth %s to Anchor %s
-Formation: exactly 5 heroes and up to 2 companions
-
-Failure or abandon returns the party to its secured Anchor. Attempts are unlimited.","Cinque eroi scendono attraverso quattro profondità ostili e un Guardiano. Sconfiggere il Guardiano consolida l'Ancora successiva.
-
-Profondità massima raggiunta: %s
-Ancora consolidata: %s
-Prossima avanzata: dalla profondità %s all'Ancora %s
-Formazione: esattamente 5 eroi e fino a 2 famigli
-
-In caso di sconfitta o abbandono, il gruppo torna all'Ancora consolidata. I tentativi sono illimitati.","Fünf Helden steigen durch vier feindliche Tiefen und einen Wächter hinab. Wer den Wächter besiegt, sichert den nächsten Anker.
-
-Tiefster Vorstoß: %s
-Gesicherter Anker: %s
-Nächster Vorstoß: Tiefe %s bis Anker %s
-Formation: genau 5 Helden und bis zu 2 Begleiter
-
-Niederlage oder Abbruch bringt die Gruppe zum gesicherten Anker zurück. Die Versuche sind unbegrenzt.","Cinq héros descendent à travers quatre profondeurs hostiles et un Gardien. Vaincre le Gardien consolide l'Ancre suivante.
-
-Profondeur maximale atteinte : %s
-Ancre consolidée : %s
-Prochaine avancée : de la profondeur %s à l'Ancre %s
-Formation : exactement 5 héros et jusqu'à 2 familiers
-
-Une défaite ou un abandon ramène le groupe à son Ancre consolidée. Les tentatives sont illimitées."
 DAILY SHIFTING LAWS,DAILY SHIFTING LAWS,LEGGI MUTEVOLI GIORNALIERE,TÄGLICH WECHSELNDE GESETZE,LOIS CHANGEANTES QUOTIDIENNES
-Laws rotate at 00:00 UTC. A started stratum keeps its starting laws. Next rotation in %s.,Laws rotate at 00:00 UTC. A started stratum keeps its starting laws. Next rotation in %s.,Le leggi cambiano alle 00:00 UTC. Uno strato già iniziato mantiene le leggi iniziali. Prossima rotazione tra %s.,Die Gesetze wechseln um 00:00 UTC. Eine begonnene Schicht behält ihre Startgesetze. Nächster Wechsel in %s.,Les lois changent à 00:00 UTC. Une strate commencée conserve ses lois de départ. Prochain changement dans %s.
 %s: %s,%s: %s,%s: %s,%s: %s,%s : %s
 Unknown Law,Unknown Law,Legge sconosciuta,Unbekanntes Gesetz,Loi inconnue
-"PUSH ORDER
-The party advances until it secures Anchor %s or is defeated. Echo monsters grant no ordinary item drops.","PUSH ORDER
-The party advances until it secures Anchor %s or is defeated. Echo monsters grant no ordinary item drops.","ORDINE DI AVANZATA
-Il gruppo avanza finché non consolida l'Ancora %s o viene sconfitto. I mostri dell'Eco non rilasciano normali oggetti come bottino.","VORSTOSSBEFEHL
-Die Gruppe rückt vor, bis sie Anker %s sichert oder besiegt wird. Echo-Monster lassen keine gewöhnliche Beute fallen.","ORDRE D'AVANCÉE
-Le groupe progresse jusqu'à consolider l'Ancre %s ou être vaincu. Les monstres d'Écho ne laissent aucun butin ordinaire."
 Replay Tower Floor 100,Replay Tower Floor 100,Rigioca il piano 100 della Torre,Turm-Ebene 100 erneut spielen,Rejouer l'étage 100 de la Tour
 Return to the completed Tower for an Apex build test,Return to the completed Tower for an Apex build test,Torna alla Torre completata per testare una configurazione Apex,Kehre für einen Apex-Test deiner Konfiguration in den abgeschlossenen Turm zurück,Retourne dans la Tour achevée pour tester une configuration Apex
 Enter Echo Descent,Enter Echo Descent,Entra nella Discesa dell'Eco,Echo-Abstieg betreten,Entrer dans la Descente d'Écho
 Continue beyond the completed Tower with a five-hero formation,Continue beyond the completed Tower with a five-hero formation,Prosegui oltre la Torre completata con una formazione di cinque eroi,Setze über den abgeschlossenen Turm hinaus mit einer Formation aus fünf Helden fort,Continue au-delà de la Tour terminée avec une formation de cinq héros
-"Abandon Push
-(Return to Anchor)","Abandon Push
-(Return to Anchor)","Abbandona avanzata
-(Torna all'Ancora)","Vorstoß abbrechen
-(Zurück zum Anker)","Abandonner la poussée
-(Retour à l'Ancre)"
-The secured Echo Anchor remains unchanged,The secured Echo Anchor remains unchanged,L'Ancora consolidata dell'Eco resta invariata,Der gesicherte Echo-Anker bleibt unverändert,L'Ancre d'Écho sécurisée reste inchangée
 Arrange Echo Formation,Arrange Echo Formation,Organizza formazione dell'Eco,Echo-Formation aufstellen,Organiser la formation d'Écho
 ECHO,ECHO,ECO,ECHO,ÉCHO
 %s COMPANION %s,%s COMPANION %s,FAMIGLIO %s %s,%s BEGLEITER %s,%s COMPAGNON %s
@@ -2057,14 +1984,7 @@ CHOOSE %s COMPANION %s,CHOOSE %s COMPANION %s,SCEGLI FAMIGLIO %s %s,%s BEGLEITER
 %s supports two distinct companions,%s supports two distinct companions,%s supporta due famigli distinti,%s unterstützt zwei verschiedene Begleiter,%s soutient deux compagnons distincts
 Choose %s Companion %s,Choose %s Companion %s,Scegli famiglio %s %s,%s Begleiter %s wählen,Choisir %s compagnon %s
 No Companion in Slot %s,No Companion in Slot %s,Nessun famiglio nello slot %s,Kein Begleiter auf Platz %s,Aucun familier dans l'emplacement %s
-Push Echo Depth %s,Push Echo Depth %s,Affronta la profondità dell'Eco %s,Vorstoß zu Echo-Tiefe %s,Avancer jusqu'à la profondeur d'Écho %s
 DAILY RESONANCE,DAILY RESONANCE,RISONANZA GIORNALIERA,TÄGLICHE RESONANZ,RÉSONANCE QUOTIDIENNE
-Echo Depth %s cleared for practice; Anchor %s held,Echo Depth %s cleared for practice; Anchor %s held,Profondità dell'Eco %s superata come prova; Ancora %s mantenuta,Echo-Tiefe %s zur Übung abgeschlossen; Anker %s gehalten,Profondeur d'Écho %s terminée à l'entraînement ; Ancre %s conservée
-Echo Depth %s cleared; Anchor %s secured,Echo Depth %s cleared; Anchor %s secured,Profondità dell'Eco %s superata; Ancora %s consolidata,Echo-Tiefe %s abgeschlossen; Anker %s gesichert,Profondeur d'Écho %s terminée ; Ancre %s sécurisée
-Echo Depth %s failed; Anchor %s held,Echo Depth %s failed; Anchor %s held,Profondità dell'Eco %s fallita; Ancora %s mantenuta,Echo-Tiefe %s gescheitert; Anker %s gehalten,Profondeur d'Écho %s échouée ; Ancre %s conservée
-Echo Depth %s is in battle. Finish or abandon that Echo push before attempting a Tower floor.,Echo Depth %s is in battle. Finish or abandon that Echo push before attempting a Tower floor.,La profondità dell'Eco %s è in battaglia. Completa o abbandona questa avanzata nell'Eco prima di tentare un piano della Torre.,"Echo-Tiefe %s befindet sich im Kampf. Beende oder brich diesen Echo-Vorstoß ab, bevor du eine Turmebene versuchst.",La Profondeur d'Écho %s est en combat. Termine ou abandonne cette poussée d'Écho avant de tenter un étage de la Tour.
-Echo Descent - Depth %s is in battle; secured Anchor %s. Open the active Echo run.,Echo Descent - Depth %s is in battle; secured Anchor %s. Open the active Echo run.,Discesa dell'Eco - La profondità %s è in battaglia; Ancora consolidata %s. Apri l'avanzata attiva nell'Eco.,Echo-Abstieg - Tiefe %s befindet sich im Kampf; gesicherter Anker %s. Öffne den aktiven Echo-Lauf.,Descente d'Écho - La Profondeur %s est en combat ; Ancre sécurisée %s. Ouvre l'expédition d'Écho active.
-Echo Descent - Depth %s ready at secured Anchor %s. The first reward-eligible Guardian each UTC day secures the next Anchor and grants Resonance; later same-day clears are practice.,Echo Descent - Depth %s ready at secured Anchor %s. The first reward-eligible Guardian each UTC day secures the next Anchor and grants Resonance; later same-day clears are practice.,Discesa dell'Eco - Profondità %s pronta all'Ancora consolidata %s. Il primo Guardiano idoneo alla ricompensa di ogni giorno UTC consolida l'Ancora successiva e concede Risonanza; le vittorie successive nello stesso giorno sono prove.,Echo-Abstieg - Tiefe %s bereit am gesicherten Anker %s. Der erste belohnungsberechtigte Wächter jedes UTC-Tages sichert den nächsten Anker und gewährt Resonanz; spätere Siege am selben Tag sind Übung.,Descente d'Écho - Profondeur %s prête à l'Ancre sécurisée %s. Le premier Gardien éligible aux récompenses de chaque jour UTC sécurise l'Ancre suivante et accorde de la Résonance ; les victoires ultérieures du même jour sont de l'entraînement.
 Echo Descent - unlocks after Tower Floor %s,Echo Descent - unlocks after Tower Floor %s,Discesa dell'Eco - si sblocca dopo il Piano %s della Torre,Echo-Abstieg - wird nach Turmebene %s freigeschaltet,Descente d'Écho - se débloque après l'Étage %s de la Tour
 Echo Descent requires exactly five available heroes,Echo Descent requires exactly five available heroes,La Discesa dell'Eco richiede esattamente cinque eroi disponibili,Der Echo-Abstieg erfordert genau fünf verfügbare Helden,La Descente d'Écho exige exactement cinq héros disponibles
 New daily activity available.,New daily activity available.,Nuova attività giornaliera disponibile.,Neue Tagesaktivität verfügbar.,Nouvelle activité quotidienne disponible.
@@ -2076,22 +1996,6 @@ Supera il Piano %s per rivelare l'icona dell'Eco accanto al titolo.","ECHO-ABSTI
 Schließe Ebene %s ab, um das Echo-Symbol neben diesem Titel zu enthüllen.","DÉBLOCAGE DE LA DESCENTE D'ÉCHO
 Termine l'Étage %s pour révéler l'icône d'Écho à côté de ce titre."
 Echo Descent unlocks after clearing Tower Floor %s.,Echo Descent unlocks after clearing Tower Floor %s.,La Discesa dell'Eco si sblocca dopo aver superato il Piano %s della Torre.,Der Echo-Abstieg wird nach dem Abschluss von Turmebene %s freigeschaltet.,La Descente d'Écho se débloque après avoir terminé l'Étage %s de la Tour.
-"Echo Descent unlocks after Tower Floor %s. Five heroes descend through four hostile depths and one Guardian. Only the first reward-eligible Guardian clear each UTC day secures the next Anchor and grants Resonance. Later same-day Guardian clears are practice: they grant Bond XP and return the party to its existing secured Anchor.
-
-Formation: exactly 5 heroes and up to 2 companions
-Failure or abandon returns the party to its secured Anchor. Attempts are unlimited. Echo monsters grant no ordinary item drops.","Echo Descent unlocks after Tower Floor %s. Five heroes descend through four hostile depths and one Guardian. Only the first reward-eligible Guardian clear each UTC day secures the next Anchor and grants Resonance. Later same-day Guardian clears are practice: they grant Bond XP and return the party to its existing secured Anchor.
-
-Formation: exactly 5 heroes and up to 2 companions
-Failure or abandon returns the party to its secured Anchor. Attempts are unlimited. Echo monsters grant no ordinary item drops.","La Discesa dell'Eco si sblocca dopo il Piano %s della Torre. Cinque eroi attraversano quattro profondità ostili e un Guardiano. Solo la prima vittoria idonea contro il Guardiano di ogni giorno UTC consolida l'Ancora successiva e concede Risonanza. Le altre vittorie contro il Guardiano nello stesso giorno sono prove: concedono PE Legame e riportano il gruppo all'Ancora già consolidata.
-
-Formazione: esattamente 5 eroi e fino a 2 famigli
-Una sconfitta o un abbandono riporta il gruppo all'Ancora consolidata. I tentativi sono illimitati. I mostri dell'Eco non concedono bottino ordinario.","Der Echo-Abstieg wird nach Turmebene %s freigeschaltet. Fünf Helden steigen durch vier feindliche Tiefen und einen Wächter hinab. Nur der erste belohnungsberechtigte Wächtersieg jedes UTC-Tages sichert den nächsten Anker und gewährt Resonanz. Spätere Wächtersiege am selben Tag sind Übung: Sie gewähren Bindungs-EP und bringen die Gruppe zu ihrem bestehenden gesicherten Anker zurück.
-
-Formation: genau 5 Helden und bis zu 2 Begleiter
-Niederlage oder Abbruch bringt die Gruppe zu ihrem gesicherten Anker zurück. Die Versuche sind unbegrenzt. Echo-Monster lassen keine gewöhnlichen Gegenstände fallen.","La Descente d'Écho se débloque après l'Étage %s de la Tour. Cinq héros descendent à travers quatre profondeurs hostiles et un Gardien. Seule la première victoire éligible aux récompenses contre le Gardien de chaque jour UTC sécurise l'Ancre suivante et accorde de la Résonance. Les victoires ultérieures du même jour sont de l'entraînement : elles accordent de l'XP de lien et ramènent le groupe à son Ancre sécurisée existante.
-
-Formation : exactement 5 héros et jusqu'à 2 compagnons
-Un échec ou un abandon ramène le groupe à son Ancre sécurisée. Les tentatives sont illimitées. Les monstres d'Écho ne laissent aucun butin ordinaire."
 Echo Resonance  R%s / %s,Echo Resonance  R%s / %s,Risonanza dell'Eco  R%s / %s,Echo-Resonanz  R%s / %s,Résonance d'Écho  R%s / %s
 "EXPECTED ECHO RESONANCE
 Rank %s / %s is the intended progression target for this floor.","EXPECTED ECHO RESONANCE
@@ -2108,24 +2012,9 @@ Le rang %s / %s est la moyenne de formation visée. La PRESSION D'ÉCHO cumule +
 Finish or abandon the active Echo push first,Finish or abandon the active Echo push first,Completa o abbandona prima l'avanzata attiva nell'Eco,Beende oder brich zuerst den aktiven Echo-Vorstoß ab,Termine ou abandonne d'abord l'avancée d'Écho en cours
 Finish or abandon the active Tower attempt first,Finish or abandon the active Tower attempt first,Completa o abbandona prima il tentativo attivo nella Torre,Beende oder brich zuerst den aktiven Turmversuch ab,Termine ou abandonne d'abord la tentative de la Tour en cours
 Next daily reward at 00:00 UTC in %s,Next daily reward at 00:00 UTC in %s,Prossima ricompensa giornaliera alle 00:00 UTC tra %s,Nächste Tagesbelohnung um 00:00 UTC in %s,Prochaine récompense quotidienne à 00:00 UTC dans %s
-"Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. The first reward-eligible Guardian clear each UTC day secures the next Anchor and grants +%s Echo Resonance to exactly five heroes.","Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. The first reward-eligible Guardian clear each UTC day secures the next Anchor and grants +%s Echo Resonance to exactly five heroes.","Potere permanente dell'Eco. Il grado %s concede +%s%% a PV massimi e Attacco, e +%.1f a Difesa e Difesa magica. La prima vittoria idonea contro il Guardiano di ogni giorno UTC consolida l'Ancora successiva e concede +%s Risonanza dell'Eco a esattamente cinque eroi.",Dauerhafte Echo-Macht. Rang %s gewährt +%s%% maximale LP und Angriff sowie +%.1f Verteidigung und Magieverteidigung. Der erste belohnungsberechtigte Wächter-Sieg an jedem UTC-Tag sichert den nächsten Anker und gewährt genau fünf Helden +%s Echo-Resonanz.,"Puissance d'Écho permanente. Le rang %s accorde +%s%% de PV max et d'Attaque, ainsi que +%.1f en Défense et Défense magique. La première victoire sur le Gardien éligible aux récompenses de chaque jour UTC consolide l'Ancre suivante et accorde +%s Résonance d'Écho à exactement cinq héros."
-"PRACTICE DAY
-Today's Anchor advance is already claimed. A Guardian clear grants Bond XP, then returns the party to secured Anchor %s. Echo monsters grant no ordinary item drops.","PRACTICE DAY
-Today's Anchor advance is already claimed. A Guardian clear grants Bond XP, then returns the party to secured Anchor %s. Echo monsters grant no ordinary item drops.","GIORNO DI PROVA
-L'avanzamento dell'Ancora di oggi è già stato riscosso. Una vittoria contro il Guardiano concede PE Legame, poi riporta il gruppo all'Ancora consolidata %s. I mostri dell'Eco non rilasciano normali oggetti come bottino.","ÜBUNGSTAG
-Der heutige Ankervorstoß wurde bereits eingelöst. Ein Sieg über den Wächter gewährt Bindungs-EP und bringt die Gruppe dann zum gesicherten Anker %s zurück. Echo-Monster lassen keine gewöhnliche Beute fallen.","JOURNÉE D'ENTRAÎNEMENT
-L'avancée d'Ancre du jour a déjà été réclamée. Vaincre le Gardien accorde de l'XP de lien, puis ramène le groupe à l'Ancre consolidée %s. Les monstres d'Écho ne laissent aucun butin ordinaire."
 Select at least one available hero,Select at least one available hero,Seleziona almeno un eroe disponibile,Wähle mindestens einen verfügbaren Helden,Sélectionne au moins un héros disponible
-"The first reward-eligible Guardian cleared each UTC day secures the next Anchor and grants +%s Resonance to exactly the 5 heroes in that successful formation, once per day. Later same-day Guardian clears are practice: they grant Bond XP but do not advance the Anchor. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","The first reward-eligible Guardian cleared each UTC day secures the next Anchor and grants +%s Resonance to exactly the 5 heroes in that successful formation, once per day. Later same-day Guardian clears are practice: they grant Bond XP but do not advance the Anchor. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","Il primo Guardiano idoneo sconfitto ogni giorno UTC consolida l'Ancora successiva e concede +%s Risonanza esattamente ai 5 eroi della formazione vincente, una volta al giorno. Le altre vittorie contro il Guardiano nello stesso giorno sono prove: concedono PE Legame ma non fanno avanzare l'Ancora. La Risonanza ha un grado massimo di %s. Ogni grado concede +2%% a PV massimi e Attacco, oltre a +0,5 a Difesa e Difesa magica, aiutando quegli eroi a salire ai piani più alti della Torre.","Der erste belohnungsberechtigte Wächter, der an jedem UTC-Tag besiegt wird, sichert den nächsten Anker und gewährt genau den 5 Helden dieser erfolgreichen Formation +%s Resonanz, einmal pro Tag. Weitere Wächtersiege am selben Tag sind Übung: Sie gewähren Bindungs-EP, bringen den Anker aber nicht voran. Resonanz hat einen maximalen Rang von %s. Jeder Rang gewährt +2%% maximale LP und Angriff sowie +0,5 Verteidigung und Magieverteidigung und hilft diesen Helden, höhere Turmebenen zu erklimmen.","Le premier Gardien éligible aux récompenses vaincu chaque jour UTC sécurise l'Ancre suivante et accorde +%s Résonance aux 5 héros exacts de cette formation victorieuse, une fois par jour. Les victoires suivantes contre le Gardien le même jour servent d'entraînement : elles accordent de l'XP de lien mais ne font pas avancer l'Ancre. La Résonance a un rang maximal de %s. Chaque rang accorde +2%% de PV maximum et d'Attaque, ainsi que +0,5 en Défense et en Défense magique, aidant ces héros à gravir des étages plus élevés de la Tour."
-Today's Guardian reward and Anchor advance: %s,Today's Guardian reward and Anchor advance: %s,Ricompensa del Guardiano e avanzamento dell'Ancora di oggi: %s,Wächterbelohnung und Ankerfortschritt von heute: %s,Récompense du Gardien et progression de l'Ancre du jour : %s
 Tower Floor %s is in battle. Finish or abandon that Tower attempt before starting Echo Descent.,Tower Floor %s is in battle. Finish or abandon that Tower attempt before starting Echo Descent.,Il Piano %s della Torre è in battaglia. Completa o abbandona quel tentativo prima di avviare la Discesa dell'Eco.,"Turmebene %s befindet sich im Kampf. Beende oder brich diesen Turmversuch ab, bevor du den Echo-Abstieg startest.",L'étage %s de la Tour est en plein combat. Termine ou abandonne cette tentative de Tour avant de lancer la Descente d'Écho.
 Tower of Resonance is unavailable,Tower of Resonance is unavailable,La Torre della Risonanza non è disponibile,Turm der Resonanz ist nicht verfügbar,La Tour de Résonance n'est pas disponible
-"DAILY ANCHOR PUSH
-The first reward-eligible Guardian clear secures Anchor %s and grants Resonance. Echo monsters grant no ordinary item drops.","DAILY ANCHOR PUSH
-The first reward-eligible Guardian clear secures Anchor %s and grants Resonance. Echo monsters grant no ordinary item drops.","AVANZATA GIORNALIERA DELL'ANCORA
-La prima vittoria idonea contro il Guardiano consolida l'Ancora %s e concede Risonanza. I mostri dell'Eco non rilasciano normali oggetti come bottino.","TÄGLICHER ANKER-VORSTOSS
-Der erste belohnungsberechtigte Wächtersieg sichert Anker %s und gewährt Resonanz. Echo-Monster lassen keine gewöhnlichen Gegenstände fallen.","POUSSÉE D'ANCRE QUOTIDIENNE
-La première victoire éligible aux récompenses contre le Gardien sécurise l'Ancre %s et accorde de la Résonance. Les monstres d'Écho ne laissent aucun butin ordinaire."
 +%s PERMANENT HERO SLOT,+%s PERMANENT HERO SLOT,+%s POSTO EROE PERMANENTE,+%s PERMANENTER HELDENPLATZ,+%s EMPLACEMENT DE HÉROS PERMANENT
 Tower floor %s cleared - +%s permanent hero slot,Tower floor %s cleared - +%s permanent hero slot,Piano %s della Torre superato - +%s posto eroe permanente,Turmebene %s geschafft - +%s dauerhafter Heldenplatz,Étage %s de la Tour terminé - +%s emplacement de héros permanent
 "First-clear rewards: the coins above - the standard coin price of %s Tier %s accessory craft equivalents - and +%s permanent hero roster slot.
@@ -2201,7 +2090,7 @@ Class types:,Class types:,Tipi di classe:,Klassentypen:,Types de classe :
 Crafting alerts,Crafting alerts,Avvisi di creazione,Handwerksbenachrichtigungen,Alertes d'artisanat
 A device alert when a crafting job finishes.,A device alert when a crafting job finishes.,Un avviso sul dispositivo quando un lavoro di creazione termina.,"Eine Gerätebenachrichtigung, wenn ein Handwerksauftrag fertig ist.",Une alerte de l'appareil quand un travail d'artisanat se termine.
 Progression alerts,Progression alerts,Avvisi di progressione,Fortschrittshinweise,Alertes de progression
-Alerts when a hero can be promoted or new content unlocks.,Alerts when a hero can be promoted or new content unlocks.,Avvisi quando un eroe può essere promosso o si sbloccano nuovi contenuti.,"Benachrichtigungen, wenn ein Held befördert werden kann oder neue Inhalte freigeschaltet werden.",Alertes quand un héros peut être promu ou que du nouveau contenu se débloque.
+"Alerts when a hero can be promoted, a raid fight ends, or new content unlocks.","Alerts when a hero can be promoted, a raid fight ends, or new content unlocks.","Avvisi quando un eroe può essere promosso, termina uno scontro raid o si sbloccano nuovi contenuti.","Benachrichtigungen, wenn ein Held befördert werden kann, ein Raid-Kampf endet oder neue Inhalte freigeschaltet werden.","Alertes quand un héros peut être promu, qu'un combat de raid se termine ou que du nouveau contenu se débloque."
 Offline progress alerts,Offline progress alerts,Avvisi di progressi offline,Hinweise zum Offline-Fortschritt,Alertes de progression hors ligne
 "Alerts about offline rewards, daily refreshes, and Tavern refreshes.","Alerts about offline rewards, daily refreshes, and Tavern refreshes.","Avvisi su ricompense offline, aggiornamenti giornalieri e aggiornamenti della Taverna.","Benachrichtigungen über Offline-Belohnungen, tägliche Auffrischungen und Tavernen-Auffrischungen.","Alertes sur les récompenses hors ligne, les actualisations quotidiennes et celles de la Taverne."
 Crafting completion,Crafting completion,Completamento creazione,Handwerksabschluss,Fin d'artisanat
@@ -2218,8 +2107,10 @@ New raid unlocked,New raid unlocked,Nuovo raid sbloccato,Neuer Raid freigeschalt
 Alert when a new raid becomes available.,Alert when a new raid becomes available.,Avviso quando un nuovo raid diventa disponibile.,"Benachrichtigung, wenn ein neuer Raid verfügbar wird.",Alerte quand un nouveau raid devient disponible.
 Tavern refresh,Tavern refresh,Aggiornamento Taverna,Tavernen-Auffrischung,Renouvellement de la Taverne
 Notify when new heroes arrive at the Tavern.,Notify when new heroes arrive at the Tavern.,Notifica quando nuovi eroi arrivano alla Taverna.,"Benachrichtigen, wenn neue Helden in der Taverne eintreffen.",Me notifier quand de nouveaux héros arrivent à la Taverne.
+Raid fight finished,Raid fight finished,Scontro raid terminato,Raid-Kampf beendet,Combat de raid terminé
+Notify when a raid fight ends.,Notify when a raid fight ends.,Notifica quando termina uno scontro raid.,"Benachrichtigen, wenn ein Raid-Kampf endet.",Me notifier à la fin d'un combat de raid.
 Notifications,Notifications,Notifiche,Benachrichtigungen,Notifications
-"Manage device alerts for crafting, promotions, and offline progress","Manage device alerts for crafting, promotions, and offline progress","Gestisci gli avvisi del dispositivo per creazione, promozioni e progressi offline","Gerätebenachrichtigungen für Herstellung, Beförderungen und Offline-Fortschritt verwalten","Gérer les alertes de l'appareil pour la fabrication, les promotions et la progression hors ligne"
+"Manage device alerts for crafting, raid fights, promotions, and offline progress","Manage device alerts for crafting, raid fights, promotions, and offline progress","Gestisci gli avvisi del dispositivo per creazione, scontri raid, promozioni e progressi offline","Gerätebenachrichtigungen für Herstellung, Raid-Kämpfe, Beförderungen und Offline-Fortschritt verwalten","Gérer les alertes de l'appareil pour la fabrication, les combats de raid, les promotions et la progression hors ligne"
 All notifications,All notifications,Tutte le notifiche,Alle Benachrichtigungen,Toutes les notifications
 Turn every device notification on or off at once.,Turn every device notification on or off at once.,Attiva o disattiva tutte le notifiche del dispositivo in una sola volta.,Schalte alle Gerätebenachrichtigungen auf einmal ein oder aus.,Active ou désactive toutes les notifications de l'appareil d'un coup.
 Open system settings,Open system settings,Apri le impostazioni di sistema,Systemeinstellungen öffnen,Ouvrir les paramètres du système
@@ -2250,6 +2141,8 @@ A new day has arrived,A new day has arrived,È arrivato un nuovo giorno,Ein neue
 "Daily raids, shop stock, and daily laws have refreshed.","Daily raids, shop stock, and daily laws have refreshed.","Raid giornalieri, scorte del negozio e leggi giornaliere si sono aggiornati.","Tägliche Raids, Ladenbestand und Tagesgesetze wurden aufgefrischt.","Les raids quotidiens, le stock de la boutique et les lois quotidiennes ont été actualisés."
 New heroes at the Tavern,New heroes at the Tavern,Nuovi eroi alla Taverna,Neue Helden in der Taverne,Nouveaux héros à la Taverne
 Fresh recruits are waiting at the Tavern.,Fresh recruits are waiting at the Tavern.,Nuove reclute ti aspettano alla Taverna.,Neue Rekruten warten in der Taverne.,De nouvelles recrues attendent à la Taverne.
+%s ended in victory. Return to collect your rewards!,%s ended in victory. Return to collect your rewards!,%s si è concluso con una vittoria. Torna a raccogliere le ricompense!,"%s endete mit einem Sieg. Kehre zurück, um deine Belohnungen einzusammeln!",%s s'est terminé par une victoire. Reviens récupérer tes récompenses !
+%s ended in defeat. Return to regroup!,%s ended in defeat. Return to regroup!,%s si è concluso con una sconfitta. Torna a riorganizzarti!,%s endete mit einer Niederlage. Kehre zurück und sammle dich neu!,%s s'est terminé par une défaite. Reviens te regrouper !
 %s is ready to be promoted!,%s is ready to be promoted!,%s è pronto per essere promosso!,%s ist bereit zur Beförderung!,%s est prêt à être promu !
 %d heroes are ready to be promoted!,%d heroes are ready to be promoted!,%d eroi sono pronti per essere promossi!,%d Helden sind bereit zur Beförderung!,%d héros sont prêts à être promus !
 %s is now available!,%s is now available!,%s è ora disponibile!,%s ist jetzt verfügbar!,%s est maintenant disponible !
@@ -2271,17 +2164,6 @@ Get Premium now,Get Premium now,Ottieni Premium ora,Jetzt Premium holen,Obtenir 
 Overview,Overview,Panoramica,Übersicht,Aperçu
 Guide,Guide,Guida,Anleitung,Guide
 TODAY'S DESCENT,TODAY'S DESCENT,LA DISCESA DI OGGI,DER ABSTIEG VON HEUTE,LA DESCENTE DU JOUR
-"Deepest reached: %s
-Secured Anchor: %s
-Next push: Depth %s to Anchor %s","Deepest reached: %s
-Secured Anchor: %s
-Next push: Depth %s to Anchor %s","Profondità massima raggiunta: %s
-Ancora consolidata: %s
-Prossima avanzata: profondità %s verso l'Ancora %s","Tiefste erreichte Tiefe: %s
-Gesicherter Anker: %s
-Nächster Vorstoß: Tiefe %s zu Anker %s","Profondeur maximale atteinte : %s
-Ancre sécurisée : %s
-Prochaine poussée : Profondeur %s vers l'Ancre %s"
 Formation: exactly 5 heroes and up to 2 companions,Formation: exactly 5 heroes and up to 2 companions,Formazione: esattamente 5 eroi e fino a 2 famigli,Formation: genau 5 Helden und bis zu 2 Begleiter,Formation : exactement 5 héros et jusqu'à 2 familiers
 CURRENT STATUS,CURRENT STATUS,STATO ATTUALE,AKTUELLER STATUS,ÉTAT ACTUEL
 Status: %s,Status: %s,Stato: %s,Status: %s,État : %s
@@ -2331,47 +2213,6 @@ Place jusqu'au nombre de héros indiqué, plus un familier. La formation est con
 
 [b]Récompenses[/b]
 Les boss de raid laissent tomber des fragments de rune, des matériaux de boss et des accessoires exclusifs, et l'équipement de raid forme des bonus de set en trois pièces. Abandonner un raid quotidien consomme l'entrée ; les récompenses collectées attendent dans l'écran du raid jusqu'à leur réclamation."
-"[b]Descend beyond the crown once per day[/b]
-
-Echo Descent opens after the Tower unlock floor. Exactly five heroes and up to two companions descend through four depths and one Guardian. The Overview tab shows today's descent state, laws, and your formation; the Guide tab explains the full rules.
-
-[b]Anchors and Resonance[/b]
-Only the first reward-eligible Guardian clear each UTC day secures the next Anchor and grants Resonance to the five heroes in that formation. Later same-day clears are practice for Bond XP. Failure or abandon always returns the party to its secured Anchor.
-
-[b]Daily laws[/b]
-Enemy laws rotate at 00:00 UTC and a started stratum keeps its starting laws. Echo monsters grant no ordinary item drops.","[b]Descend beyond the crown once per day[/b]
-
-Echo Descent opens after the Tower unlock floor. Exactly five heroes and up to two companions descend through four depths and one Guardian. The Overview tab shows today's descent state, laws, and your formation; the Guide tab explains the full rules.
-
-[b]Anchors and Resonance[/b]
-Only the first reward-eligible Guardian clear each UTC day secures the next Anchor and grants Resonance to the five heroes in that formation. Later same-day clears are practice for Bond XP. Failure or abandon always returns the party to its secured Anchor.
-
-[b]Daily laws[/b]
-Enemy laws rotate at 00:00 UTC and a started stratum keeps its starting laws. Echo monsters grant no ordinary item drops.","[b]Scendi oltre la corona una volta al giorno[/b]
-
-La Discesa dell'Eco si apre dopo il piano di sblocco della Torre. Esattamente cinque eroi e fino a due famigli attraversano quattro profondità e un Guardiano. La scheda Panoramica mostra lo stato della discesa di oggi, le leggi e la tua formazione; la scheda Guida spiega tutte le regole.
-
-[b]Ancore e Risonanza[/b]
-Solo la prima vittoria idonea contro il Guardiano di ogni giorno UTC consolida l'Ancora successiva e concede Risonanza ai cinque eroi di quella formazione. Le vittorie successive dello stesso giorno sono prove per PE Legame. Una sconfitta o un abbandono riporta sempre il gruppo all'Ancora consolidata.
-
-[b]Leggi giornaliere[/b]
-Le leggi nemiche ruotano alle 00:00 UTC e uno strato iniziato mantiene le sue leggi iniziali. I mostri dell'Eco non concedono bottino ordinario.","[b]Steige einmal pro Tag über die Krone hinaus hinab[/b]
-
-Der Echo-Abstieg öffnet sich nach der Freischaltebene des Turms. Genau fünf Helden und bis zu zwei Begleiter steigen durch vier Tiefen und einen Wächter hinab. Der Reiter Übersicht zeigt den heutigen Abstiegsstand, die Gesetze und deine Formation; der Reiter Guide erklärt alle Regeln.
-
-[b]Anker und Resonanz[/b]
-Nur der erste belohnungsberechtigte Wächtersieg an jedem UTC-Tag sichert den nächsten Anker und gewährt den fünf Helden dieser Formation Resonanz. Spätere Siege am selben Tag sind Übung für Bindungs-EP. Bei Niederlage oder Abbruch kehrt die Gruppe stets zu ihrem gesicherten Anker zurück.
-
-[b]Tägliche Gesetze[/b]
-Die Gesetze der Gegner wechseln um 00:00 UTC, und eine begonnene Schicht behält ihre Anfangsgesetze. Echo-Monster gewähren keine gewöhnliche Gegenstandsbeute.","[b]Descends au-delà de la couronne une fois par jour[/b]
-
-La Descente d'Écho s'ouvre après l'étage de déblocage de la Tour. Exactement cinq héros et jusqu'à deux familiers descendent à travers quatre profondeurs et un Gardien. L'onglet Aperçu affiche l'état de la descente du jour, les lois et ta formation ; l'onglet Guide explique toutes les règles.
-
-[b]Ancres et Résonance[/b]
-Seule la première victoire éligible aux récompenses contre le Gardien de chaque jour UTC sécurise l'Ancre suivante et accorde de la Résonance aux cinq héros de cette formation. Les victoires suivantes du même jour servent d'entraînement pour l'XP de lien. Une défaite ou un abandon ramène toujours le groupe à son Ancre sécurisée.
-
-[b]Lois quotidiennes[/b]
-Les lois ennemies changent à 00:00 UTC et une strate commencée conserve ses lois de départ. Les monstres d'Écho n'accordent aucun butin d'objet ordinaire."
 "[b]Climb one hundred floors[/b]
 
 Attempt the next uncleared floor with up to twelve heroes and two companions. Every ten floors is a checkpoint boss that grants a permanent hero roster slot and a checkpoint material toward a future final construction project. Failure or abandon keeps your progress, so return after a gear-tier upgrade and climb again.
@@ -2522,87 +2363,13 @@ Floor %s · Progression day %s,Floor %s · Progression day %s,Piano %s · Giorno
 Floor %s · Legacy record unavailable,Floor %s · Legacy record unavailable,Piano %s · Record storico non disponibile,Ebene %s · Alter Rekord nicht verfügbar,Étage %s · Record hérité indisponible
 Floor %s · Not cleared,Floor %s · Not cleared,Piano %s · Non completato,Ebene %s · Nicht abgeschlossen,Étage %s · Non terminé
 Exact historical progression day is unavailable for checkpoints cleared before records were introduced.,Exact historical progression day is unavailable for checkpoints cleared before records were introduced.,Il giorno esatto della progressione storica non è disponibile per i checkpoint completati prima dell'introduzione dei primati.,"Der genaue historische Fortschrittstag ist für Kontrollpunkte, die vor Einführung der Rekorde abgeschlossen wurden, nicht verfügbar.",Le jour de progression historique exact n'est pas disponible pour les points de contrôle franchis avant l'introduction des records.
-Echo Descent - Depth %s ready at secured Anchor %s. Open Echo Descent.,Echo Descent - Depth %s ready at secured Anchor %s. Open Echo Descent.,Discesa dell'Eco - Profondità %s pronta all'Ancora consolidata %s. Apri la Discesa dell'Eco.,Echo-Abstieg - Tiefe %s bereit am gesicherten Anker %s. Öffne den Echo-Abstieg.,Descente d'Écho - Profondeur %s prête à l'Ancre sécurisée %s. Ouvre la Descente d'Écho.
-"Next push: Depth %s to Anchor %s
-Secured Anchor: %s · Deepest reached: %s","Next push: Depth %s to Anchor %s
-Secured Anchor: %s · Deepest reached: %s","Prossima avanzata: Profondità %s verso Ancora %s
-Ancora consolidata: %s · Profondità massima raggiunta: %s","Nächster Vorstoß: Tiefe %s bis Anker %s
-Gesicherter Anker: %s · Tiefster Vorstoß: %s","Prochaine avancée : de la profondeur %s à l'Ancre %s
-Ancre consolidée : %s · Profondeur maximale atteinte : %s"
-Practice ready · Guardian clear grants Bond XP; Anchor %s stays secured,Practice ready · Guardian clear grants Bond XP; Anchor %s stays secured,Prova pronta · Sconfiggere il Guardiano concede PE Legame; l'Ancora %s resta consolidata,Übung bereit · Ein Wächter-Sieg gewährt Bindungs-EP; Anker %s bleibt gesichert,Entraînement prêt · Vaincre le Gardien accorde de l'XP de lien ; l'Ancre %s reste consolidée
-Reward push ready · Guardian clear grants +%s Resonance and secures Anchor %s,Reward push ready · Guardian clear grants +%s Resonance and secures Anchor %s,Avanzata con ricompensa pronta · Sconfiggere il Guardiano concede +%s Risonanza e consolida l'Ancora %s,Belohnungsvorstoß bereit · Ein Wächter-Sieg gewährt +%s Resonanz und sichert Anker %s,Avancée avec récompense prête · Vaincre le Gardien accorde +%s Résonance et consolide l'Ancre %s
-"Echo Descent unlocks after Tower Floor %s. Each push crosses four hostile strata and then one Guardian.
-
-Failure or abandon returns the party to its secured Anchor. Attempts are unlimited, and Echo monsters grant no ordinary item drops.
-
-Recommended: Career Lv. %s · Tier %s gear","Echo Descent unlocks after Tower Floor %s. Each push crosses four hostile strata and then one Guardian.
-
-Failure or abandon returns the party to its secured Anchor. Attempts are unlimited, and Echo monsters grant no ordinary item drops.
-
-Recommended: Career Lv. %s · Tier %s gear","La Discesa dell'Eco si sblocca dopo il Piano %s della Torre. Ogni avanzata attraversa quattro strati ostili e poi un Guardiano.
-
-Fallire o abbandonare riporta il gruppo alla sua Ancora consolidata. I tentativi sono illimitati e i mostri dell'Eco non lasciano oggetti normali.
-
-Consigliato: Livello carriera %s · Equipaggiamento T%s","Der Echo-Abstieg wird nach Turmebene %s freigeschaltet. Jeder Vorstoß durchquert vier feindliche Schichten und danach einen Wächter.
-
-Niederlage oder Abbruch bringt die Gruppe zu ihrem gesicherten Anker zurück. Die Versuche sind unbegrenzt, und Echo-Monster lassen keine gewöhnlichen Gegenstände fallen.
-
-Empfohlen: Karrierestufe %s · Ausrüstung Grad %s","La Descente d'Écho se débloque après l'Étage %s de la Tour. Chaque poussée traverse quatre strates hostiles puis un Gardien.
-
-Un échec ou un abandon ramène le groupe à son Ancre sécurisée. Les tentatives sont illimitées et les monstres d'Écho ne laissent aucun butin ordinaire.
-
-Recommandé : Niv. de carrière %s · Équipement palier %s"
 Successful Guardian clears: %s,Successful Guardian clears: %s,Guardiani sconfitti con successo: %s,Erfolgreiche Wächter-Siege: %s,Victoires réussies sur le Gardien : %s
-"The first reward-eligible Guardian cleared each UTC day secures the next Anchor and grants +%s Resonance to every hero in the victorious formation, once per day. Later same-day Guardian clears are practice: they grant Bond XP but do not advance the Anchor. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","The first reward-eligible Guardian cleared each UTC day secures the next Anchor and grants +%s Resonance to every hero in the victorious formation, once per day. Later same-day Guardian clears are practice: they grant Bond XP but do not advance the Anchor. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","Il primo Guardiano idoneo alla ricompensa sconfitto ogni giorno UTC consolida l'Ancora successiva e concede +%s Risonanza a ogni eroe della formazione vincente, una volta al giorno. Le altre vittorie contro il Guardiano nello stesso giorno sono prove: concedono PE Legame ma non fanno avanzare l'Ancora. La Risonanza ha un grado massimo di %s. Ogni grado concede +2%% a PV massimi e Attacco, oltre a +0,5 a Difesa e Difesa magica, aiutando quegli eroi a salire ai piani più alti della Torre.","Der erste belohnungsberechtigte Wächter, der an jedem UTC-Tag besiegt wird, sichert den nächsten Anker und gewährt jedem Helden der siegreichen Formation +%s Resonanz, einmal pro Tag. Weitere Wächtersiege am selben Tag sind Übung: Sie gewähren Bindungs-EP, bringen den Anker aber nicht voran. Resonanz hat einen maximalen Rang von %s. Jeder Rang gewährt +2%% maximale LP und Angriff sowie +0,5 Verteidigung und Magieverteidigung und hilft diesen Helden, höhere Turmebenen zu erklimmen.","Le premier Gardien éligible aux récompenses vaincu chaque jour UTC sécurise l'Ancre suivante et accorde +%s Résonance à chaque héros de la formation victorieuse, une fois par jour. Les victoires suivantes contre le Gardien le même jour servent d'entraînement : elles accordent de l'XP de lien mais ne font pas avancer l'Ancre. La Résonance a un rang maximal de %s. Chaque rang accorde +2%% de PV maximum et d'Attaque, ainsi que +0,5 en Défense et en Défense magique, aidant ces héros à gravir des étages plus élevés de la Tour."
 SHIFTING LAW RULES,SHIFTING LAW RULES,REGOLE DELLE LEGGI MUTEVOLI,REGELN DER WANDELNDEN GESETZE,RÈGLES DES LOIS CHANGEANTES
-"Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started stratum keeps the laws it began with until that fight resolves. Review today's laws in Overview before arranging the formation; during a push, Info shows the locked set.","Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started stratum keeps the laws it began with until that fight resolves. Review today's laws in Overview before arranging the formation; during a push, Info shows the locked set.","Tre leggi rimodellano danni, recupero e aperture in combattimento. Cambiano alle 00:00 UTC, mentre uno strato avviato mantiene le leggi con cui è iniziato finché lo scontro non si risolve. Consulta le leggi di oggi in Panoramica prima di organizzare la formazione; durante un'avanzata, Info mostra il set vincolato.","Drei Gesetze verändern Schaden, Erholung und Kampfauftakte. Sie wechseln um 00:00 UTC, während eine begonnene Schicht die Gesetze behält, mit denen sie gestartet ist, bis dieser Kampf entschieden ist. Sieh dir die heutigen Gesetze in der Übersicht an, bevor du die Formation aufstellst; während eines Vorstoßes zeigt Info den festgelegten Satz.","Trois lois remodèlent les dégâts, la récupération et les ouvertures de combat. Elles changent à 00:00 UTC, tandis qu'une strate commencée conserve les lois avec lesquelles elle a débuté jusqu'à la résolution du combat. Consulte les lois du jour dans Aperçu avant d'organiser la formation ; pendant une avancée, Info affiche le jeu de lois verrouillé."
 TODAY'S LAWS,TODAY'S LAWS,LE LEGGI DI OGGI,DIE GESETZE VON HEUTE,LES LOIS DU JOUR
 CURRENT RUN LAWS,CURRENT RUN LAWS,LEGGI DELL'AVANZATA ATTUALE,GESETZE DES AKTUELLEN LAUFS,LOIS DE L'EXPÉDITION ACTUELLE
-Locked for this stratum; daily rotation cannot change this run.,Locked for this stratum; daily rotation cannot change this run.,Vincolate a questo strato; il cambio giornaliero non può modificare questa avanzata.,Für diese Schicht festgelegt; der tägliche Wechsel kann diesen Durchgang nicht ändern.,Verrouillées pour cette strate ; le changement quotidien ne peut pas modifier cette tentative.
 Next law rotation at 00:00 UTC in %s.,Next law rotation at 00:00 UTC in %s.,Prossimo cambio delle leggi alle 00:00 UTC tra %s.,Nächster Gesetzeswechsel um 00:00 UTC in %s.,Prochain changement de lois à 00:00 UTC dans %s.
 Select %s more available heroes,Select %s more available heroes,Seleziona altri %s eroi disponibili,Wähle %s weitere verfügbare Helden,Sélectionne %s héros disponibles de plus
 Team: %s/%s heroes · %s/%s companions,Team: %s/%s heroes · %s/%s companions,Squadra: %s/%s eroi · %s/%s famigli,Team: %s/%s Helden · %s/%s Begleiter,Équipe : %s/%s héros · %s/%s familiers
-"[b]Plan the current push in Overview[/b]
-
-Overview keeps the next depth and Anchor, today's reward mode, current laws, formation readiness, and the formation action together.
-
-[b]Use Guide as the rules reference[/b]
-Guide holds the route structure, Anchor and failure rules, daily Resonance and practice details, law timing, recommendations, and clear history.
-
-[b]During a push[/b]
-Battle shows live combat. Info shows the laws locked to that stratum. Abandoning returns the party to its secured Anchor.","[b]Plan the current push in Overview[/b]
-
-Overview keeps the next depth and Anchor, today's reward mode, current laws, formation readiness, and the formation action together.
-
-[b]Use Guide as the rules reference[/b]
-Guide holds the route structure, Anchor and failure rules, daily Resonance and practice details, law timing, recommendations, and clear history.
-
-[b]During a push[/b]
-Battle shows live combat. Info shows the laws locked to that stratum. Abandoning returns the party to its secured Anchor.","[b]Pianifica l'avanzata attuale in Panoramica[/b]
-
-Panoramica riunisce la profondità e l'Ancora successive, la modalità ricompensa di oggi, le leggi attuali, lo stato di preparazione della formazione e l'azione per organizzarla.
-
-[b]Usa Guida come riferimento per le regole[/b]
-Guida contiene la struttura del percorso, le regole su Ancora e fallimento, i dettagli su Risonanza giornaliera e prove, le tempistiche delle leggi, i consigli e lo storico dei completamenti.
-
-[b]Durante un'avanzata[/b]
-Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a quello strato. Abbandonare riporta il gruppo alla sua Ancora consolidata.","[b]Plane den aktuellen Vorstoß in der Übersicht[/b]
-
-Die Übersicht vereint die nächste Tiefe und den nächsten Anker, den heutigen Belohnungsmodus, die aktuellen Gesetze, die Bereitschaft der Formation und die Formationsaktion.
-
-[b]Nutze den Guide als Regelwerk[/b]
-Der Guide enthält den Streckenaufbau, die Anker- und Fehlschlagregeln, Details zu täglicher Resonanz und Übungskämpfen, die Zeitpunkte der Gesetze, Empfehlungen und den Verlauf deiner Siege.
-
-[b]Während eines Vorstoßes[/b]
-Kampf zeigt das laufende Geschehen. Info zeigt die für diese Schicht festgelegten Gesetze. Ein Abbruch bringt die Gruppe zu ihrem gesicherten Anker zurück.","[b]Planifie l'avancée en cours dans Aperçu[/b]
-
-Aperçu réunit la profondeur et l'Ancre suivantes, le mode de récompense du jour, les lois actuelles, l'état de préparation de la formation et l'action de formation.
-
-[b]Utilise Guide comme référence des règles[/b]
-Guide contient la structure du parcours, les règles d'Ancre et d'échec, les détails sur la Résonance quotidienne et l'entraînement, le calendrier des lois, les recommandations et l'historique des victoires.
-
-[b]Pendant une avancée[/b]
-Combat affiche le combat en direct. Info affiche les lois verrouillées pour cette strate. Abandonner ramène le groupe à son Ancre sécurisée."
 Skins,Skins,Aspetti,Skins,Style
 Elite Skins,Elite Skins,Aspetti élite,Elite-Skins,Apparences d'élite
 Cosmetic only. Skins change hero art but never combat stats.,Cosmetic only. Skins change hero art but never combat stats.,"Solo estetica. Gli aspetti cambiano l'immagine dell'eroe, mai le statistiche di combattimento.","Rein kosmetisch. Skins ändern die Heldengrafik, niemals die Kampfwerte.","Purement cosmétique. Les apparences changent l'illustration du héros, jamais les stats de combat."
@@ -2792,7 +2559,6 @@ Raids completed,Raids completed,Raid completati,Abgeschlossene Raids,Raids termi
 Resonance Points gained,Resonance Points gained,Punti Risonanza ottenuti,Erhaltene Resonanzpunkte,Points de résonance obtenus
 Highest hero level,Highest hero level,Livello eroe più alto,Höchste Heldenstufe,Niveau de héros le plus élevé
 Highest Tower floor,Highest Tower floor,Piano più alto della Torre,Höchste Turmebene,Étage de la Tour le plus élevé
-Highest Echo depth,Highest Echo depth,Profondità massima dell'Eco,Größte Echo-Tiefe,Profondeur d'Écho maximale
 Items crafted,Items crafted,Oggetti creati,Hergestellte Gegenstände,Objets fabriqués
 Heroes recruited,Heroes recruited,Eroi reclutati,Rekrutierte Helden,Héros recrutés
 Pets hatched,Pets hatched,Famigli schiusi,Geschlüpfte Begleiter,Familiers éclos
@@ -2833,91 +2599,13 @@ What's New · Version %s,What's New · Version %s,Novità · Versione %s,Neuerun
 Open the current release highlights.,Open the current release highlights.,Apri le novità della versione attuale.,Die Höhepunkte der aktuellen Version öffnen.,Ouvrir les points forts de la version actuelle.
 "Beyond Floor 70, five heroes face one Guardian floor each UTC day under three shifting laws and return with permanent Resonance.","Beyond Floor 70, five heroes face one Guardian floor each UTC day under three shifting laws and return with permanent Resonance.","Oltre il Piano 70, cinque eroi affrontano un piano del Guardiano ogni giorno UTC sotto tre leggi mutevoli e tornano con Risonanza permanente.",Jenseits von Ebene 70 bestreiten fünf Helden an jedem UTC-Tag eine Wächterebene unter drei wechselnden Gesetzen und kehren mit dauerhafter Resonanz zurück.,"Au-delà de l'Étage 70, cinq héros affrontent un étage du Gardien chaque jour UTC sous trois lois changeantes et reviennent avec une Résonance permanente."
 Echo Descent - Today's floor is complete. The next daily floor opens at 00:00 UTC.,Echo Descent - Today's floor is complete. The next daily floor opens at 00:00 UTC.,Discesa dell'Eco - Il piano di oggi è completato. Il prossimo piano giornaliero si apre alle 00:00 UTC.,Echo-Abstieg - Die heutige Ebene ist abgeschlossen. Die nächste tägliche Ebene öffnet um 00:00 UTC.,Descente d'Écho - L'étage du jour est terminé. Le prochain étage quotidien s'ouvre à 00:00 UTC.
-"Today's Echo floor is complete.
-Secured Anchor: %s · Deepest reached: %s","Today's Echo floor is complete.
-Secured Anchor: %s · Deepest reached: %s","Il piano dell'Eco di oggi è completato.
-Ancora consolidata: %s · Profondità massima raggiunta: %s","Die Echo-Ebene von heute ist abgeschlossen.
-Gesicherter Anker: %s · Tiefster Punkt: %s","L'étage d'Écho du jour est terminé.
-Ancre sécurisée : %s · Profondeur maximale : %s"
-"Today's floor: Depth %s to Anchor %s
-Secured Anchor: %s · Deepest reached: %s","Today's floor: Depth %s to Anchor %s
-Secured Anchor: %s · Deepest reached: %s","Piano di oggi: Profondità %s verso Ancora %s
-Ancora consolidata: %s · Profondità massima raggiunta: %s","Ebene von heute: Tiefe %s bis Anker %s
-Gesicherter Anker: %s · Tiefster Punkt: %s","Étage du jour : Profondeur %s jusqu'à l'Ancre %s
-Ancre sécurisée : %s · Profondeur maximale : %s"
 Daily floor complete · +%s Resonance claimed for today's five heroes,Daily floor complete · +%s Resonance claimed for today's five heroes,Piano giornaliero completato · +%s Risonanza ottenuta dai cinque eroi di oggi,Tägliche Ebene abgeschlossen · +%s Resonanz für die fünf Helden von heute erhalten,Étage quotidien terminé · +%s Résonance obtenue pour les cinq héros du jour
-Daily floor ready · Guardian clear grants +%s Resonance and secures Anchor %s,Daily floor ready · Guardian clear grants +%s Resonance and secures Anchor %s,Piano giornaliero pronto · Sconfiggere il Guardiano concede +%s Risonanza e consolida l'Ancora %s,Tägliche Ebene bereit · Ein Wächtersieg gewährt +%s Resonanz und sichert Anker %s,Étage quotidien prêt · Vaincre le Gardien accorde +%s Résonance et sécurise l'Ancre %s
-"Echo Descent unlocks after Tower Floor %s. Each UTC day offers one Guardian floor.
-
-Failure or abandon lets the party retry today's floor from its secured Anchor. A successful clear closes Echo until the next daily reset, and Echo monsters grant no ordinary item drops.
-
-Recommended: Career Lv. %s · Tier %s gear","Echo Descent unlocks after Tower Floor %s. Each UTC day offers one Guardian floor.
-
-Failure or abandon lets the party retry today's floor from its secured Anchor. A successful clear closes Echo until the next daily reset, and Echo monsters grant no ordinary item drops.
-
-Recommended: Career Lv. %s · Tier %s gear","La Discesa dell'Eco si sblocca dopo il Piano %s della Torre. Ogni giorno UTC offre un piano del Guardiano.
-
-Una sconfitta o un abbandono permette al gruppo di ritentare il piano di oggi dalla sua Ancora consolidata. Una vittoria chiude l'Eco fino al prossimo ripristino giornaliero e i mostri dell'Eco non lasciano oggetti normali.
-
-Consigliato: Livello carriera %s · Equipaggiamento T%s","Der Echo-Abstieg wird nach Turmebene %s freigeschaltet. Jeder UTC-Tag bietet eine Wächterebene.
-
-Bei Niederlage oder Abbruch kann die Gruppe die heutige Ebene vom gesicherten Anker aus erneut versuchen. Ein Sieg schließt Echo bis zum nächsten Tagesreset, und Echo-Monster lassen keine gewöhnlichen Gegenstände fallen.
-
-Empfohlen: Karrierestufe %s · Ausrüstung Grad %s","La Descente d'Écho se débloque après l'Étage %s de la Tour. Chaque jour UTC propose un étage du Gardien.
-
-En cas d'échec ou d'abandon, le groupe peut retenter l'étage du jour depuis son Ancre sécurisée. Une victoire referme l'Écho jusqu'à la prochaine réinitialisation quotidienne, et les monstres d'Écho ne laissent aucun butin ordinaire.
-
-Recommandé : Niv. de carrière %s · Équipement palier %s"
-"Clearing the daily Guardian secures the next Anchor and grants +%s Resonance to every hero in the victorious formation. Echo then closes until 00:00 UTC, so each hero can gain at most one Resonance rank per day. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","Clearing the daily Guardian secures the next Anchor and grants +%s Resonance to every hero in the victorious formation. Echo then closes until 00:00 UTC, so each hero can gain at most one Resonance rank per day. Resonance has a maximum rank of %s. Each rank grants +2%% maximum HP and Attack, plus +0.5 Defense and Magic Defense, helping those heroes climb higher Tower floors.","Sconfiggere il Guardiano giornaliero consolida l'Ancora successiva e concede +%s Risonanza a ogni eroe della formazione vincente. L'Eco si chiude quindi fino alle 00:00 UTC, così ogni eroe può ottenere al massimo un grado di Risonanza al giorno. La Risonanza ha un grado massimo di %s. Ogni grado concede +2%% a PV massimi e Attacco, oltre a +0,5 a Difesa e Difesa magica, aiutando quegli eroi a salire ai piani più alti della Torre.","Der Abschluss des täglichen Wächters sichert den nächsten Anker und gewährt jedem Helden der siegreichen Formation +%s Resonanz. Danach schließt Echo bis 00:00 UTC, sodass jeder Held höchstens einen Resonanzrang pro Tag erhalten kann. Resonanz hat einen Höchstrang von %s. Jeder Rang gewährt +2%% maximale LP und Angriff sowie +0,5 Verteidigung und Magieverteidigung und hilft diesen Helden, höhere Turmebenen zu erklimmen.","Vaincre le Gardien quotidien sécurise l'Ancre suivante et accorde +%s Résonance à chaque héros de la formation victorieuse. L'Écho se referme ensuite jusqu'à 00:00 UTC, si bien que chaque héros ne peut gagner qu'un rang de Résonance par jour au maximum. La Résonance a un rang maximal de %s. Chaque rang accorde +2%% de PV maximum et d'Attaque, plus +0,5 de Défense et de Défense magique, ce qui aide ces héros à gravir des étages plus hauts de la Tour."
 "Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started floor keeps the laws it began with until that fight resolves. Review today's laws in Overview before arranging the formation; during a push, Info shows the locked set.","Three laws reshape damage, recovery, and combat openings. They rotate at 00:00 UTC, while a started floor keeps the laws it began with until that fight resolves. Review today's laws in Overview before arranging the formation; during a push, Info shows the locked set.","Tre leggi rimodellano danni, recupero e aperture in combattimento. Cambiano alle 00:00 UTC, mentre un piano avviato mantiene le leggi con cui è iniziato finché lo scontro non si risolve. Consulta le leggi di oggi in Panoramica prima di organizzare la formazione; durante un'avanzata, Info mostra il set vincolato.","Drei Gesetze verändern Schaden, Erholung und Kampfauftakte. Sie wechseln um 00:00 UTC, während eine begonnene Ebene die Gesetze behält, mit denen sie gestartet ist, bis dieser Kampf entschieden ist. Sieh dir die heutigen Gesetze in der Übersicht an, bevor du die Formation aufstellst; während eines Vorstoßes zeigt Info den festgelegten Satz.","Trois lois remodèlent les dégâts, la récupération et les ouvertures de combat. Elles changent à 00:00 UTC, tandis qu'un étage commencé conserve les lois avec lesquelles il a débuté jusqu'à la résolution du combat. Consulte les lois du jour dans Aperçu avant d'organiser la formation ; pendant une avancée, Info affiche le jeu de lois verrouillé."
 Locked for this floor; daily rotation cannot change this run.,Locked for this floor; daily rotation cannot change this run.,Vincolate a questo piano; il cambio giornaliero non può modificare questa avanzata.,Für diese Ebene festgelegt; der tägliche Wechsel kann diesen Durchgang nicht ändern.,Verrouillées pour cet étage ; le changement quotidien ne peut pas modifier cette tentative.
 Next daily floor at 00:00 UTC in %s,Next daily floor at 00:00 UTC in %s,Prossimo piano giornaliero alle 00:00 UTC tra %s,Nächste Tagesebene um 00:00 UTC in %s,Prochain étage quotidien à 00:00 UTC dans %s
 Today's Echo floor is complete; the next floor opens at 00:00 UTC,Today's Echo floor is complete; the next floor opens at 00:00 UTC,Il piano dell'Eco di oggi è completato; il prossimo si apre alle 00:00 UTC,Die Echo-Ebene von heute ist abgeschlossen; die nächste Ebene öffnet um 00:00 UTC,L'étage d'Écho du jour est terminé ; le prochain étage s'ouvre à 00:00 UTC
-Depth %s | Daily floor %s/%s,Depth %s | Daily floor %s/%s,Profondità %s | Piano giornaliero %s/%s,Tiefe %s | Tägliche Ebene %s/%s,Profondeur %s | Étage quotidien %s/%s
 "Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. Today's single Guardian floor grants +%s Echo Resonance to exactly five heroes, then closes until 00:00 UTC.","Permanent Echo power. Rank %s grants +%s%% max HP and Attack, and +%.1f Defense and Magic Defense. Today's single Guardian floor grants +%s Echo Resonance to exactly five heroes, then closes until 00:00 UTC.","Potere permanente dell'Eco. Il grado %s concede +%s%% a PV massimi e Attacco e +%.1f a Difesa e Difesa magica. L'unico piano del Guardiano di oggi concede +%s Risonanza dell'Eco a esattamente cinque eroi, poi si chiude fino alle 00:00 UTC.",Dauerhafte Echo-Macht. Rang %s gewährt +%s%% maximale LP und Angriff sowie +%.1f Verteidigung und Magieverteidigung. Die heutige einzelne Wächter-Ebene gewährt genau fünf Helden +%s Echo-Resonanz und schließt dann bis 00:00 UTC.,"Puissance d'Écho permanente. Le rang %s accorde +%s%% de PV max et d'Attaque, ainsi que +%.1f en Défense et Défense magique. L'unique étage du Gardien du jour accorde +%s Résonance d'Écho à exactement cinq héros, puis ferme jusqu'à 00:00 UTC."
-Echo Depth %s cleared; Anchor %s held,Echo Depth %s cleared; Anchor %s held,Profondità dell'Eco %s superata; Ancora %s mantenuta,Echo-Tiefe %s abgeschlossen; Anker %s gehalten,Profondeur d'Écho %s terminée ; Ancre %s conservée
 Daily floor complete,Daily floor complete,Piano giornaliero completato,Tägliche Ebene abgeschlossen,Étage quotidien terminé
-"[b]Plan today's floor in Overview[/b]
-
-Overview keeps the next depth and Anchor, today's completion state, current laws, formation readiness, and the formation action together.
-
-[b]Use Guide as the rules reference[/b]
-Guide holds the daily-floor structure, Anchor and retry rules, daily Resonance limit, law timing, recommendations, and clear history.
-
-[b]During the floor[/b]
-Battle shows live combat. Info shows the laws locked to that floor. Abandoning returns the party to its secured Anchor so it can retry today.","[b]Plan today's floor in Overview[/b]
-
-Overview keeps the next depth and Anchor, today's completion state, current laws, formation readiness, and the formation action together.
-
-[b]Use Guide as the rules reference[/b]
-Guide holds the daily-floor structure, Anchor and retry rules, daily Resonance limit, law timing, recommendations, and clear history.
-
-[b]During the floor[/b]
-Battle shows live combat. Info shows the laws locked to that floor. Abandoning returns the party to its secured Anchor so it can retry today.","[b]Pianifica il piano di oggi in Panoramica[/b]
-
-Panoramica riunisce la prossima profondità e Ancora, lo stato di completamento odierno, le leggi attuali, la prontezza della formazione e la relativa azione.
-
-[b]Usa Guida come riferimento per le regole[/b]
-Guida contiene la struttura del piano giornaliero, le regole di Ancora e ritentativo, il limite giornaliero di Risonanza, gli orari delle leggi, i consigli e lo storico delle vittorie.
-
-[b]Durante il piano[/b]
-Battaglia mostra il combattimento in corso. Info mostra le leggi vincolate a quel piano. Abbandonare riporta il gruppo alla sua Ancora consolidata, così può ritentare oggi.","[b]Plane die heutige Ebene in der Übersicht[/b]
-
-Die Übersicht vereint die nächste Tiefe und den nächsten Anker, den heutigen Abschlussstand, die aktuellen Gesetze, die Bereitschaft der Formation und die Formationsaktion.
-
-[b]Nutze den Guide als Regelwerk[/b]
-Der Guide enthält den Aufbau der Tagesebene, die Anker- und Wiederholungsregeln, das tägliche Resonanzlimit, die Zeitpunkte der Gesetze, Empfehlungen und den Verlauf deiner Siege.
-
-[b]Während der Ebene[/b]
-Kampf zeigt das laufende Geschehen. Info zeigt die für diese Ebene festgelegten Gesetze. Ein Abbruch bringt die Gruppe zu ihrem gesicherten Anker zurück, damit sie es heute erneut versuchen kann.","[b]Planifie l'étage du jour dans Aperçu[/b]
-
-Aperçu réunit la profondeur et l'Ancre suivantes, l'état d'achèvement du jour, les lois actuelles, l'état de préparation de la formation et l'action de formation.
-
-[b]Utilise Guide comme référence des règles[/b]
-Guide contient la structure de l'étage quotidien, les règles d'Ancre et de nouvelle tentative, la limite quotidienne de Résonance, le calendrier des lois, les recommandations et l'historique des victoires.
-
-[b]Pendant l'étage[/b]
-Combat affiche le combat en direct. Info affiche les lois verrouillées pour cet étage. Abandonner ramène le groupe à son Ancre sécurisée afin qu'il puisse réessayer aujourd'hui."
 "After the Tower unlock, five heroes face one daily Guardian fight under a randomly selected three-law theme and return with permanent Resonance.","After the Tower unlock, five heroes face one daily Guardian fight under a randomly selected three-law theme and return with permanent Resonance.","Dopo lo sblocco della Torre, cinque eroi affrontano uno scontro giornaliero con il Guardiano sotto un tema casuale di tre leggi e ottengono Risonanza permanente.",Nach der Freischaltung des Turms bestreiten fünf Helden einen täglichen Wächterkampf unter einem zufällig gewählten Thema aus drei Gesetzen und kehren mit dauerhafter Resonanz zurück.,"Après le déblocage de la Tour, cinq héros affrontent un combat quotidien contre le Gardien sous un thème de trois lois choisi au hasard et reviennent avec une Résonance permanente."
 [color=yellow]The daily Echo fight was abandoned. You can challenge it again today.[/color],[color=yellow]The daily Echo fight was abandoned. You can challenge it again today.[/color],[color=yellow]Lo scontro giornaliero dell'Eco è stato abbandonato. Puoi affrontarlo di nuovo oggi.[/color],[color=yellow]Der tägliche Echo-Kampf wurde abgebrochen. Du kannst ihn heute erneut annehmen.[/color],[color=yellow]Le combat d'Écho quotidien a été abandonné. Tu peux le relever de nouveau aujourd'hui.[/color]
 [color=yellow]Daily Echo fight won.[/color],[color=yellow]Daily Echo fight won.[/color],[color=yellow]Scontro giornaliero dell'Eco vinto.[/color],[color=yellow]Täglicher Echo-Kampf gewonnen.[/color],[color=yellow]Combat d'Écho quotidien remporté.[/color]
@@ -3081,16 +2769,16 @@ Planned — translation and quality review required before release.,Planned — 
 %s / %s  %s,%s / %s  %s,%s / %s  %s,%s / %s  %s,%s / %s  %s
 −,−,−,−,−
 Carry the whole set up,Carry the whole set up,Porta su tutto il set,Trage das ganze Set nach oben,Fais monter le set complet
-Back up progress anywhere,Back up progress anywhere,Salva i progressi ovunque,Fortschritt überall sichern,Sauvegarde ta progression partout
-Save Recovery can export the exact encrypted local save and validate an imported backup before any replacement.,Save Recovery can export the exact encrypted local save and validate an imported backup before any replacement.,Il Recupero salvataggio può esportare il salvataggio locale crittografato esatto e convalidare un backup importato prima di qualsiasi sostituzione.,Die Spielstand-Wiederherstellung kann den exakten verschlüsselten lokalen Spielstand exportieren und ein importiertes Backup vor jeder Ersetzung prüfen.,La Récupération de sauvegarde peut exporter la sauvegarde locale chiffrée exacte et valider une sauvegarde importée avant tout remplacement.
-Reconnect Play Games safely,Reconnect Play Games safely,Ricollega Play Games in sicurezza,Play Games sicher neu verbinden,Reconnecte Play Games en toute sécurité
-"After a fresh identity check, reassociate the local save and explicitly choose this device or Google Cloud with a second confirmation.","After a fresh identity check, reassociate the local save and explicitly choose this device or Google Cloud with a second confirmation.","Dopo una nuova verifica dell'identità, riassocia il salvataggio locale e scegli esplicitamente questo dispositivo o Google Cloud con una seconda conferma.","Ordne den lokalen Spielstand nach einer neuen Identitätsprüfung neu zu und wähle dieses Gerät oder Google Cloud ausdrücklich mit einer zweiten Bestätigung.","Après une nouvelle vérification d'identité, réassocie la sauvegarde locale et choisis explicitement cet appareil ou Google Cloud avec une seconde confirmation."
-See cloud limits clearly,See cloud limits clearly,Vedi chiaramente i limiti del cloud,Cloud-Limits klar erkennen,Affiche clairement les limites du cloud
-"Cloud data stays compact, and an oversized upload reports its actual size and limit without changing the local save.","Cloud data stays compact, and an oversized upload reports its actual size and limit without changing the local save.","I dati cloud restano compatti e un caricamento troppo grande mostra dimensione effettiva e limite senza modificare il salvataggio locale.","Cloud-Daten bleiben kompakt, und ein zu großer Upload meldet seine tatsächliche Größe und das Limit, ohne den lokalen Spielstand zu ändern.","Les données cloud restent compactes et un envoi trop volumineux indique sa taille réelle et la limite sans modifier la sauvegarde locale."
-Languages are easier to scan,Languages are easier to scan,Le lingue sono più facili da consultare,Sprachen sind leichter zu überblicken,Les langues sont plus faciles à parcourir
-"The language picker is now one clear row per language, with unavailable choices simply disabled.","The language picker is now one clear row per language, with unavailable choices simply disabled.","Il selettore della lingua ora mostra una riga chiara per ogni lingua e disattiva semplicemente le opzioni non disponibili.","Die Sprachauswahl zeigt jetzt eine klare Zeile pro Sprache; nicht verfügbare Optionen sind einfach deaktiviert.","Le sélecteur de langue affiche maintenant une ligne claire par langue, les choix indisponibles étant simplement désactivés."
-German and French move forward,German and French move forward,Tedesco e francese fanno passi avanti,Deutsch und Französisch machen Fortschritte,L'allemand et le français progressent
-German and French are fully translated and selectable in Settings.,German and French are fully translated and selectable in Settings.,Tedesco e francese sono completamente tradotti e selezionabili nelle Impostazioni.,Deutsch und Französisch sind vollständig übersetzt und in den Einstellungen auswählbar.,L'allemand et le français sont entièrement traduits et sélectionnables dans les Paramètres.
+Classes now fit their roles,Classes now fit their roles,Le classi ora rispettano i loro ruoli,Klassen erfüllen jetzt ihre Rollen,Les classes remplissent désormais leur rôle
+"Fixed active and passive budgets keep every class in its power tier and make its strongest effects support its listed role.","Fixed active and passive budgets keep every class in its power tier and make its strongest effects support its listed role.","Budget fissi per abilità attive e passive mantengono ogni classe nel proprio livello di potenza e orientano gli effetti più forti verso il ruolo dichiarato.","Feste Budgets für aktive und passive Fähigkeiten halten jede Klasse in ihrer Leistungsstufe und richten ihre stärksten Effekte auf die angegebene Rolle aus.","Des budgets fixes pour les compétences actives et passives maintiennent chaque classe dans son niveau de puissance et orientent ses effets les plus forts vers son rôle annoncé."
+Promotion paths play differently,Promotion paths play differently,I percorsi di promozione giocano in modo diverso,Aufstiegspfade spielen sich unterschiedlich,Les voies de promotion se jouent différemment
+"Each class line now owns a distinct combat identity, so a promotion changes how the hero fights instead of repeating another kit.","Each class line now owns a distinct combat identity, so a promotion changes how the hero fights instead of repeating another kit.","Ogni linea di classe ora ha un'identità di combattimento distinta: una promozione cambia il modo di combattere dell'eroe invece di ripetere un altro kit.","Jede Klassenlinie besitzt nun eine eigene Kampfidentität: Ein Aufstieg verändert die Spielweise des Helden, statt eine andere Ausrüstung zu wiederholen.","Chaque lignée de classe possède désormais une identité de combat distincte : une promotion change la manière de combattre du héros au lieu de répéter un autre ensemble."
+Skill effects land correctly,Skill effects land correctly,Gli effetti delle abilità colpiscono correttamente,Fähigkeitseffekte treffen korrekt,Les effets de compétence atteignent leur cible
+"Damage no longer spills onto defeated enemies, and Siege Battery now lowers the Attack of every enemy it hits.","Damage no longer spills onto defeated enemies, and Siege Battery now lowers the Attack of every enemy it hits.","I danni non si disperdono più sui nemici sconfitti e Batteria d'assedio ora riduce l'Attacco di ogni nemico colpito.","Schaden verpufft nicht mehr an besiegten Gegnern und Belagerungsbatterie senkt jetzt den Angriff jedes getroffenen Gegners.","Les dégâts ne se perdent plus sur les ennemis vaincus et Batterie de siège réduit désormais l'Attaque de chaque ennemi touché."
+Descriptions match combat,Descriptions match combat,Le descrizioni corrispondono al combattimento,Beschreibungen entsprechen dem Kampf,Les descriptions correspondent au combat
+"All 110 skill descriptions now state their exact runtime behavior in English, Italian, German and French.","All 110 skill descriptions now state their exact runtime behavior in English, Italian, German and French.","Tutte le 110 descrizioni delle abilità ora indicano il comportamento esatto in combattimento in inglese, italiano, tedesco e francese.","Alle 110 Fähigkeitsbeschreibungen geben ihr genaues Verhalten im Kampf nun auf Englisch, Italienisch, Deutsch und Französisch wieder.","Les 110 descriptions de compétences indiquent désormais leur comportement exact en combat en anglais, italien, allemand et français."
+Echo difficulty stays stable,Echo difficulty stays stable,La difficoltà dell'Eco resta stabile,Die Echo-Schwierigkeit bleibt stabil,La difficulté de l'Écho reste stable
+"Daily clears no longer raise Echo's stats; its twelve themes remain a consistent full-raid-set gear check with unlimited retries.","Daily clears no longer raise Echo's stats; its twelve themes remain a consistent full-raid-set gear check with unlimited retries.","Le vittorie giornaliere non aumentano più le statistiche dell'Eco; i dodici temi restano una prova stabile per un set da raid completo con tentativi illimitati.","Tägliche Siege erhöhen die Echo-Werte nicht mehr; die zwölf Themen bleiben eine gleichbleibende Ausrüstungsprüfung für ein vollständiges Raid-Set mit unbegrenzten Versuchen.","Les victoires quotidiennes n'augmentent plus les statistiques de l'Écho ; ses douze thèmes restent une épreuve d'équipement stable pour un ensemble de raid complet avec des tentatives illimitées."
 "Every raid's unique accessory can now be reforged to a higher tier, keeping its identity, set bonus, and effect while only the stats scale.","Every raid's unique accessory can now be reforged to a higher tier, keeping its identity, set bonus, and effect while only the stats scale.","L'accessorio unico di ogni raid ora può essere riforgiato a un grado superiore: mantiene identità, bonus del set ed effetto, cambiano solo le statistiche.","Das einzigartige Accessoire jedes Raids kann jetzt auf einen höheren Grad umgeschmiedet werden: Identität, Set-Bonus und Effekt bleiben erhalten, nur die Werte skalieren.","L'accessoire unique de chaque raid peut désormais être reforgé à un palier supérieur : il conserve son identité, son bonus de set et son effet, seules les statistiques évoluent."
 Echo runs a theme each day,Echo runs a theme each day,L'Eco propone un tema ogni giorno,Echo führt jeden Tag ein Thema,L'Écho propose un thème chaque jour
 "The daily Guardian fight now follows one of twelve named themes, each bundling three Echo laws into one readable strategy, rotating at 00:00 UTC.","The daily Guardian fight now follows one of twelve named themes, each bundling three Echo laws into one readable strategy, rotating at 00:00 UTC.","Il combattimento giornaliero contro il Guardiano segue ora uno di dodici temi, ognuno dei quali combina tre leggi dell'Eco in un'unica strategia, con rotazione alle 00:00 UTC.","Der tägliche Wächterkampf folgt jetzt einem von zwölf benannten Themen, die je drei Echo-Gesetze zu einer verständlichen Strategie bündeln und um 00:00 UTC wechseln.","Le combat quotidien contre le Gardien suit désormais l'un des douze thèmes nommés, chacun réunissant trois lois d'Écho en une stratégie lisible, avec une rotation à 00:00 UTC."

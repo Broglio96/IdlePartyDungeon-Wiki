@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#101816">
-  <meta name="description" content="Explore the Idle Party Dungeon wiki or download the game for Android and Windows.">
+  <meta name="description" content="Explore the Idle Party Dungeon wiki or play through Google Play on Android and Google Play Games for PC on Windows.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Idle Party Dungeon">
   <meta property="og:description" content="Game downloads and The Adventurer's Codex for Idle Party Dungeon.">
@@ -205,6 +205,22 @@
       box-shadow: 0 0 0 3px rgba(104, 198, 139, .12), inset 0 1px rgba(255,255,255,.04);
     }
 
+    .play-steps--pc {
+      border-color: rgba(124, 179, 237, .3);
+      background: rgba(124, 179, 237, .055);
+    }
+
+    .play-steps--pc:target {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(124, 179, 237, .12), inset 0 1px rgba(255,255,255,.04);
+    }
+
+    .play-steps--pc .play-steps__eyebrow,
+    .play-steps--pc .play-step__number { color: var(--blue); }
+
+    .play-steps--pc .play-step a:hover { border-color: var(--blue); background: rgba(124, 179, 237, .08); }
+    .play-steps--pc .play-step a:focus-visible { outline-color: var(--blue); }
+
     .play-steps__eyebrow {
       margin: 0 0 7px;
       color: var(--green);
@@ -236,6 +252,8 @@
       gap: 12px;
       list-style: none;
     }
+
+    .play-steps__list--four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
     .play-step {
       min-width: 0;
@@ -304,6 +322,10 @@
       .play-steps__list { grid-template-columns: 1fr; }
     }
 
+    @media (min-width: 721px) and (max-width: 940px) {
+      .play-steps__list--four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       .destination, .destination__arrow, .play-steps, .play-step a { transition: none; }
     }
@@ -332,12 +354,12 @@
         <span><strong>Get it on Google Play</strong><small>Follow the 3-step closed-test setup</small></span>
       </a>
 
-      <a class="destination destination--windows" href="https://github.com/Broglio96/IdlePartyDungeon-Wiki/releases/download/v1.11/IdlePartyDungeon-1.11.exe">
+      <a class="destination destination--windows" href="#google-play-games-pc">
         <span class="destination__top">
           <span class="destination__icon" aria-hidden="true">&#8862;</span>
           <span class="destination__arrow" aria-hidden="true">&#8595;</span>
         </span>
-        <span><strong>Download for Windows</strong><small>Latest published build · Version 1.11</small></span>
+        <span><strong>Play on Windows</strong><small>Install through Google Play Games for PC</small></span>
       </a>
     </nav>
 
@@ -370,7 +392,44 @@
       </ol>
     </section>
 
-    <footer>Idle Party Dungeon Codex 1.11 &middot; Current closed-test release &middot; &copy; 2026 BroglioGames</footer>
+    <section class="play-steps play-steps--pc" id="google-play-games-pc" aria-labelledby="google-play-pc-title">
+      <p class="play-steps__eyebrow">Windows via Google Play Games</p>
+      <h2 id="google-play-pc-title">Install and play in four steps</h2>
+      <p class="play-steps__intro">There is no separate EXE download. Use the same personal Google Account for the tester group, closed-test opt-in, and Google Play Games for PC. Google currently requires Windows 10 v2004 or newer, an SSD with 10 GB free, 8 GB RAM, four physical CPU cores, administrator access, and hardware virtualization.</p>
+      <ol class="play-steps__list play-steps__list--four">
+        <li class="play-step">
+          <a href="https://groups.google.com/g/idle-party-dungeon-testers" target="_blank" rel="noopener noreferrer">
+            <span class="play-step__number">Step 1</span>
+            <strong>Join the tester group</strong>
+            <small>Sign in with the Google Account you will use inside Google Play Games for PC.</small>
+          </a>
+        </li>
+        <li class="play-step">
+          <a href="https://play.google.com/apps/testing/com.idlepartydungeon.game" target="_blank" rel="noopener noreferrer">
+            <span class="play-step__number">Step 2</span>
+            <strong>Become a closed tester</strong>
+            <small>Open the testing page with the same account and accept the closed test.</small>
+          </a>
+        </li>
+        <li class="play-step">
+          <a href="https://play.google.com/googleplaygames" target="_blank" rel="noopener noreferrer">
+            <span class="play-step__number">Step 3</span>
+            <strong>Download Google Play Games</strong>
+            <small>Run Google's installer. If prompted, enable Windows Hypervisor Platform or CPU virtualization and restart.</small>
+          </a>
+        </li>
+        <li class="play-step">
+          <a href="https://play.google.com/store/apps/details?id=com.idlepartydungeon.game" target="_blank" rel="noopener noreferrer">
+            <span class="play-step__number">Step 4</span>
+            <strong>Find and install the game</strong>
+            <small>Open Google Play Games for PC, sign in with the same account, search for Idle Party Dungeon, choose Install, then Play.</small>
+          </a>
+        </li>
+      </ol>
+      <p class="play-steps__intro">If installation stops, Google Play Games reports which requirement is missing. The official installer may ask you to enable Windows Hypervisor Platform; restart Windows after enabling it.</p>
+    </section>
+
+    <footer>Idle Party Dungeon Codex 1.12 &middot; Current closed-test release &middot; &copy; 2026 BroglioGames</footer>
   </main>
 </body>
 </html>

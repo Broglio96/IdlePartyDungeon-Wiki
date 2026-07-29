@@ -242,120 +242,120 @@
     },
     "Brinebound Marauder": {
       "description":"A drowned raider whose salt-caked armor supports long attrition fights.","texture":"res://resources/monsters/BrineboundMarauder.png",
-	  "stats":{"hp":710,"hp_per_strength":0,"mp":0,"str":61,"dex":29,"intelligence":17,"df":40,"dfM":31,"atk_type":"Melee","threat":5,"evade":8,"crt_chance":14,"crt_rate":165,"immune_chance":16,"counter_chance":10,"counter_dmg":18,"regen":8,"exp":820,"decay":8},"drops":{"Tideglass Shard":80,"Coral Rivet":60}
+	  "stats":{"hp":710,"hp_per_strength":0,"mp":0,"str":61,"dex":29,"intelligence":17,"df":32,"dfM":25,"atk_type":"Melee","threat":5,"evade":8,"crt_chance":14,"crt_rate":165,"immune_chance":16,"counter_chance":10,"counter_dmg":18,"regen":8,"exp":820,"decay":8},"drops":{"Tideglass Shard":80,"Coral Rivet":60}
     },
     "Drowned Sentry": {
       "description":"A vigilant causeway guard protected by waterlogged plate and old discipline.","texture":"res://resources/monsters/DrownedSentry.png",
-	  "stats":{"hp":815,"hp_per_strength":0,"mp":0,"str":66,"dex":21,"intelligence":21,"df":46,"dfM":38,"atk_type":"Melee","threat":7,"evade":5,"crt_chance":8,"crt_rate":155,"immune_chance":22,"counter_chance":16,"counter_dmg":24,"regen":10,"exp":880,"decay":5},"drops":{"Coral Rivet":80,"Tideglass Shard":60}
+	  "stats":{"hp":815,"hp_per_strength":0,"mp":0,"str":66,"dex":21,"intelligence":21,"df":37,"dfM":30,"atk_type":"Melee","threat":7,"evade":5,"crt_chance":8,"crt_rate":155,"immune_chance":22,"counter_chance":16,"counter_dmg":24,"regen":10,"exp":880,"decay":5},"drops":{"Coral Rivet":80,"Tideglass Shard":60}
     },
     "Tide Wisp": {
       "description":"A quick current-spirit that attacks through armor and vanishes into spray.","texture":"res://resources/monsters/TideWisp.png",
-	  "stats":{"hp":295,"hp_per_strength":0,"mp":0,"str":10,"dex":55,"intelligence":69,"df":24,"dfM":45,"atk_type":"Magic","threat":2,"evade":24,"crt_chance":16,"crt_rate":170,"immune_chance":24,"counter_chance":0,"regen":6,"exp":900,"decay":10},"drops":{"Brinecloth":80,"Deepwater Oil":60}
+	  "stats":{"hp":295,"hp_per_strength":0,"mp":0,"str":10,"dex":55,"intelligence":69,"df":19,"dfM":36,"atk_type":"Magic","threat":2,"evade":24,"crt_chance":16,"crt_rate":170,"immune_chance":24,"counter_chance":0,"regen":6,"exp":900,"decay":10},"drops":{"Brinecloth":80,"Deepwater Oil":60}
     },
     "Drowned Tollkeeper": {
       "description":"A massive keeper that rings a corroded bell to measure every trespass.","texture":"res://resources/monsters/DrownedTollkeeper.png",
-	  "stats":{"hp":1975,"hp_per_strength":0,"mp":30,"str":100,"dex":25,"intelligence":84,"df":54,"dfM":51,"atk_type":"Melee","threat":9,"evade":8,"crt_chance":12,"crt_rate":175,"immune_chance":30,"counter_chance":20,"counter_dmg":34,"regen":22,"exp":6200,"decay":16,"skill_act_name":"Blackwater Toll","skill_act_desc":"A bell stroke sends drowning pressure through the party."},"drops":{"Tollkeeper Bell":100}
+	  "stats":{"hp":1975,"hp_per_strength":0,"mp":30,"str":100,"dex":25,"intelligence":84,"df":43,"dfM":41,"atk_type":"Melee","threat":9,"evade":8,"crt_chance":12,"crt_rate":175,"immune_chance":30,"counter_chance":20,"counter_dmg":34,"regen":22,"exp":6200,"decay":16,"skill_act_name":"Blackwater Toll","skill_act_desc":"A bell stroke sends drowning pressure through the party."},"drops":{"Tollkeeper Bell":100}
     },
 	"Vault Sentinel": {
-	  "description":"A lantern-alloy guardian assigned to the sealed vault corridors.","texture":"res://resources/monsters/VaultSentinel.png","stats":{"hp":825,"hp_per_strength":0,"mp":0,"str":86,"dex":29,"intelligence":32,"df":54,"dfM":46,"atk_type":"Melee","threat":8,"evade":7,"crt_chance":10,"crt_rate":160,"immune_chance":24,"counter_chance":18,"counter_dmg":28,"regen":9,"exp":1300,"decay":6},"drops":{"Lantern Alloy":80,"Vault Ember":60}
+	  "description":"A lantern-alloy guardian assigned to the sealed vault corridors.","texture":"res://resources/monsters/VaultSentinel.png","stats":{"hp":825,"hp_per_strength":0,"mp":0,"str":86,"dex":29,"intelligence":32,"df":39,"dfM":33,"atk_type":"Melee","threat":8,"evade":7,"crt_chance":10,"crt_rate":160,"immune_chance":24,"counter_chance":18,"counter_dmg":28,"regen":9,"exp":1300,"decay":6},"drops":{"Lantern Alloy":80,"Vault Ember":60}
 	},
 	"Wick Wraith": {
-	  "description":"A drifting vault spirit trailing fireproof keeper wick.","texture":"res://resources/monsters/WickWraith.png","stats":{"hp":344,"hp_per_strength":0,"mp":0,"str":16,"dex":86,"intelligence":107,"df":30,"dfM":54,"atk_type":"Magic","threat":2,"evade":27,"crt_chance":18,"crt_rate":175,"immune_chance":27,"counter_chance":0,"regen":6,"exp":1350,"decay":12},"drops":{"Keeper Wick":80,"Sootglass":60}
+	  "description":"A drifting vault spirit trailing fireproof keeper wick.","texture":"res://resources/monsters/WickWraith.png","stats":{"hp":344,"hp_per_strength":0,"mp":0,"str":16,"dex":86,"intelligence":107,"df":21,"dfM":39,"atk_type":"Magic","threat":2,"evade":27,"crt_chance":18,"crt_rate":175,"immune_chance":27,"counter_chance":0,"regen":6,"exp":1350,"decay":12},"drops":{"Keeper Wick":80,"Sootglass":60}
 	},
 	"Sootbound Keeper": {
-	  "description":"A former vault keeper sealed inside smoke-dark glass armor.","texture":"res://resources/monsters/SootboundKeeper.png","stats":{"hp":748,"hp_per_strength":0,"mp":0,"str":82,"dex":50,"intelligence":58,"df":47,"dfM":48,"atk_type":"Ranged","threat":5,"evade":13,"crt_chance":16,"crt_rate":170,"immune_chance":22,"counter_chance":12,"counter_dmg":24,"regen":8,"exp":1320,"decay":10},"drops":{"Sootglass":80,"Lantern Alloy":60}
+	  "description":"A former vault keeper sealed inside smoke-dark glass armor.","texture":"res://resources/monsters/SootboundKeeper.png","stats":{"hp":748,"hp_per_strength":0,"mp":0,"str":82,"dex":50,"intelligence":58,"df":34,"dfM":34,"atk_type":"Ranged","threat":5,"evade":13,"crt_chance":16,"crt_rate":170,"immune_chance":22,"counter_chance":12,"counter_dmg":24,"regen":8,"exp":1320,"decay":10},"drops":{"Sootglass":80,"Lantern Alloy":60}
 	},
     "Lantern-Eater": {
       "description":"A vault predator wrapped around a stolen flame, tuned for a capable duo.","texture":"res://resources/monsters/LanternEater.png",
-	  "stats":{"hp":1930,"hp_per_strength":0,"mp":30,"str":130,"dex":74,"intelligence":124,"df":54,"dfM":56,"atk_type":"Magic","threat":10,"evade":16,"crt_chance":16,"crt_rate":180,"immune_chance":30,"counter_chance":14,"counter_dmg":36,"regen":20,"lifesteal_rate":8,"exp":9000,"decay":16,"skill_act_name":"Devour the Light","skill_act_desc":"Drains vitality and reinforces its dark shell."},"drops":{"Devoured Flame":40}
+	  "stats":{"hp":1930,"hp_per_strength":0,"mp":30,"str":130,"dex":74,"intelligence":124,"df":39,"dfM":40,"atk_type":"Magic","threat":10,"evade":16,"crt_chance":16,"crt_rate":180,"immune_chance":30,"counter_chance":14,"counter_dmg":36,"regen":20,"lifesteal_rate":8,"exp":9000,"decay":16,"skill_act_name":"Devour the Light","skill_act_desc":"Drains vitality and reinforces its dark shell."},"drops":{"Devoured Flame":40}
     },
     "Ashen Disciple": {
       "description":"A swift vow-bound fighter trained to punish repeated spellcasting.","texture":"res://resources/monsters/AshenDisciple.png",
-	  "stats":{"hp":702,"hp_per_strength":0,"mp":0,"str":90,"dex":74,"intelligence":24,"df":46,"dfM":52,"atk_type":"Ranged","threat":4,"evade":19,"crt_chance":20,"crt_rate":175,"immune_chance":20,"counter_chance":18,"counter_dmg":32,"regen":4,"exp":2500,"decay":8},"drops":{"Cinder Ash":80,"Prayer Bead":60}
+	  "stats":{"hp":702,"hp_per_strength":0,"mp":0,"str":90,"dex":74,"intelligence":24,"df":32,"dfM":37,"atk_type":"Ranged","threat":4,"evade":19,"crt_chance":20,"crt_rate":175,"immune_chance":20,"counter_chance":18,"counter_dmg":32,"regen":4,"exp":2500,"decay":8},"drops":{"Cinder Ash":80,"Prayer Bead":60}
     },
     "Cinder Monk": {
       "description":"A resilient monastery guardian whose ember strikes build sudden pressure.","texture":"res://resources/monsters/CinderMonk.png",
-	  "stats":{"hp":834,"hp_per_strength":0,"mp":0,"str":101,"dex":43,"intelligence":50,"df":54,"dfM":49,"atk_type":"Melee","threat":6,"evade":10,"crt_chance":14,"crt_rate":170,"immune_chance":24,"counter_chance":22,"counter_dmg":38,"regen":7,"exp":2700,"decay":6},"drops":{"Vow Silk":80,"Ember Ink":60}
+	  "stats":{"hp":834,"hp_per_strength":0,"mp":0,"str":101,"dex":43,"intelligence":50,"df":38,"dfM":35,"atk_type":"Melee","threat":6,"evade":10,"crt_chance":14,"crt_rate":170,"immune_chance":24,"counter_chance":22,"counter_dmg":38,"regen":7,"exp":2700,"decay":6},"drops":{"Vow Silk":80,"Ember Ink":60}
     },
     "Ash Abbot": {
       "description":"The monastery's final master, crowned in quiet flame and layered vows.","texture":"res://resources/monsters/AshAbbot.png",
-	  "stats":{"hp":1920,"hp_per_strength":0,"mp":30,"str":136,"dex":80,"intelligence":130,"df":61,"dfM":64,"atk_type":"Magic","threat":10,"evade":16,"crt_chance":20,"crt_rate":185,"immune_chance":32,"counter_chance":24,"counter_dmg":46,"regen":14,"exp":18000,"decay":14,"skill_act_name":"Silent Cinder","skill_act_desc":"Blankets the formation in suppressing ash."},"drops":{"Abbot Seal":100}
+	  "stats":{"hp":1920,"hp_per_strength":0,"mp":30,"str":136,"dex":80,"intelligence":130,"df":43,"dfM":45,"atk_type":"Magic","threat":10,"evade":16,"crt_chance":20,"crt_rate":185,"immune_chance":32,"counter_chance":24,"counter_dmg":46,"regen":14,"exp":18000,"decay":14,"skill_act_name":"Silent Cinder","skill_act_desc":"Blankets the formation in suppressing ash."},"drops":{"Abbot Seal":100}
     },
     "Glasswing Scout": {
       "description":"A razor-winged celestial scout that is difficult to pin down.","texture":"res://resources/monsters/GlasswingScout.png",
-	  "stats":{"hp":535,"hp_per_strength":0,"mp":0,"str":32,"dex":126,"intelligence":99,"df":45,"dfM":61,"atk_type":"Ranged","threat":3,"evade":31,"crt_chance":24,"crt_rate":180,"immune_chance":22,"counter_chance":8,"counter_dmg":28,"regen":3,"exp":4700,"decay":4},"drops":{"Starglass Fragment":80,"Meteor Dust":60}
+	  "stats":{"hp":535,"hp_per_strength":0,"mp":0,"str":32,"dex":126,"intelligence":99,"df":28,"dfM":39,"atk_type":"Ranged","threat":3,"evade":31,"crt_chance":24,"crt_rate":180,"immune_chance":22,"counter_chance":8,"counter_dmg":28,"regen":3,"exp":4700,"decay":4},"drops":{"Starglass Fragment":80,"Meteor Dust":60}
     },
     "Orbit Sentinel": {
       "description":"A rotating stone-and-glass construct with balanced magical defenses.","texture":"res://resources/monsters/OrbitSentinel.png",
-	  "stats":{"hp":750,"hp_per_strength":0,"mp":0,"str":134,"dex":41,"intelligence":90,"df":63,"dfM":68,"atk_type":"Magic","threat":7,"evade":9,"crt_chance":12,"crt_rate":170,"immune_chance":30,"counter_chance":18,"counter_dmg":46,"regen":8,"exp":5200,"decay":5},"drops":{"Orbit Thread":80,"Aether Lens Shard":60}
+	  "stats":{"hp":750,"hp_per_strength":0,"mp":0,"str":134,"dex":41,"intelligence":90,"df":40,"dfM":43,"atk_type":"Magic","threat":7,"evade":9,"crt_chance":12,"crt_rate":170,"immune_chance":30,"counter_chance":18,"counter_dmg":46,"regen":8,"exp":5200,"decay":5},"drops":{"Orbit Thread":80,"Aether Lens Shard":60}
     },
     "Glasswing Astromancer": {
       "description":"A master of broken lenses and lethal, perfectly aligned starfire.","texture":"res://resources/monsters/GlasswingAstromancer.png",
-      "stats":{"hp":1850,"hp_per_strength":0,"mp":30,"str":60,"dex":143,"intelligence":170,"df":59,"dfM":74,"atk_type":"Magic","threat":10,"evade":28,"crt_chance":25,"crt_rate":190,"immune_chance":35,"counter_chance":12,"counter_dmg":42,"regen":10,"exp":33000,"decay":12,"skill_act_name":"Convergence","skill_act_desc":"Aligns broken lenses into a formation-wide star ray."},"drops":{"Astral Lens":40}
+      "stats":{"hp":1850,"hp_per_strength":0,"mp":30,"str":60,"dex":143,"intelligence":170,"df":37,"dfM":47,"atk_type":"Magic","threat":10,"evade":28,"crt_chance":25,"crt_rate":190,"immune_chance":35,"counter_chance":12,"counter_dmg":42,"regen":10,"exp":33000,"decay":12,"skill_act_name":"Convergence","skill_act_desc":"Aligns broken lenses into a formation-wide star ray."},"drops":{"Astral Lens":40}
     },
     "Umbral Stalker": {
       "description":"A many-jointed hunter that shifts between physical and magical pressure.","texture":"res://resources/monsters/UmbralStalker.png",
-	  "stats":{"hp":688,"hp_per_strength":0,"mp":0,"str":161,"dex":171,"intelligence":105,"df":63,"dfM":62,"atk_type":"Ranged","threat":4,"evade":25,"crt_chance":26,"crt_rate":185,"immune_chance":24,"counter_chance":15,"counter_dmg":52,"regen":3,"exp":9800,"decay":12},"drops":{"Chimera Hide":80,"Bone Mosaic":60}
+	  "stats":{"hp":688,"hp_per_strength":0,"mp":0,"str":161,"dex":171,"intelligence":105,"df":37,"dfM":37,"atk_type":"Ranged","threat":4,"evade":25,"crt_chance":26,"crt_rate":185,"immune_chance":24,"counter_chance":15,"counter_dmg":52,"regen":3,"exp":9800,"decay":12},"drops":{"Chimera Hide":80,"Bone Mosaic":60}
     },
     "Patchwork Horror": {
       "description":"A durable hybrid stitched from incompatible beasts and reinforced organs.","texture":"res://resources/monsters/PatchworkHorror.png",
-	  "stats":{"hp":900,"hp_per_strength":0,"mp":0,"str":189,"dex":67,"intelligence":144,"df":73,"dfM":72,"atk_type":"Melee","threat":8,"evade":10,"crt_chance":14,"crt_rate":175,"immune_chance":32,"counter_chance":20,"counter_dmg":60,"regen":7,"exp":10800,"decay":14},"drops":{"Umbral Sinew":80,"Shadow Gland":60}
+	  "stats":{"hp":900,"hp_per_strength":0,"mp":0,"str":189,"dex":67,"intelligence":144,"df":43,"dfM":43,"atk_type":"Melee","threat":8,"evade":10,"crt_chance":14,"crt_rate":175,"immune_chance":32,"counter_chance":20,"counter_dmg":60,"regen":7,"exp":10800,"decay":14},"drops":{"Umbral Sinew":80,"Shadow Gland":60}
     },
     "Chimera Matron": {
       "description":"A vast breeding beast with many eyes, layered hides, and predatory patience.","texture":"res://resources/monsters/ChimeraMatron.png",
-	  "stats":{"hp":1788,"hp_per_strength":0,"mp":30,"str":245,"dex":172,"intelligence":224,"df":75,"dfM":76,"atk_type":"Melee","threat":11,"evade":20,"crt_chance":22,"crt_rate":190,"immune_chance":38,"counter_chance":20,"counter_dmg":70,"regen":10,"lifesteal_rate":6,"exp":64000,"decay":18,"skill_act_name":"Manyfold Hunger","skill_act_desc":"Every head strikes a different weakness."},"drops":{"Matron Eye":100}
+	  "stats":{"hp":1788,"hp_per_strength":0,"mp":30,"str":245,"dex":172,"intelligence":224,"df":45,"dfM":45,"atk_type":"Melee","threat":11,"evade":20,"crt_chance":22,"crt_rate":190,"immune_chance":38,"counter_chance":20,"counter_dmg":70,"regen":10,"lifesteal_rate":6,"exp":64000,"decay":18,"skill_act_name":"Manyfold Hunger","skill_act_desc":"Every head strikes a different weakness."},"drops":{"Matron Eye":100}
     },
     "Citadel Vanguard": {
       "description":"A disciplined empty-armored soldier that protects higher-priority threats.","texture":"res://resources/monsters/CitadelVanguard.png",
-	  "stats":{"hp":765,"hp_per_strength":0,"mp":0,"str":182,"dex":69,"intelligence":50,"df":71,"dfM":65,"atk_type":"Melee","threat":9,"evade":8,"crt_chance":14,"crt_rate":175,"immune_chance":30,"counter_chance":24,"counter_dmg":72,"regen":3,"exp":15000,"decay":8},"drops":{"Crownless Steel":80,"Regal Rivet":60}
+	  "stats":{"hp":765,"hp_per_strength":0,"mp":0,"str":182,"dex":69,"intelligence":50,"df":43,"dfM":40,"atk_type":"Melee","threat":9,"evade":8,"crt_chance":14,"crt_rate":175,"immune_chance":30,"counter_chance":24,"counter_dmg":72,"regen":3,"exp":15000,"decay":8},"drops":{"Crownless Steel":80,"Regal Rivet":60}
     },
     "Black Banner Marshal": {
       "description":"A commanding shade whose precise attacks punish weak formations.","texture":"res://resources/monsters/BlackBannerMarshal.png",
-	  "stats":{"hp":828,"hp_per_strength":0,"mp":0,"str":193,"dex":173,"intelligence":94,"df":64,"dfM":66,"atk_type":"Ranged","threat":7,"evade":20,"crt_chance":28,"crt_rate":190,"immune_chance":30,"counter_chance":15,"counter_dmg":62,"regen":3,"exp":22000,"decay":12},"drops":{"Black Banner Cloth":80,"Null Wax":60}
+	  "stats":{"hp":828,"hp_per_strength":0,"mp":0,"str":193,"dex":173,"intelligence":94,"df":39,"dfM":40,"atk_type":"Ranged","threat":7,"evade":20,"crt_chance":28,"crt_rate":190,"immune_chance":30,"counter_chance":15,"counter_dmg":62,"regen":3,"exp":22000,"decay":12},"drops":{"Black Banner Cloth":80,"Null Wax":60}
     },
     "Hollow Castellan": {
       "description":"A citadel keeper built around barriers, magic resistance, and patient control.","texture":"res://resources/monsters/HollowCastellan.png",
-	  "stats":{"hp":864,"hp_per_strength":0,"mp":0,"str":160,"dex":66,"intelligence":190,"df":67,"dfM":78,"atk_type":"Magic","threat":8,"evade":10,"crt_chance":16,"crt_rate":180,"immune_chance":38,"counter_chance":18,"counter_dmg":68,"regen":4,"exp":22500,"decay":14},"drops":{"Null Wax":80,"Black Banner Cloth":60}
+	  "stats":{"hp":864,"hp_per_strength":0,"mp":0,"str":160,"dex":66,"intelligence":190,"df":41,"dfM":48,"atk_type":"Magic","threat":8,"evade":10,"crt_chance":16,"crt_rate":180,"immune_chance":38,"counter_chance":18,"counter_dmg":68,"regen":4,"exp":22500,"decay":14},"drops":{"Null Wax":80,"Black Banner Cloth":60}
     },
     "Sealbreaker": {
       "description":"A brutal siege shade designed to crush protection and finish wounded heroes.","texture":"res://resources/monsters/Sealbreaker.png",
-	  "stats":{"hp":900,"hp_per_strength":0,"mp":0,"str":215,"dex":96,"intelligence":66,"df":69,"dfM":62,"atk_type":"Melee","threat":7,"evade":12,"crt_chance":24,"crt_rate":195,"immune_chance":26,"counter_chance":20,"counter_dmg":75,"regen":3,"exp":22500,"decay":10},"drops":{"Regal Rivet":80,"Crownless Steel":60}
+	  "stats":{"hp":900,"hp_per_strength":0,"mp":0,"str":215,"dex":96,"intelligence":66,"df":42,"dfM":38,"atk_type":"Melee","threat":7,"evade":12,"crt_chance":24,"crt_rate":195,"immune_chance":26,"counter_chance":20,"counter_dmg":75,"regen":3,"exp":22500,"decay":10},"drops":{"Regal Rivet":80,"Crownless Steel":60}
     },
     "Crownless Regent": {
       "description":"An ancient ruler of an empty court, protected by centuries of prepared defenses.","texture":"res://resources/monsters/CrownlessRegent.png",
-      "stats":{"hp":1791,"hp_per_strength":0,"mp":30,"str":259,"dex":154,"intelligence":250,"df":75,"dfM":80,"atk_type":"Magic","threat":12,"evade":18,"crt_chance":25,"crt_rate":195,"immune_chance":42,"counter_chance":24,"counter_dmg":90,"regen":7,"exp":105000,"decay":20,"skill_act_name":"Regent's Decree","skill_act_desc":"A command exposes the whole company to focused punishment."},"drops":{"Regent Signet":40}
+      "stats":{"hp":1791,"hp_per_strength":0,"mp":30,"str":259,"dex":154,"intelligence":250,"df":46,"dfM":49,"atk_type":"Magic","threat":12,"evade":18,"crt_chance":25,"crt_rate":195,"immune_chance":42,"counter_chance":24,"counter_dmg":90,"regen":7,"exp":105000,"decay":20,"skill_act_name":"Regent's Decree","skill_act_desc":"A command exposes the whole company to focused punishment."},"drops":{"Regent Signet":40}
     },
     "Veinroot Beast": {
       "description":"A massive living root-beast whose wounds close almost as quickly as they open.","texture":"res://resources/monsters/VeinrootBeast.png",
-	  "stats":{"hp":994,"hp_per_strength":0,"mp":0,"str":245,"dex":58,"intelligence":91,"df":76,"dfM":71,"atk_type":"Melee","threat":9,"evade":7,"crt_chance":16,"crt_rate":180,"immune_chance":34,"counter_chance":22,"counter_dmg":92,"regen":9,"exp":34000,"decay":10},"drops":{"Heartwood":80,"Root Amber":60}
+	  "stats":{"hp":994,"hp_per_strength":0,"mp":0,"str":245,"dex":58,"intelligence":91,"df":45,"dfM":42,"atk_type":"Melee","threat":9,"evade":7,"crt_chance":16,"crt_rate":180,"immune_chance":34,"counter_chance":22,"counter_dmg":92,"regen":9,"exp":34000,"decay":10},"drops":{"Heartwood":80,"Root Amber":60}
     },
     "Sapblood Oracle": {
       "description":"A root oracle that converts living sap into magic and corrosive decay.","texture":"res://resources/monsters/SapbloodOracle.png",
-	  "stats":{"hp":672,"hp_per_strength":0,"mp":0,"str":58,"dex":137,"intelligence":271,"df":60,"dfM":82,"atk_type":"Magic","threat":4,"evade":20,"crt_chance":22,"crt_rate":190,"immune_chance":38,"counter_chance":10,"counter_dmg":55,"regen":5,"exp":38000,"decay":28},"drops":{"Lifeblood Sap":80,"Veinleaf":60}
+	  "stats":{"hp":672,"hp_per_strength":0,"mp":0,"str":58,"dex":137,"intelligence":271,"df":36,"dfM":49,"atk_type":"Magic","threat":4,"evade":20,"crt_chance":22,"crt_rate":190,"immune_chance":38,"counter_chance":10,"counter_dmg":55,"regen":5,"exp":38000,"decay":28},"drops":{"Lifeblood Sap":80,"Veinleaf":60}
     },
     "Heart's Custodian": {
       "description":"The final living guardian of the Worldroot's deepest chamber.","texture":"res://resources/monsters/HeartsCustodian.png",
-	  "stats":{"hp":1897,"hp_per_strength":0,"mp":30,"str":293,"dex":127,"intelligence":307,"df":82,"dfM":88,"atk_type":"Magic","threat":12,"evade":15,"crt_chance":22,"crt_rate":195,"immune_chance":45,"counter_chance":25,"counter_dmg":110,"regen":13,"exp":185000,"decay":30,"skill_act_name":"Heartbeat","skill_act_desc":"A root pulse harms intruders and restores living growth."},"drops":{"Keeper Flame":100}
+	  "stats":{"hp":1897,"hp_per_strength":0,"mp":30,"str":293,"dex":127,"intelligence":307,"df":49,"dfM":53,"atk_type":"Magic","threat":12,"evade":15,"crt_chance":22,"crt_rate":195,"immune_chance":45,"counter_chance":25,"counter_dmg":110,"regen":13,"exp":185000,"decay":30,"skill_act_name":"Heartbeat","skill_act_desc":"A root pulse harms intruders and restores living growth."},"drops":{"Keeper Flame":100}
     },
     "Eclipse Herald": {
       "description":"A final prison guardian combining precision, decay, and balanced defenses.","texture":"res://resources/monsters/EclipseHerald.png",
-	  "stats":{"hp":897,"hp_per_strength":0,"mp":0,"str":330,"dex":314,"intelligence":305,"df":73,"dfM":80,"atk_type":"Ranged","threat":7,"evade":22,"crt_chance":26,"crt_rate":195,"immune_chance":38,"counter_chance":20,"counter_dmg":105,"regen":4,"exp":40000,"decay":22},"drops":{"Lastlight Crystal":80,"Void Filament":60}
+	  "stats":{"hp":897,"hp_per_strength":0,"mp":0,"str":330,"dex":314,"intelligence":305,"df":44,"dfM":48,"atk_type":"Ranged","threat":7,"evade":22,"crt_chance":26,"crt_rate":195,"immune_chance":38,"counter_chance":20,"counter_dmg":105,"regen":4,"exp":40000,"decay":22},"drops":{"Lastlight Crystal":80,"Void Filament":60}
     },
     "Ember Seal": {
-	  "description":"A burning prison seal that favors critical magical pressure.","texture":"res://resources/monsters/EmberSeal.png","stats":{"hp":638,"hp_per_strength":0,"mp":0,"str":101,"dex":196,"intelligence":364,"df":61,"dfM":83,"atk_type":"Magic","threat":6,"evade":17,"crt_chance":30,"crt_rate":205,"immune_chance":36,"counter_chance":10,"counter_dmg":60,"regen":3,"exp":42000,"decay":18},"drops":{"Dawn Ash":80,"Lastlight Crystal":60}
+	  "description":"A burning prison seal that favors critical magical pressure.","texture":"res://resources/monsters/EmberSeal.png","stats":{"hp":638,"hp_per_strength":0,"mp":0,"str":101,"dex":196,"intelligence":364,"df":36,"dfM":49,"atk_type":"Magic","threat":6,"evade":17,"crt_chance":30,"crt_rate":205,"immune_chance":36,"counter_chance":10,"counter_dmg":60,"regen":3,"exp":42000,"decay":18},"drops":{"Dawn Ash":80,"Lastlight Crystal":60}
     },
     "Tide Seal": {
-	  "description":"A flowing prison seal that survives through evasion and steady renewal.","texture":"res://resources/monsters/TideSeal.png","stats":{"hp":710,"hp_per_strength":0,"mp":0,"str":123,"dex":353,"intelligence":314,"df":65,"dfM":79,"atk_type":"Ranged","threat":6,"evade":30,"crt_chance":22,"crt_rate":190,"immune_chance":38,"counter_chance":12,"counter_dmg":68,"regen":5,"exp":42000,"decay":16},"drops":{"Eclipse Thread":80,"Dawn Ash":60}
+	  "description":"A flowing prison seal that survives through evasion and steady renewal.","texture":"res://resources/monsters/TideSeal.png","stats":{"hp":710,"hp_per_strength":0,"mp":0,"str":123,"dex":353,"intelligence":314,"df":39,"dfM":47,"atk_type":"Ranged","threat":6,"evade":30,"crt_chance":22,"crt_rate":190,"immune_chance":38,"counter_chance":12,"counter_dmg":68,"regen":5,"exp":42000,"decay":16},"drops":{"Eclipse Thread":80,"Dawn Ash":60}
     },
     "Ash Seal": {
-	  "description":"A silent prison seal built around counters and punishing burst windows.","texture":"res://resources/monsters/AshSeal.png","stats":{"hp":985,"hp_per_strength":0,"mp":0,"str":375,"dex":241,"intelligence":129,"df":73,"dfM":72,"atk_type":"Melee","threat":7,"evade":14,"crt_chance":24,"crt_rate":195,"immune_chance":34,"counter_chance":30,"counter_dmg":125,"regen":3,"exp":42000,"decay":15},"drops":{"Eclipse Thread":80,"Void Filament":60}
+	  "description":"A silent prison seal built around counters and punishing burst windows.","texture":"res://resources/monsters/AshSeal.png","stats":{"hp":985,"hp_per_strength":0,"mp":0,"str":375,"dex":241,"intelligence":129,"df":44,"dfM":43,"atk_type":"Melee","threat":7,"evade":14,"crt_chance":24,"crt_rate":195,"immune_chance":34,"counter_chance":30,"counter_dmg":125,"regen":3,"exp":42000,"decay":15},"drops":{"Eclipse Thread":80,"Void Filament":60}
     },
     "Root Seal": {
-	  "description":"A plated prison seal with extreme durability and regeneration.","texture":"res://resources/monsters/RootSeal.png","stats":{"hp":1073,"hp_per_strength":0,"mp":0,"str":342,"dex":90,"intelligence":218,"df":81,"dfM":82,"atk_type":"Melee","threat":9,"evade":6,"crt_chance":14,"crt_rate":180,"immune_chance":42,"counter_chance":24,"counter_dmg":112,"regen":7,"exp":42000,"decay":10},"drops":{"Lastlight Crystal":80,"Dawn Ash":60}
+	  "description":"A plated prison seal with extreme durability and regeneration.","texture":"res://resources/monsters/RootSeal.png","stats":{"hp":1073,"hp_per_strength":0,"mp":0,"str":342,"dex":90,"intelligence":218,"df":48,"dfM":49,"atk_type":"Melee","threat":9,"evade":6,"crt_chance":14,"crt_rate":180,"immune_chance":42,"counter_chance":24,"counter_dmg":112,"regen":7,"exp":42000,"decay":10},"drops":{"Lastlight Crystal":80,"Dawn Ash":60}
     },
     "Hollow Star": {
       "description":"A fallen celestial intelligence contained in a body of eclipse glass and living shadow.","texture":"res://resources/monsters/HollowStar.png",
-      "stats":{"hp":2228,"hp_per_strength":0,"mp":30,"str":476,"dex":403,"intelligence":515,"df":83,"dfM":90,"atk_type":"Magic","threat":14,"evade":24,"crt_chance":30,"crt_rate":210,"immune_chance":50,"counter_chance":28,"counter_dmg":150,"regen":12,"lifesteal_rate":8,"exp":300000,"decay":38,"skill_act_name":"Eventide Collapse","skill_act_desc":"Collapses light and shadow across the entire formation."},"drops":{"Hollow Star Shard":40}
+      "stats":{"hp":2228,"hp_per_strength":0,"mp":30,"str":476,"dex":403,"intelligence":515,"df":49,"dfM":54,"atk_type":"Magic","threat":14,"evade":24,"crt_chance":30,"crt_rate":210,"immune_chance":50,"counter_chance":28,"counter_dmg":150,"regen":12,"lifesteal_rate":8,"exp":300000,"decay":38,"skill_act_name":"Eventide Collapse","skill_act_desc":"Collapses light and shadow across the entire formation."},"drops":{"Hollow Star Shard":40}
     }
   }
 }

@@ -1,21 +1,33 @@
 /*
- * Contenuti della guida in italiano per Idle Party Dungeon 1.11.
+ * Contenuti della guida in italiano per Idle Party Dungeon 1.12.
  * La cronologia degli aggiornamenti resta nel capitolo Note di aggiornamento.
- * Aggiornato il 28 luglio 2026.
+ * Aggiornato il 29 luglio 2026.
  */
 window.WIKI_CONTENT_IT = Object.freeze({
   version: {
-    game: "1.11",
-    updated: "28 luglio 2026",
+    game: "1.12",
+    updated: "29 luglio 2026",
     status: "Versione attuale per test chiuso"
   },
 
   patchNotes: [
     {
+      version: "1.12",
+      title: "Il lungo cammino",
+      date: "29 luglio 2026",
+      status: "Versione attuale per test chiuso",
+      notes: [
+        "Ogni classe ora segue budget fissi per abilità attive e passive, dedica almeno metà della potenza al ruolo dichiarato e possiede un'identità di combattimento distinta. Corretti effetti rotti o indirizzati male, allineati tempi di recupero e durate, mantenuti utili gli attacchi normali nel fine gioco, spostata una quota maggiore delle cure nelle abilità attive scelte e riscritte tutte le 110 descrizioni in inglese, italiano, tedesco e francese perché corrispondano al comportamento reale.",
+        "Rielaborata la campagna in un viaggio di circa due mesi. Obiettivi dei dungeon, PE, reclutamento e costi permanenti della città ora crescono intenzionalmente lungo tutti i dodici gradi; i boss della storia richiedono almeno tre oggetti del grado corrente o superiore su ogni eroe attivo; la creazione applica un moltiplicatore per grado, mantenendo i potenziamenti della velocità e il recupero completo del tempo offline.",
+        "I Piani 1–70 della Torre ora attraversano tutti e dodici i gradi dell'equipaggiamento, raggiungendo il Grado 12 ai Piani 65–70. I Piani 71–100 combinano obiettivi di Risonanza dell'Eco e di set da raid attivi, con pressione per ogni grado o set mancante ma senza blocco d'ingresso. La Discesa dell'Eco non cresce più con le vittorie giornaliere e resta una prova stabile per set da raid completi con tentativi illimitati.",
+        "Risparmio batteria è ora un pannello con quattro opzioni indipendenti: riduzione della luminosità, limite a 30 FPS, animazioni di combattimento ridotte e aggiornamento delle pagine inattive. Le schede dei famigli colorano tutto lo sfondo interno in base alla rarità e le icone di navigazione della Città non intercettano più tocchi o clic destinati alla scheda."
+      ]
+    },
+    {
       version: "1.11",
       title: "Recupero salvataggi e base linguistica",
       date: "28 luglio 2026",
-      status: "Versione attuale per test chiuso",
+      status: "Versione precedente per test chiuso",
       notes: [
         "Aggiunto Recupero salvataggi alle impostazioni di Play Games, disponibile anche senza accesso. Su Android può esportare il salvataggio locale cifrato esatto tramite il selettore file di sistema, convalidare e mostrare l'anteprima di un backup selezionato prima della sostituzione confermata e conservare un archivio verificato precedente alla modifica.",
         "Un salvataggio collegato a un altro profilo Play Games può essere riassociato esplicitamente dopo una nuova verifica dell'identità e poi confrontato con la copia cloud del profilo attuale. Il gioco non sceglie mai una cronologia da solo, richiede una seconda conferma, mantiene disponibile il gioco locale e segnala dimensione effettiva e limite quando un caricamento cloud è troppo grande.",
@@ -314,7 +326,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
     {
       step: "01",
       title: "Recluta una formazione iniziale equilibrata",
-      text: "La Taverna inizia con cinque offerte e cerca sempre di includere una classe guaritrice. La prima recluta costa 200 Monete; ogni eroe già posseduto aggiunge 100 Monete al costo del reclutamento successivo.",
+      text: "La Taverna inizia con cinque offerte e cerca sempre di includere una classe guaritrice. Le prime quattro reclute aggiuntive costano 81, 111, 152 e 208 Monete; gli ingaggi successivi diventano obiettivi in Monete su scala campagna.",
       tip: "Un Guardian o Fighter, un Cleric o Bard e danni misti da Mischia, Distanza e Magia offrono l'inizio più sicuro."
     },
     {
@@ -332,8 +344,8 @@ window.WIKI_CONTENT_IT = Object.freeze({
     {
       step: "04",
       title: "Completa ogni obiettivo della storia",
-      text: "Gli indicatori della campagna contano uccisioni, incontri o bersagli specifici. Se è richiesto un boss, completare l'indicatore forza il boss come incontro successivo. Sconfiggilo per aprire il dungeon seguente e la relativa posta narrativa.",
-      tip: "Una sconfitta totale contro un boss forzato azzera la serie dell'obiettivo; ricomponi il gruppo o migliora l'equipaggiamento prima di riprovare."
+      text: "Gli indicatori della campagna contano uccisioni, incontri o bersagli specifici. Se è richiesto un boss, completare l'indicatore lo rivela solo dopo che ogni eroe attivo ha equipaggiato almeno tre oggetti del grado del dungeon o superiore. Sconfiggilo per aprire il dungeon seguente e la relativa posta narrativa.",
+      tip: "L'indicatore segnala quanti eroi sono pronti con l'equipaggiamento. Una sconfitta totale contro il boss azzera la serie dell'obiettivo: ricomponi il gruppo o migliora l'equipaggiamento prima di riprovare."
     },
     {
       step: "05",
@@ -396,7 +408,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
       summary: "Un eroe sconfitto perde il 10% dei PE già ottenuti verso il livello corrente. Se cade tutto il gruppo, la spedizione ricrea le entità degli eroi e avvia automaticamente un altro incontro.",
       bullets: [
         "Solo gli eroi vivi condividono i PE di un mostro sconfitto.",
-        "Una sconfitta totale contro un boss della storia azzera la serie di completamento corrente e obbliga a riempire di nuovo l'indicatore prima del tentativo successivo.",
+        "Un boss della storia resta sigillato finché ogni eroe attivo non equipaggia almeno tre oggetti del grado del dungeon o superiore. Una sconfitta totale azzera la serie corrente e obbliga a riempire di nuovo l'indicatore prima del tentativo successivo.",
         "Una sconfitta nel raid termina il raid e registra un tentativo fallito; l'ingresso giornaliero resta consumato.",
         "Ogni cinque incontri normali del raid, il passaggio all'ala successiva ripristina il 10% di Salute e Mana degli eroi vivi.",
         "I bottini in attesa vengono conservati fino alla raccolta, salvo che una prova speciale senza ricompense le disattivi esplicitamente."
@@ -420,7 +432,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
       id: "discovery",
       eyebrow: "Informazioni",
       title: "La scoperta fa parte della progressione",
-      summary: "I cataloghi nel gioco nascondono intenzionalmente i contenuti non ancora incontrati, ma questo Codex presenta l'intero sistema di regole della 1.11 come riferimento strategico completo.",
+      summary: "I cataloghi nel gioco nascondono intenzionalmente i contenuti non ancora incontrati, ma questo Codex presenta l'intero sistema di regole della 1.12 come riferimento strategico completo.",
       bullets: [
         "Un mostro entra nel Bestiario quando la sua ondata viene vista per la prima volta.",
         "Un oggetto viene scoperto tramite ritrovamento, raccolta, creazione, acquisto, ripristino dell'equipaggiamento o ricompensa esplicita.",
@@ -450,7 +462,7 @@ window.WIKI_CONTENT_IT = Object.freeze({
     {
       name: "Danno base",
       formula: "danno estratto × moltiplicatori in uscita × moltiplicatore critico × moltiplicatore Nebbia × (1 − riduzione difensiva ÷ 100)",
-      details: "Gli attacchi degli eroi usano ×2,5 il danno estratto prima degli altri modificatori. Gli attacchi delle classi guaritrici usano il 35% di tale valore. Anche gli attacchi dei mostri usano ×2,5. I colpi riusciti finali infliggono almeno 1 danno."
+      details: "Gli attacchi degli eroi usano ×2,5 il danno estratto prima degli altri modificatori. Gli attacchi delle classi guaritrici usano il 35% di tale valore. Anche gli attacchi dei mostri usano ×2,5. Il DoT non riceve mai quel ×2,5: in cambio ignora sia la Difesa sia la Schivata. I colpi riusciti finali infliggono almeno 1 danno."
     },
     {
       name: "Difesa",
@@ -474,8 +486,8 @@ window.WIKI_CONTENT_IT = Object.freeze({
     },
     {
       name: "Mana per azione base",
-      formula: "8 + round(2 × √Intelligenza), poi modificatori del percorso e delle passive",
-      details: "Gli eroi usano un indicatore abilità da 100 punti. L'indicatore pieno viene consumato quando si tenta l'abilità attiva; Silenzio ne impedisce l'uso. I mostri che usano abilità attive seguono lo stesso incremento a radice quadrata, con un limite di 30 punti per azione."
+      formula: "40 + round(3 × √Intelligenza), poi modificatori del percorso e delle passive, con un limite di 99",
+      details: "Gli eroi usano un indicatore abilità da 100 punti: lo riempiono in due turni e lanciano al terzo. Il limite di 99 sta un punto sotto il costo di un lancio ed è ciò che impedisce al ciclo di scendere sotto i tre turni: l'Intelligenza porta il ciclo da quattro a tre turni e poi si ferma. L'indicatore pieno viene consumato quando si tenta l'abilità attiva; Silenzio ne impedisce l'uso. I mostri mantengono il proprio incremento di 8 + round(2 × √Intelligenza), con un limite di 30 punti per azione."
     },
     {
       name: "Cura",
@@ -508,9 +520,9 @@ window.WIKI_CONTENT_IT = Object.freeze({
     {name:"Immunità", kind:"Resistenza", text:"Probabilità percentuale di resistere a un nuovo stato nocivo; gli eroi base iniziano dal 10% prima delle aggiunte di classe ed equipaggiamento."},
     {name:"Minaccia", kind:"Bersaglio", text:"Contributo ponderato alla selezione diretta dei bersagli nemici. Una Minaccia maggiore aumenta la probabilità, ma da sola non è mai assoluta."},
     {name:"Probabilità di contrattacco", kind:"Difesa", text:"Probabilità di riflettere danni dopo un colpo in arrivo riuscito, quando è disponibile potenza di contrattacco."},
-    {name:"Danno da contrattacco", kind:"Difesa", text:"Percentuale del danno ai PV ricevuto che viene riflessa; la potenza base del contrattacco fisico è 50% e il valore finale ha un limite del 150%."},
+    {name:"Danno da contrattacco", kind:"Difesa", text:"Percentuale del danno ai PV ricevuto che viene riflessa; la potenza base del contrattacco fisico è 50% e il totale ha un limite del 150%, che comprende anche l'eventuale Potenza di contrattacco aumentata sopra la statistica."},
     {name:"Rubavita", kind:"Sostentamento", text:"Cura l'attaccante di una percentuale del danno ai PV inflitto; ha un limite del 50%."},
-    {name:"Rigenerazione", kind:"Sostentamento", text:"Ripristina una quantità fissa di PV durante l'elaborazione del turno dell'entità; ha un limite di 50."},
+    {name:"Rigenerazione", kind:"Sostentamento", text:"La statistica ottenuta da equipaggiamento, famigli e Ascensione ripristina una quantità fissa di PV durante l'elaborazione del turno dell'entità e ha un limite di 50. Una passiva di classe spende invece il proprio budget su una quota dei PV massimi, così da restare al passo con la riserva che ricarica; le due si sommano e il limite di 50 vale solo per la parte fissa."},
     {name:"Cura", kind:"Supporto", text:"Percentuale applicata alle cure effettuate e alle autocure pertinenti; ha un limite del 300%."},
     {name:"Decadimento", kind:"Effetto", text:"Danno Magico periodico incorporato, inflitto durante l'elaborazione del turno dell'entità colpita."},
     {name:"Danno da Nebbia", kind:"Ambiente", text:"Scala i danni inflitti in base all'esposizione effettiva del bersaglio alla Nebbia."},
@@ -526,10 +538,9 @@ window.WIKI_CONTENT_IT = Object.freeze({
     {id:"evade_buff", name:"Schivata aumentata", kind:"buff", text:"Aggiunge alla Schivata effettiva i punti percentuali mostrati.", stacking:"Si applica il valore più alto; la durata si rinnova."},
     {id:"crit_buff", name:"Probabilità critica aumentata", kind:"buff", text:"Aggiunge alla Probabilità critica effettiva i punti percentuali mostrati.", stacking:"Si applica il valore più alto; la durata si rinnova."},
     {id:"counter_buff", name:"Probabilità di contrattacco aumentata", kind:"buff", text:"Aggiunge alla Probabilità di contrattacco i punti percentuali mostrati.", stacking:"Si applica il valore più alto; la durata si rinnova."},
-    {id:"counter_power", name:"Potenza di contrattacco aumentata", kind:"buff", text:"Aggiunge al danno da contrattacco riflesso i punti percentuali mostrati.", stacking:"Si applica il valore più alto; la durata si rinnova."},
+    {id:"counter_power", name:"Potenza di contrattacco aumentata", kind:"buff", text:"Aggiunge al danno da contrattacco riflesso i punti percentuali mostrati, fino allo stesso limite totale del 150% che vale per la statistica.", stacking:"Si applica il valore più alto; la durata si rinnova."},
     {id:"immunity_buff", name:"Immunità aumentata", kind:"buff", text:"Aggiunge i punti percentuali mostrati alla probabilità di resistere a nuovi stati nocivi.", stacking:"Si applica il valore più alto; la durata si rinnova."},
     {id:"hot", name:"Rigenerazione", kind:"buff", text:"Ripristina i PV mostrati all'inizio di ogni turno; viene applicata dalle abilità attive.", stacking:"Si applica il valore più alto; la durata si rinnova."},
-    {id:"healer_hot", name:"Rigenerazione", kind:"buff", text:"Ripristina i PV mostrati all'inizio di ogni turno; viene applicata dalla passiva d'azione di un guaritore.", stacking:"Si applica il valore più alto; la durata si rinnova."},
     {id:"healing_buff", name:"Cure aumentate", kind:"buff", text:"Aumenta le cure effettuate e le autocure dei punti percentuali mostrati.", stacking:"Si applica il valore più alto; la durata si rinnova."},
     {id:"threat_buff", name:"Minaccia aumentata", kind:"buff", text:"Aggiunge la Minaccia mostrata alla selezione ponderata dei bersagli nemici.", stacking:"Si applica il valore più alto; la durata si rinnova."},
     {id:"intercept", name:"Intercettazione", kind:"buff", text:"Reindirizza a questa entità gli attacchi nemici diretti agli alleati finché resta attivo.", stacking:"Nessuna intensità visibile."},
@@ -735,9 +746,16 @@ window.WIKI_CONTENT_IT = Object.freeze({
     ]
   },
 
+  recruitCosts: [
+    81, 111, 152, 208, 650, 1800, 4800, 12500,
+    32000, 80000, 200000, 500000, 1200000, 2800000, 6400000, 14500000
+  ],
+
+  craftingTimeMultiplierByTier: [1, 1, 1.05, 1.25, 1.6, 2, 2.6, 3.4, 4.5, 5.9, 7.7, 10, 13],
+
   townSystems: [
-    {name:"Taverna", icon:"res://resources/ui/icon_tavern.png", lead:"Reclutamento, capacità della formazione, numero di offerte e velocità di aggiornamento.", facts:["5 offerte iniziali; almeno un guaritore quando è disponibile una classe guaritrice", "Aggiornamento base ogni 3 ore", "8 slot eroe iniziali", "Costo di reclutamento: 200 + 100 × dimensione attuale della formazione", "+10% velocità di aggiornamento per livello del potenziamento Velocità", "25% di probabilità di titolo per offerta generata"]},
-    {name:"Laboratorio", icon:"res://resources/ui/icon_craft.png", lead:"Ricette, lavori in lotto, capacità della coda e completamento offline.", facts:["3 slot iniziali nella coda", "+10% velocità di creazione per livello del potenziamento Velocità", "Un lotto occupa un solo lavoro", "Annullare un lavoro incompleto rimborsa oggetti e Monete riservati", "La creazione recupera l'intero intervallo di tempo trascorso offline"]},
+    {name:"Taverna", icon:"res://resources/ui/icon_tavern.png", lead:"Reclutamento, capacità della formazione, numero di offerte e velocità di aggiornamento.", facts:["5 offerte iniziali; almeno un guaritore quando è disponibile una classe guaritrice", "Aggiornamento base ogni 3 ore", "8 slot eroe iniziali", "Le prime quattro reclute aggiuntive costano 81, 111, 152 e 208 Monete", "I prezzi successivi salgono da 650 a 14.500.000 Monete", "+10% velocità di aggiornamento per livello del potenziamento Velocità", "25% di probabilità di titolo per offerta generata"]},
+    {name:"Laboratorio", icon:"res://resources/ui/icon_craft.png", lead:"Ricette, lavori in lotto, capacità della coda e completamento offline.", facts:["3 slot iniziali nella coda", "+10% velocità di creazione per livello del potenziamento Velocità", "La durata base delle ricette è moltiplicata per il grado: ×1 al G1, fino a ×13 al G12", "Un lotto occupa un solo lavoro", "Annullare un lavoro incompleto rimborsa oggetti e Monete riservati", "La creazione recupera l'intero intervallo di tempo trascorso offline"]},
     {name:"Negozio normale", icon:"res://resources/ui/icon_shop.png", lead:"Materiali adatti alla campagna venduti in cambio di Monete.", facts:["4 offerte", "Aggiornamento ogni 3 ore", "Ogni offerta è acquistabile una volta per aggiornamento", "Il grado delle offerte segue il dungeon più alto sbloccato", "Gli acquisti scoprono immediatamente l'oggetto"]},
     {name:"Negozio settimanale", icon:"res://resources/ui/gem.svg", lead:"Espansioni permanenti della capacità acquistate con Gemme.", facts:["Aggiornamento ogni 7 giorni", "Espansione Taverna: +1 slot eroe", "Espansione Laboratorio: +1 slot della coda", "500 Gemme per potenziamento", "Massimo 3 livelli per ciascun potenziamento"]},
     {name:"Inventario", icon:"res://resources/ui/icon_inventory.png", lead:"Materiali raccolti, equipaggiamento, vendita e scoperte.", facts:["Gli oggetti ordinari possono essere venduti al valore in Monete indicato", "Chiavi delle missioni, Frammenti runici, accessori unici da raid e oggetti protetti non possono essere venduti", "L'equipaggiamento deve rispettare le regole di slot e competenza", "Un eroe non può equipaggiare due copie dello stesso oggetto con Equipaggiamento unico"]},
@@ -750,41 +768,49 @@ window.WIKI_CONTENT_IT = Object.freeze({
   ],
 
   interactions: [
-    {area:"Navigazione principale", actions:["Città apre Taverna, Negozio, Laboratorio, Inventario, Famigli, Missioni, Posta e riferimenti della città.", "Eroi apre la formazione; seleziona un ritratto o una scheda per statistiche, equipaggiamento, abilità, promozione, Rune, Ascensione, aspetti, titolo, rinomina o rimozione.", "Dungeon e Raid aprono gli elenchi delle attività; la schermata Raid contiene la Torre della Risonanza, il cui controllo dell'Eco accanto al titolo diventa disponibile dopo il Piano 70.", "Selezionare un'attività apre formazione, stato, rapporto, ricompense e combattimento.", "Impostazioni contiene audio, cataloghi di aiuto e riferimento, Statistiche totali, obiettivi, Novità, privacy, Discord, Play Games e cloud ed eliminazione dei dati."]},
+    {area:"Navigazione principale", actions:["Città apre Taverna, Negozio, Laboratorio, Inventario, Famigli, Missioni, Posta e riferimenti della città.", "Eroi apre la formazione; seleziona un ritratto o una scheda per statistiche, equipaggiamento, abilità, promozione, Rune, Ascensione, aspetti, titolo, rinomina o rimozione.", "Dungeon e Raid aprono gli elenchi delle attività; la schermata Raid contiene la Torre della Risonanza, il cui controllo dell'Eco accanto al titolo diventa disponibile dopo il Piano 70.", "Selezionare un'attività apre formazione, stato, rapporto, ricompense e combattimento.", "Impostazioni contiene Risparmio batteria, audio, cataloghi di aiuto e riferimento, Statistiche totali, obiettivi, Novità, privacy, Discord, Play Games e cloud ed eliminazione dei dati."]},
+    {area:"Risparmio batteria", actions:["Apri Impostazioni ▸ Risparmio batteria per controllare quattro miglioramenti in modo indipendente; ogni scelta viene memorizzata sul dispositivo.", "Riduci luminosità schermo aggiunge una sovrapposizione scura senza modificare il gioco.", "Limite FPS porta il rendering a 30 FPS e attiva la modalità a basso consumo del processore.", "Animazioni ridotte rimuove movimenti ed effetti visivi del combattimento senza alterarne i tempi.", "Aggiornamento in background aggiorna meno spesso le pagine di gioco inattive; non riduce i progressi attivi o offline."]},
     {area:"Formazione", actions:["Seleziona uno slot vuoto, poi scegli un eroe disponibile. Selezionando uno slot occupato puoi sostituirlo o rimuoverlo.", "Usa il comando di ordinamento del selettore di eroi per ordinare gli eroi disponibili per livello, Risonanza dell'Eco, classe o nome, in ordine crescente o decrescente; il selettore dei famigli ordina per livello, rarità o famiglia. Entrambe le scelte vengono conservate e non cambiano mai quali eroi o famigli sono idonei.", "Una formazione salvata conserva ogni posizione, compresi gli spazi vuoti. Il caricamento ignora gli eroi rimossi o schierati altrove e segnala le omissioni.", "Le attività ordinarie accettano un famiglio; Torre ed Eco ne accettano fino a due distinti. La formazione dei famigli appartiene alla singola attività.", "La maggior parte delle attività può iniziare con almeno un eroe valido; la Discesa dell'Eco ne richiede esattamente cinque. Nessun eroe o famiglio selezionato può essere già schierato altrove."]},
     {area:"Combattimento in corso", actions:["Il combattimento avanza automaticamente secondo l'intervallo d'azione indicato per l'attività; non è necessario impartire attacchi manuali.", "Seleziona o esamina un combattente per vedere in tempo reale PV, Mana, barriere, statistiche, abilità, equipaggiamento e stati attivi.", "Gli indicatori di battaglia mostrano attacchi, cure, abilità, schivate, critici, contrattacchi, barriere e resistenza agli effetti nocivi.", "Interrompi un dungeon senza perdere i bottini in attesa. Abbandonare un raid permanente mantiene consumato l'ingresso giornaliero; i tentativi della Torre restano illimitati, mentre una sconfitta o un abbandono nell'Eco mantiene disponibile lo scontro di oggi per un altro tentativo."]},
     {area:"Ricompense e rapporti", actions:["Raccogli in un'attività trasferisce gli oggetti in attesa all'Inventario; i Grappoli di Gemme si aprono automaticamente e i gettoni uovo diventano uova da schiudere.", "Raccogli tutto elabora ogni dungeon con ricompense in attesa e riporta oggetti, Gemme e numero di dungeon complessivi.", "I rapporti conservano il riepilogo della sessione appena raccolta e, prima della raccolta, mostrano stime orarie in tempo reale.", "I bottini mostrati in un'attività attiva sono in attesa e non ancora utilizzabili per la creazione o l'equipaggiamento."]},
     {area:"Dettagli dell'eroe", actions:["Gli slot di equipaggiamento filtrano gli oggetti compatibili: armi da Mischia, a Distanza o Magiche, armature Leggere, Medie o Pesanti e accessori.", "La promozione al livello 25 presenta due schede di specializzazione; quella al livello 50 presenta la classe élite associata.", "Ogni potenziamento di una Runa è garantito quando è disponibile il Frammento corrispondente. I gradi delle Rune non sono casuali.", "La promozione élite sblocca subito l'Ascensione al livello 0 azzerato. I livelli 4–46 assegnano 15 punti e il livello 50 assegna quello finale, per un budget di 16 punti.", "Scegli un Percorso Ascendente e un'opzione per ciascuna riga Fondamenta, Risveglio, Maestria e Coronamento. La ridistribuzione nello stesso percorso è gratuita; solo il cambio di percorso consuma un Emblema della Rinascita creato e restituisce tutti i punti."]},
-    {area:"Creazione e oggetti", actions:["Apri una ricetta per controllare risultato, quantità, costo in Monete, tempo di creazione, grado, requisito del raid e tutti gli ingredienti.", "Imposta il filtro Tipo di oggetto su Non scoperte per elencare solo le ricette che producono qualcosa che non hai mai visto e usano un materiale che possiedi; nomi e icone restano mascherati finché non le trovi.", "Imposta il filtro Grado su T1-T12 per elencare solo le ricette di quel grado, come il distintivo di grado su ogni scheda; restringe ciò che il filtro Tipo, il testo di ricerca e i pulsanti di stato già selezionano.","Avviare un lotto riserva immediatamente tutti gli ingredienti e le Monete.","Usa le schede della coda per controllare il tempo di completamento o annullare un lavoro incompleto ottenendo il rimborso completo dei costi riservati.", "La vendita è disattivata per gli oggetti protetti; equipaggiare rimuove l'oggetto dall'Inventario ordinario finché non viene tolto."]},
+    {area:"Creazione e oggetti", actions:["Apri una ricetta per controllare risultato, quantità, costo in Monete, tempo di creazione corretto per il grado, requisito del raid e tutti gli ingredienti.", "La durata base è ×1 al Grado 1, poi sale con il grado a ×1,05, ×1,25, ×1,6, ×2, ×2,6, ×3,4, ×4,5, ×5,9, ×7,7, ×10 e ×13 al Grado 12; i potenziamenti della velocità del Laboratorio dividono il tempo risultante.", "Imposta il filtro Tipo di oggetto su Non scoperte per elencare solo le ricette che producono qualcosa che non hai mai visto e usano un materiale che possiedi; nomi e icone restano mascherati finché non le trovi.", "Imposta il filtro Grado su T1-T12 per elencare solo le ricette di quel grado, come il distintivo di grado su ogni scheda; restringe ciò che il filtro Tipo, il testo di ricerca e i pulsanti di stato già selezionano.","Avviare un lotto riserva immediatamente tutti gli ingredienti e le Monete.","Usa le schede della coda per controllare il tempo di completamento o annullare un lavoro incompleto ottenendo il rimborso completo dei costi riservati.", "La vendita è disattivata per gli oggetti protetti; equipaggiare rimuove l'oggetto dall'Inventario ordinario finché non viene tolto."]},
     {area:"Famigli", actions:["Le uova lasciate dai boss compaiono dopo aver raccolto le ricompense dell'attività. Le uova di famiglia costano 75–300 Gemme in base al grado.", "Schiudi per estrarre rarità e un insieme mescolato di effetti distinti della famiglia; l'immagine della creatura segue la rarità. I potenziamenti dell'incubatoio portano la probabilità Leggendaria al 2% e la garanzia condivisa assicura il prossimo Leggendario dopo 100 insuccessi.", "Rinomina un famiglio, assegnalo a una formazione, salvalo nella formazione di quell'attività oppure vendilo in cambio di Monete quando non è schierato.", "Il valore di vendita dipende dal grado della famiglia e dalla rarità; il livello Legame non lo influenza.", "L'intensità degli effetti aumenta in modo non lineare con il livello; al livello 20 è esattamente tre volte il valore base del livello 1."]},
     {area:"Cloud ed eliminazione", actions:["Sincronizza ora richiede la riconciliazione cloud di Google Play Games nelle build Android supportate e autenticate.", "Se le cronologie divergono, confronta data, ora e riepiloghi della progressione prima di scegliere questo dispositivo o il cloud; il lato valido non selezionato viene archiviato come dato di recupero.", "Identità e obiettivi di Play Games e progressi di gioco nel cloud sono servizi separati.", "Elimina dati è un'operazione distruttiva: dopo la conferma rimuove progressi locali, preferenze, copie di recupero crittografate e istantanea privata nel cloud."]}
   ],
 
   economyTables: {
     tavern_capacity: [
-      {gate:1,coin:1000},{gate:1,coin:2000},{gate:2,coin:3500},{gate:2,coin:5000},{gate:3,coin:8000},{gate:3,coin:12000,items:"Pacchetto costruzione grado 3 ×1"},{gate:5,coin:20000},{gate:5,coin:28000,items:"Pacchetto costruzione grado 5 ×1"},{gate:7,coin:50000},{gate:7,coin:75000,items:"Pacchetto costruzione grado 7 ×1"},{gate:9,coin:130000},{gate:9,coin:190000,items:"Pacchetto costruzione grado 9 ×2"},{gate:11,coin:320000},{gate:11,coin:450000,items:"Pacchetto costruzione grado 11 ×2"}
+      {gate:1,coin:800},{gate:1,coin:1300},{gate:2,coin:2400},{gate:2,coin:4200},{gate:3,coin:7500},{gate:3,coin:13500,items:"Pacchetto costruzione grado 3 ×1"},{gate:5,coin:28000},{gate:5,coin:52000,items:"Pacchetto costruzione grado 5 ×1"},{gate:7,coin:95000},{gate:7,coin:175000,items:"Pacchetto costruzione grado 7 ×1"},{gate:9,coin:320000},{gate:9,coin:600000,items:"Pacchetto costruzione grado 9 ×2"},{gate:11,coin:1100000},{gate:11,coin:2000000,items:"Pacchetto costruzione grado 11 ×2"},{gate:12,coin:0,items:"Pacchetto costruzione Apice ×1"},{gate:12,coin:0,items:"Pacchetto costruzione Apice ×1"}
     ],
     tavern_refresh: [
-      {gate:2,coin:4000},{gate:3,coin:9000,items:"Pacchetto costruzione grado 3 ×1"},{gate:4,coin:18000,items:"Pacchetto costruzione grado 4 ×1"},{gate:5,coin:32000,items:"Pacchetto costruzione grado 5 ×1"},{gate:6,coin:55000,items:"Pacchetto costruzione grado 6 ×1"},{gate:7,coin:90000,items:"Pacchetto costruzione grado 7 ×1"},{gate:8,coin:145000,items:"Pacchetto costruzione grado 8 ×1"},{gate:10,coin:300000,items:"Pacchetto costruzione grado 10 ×2"},{gate:11,coin:475000,items:"Pacchetto costruzione grado 11 ×2"},{gate:12,coin:700000,items:"Pacchetto costruzione grado 12 ×2"}
+      {gate:2,coin:2500},{gate:3,coin:6500,items:"Pacchetto costruzione grado 3 ×1"},{gate:4,coin:14000,items:"Pacchetto costruzione grado 4 ×1"},{gate:5,coin:30000,items:"Pacchetto costruzione grado 5 ×1"},{gate:6,coin:65000,items:"Pacchetto costruzione grado 6 ×1"},{gate:7,coin:140000,items:"Pacchetto costruzione grado 7 ×1"},{gate:8,coin:300000,items:"Pacchetto costruzione grado 8 ×1"},{gate:10,coin:650000,items:"Pacchetto costruzione grado 10 ×2"},{gate:11,coin:1400000,items:"Pacchetto costruzione grado 11 ×2"},{gate:12,coin:3000000,items:"Pacchetto costruzione grado 12 ×2"},{gate:12,coin:0,items:"Pacchetto costruzione Apice ×1"},{gate:12,coin:0,items:"Pacchetto costruzione Apice ×1"}
     ],
     tavern_offers: [
-      {gate:3,coin:12000,items:"Pacchetto costruzione grado 3 ×1"},{gate:5,coin:35000,items:"Pacchetto costruzione grado 5 ×1"},{gate:7,coin:95000,items:"Pacchetto costruzione grado 7 ×1"},{gate:9,coin:240000,items:"Pacchetto costruzione grado 9 ×2"},{gate:11,coin:525000,items:"Pacchetto costruzione grado 11 ×2"},{gate:12,coin:850000,items:"Pacchetto costruzione grado 12 ×3"}
+      {gate:3,coin:9000,items:"Pacchetto costruzione grado 3 ×1"},{gate:5,coin:30000,items:"Pacchetto costruzione grado 5 ×1"},{gate:7,coin:100000,items:"Pacchetto costruzione grado 7 ×1"},{gate:9,coin:330000,items:"Pacchetto costruzione grado 9 ×2"},{gate:11,coin:1100000,items:"Pacchetto costruzione grado 11 ×2"},{gate:12,coin:3600000,items:"Pacchetto costruzione grado 12 ×3"}
     ],
     craft_capacity: [
-      {gate:2,coin:4000},{gate:4,coin:18000,items:"Pacchetto costruzione grado 4 ×1"},{gate:6,coin:60000,items:"Pacchetto costruzione grado 6 ×1"},{gate:8,coin:160000,items:"Pacchetto costruzione grado 8 ×2"},{gate:10,coin:390000,items:"Pacchetto costruzione grado 10 ×2"},{gate:12,coin:900000,items:"Pacchetto costruzione grado 12 ×3"}
+      {gate:2,coin:3000},{gate:4,coin:12000,items:"Pacchetto costruzione grado 4 ×1"},{gate:6,coin:45000,items:"Pacchetto costruzione grado 6 ×1"},{gate:8,coin:170000,items:"Pacchetto costruzione grado 8 ×2"},{gate:10,coin:650000,items:"Pacchetto costruzione grado 10 ×2"},{gate:12,coin:2500000,items:"Pacchetto costruzione grado 12 ×3"},{gate:12,coin:0,items:"Pacchetto costruzione Apice ×1"}
     ],
     craft_speed: [
-      {gate:1,coin:2000},{gate:2,coin:5000},{gate:3,coin:11000,items:"Pacchetto costruzione grado 3 ×1"},{gate:4,coin:20000,items:"Pacchetto costruzione grado 4 ×1"},{gate:5,coin:36000,items:"Pacchetto costruzione grado 5 ×1"},{gate:6,coin:60000,items:"Pacchetto costruzione grado 6 ×1"},{gate:7,coin:100000,items:"Pacchetto costruzione grado 7 ×1"},{gate:8,coin:165000,items:"Pacchetto costruzione grado 8 ×2"},{gate:10,coin:350000,items:"Pacchetto costruzione grado 10 ×2"},{gate:12,coin:800000,items:"Pacchetto costruzione grado 12 ×3"}
+      {gate:1,coin:1500},{gate:2,coin:3500},{gate:3,coin:8000,items:"Pacchetto costruzione grado 3 ×1"},{gate:4,coin:18000,items:"Pacchetto costruzione grado 4 ×1"},{gate:5,coin:42000,items:"Pacchetto costruzione grado 5 ×1"},{gate:6,coin:95000,items:"Pacchetto costruzione grado 6 ×1"},{gate:7,coin:215000,items:"Pacchetto costruzione grado 7 ×1"},{gate:8,coin:490000,items:"Pacchetto costruzione grado 8 ×2"},{gate:10,coin:1100000,items:"Pacchetto costruzione grado 10 ×2"},{gate:12,coin:2500000,items:"Pacchetto costruzione grado 12 ×3"},{gate:12,coin:0,items:"Pacchetto costruzione Apice ×1"},{gate:12,coin:0,items:"Pacchetto costruzione Apice ×1"}
     ]
   },
 
   accuracyNotes: [
-    {title:"Versione attuale della guida", text:"Ogni capitolo strategico e calcolatore descrive la versione 1.11 del gioco, la versione attuale per test chiuso. La cronologia degli aggiornamenti è limitata alle Note di aggiornamento."},
+    {title:"Versione attuale della guida", text:"Ogni capitolo strategico e calcolatore descrive la versione 1.12 del gioco, la versione attuale per test chiuso. La cronologia degli aggiornamenti è limitata alle Note di aggiornamento."},
+    {title:"I boss della storia richiedono l'equipaggiamento di tutto il gruppo", text:"Dopo aver completato un indicatore della campagna, il boss resta sigillato finché ogni eroe del gruppo attivo non ha almeno tre oggetti equipaggiati del grado del dungeon o superiore. L'indicatore mostra quanti eroi sono pronti; le altre fonti di potenza migliorano lo scontro ma non soddisfano il requisito."},
+    {title:"La pressione della Torre superiore misura Risonanza e set da raid", text:"Dal Piano 71, ogni grado medio mancante di Risonanza dell'Eco aggiunge +18% Salute e +22% Attacco ai nemici, mentre ogni set da raid attivo mancante aggiunge +6% Salute e +7% Attacco. Gli obiettivi salgono nei Piani 71–80, 81–90, 91–99 e 100: gradi di Risonanza 2, 4, 6 e 8 insieme a 4, 6, 8 e 10 set attivi. L'ingresso resta libero."},
+    {title:"Le opzioni di Risparmio batteria sono indipendenti", text:"Riduzione della luminosità, limite a 30 FPS, animazioni di combattimento ridotte e aggiornamento meno frequente delle pagine inattive si possono attivare separatamente. Nessuna modifica i tempi del combattimento o i progressi ottenuti."},
     {title:"I bonus dei titoli conferiscono 10", text:"Un'offerta generata ha il 25% di probabilità di possedere un titolo. Salute e Attacco usano ×1,10; Difesa, Difesa magica, Schivata e Probabilità critica aggiungono 10 punti percentuali."},
     {title:"Il primo accessorio ha una garanzia progressiva", text:"Finché la prima copia non viene scoperta o è già in attesa, la probabilità di un accessorio da raid parte dal 15%, aumenta di 5 punti percentuali a ogni vittoria ed è garantita alla decima. Le copie successive hanno probabilità del 15%."},
     {title:"Gli orologi dei raid contano le azioni degli eroi", text:"La Costellazione usa 10 azioni degli eroi e richiede tre colpi corrispondenti riusciti; lo stesso eroe può contribuire in azioni successive. Le fasi dell'Eclissi durano 12 azioni all'Alba, 12 al Crepuscolo e 6 nell'Eclissi Totale."},
     {title:"Il danno dei mostri segue l'Attacco", text:"L'attributo primario di un mostro determina il suo Attacco e ogni colpo base estrae un valore in un intervallo del ±30%."},
     {title:"Alcuni nomi delle abilità iniziali sono descrittivi", text:"I quattro Slime elementali della Foresta degli Slime usano attacchi base anche quando il Mana è pieno."},
-    {title:"La preparazione consigliata per i raid è indicativa", text:"Il livello di carriera e il grado dell'equipaggiamento consigliati sono una guida. Dopo la missione di sblocco, puoi iniziare un raid permanente con qualsiasi squadra disponibile che ne rispetti la capienza."}
+    {title:"La preparazione consigliata per i raid è indicativa", text:"Il livello di carriera e il grado dell'equipaggiamento consigliati sono una guida. Dopo la missione di sblocco, puoi iniziare un raid permanente con qualsiasi squadra disponibile che ne rispetti la capienza."},
+    {title:"Le abilità di classe seguono un ciclo di tre turni", text:"Il guadagno di mana è calibrato perché un eroe riempia l'indicatore in due turni e lanci al terzo, e ogni beneficio o malus di classe dura esattamente tre turni. Un beneficio da tre turni copre quindi l'intero ciclo senza sprechi e nessuna classe lancia più spesso di un turno su tre."},
+    {title:"I nemici di fine gioco puntano sulla Salute, non sulla riduzione dei danni", text:"La riduzione dei danni nemica arriva ora a circa il 45% al grado 12, invece del valore ben più alto che i nemici di fine campagna portavano un tempo, mentre la Salute dei nemici delle ondate è aumentata dai gradi 8 al 12. Gli attacchi base restano utili nel gioco avanzato e ignorare la Difesa non è più la statistica più forte da accumulare."},
+    {title:"Anche i curatori curano automaticamente", text:"Tredici classi capaci di curare possiedono una cura automatica con un nome proprio che scatta dopo che l'eroe ha agito — Impeto misericordioso del Paladino, Duplice misericordia del Chierico, Grazia condivisa del Sacerdote, Gran coro curativo del Virtuoso e altre nove. Raggiunge solo gli alleati già feriti ed è tenuta abbastanza contenuta da lasciare all'abilità curativa che scegli la parte più consistente di ciò che un curatore offre. Ogni scheda di classe riporta la propria versione nella descrizione della passiva; ogni altro sostentamento del gruppo proviene da un'abilità attiva, da una passiva di classe, dalla Rigenerazione, dal Rubavita o dall'equipaggiamento."},
+    {title:"Lo scontro giornaliero dell'Eco è una prova fissa sull'equipaggiamento", text:"La Discesa dell'Eco non diventa più difficile a ogni vittoria. Il suo unico scontro giornaliero con il Guardiano usa un profilo fisso e un Guardiano tratto da un piano-boss della Torre ben dentro la fascia dell'Eco, quindi tra un giorno e l'altro cambiano soltanto le tre leggi in vigore. Una squadra di cinque eroi costruita per il tema del giorno e con un set da raid completo supera tutti e dodici i temi; una squadra equipaggiata solo in parte di norma non ci riesce. I tentativi sono illimitati e una sconfitta non consuma mai la giornata."}
   ]
 });

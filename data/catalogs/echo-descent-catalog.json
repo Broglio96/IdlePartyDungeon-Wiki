@@ -9,7 +9,6 @@
     "formation_rows": 1,
     "formation_columns": 5,
     "companion_count": 2,
-    "depths_per_anchor": 1,
     "unlock_tower_floor": 70,
     "resonance_rank_per_day": 1,
     "resonance_max_rank": 10,
@@ -24,36 +23,14 @@
     ]
   },
   "encounters": {
-    "template_strata": [
-      {
-        "normal_start_floor": 71,
-        "normal_end_floor": 79,
-        "guardian_floor": 80
-      },
-      {
-        "normal_start_floor": 81,
-        "normal_end_floor": 89,
-        "guardian_floor": 90
-      },
-      {
-        "normal_start_floor": 91,
-        "normal_end_floor": 99,
-        "guardian_floor": 99
-      }
-    ],
+    "guardian_template_floor": 90,
     "seed_salt": 73129
   },
   "difficulty": {
-    "depth_index_stride": 5,
-    "base_hp_multiplier": 0.90,
-    "hp_growth_per_depth": 0.025,
-    "base_damage_multiplier": 0.90,
-    "damage_growth_per_depth": 0.012,
+    "base_hp_multiplier": 0.99,
+    "base_damage_multiplier": 0.9432,
     "guardian_hp_multiplier": 2.40,
-    "guardian_damage_multiplier": 1.08,
-    "defense_growth_per_stratum": 1,
-    "magic_defense_growth_per_stratum": 1,
-    "maximum_depth_defense_bonus": 24,
+    "guardian_damage_multiplier": 1.40,
     "defense_cap": 88,
     "evade_cap": 75
   },

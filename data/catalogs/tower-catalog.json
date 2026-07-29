@@ -10,61 +10,66 @@
   "tier_bands": [
     {
       "start_floor": 1,
-      "end_floor": 9,
+      "end_floor": 5,
       "tier": 1
     },
     {
-      "start_floor": 10,
-      "end_floor": 19,
+      "start_floor": 6,
+      "end_floor": 10,
       "tier": 2
     },
     {
-      "start_floor": 20,
-      "end_floor": 29,
+      "start_floor": 11,
+      "end_floor": 15,
       "tier": 3
     },
     {
-      "start_floor": 30,
-      "end_floor": 34,
+      "start_floor": 16,
+      "end_floor": 20,
       "tier": 4
     },
     {
-      "start_floor": 35,
-      "end_floor": 39,
+      "start_floor": 21,
+      "end_floor": 25,
       "tier": 5
     },
     {
-      "start_floor": 40,
-      "end_floor": 49,
+      "start_floor": 26,
+      "end_floor": 30,
       "tier": 6
     },
     {
-      "start_floor": 50,
-      "end_floor": 59,
+      "start_floor": 31,
+      "end_floor": 35,
       "tier": 7
     },
     {
-      "start_floor": 60,
-      "end_floor": 64,
+      "start_floor": 36,
+      "end_floor": 40,
       "tier": 8
     },
     {
-      "start_floor": 65,
-      "end_floor": 69,
+      "start_floor": 41,
+      "end_floor": 45,
       "tier": 9
     },
     {
-      "start_floor": 70,
-      "end_floor": 79,
+      "start_floor": 46,
+      "end_floor": 52,
       "tier": 10
     },
     {
-      "start_floor": 80,
-      "end_floor": 89,
+      "start_floor": 53,
+      "end_floor": 60,
       "tier": 11
     },
     {
-      "start_floor": 90,
+      "start_floor": 61,
+      "end_floor": 70,
+      "tier": 12
+    },
+    {
+      "start_floor": 71,
       "end_floor": 100,
       "tier": 12
     }
@@ -78,23 +83,29 @@
     "hp_curve": [
       {
         "floor": 1,
-        "multiplier": 0.85
+        "multiplier": 0.8
       },
+      {"floor": 10, "multiplier": 0.95},
+      {"floor": 20, "multiplier": 1.1},
+      {"floor": 30, "multiplier": 1.25},
+      {"floor": 40, "multiplier": 1.4},
+      {"floor": 50, "multiplier": 1.55},
+      {"floor": 60, "multiplier": 1.7},
       {
         "floor": 70,
-        "multiplier": 1.45
+        "multiplier": 1.9
       },
       {
         "floor": 80,
-        "multiplier": 3.5089
+        "multiplier": 2.5
       },
       {
         "floor": 90,
-        "multiplier": 5.7803
+        "multiplier": 3.4
       },
       {
         "floor": 99,
-        "multiplier": 8.395
+        "multiplier": 4.6
       },
       {
         "floor": 100,
@@ -104,23 +115,29 @@
     "damage_curve": [
       {
         "floor": 1,
-        "multiplier": 0.85
+        "multiplier": 0.8
       },
+      {"floor": 10, "multiplier": 0.9},
+      {"floor": 20, "multiplier": 1.0},
+      {"floor": 30, "multiplier": 1.08},
+      {"floor": 40, "multiplier": 1.16},
+      {"floor": 50, "multiplier": 1.24},
+      {"floor": 60, "multiplier": 1.32},
       {
         "floor": 70,
-        "multiplier": 1.15
+        "multiplier": 1.42
       },
       {
         "floor": 80,
-        "multiplier": 2.5816
+        "multiplier": 1.65
       },
       {
         "floor": 90,
-        "multiplier": 3.9942
+        "multiplier": 1.95
       },
       {
         "floor": 99,
-        "multiplier": 5.5284
+        "multiplier": 2.35
       },
       {
         "floor": 100,
@@ -369,22 +386,60 @@
   "echo_pressure_schedule": {
     "bands": [
       {
+        "start_floor": 71,
+        "end_floor": 80,
+        "enemy_hp_percent_per_missing_rank": 18.0,
+        "enemy_attack_percent_per_missing_rank": 22.0
+      },
+      {
         "start_floor": 81,
         "end_floor": 90,
-        "enemy_hp_percent_per_missing_rank": 50.0,
-        "enemy_attack_percent_per_missing_rank": 60.0
+        "enemy_hp_percent_per_missing_rank": 18.0,
+        "enemy_attack_percent_per_missing_rank": 22.0
       },
       {
         "start_floor": 91,
         "end_floor": 99,
-        "enemy_hp_percent_per_missing_rank": 50.0,
-        "enemy_attack_percent_per_missing_rank": 60.0
+        "enemy_hp_percent_per_missing_rank": 18.0,
+        "enemy_attack_percent_per_missing_rank": 22.0
       },
       {
         "start_floor": 100,
         "end_floor": 100,
-        "enemy_hp_percent_per_missing_rank": 50.0,
-        "enemy_attack_percent_per_missing_rank": 60.0
+        "enemy_hp_percent_per_missing_rank": 18.0,
+        "enemy_attack_percent_per_missing_rank": 22.0
+      }
+    ]
+  },
+  "raid_set_pressure_schedule": {
+    "bands": [
+      {
+        "start_floor": 71,
+        "end_floor": 80,
+        "expected_active_sets": 4,
+        "enemy_hp_percent_per_missing_set": 6.0,
+        "enemy_attack_percent_per_missing_set": 7.0
+      },
+      {
+        "start_floor": 81,
+        "end_floor": 90,
+        "expected_active_sets": 6,
+        "enemy_hp_percent_per_missing_set": 6.0,
+        "enemy_attack_percent_per_missing_set": 7.0
+      },
+      {
+        "start_floor": 91,
+        "end_floor": 99,
+        "expected_active_sets": 8,
+        "enemy_hp_percent_per_missing_set": 6.0,
+        "enemy_attack_percent_per_missing_set": 7.0
+      },
+      {
+        "start_floor": 100,
+        "end_floor": 100,
+        "expected_active_sets": 10,
+        "enemy_hp_percent_per_missing_set": 6.0,
+        "enemy_attack_percent_per_missing_set": 7.0
       }
     ]
   },

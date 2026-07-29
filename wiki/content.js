@@ -1,21 +1,33 @@
 /*
- * Player-facing guide content for Idle Party Dungeon 1.11.
+ * Player-facing guide content for Idle Party Dungeon 1.12.
  * Update history is kept in the Patch Notes chapter.
- * Updated 28 July 2026.
+ * Updated 29 July 2026.
  */
 window.WIKI_CONTENT = Object.freeze({
   version: {
-    game: "1.11",
-    updated: "28 July 2026",
+    game: "1.12",
+    updated: "29 July 2026",
     status: "Current closed-test release"
   },
 
   patchNotes: [
     {
+      version: "1.12",
+      title: "The Long Road",
+      date: "29 July 2026",
+      status: "Current closed-test release",
+      notes: [
+        "Every class now follows fixed active and passive budgets, directs at least half of its skill power toward its listed role, and owns a distinct combat identity. Corrected broken or misdirected effects, aligned cooldowns and durations, kept ordinary attacks useful in endgame, shifted more healing into chosen actives, and rewrote all 110 descriptions in English, Italian, German, and French to match runtime behavior.",
+        "Rebuilt the campaign into a roughly two-month journey. Dungeon objectives, XP, recruitment, and permanent town costs now rise deliberately across all twelve tiers; story bosses require at least three current-tier-or-higher items on every active hero; and crafting gains a tier-based duration multiplier while speed upgrades and full offline catch-up remain intact.",
+        "Tower Floors 1–70 now climb through all twelve equipment tiers, reaching Tier 12 on Floors 65–70. Floors 71–100 combine Echo Resonance and active raid-set targets, with pressure for each missing rank or set but no entry lock. Echo Descent no longer grows from previous daily clears and remains a stable full-raid-set gear check with unlimited retries.",
+        "Battery Savings is now a four-option panel with independent screen dimming, 30 FPS cap, reduced combat animation, and inactive-page refresh controls. Pet cards tint their full inner background by rarity, and City navigation icons no longer swallow taps or mouse clicks intended for their card."
+      ]
+    },
+    {
       version: "1.11",
       title: "Save Recovery & Language Foundation",
       date: "28 July 2026",
-      status: "Current closed-test release",
+      status: "Previous closed-test release",
       notes: [
         "Added Save Recovery to Play Games settings, available even while signed out. On Android it can export the exact encrypted local save through the system file picker, validate and preview a selected backup before a confirmed replacement, and preserve a verified pre-change archive.",
         "A save linked to another Play Games profile can be explicitly reassociated after a fresh identity check and then compared with the current profile's cloud copy. The game never chooses a history automatically, requires a second confirmation, keeps local play available, and reports the actual payload size and limit when a cloud upload is too large.",
@@ -314,7 +326,7 @@ window.WIKI_CONTENT = Object.freeze({
     {
       step: "01",
       title: "Recruit a balanced opening roster",
-      text: "The Tavern begins with five offers and always tries to include a healer-class offer. Your first recruit costs 200 Coins; every hero already owned adds 100 Coins to the next recruitment cost.",
+      text: "The Tavern begins with five offers and always tries to include a healer-class offer. The first four additional recruits cost 81, 111, 152, and 208 Coins; later hires become deliberate campaign-scale Coin goals.",
       tip: "A Guardian or Fighter, a Cleric or Bard, and mixed Melee/Ranged/Magic damage give the safest start."
     },
     {
@@ -332,8 +344,8 @@ window.WIKI_CONTENT = Object.freeze({
     {
       step: "04",
       title: "Complete each story objective",
-      text: "Campaign meters count kills, encounters, or named targets. When a boss is required, meeting the meter forces the boss as the next encounter. Defeat it to open the next dungeon and its story mail.",
-      tip: "A wipe on a forced boss resets that objective run; rebuild or improve equipment before trying again."
+      text: "Campaign meters count kills, encounters, or named targets. When a boss is required, meeting the meter reveals it only after every active hero equips at least three items from that dungeon's tier or higher. Defeat it to open the next dungeon and its story mail.",
+      tip: "The tracker reports how many heroes are gear-ready. A wipe on the boss resets that objective run, so rebuild or improve equipment before trying again."
     },
     {
       step: "05",
@@ -396,7 +408,7 @@ window.WIKI_CONTENT = Object.freeze({
       summary: "A defeated hero loses 10% of the XP already earned toward the current level. If the whole party falls, the expedition rebuilds its hero entities and starts another encounter automatically.",
       bullets: [
         "Only living heroes share a defeated monster's XP pool.",
-        "A story-boss wipe resets the current completion run and forces rebuilding the meter before the next boss attempt.",
+        "A story boss stays sealed until every active hero equips at least three items from that dungeon's tier or higher. A wipe resets the current completion run and forces rebuilding the meter before the next attempt.",
         "A raid failure ends the raid and records a failed attempt; its daily entry remains consumed.",
         "Every five normal raid encounters, a wing transition restores 10% Health and Mana to living heroes.",
         "Pending drops are retained until collection unless a special non-reward trial explicitly disables rewards."
@@ -420,7 +432,7 @@ window.WIKI_CONTENT = Object.freeze({
       id: "discovery",
       eyebrow: "Information",
       title: "Discovery is part of progression",
-      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.11 ruleset as an end-to-end strategy reference.",
+      summary: "The in-game catalogs deliberately hide unseen content, but this Codex exposes the complete 1.12 ruleset as an end-to-end strategy reference.",
       bullets: [
         "A monster enters the Bestiary when its wave is first seen.",
         "An item is discovered through drops, collection, crafting, purchase, equipment restoration, or explicit rewards.",
@@ -450,7 +462,7 @@ window.WIKI_CONTENT = Object.freeze({
     {
       name: "Basic damage",
       formula: "rolled damage × outgoing multipliers × critical multiplier × Mist multiplier × (1 − defense reduction ÷ 100)",
-      details: "Hero attacks use ×2.5 rolled damage before other modifiers. Healer-class attacks use 35% of that amount. Monster attacks also use ×2.5. Final successful hits deal at least 1."
+      details: "Hero attacks use ×2.5 rolled damage before other modifiers. Healer-class attacks use 35% of that amount. Monster attacks also use ×2.5. DoT never takes that ×2.5 — it is paid for by ignoring both Defense and Evade instead. Final successful hits deal at least 1."
     },
     {
       name: "Defense",
@@ -474,8 +486,8 @@ window.WIKI_CONTENT = Object.freeze({
     },
     {
       name: "Mana per basic action",
-      formula: "8 + round(2 × √Intelligence), then path/passive modifiers",
-      details: "Heroes use a 100-point skill meter. A full meter is spent when the active skill is attempted; silence prevents use. Monsters that use active skills follow the same square-root gain with a 30-point per-action cap."
+      formula: "40 + round(3 × √Intelligence), then path/passive modifiers, capped at 99",
+      details: "Heroes use a 100-point skill meter, so a hero banks it over two turns and casts on the third. The 99 ceiling sits one point below the cost of a cast, which is what keeps the cycle from ever falling below three turns: Intelligence buys the cycle down from four to three and then stops. A full meter is spent when the active skill is attempted; silence prevents use. Monsters keep their own 8 + round(2 × √Intelligence) gain with a 30-point per-action cap."
     },
     {
       name: "Healing",
@@ -508,9 +520,9 @@ window.WIKI_CONTENT = Object.freeze({
     {name:"Immunity", kind:"Resistance", text:"Percentage chance to resist a newly applied harmful status; base heroes begin with 10% before class and equipment additions."},
     {name:"Threat", kind:"Targeting", text:"Weighted contribution to direct enemy target selection. Higher Threat is more likely, never absolute by itself."},
     {name:"Counter Chance", kind:"Defense", text:"Chance to reflect damage after a successful incoming hit when counter power is available."},
-    {name:"Counter Damage", kind:"Defense", text:"Percentage of the received HP damage reflected; base physical counter power is 50% and the final value caps at 150%."},
+    {name:"Counter Damage", kind:"Defense", text:"Percentage of the received HP damage reflected; base physical counter power is 50% and the total caps at 150%, including any Counter Power Up buff on top of the stat."},
     {name:"Lifesteal", kind:"Sustain", text:"Heals the attacker for a percentage of HP damage dealt; caps at 50%."},
-    {name:"Regeneration", kind:"Sustain", text:"Restores a flat amount of HP during the entity's turn processing; caps at 50."},
+    {name:"Regeneration", kind:"Sustain", text:"The stat from equipment, pets and Ascension restores a flat amount of HP during the entity's turn processing and caps at 50. A class passive spends its budget on a share of maximum Health instead, so it keeps pace with the pool it refills; the two are added together and the 50 ceiling applies only to the flat stat."},
     {name:"Healing", kind:"Support", text:"Percentage scale applied to healing performed and relevant self-healing; caps at 300%."},
     {name:"Decay", kind:"Effect", text:"Built-in ongoing Magic damage dealt during the affected entity's turn processing."},
     {name:"Mist Damage", kind:"Environment", text:"Scales outgoing damage by the target's effective Mist exposure."},
@@ -526,10 +538,9 @@ window.WIKI_CONTENT = Object.freeze({
     {id:"evade_buff", name:"Evade Up", kind:"buff", text:"Adds displayed percentage points to effective Evade.", stacking:"Strongest value; duration refreshes."},
     {id:"crit_buff", name:"Critical Chance Up", kind:"buff", text:"Adds displayed percentage points to effective Critical Chance.", stacking:"Strongest value; duration refreshes."},
     {id:"counter_buff", name:"Counter Chance Up", kind:"buff", text:"Adds displayed percentage points to Counter Chance.", stacking:"Strongest value; duration refreshes."},
-    {id:"counter_power", name:"Counter Power Up", kind:"buff", text:"Adds displayed percentage points to reflected counter damage.", stacking:"Strongest value; duration refreshes."},
+    {id:"counter_power", name:"Counter Power Up", kind:"buff", text:"Adds displayed percentage points to reflected counter damage, up to the same 150% total ceiling the stat obeys.", stacking:"Strongest value; duration refreshes."},
     {id:"immunity_buff", name:"Immunity Up", kind:"buff", text:"Adds displayed percentage points to the chance to resist newly applied harmful statuses.", stacking:"Strongest value; duration refreshes."},
     {id:"hot", name:"Regeneration", kind:"buff", text:"Restores the displayed HP at the start of each turn; applied by active skills.", stacking:"Strongest value; duration refreshes."},
-    {id:"healer_hot", name:"Regeneration", kind:"buff", text:"Restores displayed HP at the start of each turn; applied by a healer's action passive.", stacking:"Strongest value; duration refreshes."},
     {id:"healing_buff", name:"Healing Up", kind:"buff", text:"Increases healing performed and self-healing by the displayed percentage points.", stacking:"Strongest value; duration refreshes."},
     {id:"threat_buff", name:"Threat Up", kind:"buff", text:"Adds displayed Threat to weighted enemy target selection.", stacking:"Strongest value; duration refreshes."},
     {id:"intercept", name:"Intercept", kind:"buff", text:"Redirects direct enemy attacks from allies to this entity while active.", stacking:"No visible strength."},
@@ -735,9 +746,16 @@ window.WIKI_CONTENT = Object.freeze({
     ]
   },
 
+  recruitCosts: [
+    81, 111, 152, 208, 650, 1800, 4800, 12500,
+    32000, 80000, 200000, 500000, 1200000, 2800000, 6400000, 14500000
+  ],
+
+  craftingTimeMultiplierByTier: [1, 1, 1.05, 1.25, 1.6, 2, 2.6, 3.4, 4.5, 5.9, 7.7, 10, 13],
+
   townSystems: [
-    {name:"Tavern", icon:"res://resources/ui/icon_tavern.png", lead:"Recruitment, roster capacity, offer count, and refresh speed.", facts:["5 starting offers; at least one healer when a healer class is available", "3-hour base refresh", "8 base hero slots", "200 + 100 × current roster size recruitment cost", "+10% refresh speed per speed-upgrade level", "25% title chance per generated offer"]},
-    {name:"Workshop", icon:"res://resources/ui/icon_craft.png", lead:"Recipes, batch jobs, queue capacity, and offline completion.", facts:["3 starting queue slots", "+10% crafting speed per speed-upgrade level", "A batch occupies one job", "Cancelling an unfinished job refunds reserved items and Coins", "Crafting catches up across the full elapsed offline interval"]},
+    {name:"Tavern", icon:"res://resources/ui/icon_tavern.png", lead:"Recruitment, roster capacity, offer count, and refresh speed.", facts:["5 starting offers; at least one healer when a healer class is available", "3-hour base refresh", "8 base hero slots", "The first four additional recruits cost 81, 111, 152, and 208 Coins", "Later recruitment prices rise from 650 to 14,500,000 Coins", "+10% refresh speed per speed-upgrade level", "25% title chance per generated offer"]},
+    {name:"Workshop", icon:"res://resources/ui/icon_craft.png", lead:"Recipes, batch jobs, queue capacity, and offline completion.", facts:["3 starting queue slots", "+10% crafting speed per speed-upgrade level", "Recipe base duration is multiplied by tier: ×1 at T1, rising to ×13 at T12", "A batch occupies one job", "Cancelling an unfinished job refunds reserved items and Coins", "Crafting catches up across the full elapsed offline interval"]},
     {name:"Regular Shop", icon:"res://resources/ui/icon_shop.png", lead:"Campaign-appropriate materials sold for Coins.", facts:["4 offers", "3-hour refresh", "Each offer can be bought once per refresh", "Offer tier follows the highest unlocked dungeon tier", "Purchases discover the item immediately"]},
     {name:"Weekly Shop", icon:"res://resources/ui/gem.svg", lead:"Permanent capacity expansions bought with Gems.", facts:["7-day refresh", "Tavern Expansion: +1 hero slot", "Workshop Expansion: +1 queue slot", "500 Gems per upgrade", "Maximum 3 levels of each upgrade"]},
     {name:"Inventory", icon:"res://resources/ui/icon_inventory.png", lead:"Collected materials, equipment, selling, and discovery.", facts:["Ordinary items may be sold for their listed Coin value", "Quest keys, Rune Pieces, unique raid accessories, and protected items cannot be sold", "Equipment must satisfy slot and proficiency rules", "One hero cannot equip two copies of the same unique-equipped item"]},
@@ -750,41 +768,49 @@ window.WIKI_CONTENT = Object.freeze({
   ],
 
   interactions: [
-    {area:"Main navigation", actions:["City opens Tavern, Shop, Workshop, Inventory, Pets, Quests, Mail, and town references.", "Heroes opens the roster; select a portrait/card for stats, equipment, skills, promotion, Runes, Ascension, skins, title, rename, or removal.", "Dungeons and Raids open their activity lists; the Raids screen contains the Tower of Resonance, whose title-bar Echo control becomes available after Floor 70.", "Selecting an activity opens formation, status, report, rewards, and combat.", "Settings contains audio, help/reference catalogs, Lifetime Statistics, achievements, What's New, privacy, Discord, Play Games/cloud, and data deletion."]},
+    {area:"Main navigation", actions:["City opens Tavern, Shop, Workshop, Inventory, Pets, Quests, Mail, and town references.", "Heroes opens the roster; select a portrait/card for stats, equipment, skills, promotion, Runes, Ascension, skins, title, rename, or removal.", "Dungeons and Raids open their activity lists; the Raids screen contains the Tower of Resonance, whose title-bar Echo control becomes available after Floor 70.", "Selecting an activity opens formation, status, report, rewards, and combat.", "Settings contains Battery Savings, audio, help/reference catalogs, Lifetime Statistics, achievements, What's New, privacy, Discord, Play Games/cloud, and data deletion."]},
+    {area:"Battery Savings", actions:["Open Settings ▸ Battery Savings to control four improvements independently; every choice is stored on this device.", "Lower screen luminosity adds a dark overlay without changing gameplay.", "FPS cap limits rendering to 30 FPS and enables low-processor mode.", "Reduced animations removes combat motion and visual effects while combat timing remains unchanged.", "Background refresh updates inactive gameplay pages less often; it does not reduce offline or active progress."]},
     {area:"Formation", actions:["Select an empty slot, then choose an available hero. Selecting an occupied slot lets you replace or remove it.", "Use the hero picker's sort control to order the available heroes by level, Echo Resonance, class or name, ascending or descending; the companion picker sorts by level, rarity or family. Both choices persist and never change which heroes or companions are eligible.", "A saved preset stores every formation position, including gaps. Loading skips heroes who were removed or are deployed elsewhere and reports the omissions.", "Ordinary activities accept one pet; Tower and Echo accept up to two distinct pets. A pet preset is scoped to the activity.", "Most activities start with at least one valid hero; Echo Descent requires exactly five. No selected hero or pet may already be deployed elsewhere."]},
     {area:"Running combat", actions:["Combat advances automatically at the activity's listed action interval; no manual attack input is required.", "Select or inspect a combatant to view live HP, Mana, barriers, stats, skills, equipment, and active statuses.", "Battle cues show attacks, heals, skills, evades, criticals, counters, barriers, and harmful-effect resistance.", "Stop a dungeon without losing its pending drops. Abandoning a permanent raid keeps its daily entry consumed; Tower attempts remain unlimited, while an Echo failure or abandonment keeps today's fight available to retry."]},
     {area:"Rewards & reports", actions:["Collect on an activity transfers pending items to Inventory; Gem Clusters open automatically and pet-egg tokens become hatchable eggs.", "Collect All processes every dungeon with pending rewards and reports combined items, Gems, and dungeon count.", "Reports preserve the just-collected session summary and show live per-hour estimates before collection.", "Drops shown inside a running activity are pending, not yet usable in crafting or equipment."]},
     {area:"Hero detail", actions:["Equipment slots filter compatible items: Melee/Ranged/Magic weapons, Light/Medium/Heavy armor, and accessories.", "Promotion at level 25 presents two specialization cards; promotion at level 50 presents the linked elite class.", "Each Rune upgrade is guaranteed when its matching piece is available. Rune ranks are not random.", "Elite promotion unlocks Ascension immediately at reset level 0. Levels 4–46 award 15 points and level 50 awards the final point, for a 16-point budget.", "Choose one Ascendant Path and one option per Foundation, Awakening, Mastery, and Capstone row. Same-path reassignment is free; only changing paths consumes a crafted Sigil of Rebirth and refunds all points."]},
-    {area:"Crafting & items", actions:["Open a recipe to review result, quantity, Coin cost, craft time, tier, raid requirement, and every ingredient.", "Set the Item type filter to Undiscovered to shortlist recipes that make something you have never seen and use a material you currently hold; names and icons stay masked until you find them.", "Set the Tier filter to T1-T12 to list only that tier's recipes, matching the tier badge on each card; it narrows whatever the type filter, search text, and status chips already select.","Starting a batch reserves all ingredients and Coins immediately.","Use queue cards to inspect completion time or cancel an unfinished job for a full reserved-cost refund.", "Selling is disabled for protected items; equipping removes the item from ordinary inventory until unequipped."]},
+    {area:"Crafting & items", actions:["Open a recipe to review result, quantity, Coin cost, current tier-adjusted craft time, raid requirement, and every ingredient.", "Recipe base duration is ×1 at Tier 1, then rises by tier to ×1.05, ×1.25, ×1.6, ×2, ×2.6, ×3.4, ×4.5, ×5.9, ×7.7, ×10, and ×13 at Tier 12; Workshop speed upgrades divide the resulting time.", "Set the Item type filter to Undiscovered to shortlist recipes that make something you have never seen and use a material you currently hold; names and icons stay masked until you find them.", "Set the Tier filter to T1-T12 to list only that tier's recipes, matching the tier badge on each card; it narrows whatever the type filter, search text, and status chips already select.","Starting a batch reserves all ingredients and Coins immediately.","Use queue cards to inspect completion time or cancel an unfinished job for a full reserved-cost refund.", "Selling is disabled for protected items; equipping removes the item from ordinary inventory until unequipped."]},
     {area:"Pets", actions:["Boss-dropped eggs appear after activity rewards are collected. Family eggs cost 75–300 Gems according to tier.", "Hatch to roll rarity and a shuffled set of distinct family effects; the creature sprite follows rarity. Hatchery upgrades can raise Legendary odds to 2%, and the shared pity guarantees the next Legendary after 100 misses.", "Rename a pet, assign it to a formation, save it in that activity's preset, or sell it for Coins while not deployed.", "Pet sell value scales with family tier and rarity; Bond level does not affect it.", "Pet effect strength increases nonlinearly with level; level 20 is exactly three times the level-1 base value."]},
     {area:"Cloud & deletion", actions:["Sync Now requests Google Play Games cloud reconciliation on supported authenticated Android builds.", "If histories diverge, compare timestamps and progression summaries before choosing this device or cloud; the valid unselected side is archived as recovery data.", "Play Games identity/achievements and gameplay cloud progress are separate services.", "Delete Data is destructive: after confirmation it removes local progress, preferences, encrypted recovery copies, and the private cloud snapshot."]}
   ],
 
   economyTables: {
     tavern_capacity: [
-      {gate:1,coin:1000},{gate:1,coin:2000},{gate:2,coin:3500},{gate:2,coin:5000},{gate:3,coin:8000},{gate:3,coin:12000,items:"Tier 3 Construction Bundle ×1"},{gate:5,coin:20000},{gate:5,coin:28000,items:"Tier 5 Construction Bundle ×1"},{gate:7,coin:50000},{gate:7,coin:75000,items:"Tier 7 Construction Bundle ×1"},{gate:9,coin:130000},{gate:9,coin:190000,items:"Tier 9 Construction Bundle ×2"},{gate:11,coin:320000},{gate:11,coin:450000,items:"Tier 11 Construction Bundle ×2"}
+      {gate:1,coin:800},{gate:1,coin:1300},{gate:2,coin:2400},{gate:2,coin:4200},{gate:3,coin:7500},{gate:3,coin:13500,items:"Tier 3 Construction Bundle ×1"},{gate:5,coin:28000},{gate:5,coin:52000,items:"Tier 5 Construction Bundle ×1"},{gate:7,coin:95000},{gate:7,coin:175000,items:"Tier 7 Construction Bundle ×1"},{gate:9,coin:320000},{gate:9,coin:600000,items:"Tier 9 Construction Bundle ×2"},{gate:11,coin:1100000},{gate:11,coin:2000000,items:"Tier 11 Construction Bundle ×2"},{gate:12,coin:0,items:"Apex Construction Bundle ×1"},{gate:12,coin:0,items:"Apex Construction Bundle ×1"}
     ],
     tavern_refresh: [
-      {gate:2,coin:4000},{gate:3,coin:9000,items:"Tier 3 Construction Bundle ×1"},{gate:4,coin:18000,items:"Tier 4 Construction Bundle ×1"},{gate:5,coin:32000,items:"Tier 5 Construction Bundle ×1"},{gate:6,coin:55000,items:"Tier 6 Construction Bundle ×1"},{gate:7,coin:90000,items:"Tier 7 Construction Bundle ×1"},{gate:8,coin:145000,items:"Tier 8 Construction Bundle ×1"},{gate:10,coin:300000,items:"Tier 10 Construction Bundle ×2"},{gate:11,coin:475000,items:"Tier 11 Construction Bundle ×2"},{gate:12,coin:700000,items:"Tier 12 Construction Bundle ×2"}
+      {gate:2,coin:2500},{gate:3,coin:6500,items:"Tier 3 Construction Bundle ×1"},{gate:4,coin:14000,items:"Tier 4 Construction Bundle ×1"},{gate:5,coin:30000,items:"Tier 5 Construction Bundle ×1"},{gate:6,coin:65000,items:"Tier 6 Construction Bundle ×1"},{gate:7,coin:140000,items:"Tier 7 Construction Bundle ×1"},{gate:8,coin:300000,items:"Tier 8 Construction Bundle ×1"},{gate:10,coin:650000,items:"Tier 10 Construction Bundle ×2"},{gate:11,coin:1400000,items:"Tier 11 Construction Bundle ×2"},{gate:12,coin:3000000,items:"Tier 12 Construction Bundle ×2"},{gate:12,coin:0,items:"Apex Construction Bundle ×1"},{gate:12,coin:0,items:"Apex Construction Bundle ×1"}
     ],
     tavern_offers: [
-      {gate:3,coin:12000,items:"Tier 3 Construction Bundle ×1"},{gate:5,coin:35000,items:"Tier 5 Construction Bundle ×1"},{gate:7,coin:95000,items:"Tier 7 Construction Bundle ×1"},{gate:9,coin:240000,items:"Tier 9 Construction Bundle ×2"},{gate:11,coin:525000,items:"Tier 11 Construction Bundle ×2"},{gate:12,coin:850000,items:"Tier 12 Construction Bundle ×3"}
+      {gate:3,coin:9000,items:"Tier 3 Construction Bundle ×1"},{gate:5,coin:30000,items:"Tier 5 Construction Bundle ×1"},{gate:7,coin:100000,items:"Tier 7 Construction Bundle ×1"},{gate:9,coin:330000,items:"Tier 9 Construction Bundle ×2"},{gate:11,coin:1100000,items:"Tier 11 Construction Bundle ×2"},{gate:12,coin:3600000,items:"Tier 12 Construction Bundle ×3"}
     ],
     craft_capacity: [
-      {gate:2,coin:4000},{gate:4,coin:18000,items:"Tier 4 Construction Bundle ×1"},{gate:6,coin:60000,items:"Tier 6 Construction Bundle ×1"},{gate:8,coin:160000,items:"Tier 8 Construction Bundle ×2"},{gate:10,coin:390000,items:"Tier 10 Construction Bundle ×2"},{gate:12,coin:900000,items:"Tier 12 Construction Bundle ×3"}
+      {gate:2,coin:3000},{gate:4,coin:12000,items:"Tier 4 Construction Bundle ×1"},{gate:6,coin:45000,items:"Tier 6 Construction Bundle ×1"},{gate:8,coin:170000,items:"Tier 8 Construction Bundle ×2"},{gate:10,coin:650000,items:"Tier 10 Construction Bundle ×2"},{gate:12,coin:2500000,items:"Tier 12 Construction Bundle ×3"},{gate:12,coin:0,items:"Apex Construction Bundle ×1"}
     ],
     craft_speed: [
-      {gate:1,coin:2000},{gate:2,coin:5000},{gate:3,coin:11000,items:"Tier 3 Construction Bundle ×1"},{gate:4,coin:20000,items:"Tier 4 Construction Bundle ×1"},{gate:5,coin:36000,items:"Tier 5 Construction Bundle ×1"},{gate:6,coin:60000,items:"Tier 6 Construction Bundle ×1"},{gate:7,coin:100000,items:"Tier 7 Construction Bundle ×1"},{gate:8,coin:165000,items:"Tier 8 Construction Bundle ×2"},{gate:10,coin:350000,items:"Tier 10 Construction Bundle ×2"},{gate:12,coin:800000,items:"Tier 12 Construction Bundle ×3"}
+      {gate:1,coin:1500},{gate:2,coin:3500},{gate:3,coin:8000,items:"Tier 3 Construction Bundle ×1"},{gate:4,coin:18000,items:"Tier 4 Construction Bundle ×1"},{gate:5,coin:42000,items:"Tier 5 Construction Bundle ×1"},{gate:6,coin:95000,items:"Tier 6 Construction Bundle ×1"},{gate:7,coin:215000,items:"Tier 7 Construction Bundle ×1"},{gate:8,coin:490000,items:"Tier 8 Construction Bundle ×2"},{gate:10,coin:1100000,items:"Tier 10 Construction Bundle ×2"},{gate:12,coin:2500000,items:"Tier 12 Construction Bundle ×3"},{gate:12,coin:0,items:"Apex Construction Bundle ×1"},{gate:12,coin:0,items:"Apex Construction Bundle ×1"}
     ]
   },
 
   accuracyNotes: [
-    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.11, the current closed-test release. Update history is limited to Patch Notes."},
+    {title:"Current guide version", text:"Every strategy chapter and calculator describes game version 1.12, the current closed-test release. Update history is limited to Patch Notes."},
+    {title:"Story bosses require a geared full party", text:"After a campaign meter is complete, its boss remains sealed until every hero in the active party has at least three equipped items from the dungeon's tier or higher. The tracker reports the ready-hero count; other power sources improve the fight but do not satisfy this gate."},
+    {title:"Upper-Tower pressure measures Resonance and raid sets", text:"From Floor 71, each missing average Echo Resonance rank adds +18% enemy Health and +22% Attack, and each missing active raid set adds +6% Health and +7% Attack. Targets rise across Floors 71–80, 81–90, 91–99, and 100: Resonance ranks 2, 4, 6, and 8 alongside 4, 6, 8, and 10 active sets. Entry remains unrestricted."},
+    {title:"Battery Savings choices are independent", text:"Screen dimming, the 30 FPS cap, reduced combat animation, and slower inactive-page refresh can be switched separately. None changes combat timing or earned progress."},
     {title:"Title bonuses grant 10", text:"A generated offer has a 25% title chance. Health and Attack use ×1.10; Defense, Magic Defense, Evade, and Critical Chance add 10 percentage points."},
     {title:"First accessory has a progressive guarantee", text:"Until the first copy is discovered or already pending, a raid accessory starts at 15%, rises by 5 percentage points each clear, and is guaranteed on clear 10. Later copies are 15%."},
     {title:"Raid clocks count hero actions", text:"Constellation uses 10 hero actions and needs three successful matching hits; the same hero may contribute on later actions. Eclipse phases last 12 Dawn, 12 Dusk, and 6 Total Eclipse hero actions."},
     {title:"Monster damage follows Attack", text:"A monster's primary attribute determines its Attack, and each basic hit rolls within a ±30% range."},
     {title:"Some starter skill labels are descriptive", text:"The four elemental slimes in Slime Forest use basic attacks even when their Mana is full."},
-    {title:"Recommended raid readiness is advisory", text:"Recommended career level and gear tier are guidance. After completing the unlock quest, you may start a permanent raid with any available team that fits its capacity."}
+    {title:"Recommended raid readiness is advisory", text:"Recommended career level and gear tier are guidance. After completing the unlock quest, you may start a permanent raid with any available team that fits its capacity."},
+    {title:"Class skills run on a three-turn cycle", text:"Mana gain is tuned so a hero banks a full meter over two turns and casts on the third, and every class buff and debuff lasts exactly three turns. A three-turn buff therefore holds for the whole cycle with nothing wasted, and no class casts more often than every third turn."},
+    {title:"Endgame enemies rely on Health, not damage reduction", text:"Enemy damage reduction now rises to roughly 45% at tier 12 rather than the far heavier value late-campaign enemies once carried, while wave enemy Health rose across tiers 8-12. Basic attacks remain worthwhile at the endgame and Defense-ignore is no longer the single strongest thing to stack."},
+    {title:"Healers also heal automatically", text:"Thirteen healer-capable classes carry a named automatic heal that fires after the hero acts — Paladin's Merciful Surge, Cleric's Twin Mercy, Priest's Shared Grace, Virtuoso's Grand Healing Chorus and nine more. It reaches only allies who are already wounded, and it is kept small enough that the healing skill you choose is the larger part of what a healer contributes. Each class sheet states its own version in the passive description; all other party sustain comes from an active skill, a class passive, Regeneration, lifesteal, or equipment."},
+    {title:"The daily Echo fight is a fixed gear check", text:"Echo Descent no longer grows harder with each clear. Its one daily Guardian fight uses a single fixed profile and a Guardian drawn from a Tower boss floor deep inside Echo's own band, so the only thing that changes between days is which three laws apply. A five-hero party built for the day's theme in a complete raid set clears every one of the twelve themes; a partly geared party generally does not. Entries are unlimited and a defeat never consumes the day."}
   ]
 });
