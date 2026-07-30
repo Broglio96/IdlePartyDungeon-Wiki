@@ -1,9 +1,9 @@
 {
   "name": "Idle Party Dungeon — The Adventurer's Codex",
   "short_name": "IPD Codex",
-  "description": "The complete English and Italian game guide to Idle Party Dungeon 1.09.",
+  "description": "The complete English and Italian guide to Idle Party Dungeon.",
   "lang": "en",
-  "start_url": "./#home",
+  "start_url": "./#main",
   "display": "standalone",
   "background_color": "#0c1412",
   "theme_color": "#111a18",
