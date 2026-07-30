@@ -102,7 +102,24 @@
   }
 
   function removeLegacyNavigation() {
+    const legacySearchResults = [...document.querySelectorAll('[data-search-route="patch-notes"]')];
     document.querySelectorAll('[data-route="patch-notes"], [data-search-route="patch-notes"], a[href^="#patch-notes"]').forEach(element => element.remove());
+
+    if (legacySearchResults.length) {
+      const remaining = document.querySelectorAll('#search-results [data-search-route]').length;
+      const meta = document.getElementById("search-meta");
+      if (meta) {
+        meta.textContent = language() === "it"
+          ? `${remaining} ${remaining === 1 ? "risultato" : "risultati"}`
+          : `${remaining} result${remaining === 1 ? "" : "s"}`;
+      }
+      const results = document.getElementById("search-results");
+      if (results && remaining === 0) {
+        results.innerHTML = language() === "it"
+          ? '<div class="empty-state"><div><strong>Nessun risultato</strong><p>Nessuna voce della guida attuale corrisponde alla ricerca.</p></div></div>'
+          : '<div class="empty-state"><div><strong>Nothing found</strong><p>No current guide entries match that search.</p></div></div>';
+      }
+    }
 
     const townCount = document.querySelector('.index-hub__button[href="#group-town"] .index-hub__count');
     if (townCount) setText(townCount, `5 ${currentCopy().chapters}`);
@@ -200,19 +217,20 @@
       [`Copertura della guida, regole attuali, valori esatti e chiarimenti pratici per la versione ${ORIGINAL_VERSION}.`, t.referenceIntro]
     ]);
 
-    const root = document.body;
-    if (!root) return;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-    const nodes = [];
-    while (walker.nextNode()) nodes.push(walker.currentNode);
-    nodes.forEach(node => {
-      const raw = node.nodeValue;
-      const trimmed = raw.trim();
-      const replacement = replacements.get(trimmed);
-      if (!replacement) return;
-      const leading = raw.match(/^\s*/)?.[0] || "";
-      const trailing = raw.match(/\s*$/)?.[0] || "";
-      node.nodeValue = `${leading}${replacement}${trailing}`;
+    const roots = [document.getElementById("route-outlet"), document.getElementById("search-results")].filter(Boolean);
+    roots.forEach(root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        const raw = node.nodeValue;
+        const trimmed = raw.trim();
+        const replacement = replacements.get(trimmed);
+        if (!replacement) return;
+        const leading = raw.match(/^\s*/)?.[0] || "";
+        const trailing = raw.match(/\s*$/)?.[0] || "";
+        node.nodeValue = `${leading}${replacement}${trailing}`;
+      });
     });
   }
 
@@ -255,7 +273,14 @@
     });
   }
 
-  const observer = new MutationObserver(scheduleEvergreenCleanup);
+  const observer = new MutationObserver(records => {
+    const relevant = records.some(record =>
+      record.type === "attributes" ||
+      record.target?.id === "route-outlet" ||
+      record.target?.id === "search-results"
+    );
+    if (relevant) scheduleEvergreenCleanup();
+  });
   observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ["lang"] });
 
   window.addEventListener("hashchange", cleanEvergreenUi);
