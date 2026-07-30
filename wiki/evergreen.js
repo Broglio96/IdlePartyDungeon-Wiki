@@ -200,7 +200,8 @@
       [`Copertura della guida, regole attuali, valori esatti e chiarimenti pratici per la versione ${ORIGINAL_VERSION}.`, t.referenceIntro]
     ]);
 
-    const root = document.getElementById("route-outlet") || document.body;
+    const root = document.body;
+    if (!root) return;
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
     const nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
