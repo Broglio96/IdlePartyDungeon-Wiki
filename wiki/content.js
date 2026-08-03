@@ -278,6 +278,14 @@ window.WIKI_CONTENT = Object.freeze({
         ]
       },
       {
+        id: "advertising-verification",
+        title: "Advertising and app verification",
+        paragraphs: [
+          "Idle Party Dungeon displays only optional rewarded advertisements. A player chooses whether to watch an available ad in exchange for the reward shown in the game; declining an ad does not block ordinary gameplay.",
+          "This Codex is the developer website linked to the official Google Play listing. Its root-level [app-ads.txt](https://broglio96.github.io/app-ads.txt) record identifies Google as the authorized advertising seller for the game and allows Google AdMob to verify the connection between the app, its publisher, and this website."
+        ]
+      },
+      {
         id: "community",
         title: "Community and external links",
         paragraphs: [

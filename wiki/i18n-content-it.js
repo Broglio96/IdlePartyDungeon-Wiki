@@ -278,6 +278,14 @@ window.WIKI_CONTENT_IT = Object.freeze({
         ]
       },
       {
+        id: "advertising-verification",
+        title: "Pubblicità e verifica dell'app",
+        paragraphs: [
+          "Idle Party Dungeon mostra esclusivamente pubblicità con ricompensa facoltative. Il giocatore sceglie se guardare un annuncio disponibile in cambio della ricompensa indicata nel gioco; rifiutarlo non impedisce il normale svolgimento del gioco.",
+          "Questo Codex è il sito dello sviluppatore collegato alla scheda ufficiale di Google Play. Il record [app-ads.txt](https://broglio96.github.io/app-ads.txt) pubblicato alla radice identifica Google come venditore pubblicitario autorizzato del gioco e consente a Google AdMob di verificare il collegamento tra l'app, il suo editore e questo sito."
+        ]
+      },
+      {
         id: "community",
         title: "Community e collegamenti esterni",
         paragraphs: [
